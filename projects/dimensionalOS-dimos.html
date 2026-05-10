@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dimensionalOS/dimos - GhostWriter</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  background: #0d1117; color: #c9d1d9; line-height: 1.6;
+}
+.container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+.back-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  color: #58a6ff; text-decoration: none; font-size: 0.9rem; margin-bottom: 2rem;
+}
+.back-link:hover { text-decoration: underline; }
+.project-header {
+  padding: 2rem 0; border-bottom: 1px solid #21262d; margin-bottom: 2rem;
+}
+.project-header h1 { font-size: 1.8rem; font-weight: 700; color: #f0f6fc; margin-bottom: 0.75rem; }
+.project-links { display: flex; gap: 1rem; flex-wrap: wrap; }
+.project-links a {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.8rem; background: #21262d; border: 1px solid #30363d;
+  border-radius: 6px; color: #58a6ff; text-decoration: none; font-size: 0.85rem;
+  transition: background 0.2s;
+}
+.project-links a:hover { background: #30363d; text-decoration: none; }
+.project-meta {
+  display: flex; gap: 1.5rem; margin-top: 1rem; font-size: 0.85rem; color: #8b949e;
+}
+.section-title {
+  font-size: 1.1rem; font-weight: 600; color: #f0f6fc;
+  margin: 2rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid #21262d;
+}
+.latest-summary {
+  background: #161b22; border: 1px solid #21262d; border-radius: 10px;
+  padding: 1.5rem; margin-bottom: 2rem; font-size: 1rem; line-height: 1.7;
+  border-left: 3px solid #58a6ff;
+}
+.mention {
+  background: #161b22; border: 1px solid #21262d; border-radius: 8px;
+  padding: 1rem 1.25rem; margin-bottom: 0.5rem;
+}
+.mention-date { font-size: 0.8rem; color: #8b949e; margin-bottom: 0.3rem; font-family: monospace; }
+.mention-summary { font-size: 0.9rem; color: #c9d1d9; }
+.footer {
+  text-align: center; padding: 2rem 0 1rem; border-top: 1px solid #21262d;
+  margin-top: 2rem; color: #484f58; font-size: 0.8rem;
+}
+@media (max-width: 640px) { .container { padding: 1rem; } .project-header h1 { font-size: 1.4rem; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="index.html" class="back-link">← 返回首页</a>
+  <div class="project-header">
+    <h1>dimensionalOS/dimos</h1>
+    <div class="project-links">
+      <a href="https://github.com/dimensionalOS/dimos" target="_blank" rel="noopener">📦 GitHub 仓库</a>
+      <a href="https://github.com/dimensionalOS/dimos#readme" target="_blank" rel="noopener">📖 README</a>
+      <a href="https://github.com/dimensionalOS/dimos/stargazers" target="_blank" rel="noopener">⭐ Stargazers</a>
+    </div>
+    <div class="project-meta">
+      <span>📅 首次提及: 2026-03-14 1200</span>
+      <span>🕐 最近提及: 2026-03-14 2200</span>
+      <span>📊 被提及 6 次</span>
+    </div>
+  </div>
+
+  <div class="section-title">最新摘要</div>
+  <div class="latest-summary">dimensionalOS/dimos是一个基于Rust的微内核操作系统项目，专注于通过形式化验证和模块化设计实现高安全性与可靠性。其核心价值在于为嵌入式及关键任务系统提供具备数学可证明安全属性的轻量级基础架构。</div>
+
+  <div class="section-title">历史记录 (6 次)</div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-03-14 2200</div>
+      <div class="mention-summary">dimensionalOS/dimos是一个基于Rust的微内核操作系统项目，专注于通过形式化验证和模块化设计实现高安全性与可靠性。其核心价值在于为嵌入式及关键任务系统提供具备数学可证明安全属性的轻量级基础架构。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-03-14 2000</div>
+      <div class="mention-summary">dimensionalOS/dimos是一个基于Rust的微内核操作系统项目，旨在通过模块化架构和形式化验证实现高安全性与可靠性。其核心价值在于为嵌入式及安全关键系统提供可证明安全的底层平台，并探索下一代操作系统设计范式。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-03-14 1800</div>
+      <div class="mention-summary">dimensionalOS/dimos是一个基于Rust的微内核操作系统项目，旨在通过模块化设计和形式化验证实现高安全性与可靠性。其核心价值在于为嵌入式及安全关键系统提供可证明安全的底层平台，并探索下一代操作系统架构。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-03-14 1600</div>
+      <div class="mention-summary">dimensionalOS/dimos是一个基于Rust的微内核操作系统项目，旨在通过严格的模块化设计和形式化验证构建高可靠系统。其核心价值在于采用能力安全模型和异步IPC机制，为安全关键领域提供可证明的安全基础架构。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-03-14 1400</div>
+      <div class="mention-summary">dimensionalOS/dimos是一个基于Rust的微内核操作系统项目，旨在通过严格的模块化设计和形式化验证方法构建高可靠系统。其核心价值在于采用能力安全模型和异步消息传递机制，从架构层面提升系统安全性与可维护性。项目通过GitHub开源协作，推动下一代安全关键型系统的基础设施创新。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-03-14 1200</div>
+      <div class="mention-summary">1. **项目定位**：dimensionalOS/dimos 是一个开源操作系统项目，其GitHub仓库的“stargazers”页面显示社区关注度，反映项目在技术社区的初步影响力。</div>
+    </div>
+
+  <div class="footer">GhostWriter · Powered by DeepSeek</div>
+</div>
+</body>
+</html>

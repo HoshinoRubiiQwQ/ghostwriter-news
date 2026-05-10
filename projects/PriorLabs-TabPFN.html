@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PriorLabs/TabPFN - GhostWriter</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  background: #0d1117; color: #c9d1d9; line-height: 1.6;
+}
+.container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+.back-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  color: #58a6ff; text-decoration: none; font-size: 0.9rem; margin-bottom: 2rem;
+}
+.back-link:hover { text-decoration: underline; }
+.project-header {
+  padding: 2rem 0; border-bottom: 1px solid #21262d; margin-bottom: 2rem;
+}
+.project-header h1 { font-size: 1.8rem; font-weight: 700; color: #f0f6fc; margin-bottom: 0.75rem; }
+.project-links { display: flex; gap: 1rem; flex-wrap: wrap; }
+.project-links a {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.8rem; background: #21262d; border: 1px solid #30363d;
+  border-radius: 6px; color: #58a6ff; text-decoration: none; font-size: 0.85rem;
+  transition: background 0.2s;
+}
+.project-links a:hover { background: #30363d; text-decoration: none; }
+.project-meta {
+  display: flex; gap: 1.5rem; margin-top: 1rem; font-size: 0.85rem; color: #8b949e;
+}
+.section-title {
+  font-size: 1.1rem; font-weight: 600; color: #f0f6fc;
+  margin: 2rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid #21262d;
+}
+.latest-summary {
+  background: #161b22; border: 1px solid #21262d; border-radius: 10px;
+  padding: 1.5rem; margin-bottom: 2rem; font-size: 1rem; line-height: 1.7;
+  border-left: 3px solid #58a6ff;
+}
+.mention {
+  background: #161b22; border: 1px solid #21262d; border-radius: 8px;
+  padding: 1rem 1.25rem; margin-bottom: 0.5rem;
+}
+.mention-date { font-size: 0.8rem; color: #8b949e; margin-bottom: 0.3rem; font-family: monospace; }
+.mention-summary { font-size: 0.9rem; color: #c9d1d9; }
+.footer {
+  text-align: center; padding: 2rem 0 1rem; border-top: 1px solid #21262d;
+  margin-top: 2rem; color: #484f58; font-size: 0.8rem;
+}
+@media (max-width: 640px) { .container { padding: 1rem; } .project-header h1 { font-size: 1.4rem; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="index.html" class="back-link">← 返回首页</a>
+  <div class="project-header">
+    <h1>PriorLabs/TabPFN</h1>
+    <div class="project-links">
+      <a href="https://github.com/PriorLabs/TabPFN" target="_blank" rel="noopener">📦 GitHub 仓库</a>
+      <a href="https://github.com/PriorLabs/TabPFN#readme" target="_blank" rel="noopener">📖 README</a>
+      <a href="https://github.com/PriorLabs/TabPFN/stargazers" target="_blank" rel="noopener">⭐ Stargazers</a>
+    </div>
+    <div class="project-meta">
+      <span>📅 首次提及: 2026-05-06 1400</span>
+      <span>🕐 最近提及: 2026-05-07 0200</span>
+      <span>📊 被提及 6 次</span>
+    </div>
+  </div>
+
+  <div class="section-title">最新摘要</div>
+  <div class="latest-summary">PriorLabs的TabPFN是一个基于Transformer的表格数据预训练模型，通过元学习实现少样本分类与回归。其核心价值在于无需调参即可在中小型表格数据集上达到SOTA性能，显著降低传统ML工作流中特征工程与模型选择的成本。</div>
+
+  <div class="section-title">历史记录 (6 次)</div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-05-07 0200</div>
+      <div class="mention-summary">PriorLabs的TabPFN是一个基于Transformer的表格数据预训练模型，通过元学习实现少样本分类与回归。其核心价值在于无需调参即可在中小型表格数据集上达到SOTA性能，显著降低传统ML工作流中特征工程与模型选择的成本。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-05-07 0000</div>
+      <div class="mention-summary">PriorLabs的TabPFN是一个基于Transformer的表格数据预训练模型，通过前向传播实现即时预测，无需传统训练。其核心价值在于将深度学习泛化能力引入小样本表格任务，显著降低调参成本。该项目在GitHub上获得大量关注，验证了其作为通用表格分类/回归基线的潜力。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-05-06 2200</div>
+      <div class="mention-summary">PriorLabs的TabPFN是一个基于Transformer的表格数据预测模型，核心价值在于通过预训练实现小样本下的快速推理，无需传统调参。其架构将神经网络与贝叶斯先验结合，在分类与回归任务中达到SOTA性能，尤其适合低数据场景。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-05-06 1800</div>
+      <div class="mention-summary">PriorLabs/TabPFN 是一个基于 Transformer 的表格数据预训练模型，通过元学习实现小样本分类与回归。其核心创新在于用神经网络替代传统梯度提升树，在中小型数据集上达到 SOTA 性能，且推理速度极快。该项目已获数千星标，表明社区对表格数据深度学习范式的强烈关注。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-05-06 1600</div>
+      <div class="mention-summary">PriorLabs的TabPFN是一个基于Transformer的表格数据预训练模型，能直接替代传统梯度提升树（如XGBoost）进行小样本分类与回归。其核心创新在于将神经网络架构用于表格数据，无需特征工程即可在数十行数据上达到SOTA性能，显著降低机器学习门槛。</div>
+    </div>
+    <div class="mention">
+      <div class="mention-date">2026-05-06 1400</div>
+      <div class="mention-summary">PriorLabs的TabPFN是一个基于Transformer的表格数据预训练模型，通过元学习实现小样本分类与回归，无需传统调参。其核心价值在于将深度学习泛化能力引入结构化数据，在中小规模数据集上超越梯度提升树。该项目GitHub星标数反映社区对“开箱即用”表格AI的强烈需求。</div>
+    </div>
+
+  <div class="footer">GhostWriter · Powered by DeepSeek</div>
+</div>
+</body>
+</html>
