@@ -116,7 +116,7 @@ function render() {
     list.innerHTML = items.map(a => {
       const slug = a.t.replace(/[^a-zA-Z0-9_-]/g, '-');
       const detailLink = 'projects/' + slug + '.html';
-      return '<div class="project-card" onclick="window.location.href='' + detailLink + ''">' +
+      return '<div class="project-card" data-href="' + detailLink + '">' +
         '<div class="card-top">' +
           '<a href="' + a.l + '" target="_blank" class="card-name" onclick="event.stopPropagation()">' + a.t + '</a>' +
           '<span class="card-date">' + a.d + ' ' + a.m.slice(0,2) + ':' + a.m.slice(2) + '</span>' +
@@ -127,6 +127,11 @@ function render() {
         '</div>' +
       '</div>';
     }).join('');
+
+    // Add click handlers
+    document.querySelectorAll('.project-card[data-href]').forEach(card => {
+      card.addEventListener('click', () => { window.location.href = card.dataset.href; });
+    });
   }
 
   document.getElementById('pageInfo').textContent = page + ' / ' + total + ' · 共 ' + filtered.length + ' 个项目';
