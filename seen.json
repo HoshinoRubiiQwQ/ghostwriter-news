@@ -6889,6 +6889,38 @@
       {
         "date": "2026-05-11 1200",
         "summary": "**核心价值摘要：**  \nOpenHuman 提供一套开源、模块化的端到端人体感知与生成管线，覆盖3D姿态估计、形状重建、纹理生成与动画绑定。其核心优势在于将SOTA模型（如SMPL-X、PIFu）整合为可复现的工业级流水线，降低人体数字孪生开发门槛。"
+      },
+      {
+        "date": "2026-05-11 1800",
+        "summary": "**核心价值摘要**：  \nOpenHuman 是一个开源框架，旨在通过多模态数据（RGB、深度、IMU）实现高精度人体数字化重建与运动捕捉。其核心创新在于轻量化模型与实时推理能力，支持从单目视频到全身3D姿态、形状及纹理的端到端生成，显著降低动捕硬件门槛。项目提供预训练模型与可扩展管线，适用于虚拟人、人机交互及生物力学分析等场景。",
+        "reason": "核心RPC配置方法规范化与启动鲁棒性增强，吉祥物默认休眠并支持悬停/点击唤醒，人类角色支持空格键切换语音录制，并修复了Tauri数据目录对齐及音频停止异常处理问题。",
+        "commits": [
+          {
+            "message": "fix(core-rpc): normalize config method wiring and harden startup against config/SQLite edge cases (#1497)",
+            "date": "2026-05-11T16:30:05Z",
+            "author": "YellowSnnowmann"
+          },
+          {
+            "message": "fix(human/mascot): consume orphan audio-stopped rejections (#1472) (#1494)",
+            "date": "2026-05-11T16:29:47Z",
+            "author": "oxoxDev"
+          },
+          {
+            "message": "feat(mascot): sleep by default, wake on hover/click (#1493)",
+            "date": "2026-05-11T16:29:31Z",
+            "author": "Cyrus Gray"
+          },
+          {
+            "message": "feat(human): toggle voice recording with spacebar (#1471) (#1483)",
+            "date": "2026-05-11T16:27:19Z",
+            "author": "obchain"
+          },
+          {
+            "message": "fix(tauri): align staging datadir resolution with core (#1490) (#1492)",
+            "date": "2026-05-11T16:26:38Z",
+            "author": "oxoxDev"
+          }
+        ]
       }
     ]
   },
