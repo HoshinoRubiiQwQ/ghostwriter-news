@@ -6869,5 +6869,49 @@
         "summary": "9router 是一个基于 Lua 的高性能 HTTP 路由器，专为 OpenResty 环境优化，支持动态路由匹配与中间件链式处理。其核心优势在于极低的内存占用与毫秒级路由查找，适合高并发 API 网关场景。通过预编译路由表与正则缓存机制，显著减少运行时开销。"
       }
     ]
+  },
+  "yikart/AiToEarn": {
+    "firstMention": "2026-05-11",
+    "lastMention": "2026-05-11",
+    "link": "https://github.com/yikart/AiToEarn",
+    "mentions": [
+      {
+        "date": "2026-05-11 1200",
+        "summary": "该项目提供一套基于AI的自动化任务执行框架，通过脚本化操作实现加密货币空投、社交任务等链上交互的批量执行。核心价值在于降低用户参与Web3生态的重复性操作成本，利用AI决策模块优化任务选择与执行效率。技术栈侧重Python与智能合约交互，适合高频低值场景的自动化套利。"
+      }
+    ]
+  },
+  "tinyhumansai/openhuman": {
+    "firstMention": "2026-05-11",
+    "lastMention": "2026-05-11",
+    "link": "https://github.com/tinyhumansai/openhuman",
+    "mentions": [
+      {
+        "date": "2026-05-11 1200",
+        "summary": "**核心价值摘要：**  \nOpenHuman 提供一套开源、模块化的端到端人体感知与生成管线，覆盖3D姿态估计、形状重建、纹理生成与动画绑定。其核心优势在于将SOTA模型（如SMPL-X、PIFu）整合为可复现的工业级流水线，降低人体数字孪生开发门槛。"
+      }
+    ]
+  },
+  "millionco/react-doctor": {
+    "firstMention": "2026-05-11",
+    "lastMention": "2026-05-11",
+    "link": "https://github.com/millionco/react-doctor",
+    "mentions": [
+      {
+        "date": "2026-05-11 1200",
+        "summary": "React Doctor 是一个用于诊断 React 应用性能瓶颈的 CLI 工具，通过静态分析组件树和渲染行为，自动识别不必要的重渲染、状态管理低效等问题。它提供可执行的优化建议，帮助开发者快速定位并修复性能缺陷，无需手动排查或侵入式修改代码。"
+      }
+    ]
+  },
+  "AUTOMATIC1111/stable-diffusion-webui": {
+    "firstMention": "2026-05-11",
+    "lastMention": "2026-05-11",
+    "link": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "mentions": [
+      {
+        "date": "2026-05-11 1200",
+        "summary": "AUTOMATIC1111/stable-diffusion-webui 是当前最主流的 Stable Diffusion 开源图形化界面，提供浏览器内一键部署、模型管理、提示词优化及扩展插件生态。其核心价值在于大幅降低文生图/图生图的技术门槛，支持 LoRA、ControlNet 等高级功能，并保持高频社区更新。"
+      }
+    ]
   }
 }
