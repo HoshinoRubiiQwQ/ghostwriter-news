@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-04-16 1200</span>
-      <span>🕐 最近提及: 2026-05-11 0600</span>
-      <span>📊 被提及 18 次</span>
+      <span>🕐 最近提及: 2026-05-11 0802</span>
+      <span>📊 被提及 19 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">GenericAgent 是一个轻量级、模块化的通用AI Agent框架，支持通过可插拔的LLM、工具和记忆模块快速构建自定义智能体。其核心价值在于提供简洁的API和灵活的配置机制，使开发者能高效集成多模态输入、外部工具调用及长期记忆管理，适用于自动化工作流与复杂任务分解场景。</div>
+  <div class="latest-summary">该开源项目提供通用型AI Agent框架，支持动态任务编排与多模型适配。核心价值在于通过模块化设计降低Agent开发门槛，同时保持对复杂工作流的灵活控制能力。技术实现上采用插件式架构，便于集成外部工具与知识库。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-11 0802</div>
+      <div class="mention-summary">项目重构了命令行入口为`ga_cli/`以避免命名空间冲突，新增跨平台GA命令行入口系统，并修复了流式溢出段保留及控制台窗口隐藏问题。</div>
+      <div class="mention-commits"><div class="commit-item">• refactor: rename command/ to ga_cli/ to avoid namespace collision</div><div class="commit-item">• feat: 添加跨平台 GA 命令行入口系统 (#329)</div><div class="commit-item">• fix(tgapp): preserve streaming overflow segments (#330)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-11 0600</div>
       <div class="mention-summary">该项目重构了命令行入口，新增跨平台GA CLI系统，并修复了流式溢出段保留及控制台窗口隐藏问题。</div>
@@ -93,7 +98,7 @@ body {
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-11 0000</div>
-      <div class="mention-summary">yes。2026年5月新增了动态任务编排引擎，支持多Agent协作的实时拓扑重构，显著提升了复杂工作流的自适应能力。</div>
+      <div class="mention-summary">2026年5月新增了动态任务编排引擎，支持多Agent协作的实时拓扑重构，显著提升了复杂工作流的自适应能力。</div>
       
     </div>
 
