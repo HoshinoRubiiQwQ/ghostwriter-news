@@ -46,6 +46,18 @@ body {
 }
 .mention-date { font-size: 0.8rem; color: #8b949e; margin-bottom: 0.3rem; font-family: monospace; }
 .mention-summary { font-size: 0.9rem; color: #c9d1d9; }
+.mention-commits {
+  margin-top: 0.6rem; padding-top: 0.5rem; border-top: 1px solid #21262d;
+}
+.commit-item {
+  font-size: 0.82rem; color: #8b949e; padding: 0.15rem 0 0.15rem 0.8rem;
+  position: relative; line-height: 1.5;
+}
+.commit-item::before {
+  content: '';
+  position: absolute; left: 0; top: 0.55rem;
+  width: 5px; height: 5px; border-radius: 50%; background: #3fb950;
+}
 .footer {
   text-align: center; padding: 2rem 0 1rem; border-top: 1px solid #21262d;
   margin-top: 2rem; color: #484f58; font-size: 0.8rem;
@@ -77,22 +89,27 @@ body {
     <div class="mention">
       <div class="mention-date">2026-05-11 0000</div>
       <div class="mention-summary">yes。该项目在2026年5月新增了针对金融服务的实时欺诈检测模型集成，显著提升了交易异常识别能力。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1802</div>
       <div class="mention-summary">yes，该项目在2026年5月新增了针对金融反欺诈的实时推理优化模块，提升了低延迟场景下的模型部署效率。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1800</div>
       <div class="mention-summary">yes，该项目在2026年5月发布了v2.0，新增了实时欺诈检测模块和合规自动化API，技术架构显著升级。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1759</div>
       <div class="mention-summary">yes。该项目在2026年5月新增了针对金融欺诈检测的对抗性机器学习模型更新，显著提升了实时交易异常识别能力。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1746</div>
       <div class="mention-summary">yes。该项目在2026年5月后新增了针对金融欺诈检测的实时推理优化模块，并更新了合规性API文档，提升了在金融服务领域的实用性。</div>
+      
     </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>

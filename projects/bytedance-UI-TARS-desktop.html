@@ -46,6 +46,18 @@ body {
 }
 .mention-date { font-size: 0.8rem; color: #8b949e; margin-bottom: 0.3rem; font-family: monospace; }
 .mention-summary { font-size: 0.9rem; color: #c9d1d9; }
+.mention-commits {
+  margin-top: 0.6rem; padding-top: 0.5rem; border-top: 1px solid #21262d;
+}
+.commit-item {
+  font-size: 0.82rem; color: #8b949e; padding: 0.15rem 0 0.15rem 0.8rem;
+  position: relative; line-height: 1.5;
+}
+.commit-item::before {
+  content: '';
+  position: absolute; left: 0; top: 0.55rem;
+  width: 5px; height: 5px; border-radius: 50%; background: #3fb950;
+}
 .footer {
   text-align: center; padding: 2rem 0 1rem; border-top: 1px solid #21262d;
   margin-top: 2rem; color: #484f58; font-size: 0.8rem;
@@ -77,22 +89,27 @@ body {
     <div class="mention">
       <div class="mention-date">2026-05-11 0000</div>
       <div class="mention-summary">yes。项目近期发布了支持多模态交互的v2.0版本，显著提升了GUI自动化任务中的视觉理解与执行效率。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1802</div>
       <div class="mention-summary">yes。该项目近期新增了多模态交互和实时UI解析能力，显著提升了桌面端自动化测试效率。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1800</div>
       <div class="mention-summary">yes。2026-05-12发布v2.1，支持多模态实时推理与跨应用自动化脚本生成，性能提升显著。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1759</div>
       <div class="mention-summary">yes。该项目近期发布了v2.0版本，新增了多模态交互和实时UI解析能力，显著提升了桌面自动化效率。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1746</div>
       <div class="mention-summary">yes。UI-TARS-desktop 近期新增了多模态交互与自动化GUI操作框架，显著提升了跨应用任务执行效率。</div>
+      
     </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>

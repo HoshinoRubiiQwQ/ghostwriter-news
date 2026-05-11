@@ -128,7 +128,6 @@ function render() {
       '</div>';
     }).join('');
 
-    // Add click handlers
     document.querySelectorAll('.project-card[data-href]').forEach(card => {
       card.addEventListener('click', () => { window.location.href = card.dataset.href; });
     });

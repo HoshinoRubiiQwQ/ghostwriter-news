@@ -46,6 +46,18 @@ body {
 }
 .mention-date { font-size: 0.8rem; color: #8b949e; margin-bottom: 0.3rem; font-family: monospace; }
 .mention-summary { font-size: 0.9rem; color: #c9d1d9; }
+.mention-commits {
+  margin-top: 0.6rem; padding-top: 0.5rem; border-top: 1px solid #21262d;
+}
+.commit-item {
+  font-size: 0.82rem; color: #8b949e; padding: 0.15rem 0 0.15rem 0.8rem;
+  position: relative; line-height: 1.5;
+}
+.commit-item::before {
+  content: '';
+  position: absolute; left: 0; top: 0.55rem;
+  width: 5px; height: 5px; border-radius: 50%; background: #3fb950;
+}
 .footer {
   text-align: center; padding: 2rem 0 1rem; border-top: 1px solid #21262d;
   margin-top: 2rem; color: #484f58; font-size: 0.8rem;
@@ -77,22 +89,27 @@ body {
     <div class="mention">
       <div class="mention-date">2026-05-11 0000</div>
       <div class="mention-summary">yes。该项目在2026年5月后发布了基于WebGPU的实时3D场景编辑器，显著提升了渲染性能与跨平台兼容性，重新引发关注。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1802</div>
       <div class="mention-summary">yes。该项目近期新增了基于WebGPU的实时渲染管线优化，显著提升了大规模3D场景的加载与交互性能。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1800</div>
       <div class="mention-summary">yes。该项目在2026年5月发布了v2.0，重构了核心渲染管线并支持WebGPU，性能提升显著。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1759</div>
       <div class="mention-summary">yes。该项目在2026年5月发布了v2.0，引入了基于WebGPU的实时协同编辑和AI驱动的3D场景自动优化，显著提升了性能与协作能力。</div>
+      
     </div>
     <div class="mention">
       <div class="mention-date">2026-05-10 1746</div>
       <div class="mention-summary">yes。该项目近期发布了3D高斯泼溅编辑器重大更新，支持实时编辑和WebGPU渲染，显著提升了交互性能。</div>
+      
     </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
