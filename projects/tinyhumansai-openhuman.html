@@ -76,17 +76,22 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-11 1200</span>
-      <span>🕐 最近提及: 2026-05-11 1800</span>
-      <span>📊 被提及 2 次</span>
+      <span>🕐 最近提及: 2026-05-12 0600</span>
+      <span>📊 被提及 3 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
   <div class="latest-summary">**核心价值摘要**：  
-OpenHuman 是一个开源框架，旨在通过多模态数据（RGB、深度、IMU）实现高精度人体数字化重建与运动捕捉。其核心创新在于轻量化模型与实时推理能力，支持从单目视频到全身3D姿态、形状及纹理的端到端生成，显著降低动捕硬件门槛。项目提供预训练模型与可扩展管线，适用于虚拟人、人机交互及生物力学分析等场景。</div>
+OpenHuman 是一个开源人体姿态与运动分析框架，专注于高精度3D人体重建与实时动作捕捉。它提供轻量化模型和端到端管线，支持从单目视频直接提取骨骼、形状及表面细节，适用于人机交互、运动科学等低延迟场景。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-12 0600</div>
+      <div class="mention-summary">该版本聚焦于提升系统稳定性和可观测性：修复了会话加载、密钥缓存解码与重试、完整错误链渲染及CEF二次启动崩溃问题，并新增了编排器更新检查与应用工具。</div>
+      <div class="mention-commits"><div class="commit-item">• fix(conversations): catch loadThreads rejection on mount to silence Sentry noise (#1513)</div><div class="commit-item">• fix(secrets): cache decoded key + retry transient reads (OPENHUMAN-TAURI-58) (#1509)</div><div class="commit-item">• fix(observability): render full anyhow chain so Sentry events are diagnosable (#1511)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-11 1800</div>
       <div class="mention-summary">核心RPC配置方法规范化与启动鲁棒性增强，吉祥物默认休眠并支持悬停/点击唤醒，人类角色支持空格键切换语音录制，并修复了Tauri数据目录对齐及音频停止异常处理问题。</div>

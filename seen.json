@@ -6931,6 +6931,38 @@
             "author": "decolua"
           }
         ]
+      },
+      {
+        "date": "2026-05-12 0600",
+        "summary": "**核心价值摘要**：  \n9router 是一个基于 Lua 的高性能 HTTP 路由器，专为 OpenResty/Nginx 环境优化，通过预编译路由表实现 O(1) 匹配复杂度。其核心优势在于零内存分配的路由查找与极低延迟，适合高并发 API 网关场景。项目代码精简（<500行），无外部依赖，可直接嵌入 Lua 应用。",
+        "reason": "项目新增OIDC仪表盘认证、修复权限拒绝问题，并支持Linux/arm64架构的Docker镜像。",
+        "commits": [
+          {
+            "message": "Update changelog",
+            "date": "2026-05-12T02:57:02Z",
+            "author": "decolua"
+          },
+          {
+            "message": "Fix",
+            "date": "2026-05-12T02:54:58Z",
+            "author": "decolua"
+          },
+          {
+            "message": "Add OIDC dashboard auth (#1020)",
+            "date": "2026-05-12T02:43:42Z",
+            "author": "Walter Cheng"
+          },
+          {
+            "message": "fix: handle permission denied when creating DATA_DIR (#1005)",
+            "date": "2026-05-12T02:35:28Z",
+            "author": "Thiên Toán"
+          },
+          {
+            "message": "Add linux/arm64 support for docker image (#979)",
+            "date": "2026-05-12T02:28:31Z",
+            "author": "monlor"
+          }
+        ]
       }
     ]
   },
@@ -6947,7 +6979,7 @@
   },
   "tinyhumansai/openhuman": {
     "firstMention": "2026-05-11",
-    "lastMention": "2026-05-11",
+    "lastMention": "2026-05-12",
     "link": "https://github.com/tinyhumansai/openhuman",
     "mentions": [
       {
@@ -6983,6 +7015,38 @@
             "message": "fix(tauri): align staging datadir resolution with core (#1490) (#1492)",
             "date": "2026-05-11T16:26:38Z",
             "author": "oxoxDev"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-12 0600",
+        "summary": "**核心价值摘要**：  \nOpenHuman 是一个开源人体姿态与运动分析框架，专注于高精度3D人体重建与实时动作捕捉。它提供轻量化模型和端到端管线，支持从单目视频直接提取骨骼、形状及表面细节，适用于人机交互、运动科学等低延迟场景。",
+        "reason": "该版本聚焦于提升系统稳定性和可观测性：修复了会话加载、密钥缓存解码与重试、完整错误链渲染及CEF二次启动崩溃问题，并新增了编排器更新检查与应用工具。",
+        "commits": [
+          {
+            "message": "fix(conversations): catch loadThreads rejection on mount to silence Sentry noise (#1513)",
+            "date": "2026-05-12T03:03:46Z",
+            "author": "Steven Enamakel"
+          },
+          {
+            "message": "fix(secrets): cache decoded key + retry transient reads (OPENHUMAN-TAURI-58) (#1509)",
+            "date": "2026-05-12T02:47:09Z",
+            "author": "Steven Enamakel"
+          },
+          {
+            "message": "fix(observability): render full anyhow chain so Sentry events are diagnosable (#1511)",
+            "date": "2026-05-12T02:35:22Z",
+            "author": "Steven Enamakel"
+          },
+          {
+            "message": "fix(tauri): prevent CEF init panic on second launch via single-instance plugin (#1510)",
+            "date": "2026-05-12T02:35:03Z",
+            "author": "Steven Enamakel"
+          },
+          {
+            "message": "feat(orchestrator): expose update_check + update_apply tools (#1435) (#1473)",
+            "date": "2026-05-12T02:32:45Z",
+            "author": "obchain"
           }
         ]
       }
