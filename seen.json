@@ -6739,7 +6739,7 @@
   },
   "CloakHQ/CloakBrowser": {
     "firstMention": "2026-05-10",
-    "lastMention": "2026-05-11",
+    "lastMention": "2026-05-12",
     "link": "https://github.com/CloakHQ/CloakBrowser",
     "mentions": [
       {
@@ -6768,6 +6768,38 @@
         "date": "2026-05-11 0000",
         "summary": "CloakBrowser 是一个基于 Chromium 的开源浏览器，核心功能是通过动态指纹混淆技术对抗浏览器指纹追踪。它利用 WebGL、Canvas 和音频上下文等 API 的随机化处理，在每次会话中生成不同的设备指纹，从而阻断追踪器对用户的跨站识别。该项目适合对隐私有高要求的用户，但需注意其性能损耗和部分网站兼容性问题。",
         "reason": "该项目近期新增了基于WebGPU的指纹随机化引擎，显著提升了反检测能力，可能引发新一轮隐私工具竞争。"
+      },
+      {
+        "date": "2026-05-12 0000",
+        "summary": "CloakBrowser 是一个基于 Chromium 的开源浏览器，核心功能是集成多代理与指纹混淆技术，实现用户身份与网络行为的深度匿名化。它通过动态切换浏览器指纹（如 Canvas、WebGL）和路由流量，对抗网站追踪与审查。适合高安全需求场景，如渗透测试、隐私研究或规避地理封锁。",
+        "reason": "v0.3.28 修复了 cloakserve 路径遍历漏洞、添加 GeoIP 超时保护以防止启动挂起，并优化了 iframe 作用域显示。",
+        "commits": [
+          {
+            "message": "release: v0.3.28 — cloakserve path traversal fix, GeoIP timeout guard, humanize iframe scope",
+            "date": "2026-05-11T19:43:14Z",
+            "author": "CloakHQ"
+          },
+          {
+            "message": "fix(cloakserve): sanitize fingerprint seed to prevent path traversal (#217)",
+            "date": "2026-05-11T19:29:50Z",
+            "author": "CloakHQ"
+          },
+          {
+            "message": "chore: clean up GeoIP timeout follow-up (#213)",
+            "date": "2026-05-11T19:02:58Z",
+            "author": "CloakHQ"
+          },
+          {
+            "message": "fix: bound GeoIP resolution so launch cannot hang (#213)",
+            "date": "2026-05-11T18:55:49Z",
+            "author": "manaskarra"
+          },
+          {
+            "message": "chore(deps): bump sigstore/cosign-installer in the actions group (#214)",
+            "date": "2026-05-11T18:55:41Z",
+            "author": "dependabot[bot]"
+          }
+        ]
       }
     ]
   },
@@ -6861,12 +6893,44 @@
   },
   "decolua/9router": {
     "firstMention": "2026-05-11",
-    "lastMention": "2026-05-11",
+    "lastMention": "2026-05-12",
     "link": "https://github.com/decolua/9router",
     "mentions": [
       {
         "date": "2026-05-11 0000",
         "summary": "9router 是一个基于 Lua 的高性能 HTTP 路由器，专为 OpenResty 环境优化，支持动态路由匹配与中间件链式处理。其核心优势在于极低的内存占用与毫秒级路由查找，适合高并发 API 网关场景。通过预编译路由表与正则缓存机制，显著减少运行时开销。"
+      },
+      {
+        "date": "2026-05-12 0000",
+        "summary": "9router 是一个基于 Lua 的高性能 HTTP 路由器，专为 OpenResty 环境优化。它通过预编译路由模式与高效匹配算法，实现毫秒级路由解析，显著降低请求延迟。核心价值在于提供轻量级、零依赖的替代方案，适用于高并发 API 网关与微服务场景。",
+        "reason": "实现动态Linux证书解析与NSS数据库注入，修复OpenAI格式提供商的开发者角色归一化及PORT环境变量支持。",
+        "commits": [
+          {
+            "message": "feat(mitm): implement dynamic linux cert resolution and NSS db injection (#1010)",
+            "date": "2026-05-11T09:05:34Z",
+            "author": "FlyingMongoose"
+          },
+          {
+            "message": "fix: normalize developer role to system for OpenAI-format providers (#1011)",
+            "date": "2026-05-11T08:57:28Z",
+            "author": "Tran Hoang Nguyen"
+          },
+          {
+            "message": "fix: respect PORT env in internal model-test fetch (#1014)",
+            "date": "2026-05-11T08:57:02Z",
+            "author": "Anh"
+          },
+          {
+            "message": "Update gitbook",
+            "date": "2026-05-11T05:08:24Z",
+            "author": "decolua"
+          },
+          {
+            "message": "Gitbook",
+            "date": "2026-05-11T04:55:30Z",
+            "author": "decolua"
+          }
+        ]
       }
     ]
   },

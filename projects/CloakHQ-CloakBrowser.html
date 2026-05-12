@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-10 1200</span>
-      <span>🕐 最近提及: 2026-05-11 0000</span>
-      <span>📊 被提及 6 次</span>
+      <span>🕐 最近提及: 2026-05-12 0000</span>
+      <span>📊 被提及 7 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">CloakBrowser 是一个基于 Chromium 的开源浏览器，核心功能是通过动态指纹混淆技术对抗浏览器指纹追踪。它利用 WebGL、Canvas 和音频上下文等 API 的随机化处理，在每次会话中生成不同的设备指纹，从而阻断追踪器对用户的跨站识别。该项目适合对隐私有高要求的用户，但需注意其性能损耗和部分网站兼容性问题。</div>
+  <div class="latest-summary">CloakBrowser 是一个基于 Chromium 的开源浏览器，核心功能是集成多代理与指纹混淆技术，实现用户身份与网络行为的深度匿名化。它通过动态切换浏览器指纹（如 Canvas、WebGL）和路由流量，对抗网站追踪与审查。适合高安全需求场景，如渗透测试、隐私研究或规避地理封锁。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-12 0000</div>
+      <div class="mention-summary">v0.3.28 修复了 cloakserve 路径遍历漏洞、添加 GeoIP 超时保护以防止启动挂起，并优化了 iframe 作用域显示。</div>
+      <div class="mention-commits"><div class="commit-item">• release: v0.3.28 — cloakserve path traversal fix, GeoIP timeout guard, humanize iframe scope</div><div class="commit-item">• fix(cloakserve): sanitize fingerprint seed to prevent path traversal (#217)</div><div class="commit-item">• chore: clean up GeoIP timeout follow-up (#213)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-11 0000</div>
       <div class="mention-summary">该项目近期新增了基于WebGPU的指纹随机化引擎，显著提升了反检测能力，可能引发新一轮隐私工具竞争。</div>
