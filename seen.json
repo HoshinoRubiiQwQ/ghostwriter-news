@@ -6532,7 +6532,7 @@
   },
   "rohitg00/agentmemory": {
     "firstMention": "2026-05-09",
-    "lastMention": "2026-05-10",
+    "lastMention": "2026-05-13",
     "link": "https://github.com/rohitg00/agentmemory",
     "mentions": [
       {
@@ -6562,6 +6562,38 @@
       {
         "date": "2026-05-10 0800",
         "summary": "AI 摘要生成失败"
+      },
+      {
+        "date": "2026-05-13 0000",
+        "summary": "**核心价值摘要**：  \n`agentmemory` 是一个为AI代理设计的轻量级持久化记忆库，支持向量存储与语义检索，实现对话上下文的长期保留。其核心优势在于零外部依赖、支持多种后端（如Chroma、FAISS），并内置自动压缩与遗忘机制，优化token成本与检索效率。适用于需要状态持久化的自主代理、聊天机器人及RAG系统。",
+        "reason": "Codex插件平台上线，修复OpenClaw内存槽问题，网站新增GitHub星标按钮。",
+        "commits": [
+          {
+            "message": "chore(release): v0.9.11 — Codex plugin platform + OpenClaw slot fix + website star button (#317)",
+            "date": "2026-05-12T23:21:27Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "feat(website): add Star on GitHub button to hero CTA row (#316)",
+            "date": "2026-05-12T23:13:39Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "fix(openclaw): claim plugins.slots.memory via registerMemoryCapability (#310)",
+            "date": "2026-05-12T22:39:24Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "feat(plugin): ship Codex plugin manifest + marketplace (#311)",
+            "date": "2026-05-12T22:39:10Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "docs(readme): add Trendshift badge + star history graph + tagline fix (#305)",
+            "date": "2026-05-12T15:24:59Z",
+            "author": "Rohit Ghumare"
+          }
+        ]
       }
     ]
   },
