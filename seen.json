@@ -7170,5 +7170,49 @@
         "summary": "该项目提供从零实现大型语言模型的完整教程，涵盖注意力机制、Transformer架构及预训练/微调流程。代码与《Build a Large Language Model (From Scratch)》一书同步，适合开发者深入理解LLM底层原理。"
       }
     ]
+  },
+  "influxdata/telegraf": {
+    "firstMention": "2026-05-13",
+    "lastMention": "2026-05-13",
+    "link": "https://github.com/influxdata/telegraf",
+    "mentions": [
+      {
+        "date": "2026-05-13 1200",
+        "summary": "Telegraf 是一个用 Go 编写的插件驱动型服务器代理，用于采集、处理并转发系统与服务的指标数据。它原生支持 300+ 输入/输出插件，可无缝对接 InfluxDB、Kafka、Prometheus 等后端，并内置内存/磁盘/网络等系统监控能力。其核心价值在于零外部依赖、轻量级部署，以及通过统一管道实现从边缘到云端的指标流式处理。"
+      }
+    ]
+  },
+  "K-Dense-AI/scientific-agent-skills": {
+    "firstMention": "2026-05-13",
+    "lastMention": "2026-05-13",
+    "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "mentions": [
+      {
+        "date": "2026-05-13 1200",
+        "summary": "该仓库提供了一套面向科学研究的AI代理技能模块，专注于自动化文献分析、实验设计及数据推理。通过模块化技能组合，它使LLM能执行化学、生物学等领域的专业任务，如分子性质预测或反应路径规划。核心价值在于将领域知识编码为可复用的代理技能，显著降低科学AI系统的开发门槛。"
+      }
+    ]
+  },
+  "danielmiessler/Personal_AI_Infrastructure": {
+    "firstMention": "2026-05-13",
+    "lastMention": "2026-05-13",
+    "link": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+    "mentions": [
+      {
+        "date": "2026-05-13 1200",
+        "summary": "该项目提供一套基于Docker的本地化AI基础设施方案，整合Ollama、Open WebUI、Tika等工具，实现私有化LLM部署与文档处理。核心价值在于零依赖外部API，完全离线运行，支持多模型切换与RAG增强检索，适合对数据隐私和定制化有硬性要求的个人或团队。"
+      }
+    ]
+  },
+  "supertone-inc/supertonic": {
+    "firstMention": "2026-05-13",
+    "lastMention": "2026-05-13",
+    "link": "https://github.com/supertone-inc/supertonic",
+    "mentions": [
+      {
+        "date": "2026-05-13 1200",
+        "summary": "**核心价值摘要**：  \nSupertonic 是一个基于 Rust 的高性能实时音频 DSP 库，专为低延迟音频处理场景设计。其核心优势在于零成本抽象与 SIMD 优化，提供模块化信号链构建能力，适用于合成器、效果器及实时音频分析。项目强调内存安全与跨平台兼容，是专业音频开发者的底层工具链。"
+      }
+    ]
   }
 }
