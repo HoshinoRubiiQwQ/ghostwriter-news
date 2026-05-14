@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-13 1200</span>
-      <span>🕐 最近提及: 2026-05-14 0000</span>
-      <span>📊 被提及 2 次</span>
+      <span>🕐 最近提及: 2026-05-14 1800</span>
+      <span>📊 被提及 3 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Telegraf 是一个基于插件架构的指标采集代理，支持从系统、数据库、云服务等数百种数据源拉取或接收数据。它通过声明式配置实现零依赖部署，并原生集成 InfluxDB、Prometheus 等时序数据库。核心价值在于其轻量级、高扩展性，能作为统一采集层，解决异构环境下的指标标准化与传输问题。</div>
+  <div class="latest-summary">Telegraf 是一个插件驱动的开源服务器代理，用于从多种系统、服务和第三方 API 收集、处理并聚合指标数据。其核心价值在于提供统一的数据采集层，支持超过 300 种输入/输出插件，并原生集成 InfluxDB 等时序数据库，实现低开销、高可扩展的监控数据管道。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-14 1800</div>
+      <div class="mention-summary">Agent新增支持通过TELEGRAF_CONTROLLER_TOKEN环境变量进行身份验证，提升配置灵活性与安全性。</div>
+      <div class="mention-commits"><div class="commit-item">• feat(agent): Accept TELEGRAF_CONTROLLER_TOKEN environment variable (#18909)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-14 0000</div>
       <div class="mention-summary">CSV解析器新增时间函数插件接口支持，同时修复NetFlow计数器记录解析、空内容密钥管理panic及TLS默认最低版本未显式设置的问题。</div>

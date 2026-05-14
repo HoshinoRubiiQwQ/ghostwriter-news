@@ -76,17 +76,22 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-11 1200</span>
-      <span>🕐 最近提及: 2026-05-14 1200</span>
-      <span>📊 被提及 4 次</span>
+      <span>🕐 最近提及: 2026-05-14 1800</span>
+      <span>📊 被提及 5 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
   <div class="latest-summary">**核心价值摘要**：  
-OpenHuman 是一个开源框架，旨在通过模块化架构和轻量级模型，实现高精度、低延迟的实时人体姿态估计与动作识别。其核心创新在于将多模态传感器数据（如RGB、深度、IMU）融合为统一表征，并支持边缘设备部署，为运动分析、人机交互等场景提供可复用的技术基座。</div>
+OpenHuman 是一个开源人体姿态与运动分析框架，提供高精度 2D/3D 关键点检测、动作识别及实时推理管线。其模块化设计支持自定义模型与数据集，适用于人机交互、运动科学及影视动捕等硬核场景。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-14 1800</div>
+      <div class="mention-summary">项目通过重构编排器查询逻辑优先使用实时集成而非内存树、新增21个测试及智能模拟LLM提供者、修复Composio集成URL规范化问题，并扩展核心域单元与端到端测试覆盖，显著提升了系统可靠性与测试完备性。</div>
+      <div class="mention-commits"><div class="commit-item">• fix(orchestrator): prefer live integrations over memory_tree for inbox/doc queries (#1731)</div><div class="commit-item">• test(harness): smart mock LLM provider + fake Composio backend + 21 new tests (#1729)</div><div class="commit-item">• chore(staging): v0.53.46</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-14 1200</div>
       <div class="mention-summary">修复Composio集成URL标准化、扩展核心域测试覆盖、修复Windows WebView2设置切换、内联审查提示并添加工作流助手、过滤Sentry中预算耗尽错误。</div>

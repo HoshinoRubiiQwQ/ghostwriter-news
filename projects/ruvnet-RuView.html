@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-03-03 0600</span>
-      <span>🕐 最近提及: 2026-05-14 1200</span>
-      <span>📊 被提及 13 次</span>
+      <span>🕐 最近提及: 2026-05-14 1800</span>
+      <span>📊 被提及 14 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">RuView 是一个轻量级、高性能的实时视图渲染引擎，专为低延迟数据可视化场景设计。它通过零拷贝内存映射和异步管线架构，实现毫秒级 UI 更新，适用于高频交易监控或实时仪表盘。核心优势在于极简 API 与原生 WebAssembly 支持，无需复杂框架即可嵌入现有系统。</div>
+  <div class="latest-summary">该项目实现了一个轻量级、高性能的视图渲染引擎，专为实时数据可视化与交互式UI设计。核心创新在于采用零拷贝内存映射与异步管线架构，将渲染延迟压缩至亚毫秒级，同时支持百万级节点动态更新。技术栈基于Rust原生编译，无外部依赖，适合嵌入高吞吐量监控系统或边缘计算场景。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-14 1800</div>
+      <div class="mention-summary">ADR-099 内省机制已落地：新增 `regime-changed` 信号、逐帧分析、WebSocket 端点 `/ws/introspection` 及 REST 快照接口 `/api/v1/introspection/snapshot`，并附带延迟基准测试与 ADR 修订。</div>
+      <div class="mention-commits"><div class="commit-item">• Merge pull request #554 from ruvnet/feat/midstream-introspection</div><div class="commit-item">• docs(changelog): ADR-099 introspection tap — entry under [Unreleased]</div><div class="commit-item">• feat(introspection): I6 — regime-changed signal + per-frame analyze + honest ADR-099 D8 amendment</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-14 1200</div>
       <div class="mention-summary">项目引入ADR-099内省机制，新增基于帧的分析、状态变更信号、WebSocket与REST API端点，并完成延迟基准测试。</div>
