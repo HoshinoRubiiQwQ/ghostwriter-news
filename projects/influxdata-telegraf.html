@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-13 1200</span>
-      <span>🕐 最近提及: 2026-05-13 1200</span>
-      <span>📊 被提及 1 次</span>
+      <span>🕐 最近提及: 2026-05-14 0000</span>
+      <span>📊 被提及 2 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Telegraf 是一个用 Go 编写的插件驱动型服务器代理，用于采集、处理并转发系统与服务的指标数据。它原生支持 300+ 输入/输出插件，可无缝对接 InfluxDB、Kafka、Prometheus 等后端，并内置内存/磁盘/网络等系统监控能力。其核心价值在于零外部依赖、轻量级部署，以及通过统一管道实现从边缘到云端的指标流式处理。</div>
+  <div class="latest-summary">Telegraf 是一个基于插件架构的指标采集代理，支持从系统、数据库、云服务等数百种数据源拉取或接收数据。它通过声明式配置实现零依赖部署，并原生集成 InfluxDB、Prometheus 等时序数据库。核心价值在于其轻量级、高扩展性，能作为统一采集层，解决异构环境下的指标标准化与传输问题。</div>
 
   <div class="section-title">更新记录</div>
-  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-05-14 0000</div>
+      <div class="mention-summary">CSV解析器新增时间函数插件接口支持，同时修复NetFlow计数器记录解析、空内容密钥管理panic及TLS默认最低版本未显式设置的问题。</div>
+      <div class="mention-commits"><div class="commit-item">• fix(inputs.netflow): Parse all counter records (#18902)</div><div class="commit-item">• fix(secrets): Avoid panic with empty content (#18908)</div><div class="commit-item">• fix(common.tls): Explicitly set default minimum TLS version (#18910)</div></div>
+    </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
 </div>

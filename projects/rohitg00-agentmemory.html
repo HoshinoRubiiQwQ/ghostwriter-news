@@ -76,17 +76,22 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-09 1200</span>
-      <span>🕐 最近提及: 2026-05-13 0000</span>
-      <span>📊 被提及 8 次</span>
+      <span>🕐 最近提及: 2026-05-14 0000</span>
+      <span>📊 被提及 9 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">**核心价值摘要**：  
-`agentmemory` 是一个为AI代理设计的轻量级持久化记忆库，支持向量存储与语义检索，实现对话上下文的长期保留。其核心优势在于零外部依赖、支持多种后端（如Chroma、FAISS），并内置自动压缩与遗忘机制，优化token成本与检索效率。适用于需要状态持久化的自主代理、聊天机器人及RAG系统。</div>
+  <div class="latest-summary">**核心价值摘要：**  
+`agentmemory` 是一个为AI代理设计的轻量级、持久化记忆库，支持向量搜索与结构化元数据过滤。它通过本地嵌入与分层存储（短期/长期记忆），使代理能高效检索历史交互，解决上下文窗口限制与知识遗忘问题。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-14 0000</div>
+      <div class="mention-summary">BM25 搜索新增 CJK 分词器，向量支持实时写入，基准测试框架增加 p50/p90/p99 延迟指标，并修复 14 个安全漏洞。</div>
+      <div class="mention-commits"><div class="commit-item">• feat(search): CJK tokenizer for BM25 (#362)</div><div class="commit-item">• docs(python): iii-sdk example replaces standalone REST client (#364)</div><div class="commit-item">• feat(bench): load-100k.ts harness with p50/p90/p99 output (#363)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-13 0000</div>
       <div class="mention-summary">Codex插件平台上线，修复OpenClaw内存槽问题，网站新增GitHub星标按钮。</div>

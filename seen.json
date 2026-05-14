@@ -6532,7 +6532,7 @@
   },
   "rohitg00/agentmemory": {
     "firstMention": "2026-05-09",
-    "lastMention": "2026-05-13",
+    "lastMention": "2026-05-14",
     "link": "https://github.com/rohitg00/agentmemory",
     "mentions": [
       {
@@ -6591,6 +6591,38 @@
           {
             "message": "docs(readme): add Trendshift badge + star history graph + tagline fix (#305)",
             "date": "2026-05-12T15:24:59Z",
+            "author": "Rohit Ghumare"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-14 0000",
+        "summary": "**核心价值摘要：**  \n`agentmemory` 是一个为AI代理设计的轻量级、持久化记忆库，支持向量搜索与结构化元数据过滤。它通过本地嵌入与分层存储（短期/长期记忆），使代理能高效检索历史交互，解决上下文窗口限制与知识遗忘问题。",
+        "reason": "BM25 搜索新增 CJK 分词器，向量支持实时写入，基准测试框架增加 p50/p90/p99 延迟指标，并修复 14 个安全漏洞。",
+        "commits": [
+          {
+            "message": "feat(search): CJK tokenizer for BM25 (#362)",
+            "date": "2026-05-13T21:20:24Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "docs(python): iii-sdk example replaces standalone REST client (#364)",
+            "date": "2026-05-13T20:08:31Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "feat(bench): load-100k.ts harness with p50/p90/p99 output (#363)",
+            "date": "2026-05-13T20:06:43Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "chore(security): add dependabot config + close 14 open advisories (#348)",
+            "date": "2026-05-13T19:27:44Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "chore(release): v0.9.12 — BM25 unicode + vector live-write + viewer hardening (#337)",
+            "date": "2026-05-13T15:17:01Z",
             "author": "Rohit Ghumare"
           }
         ]
@@ -7173,12 +7205,39 @@
   },
   "influxdata/telegraf": {
     "firstMention": "2026-05-13",
-    "lastMention": "2026-05-13",
+    "lastMention": "2026-05-14",
     "link": "https://github.com/influxdata/telegraf",
     "mentions": [
       {
         "date": "2026-05-13 1200",
         "summary": "Telegraf 是一个用 Go 编写的插件驱动型服务器代理，用于采集、处理并转发系统与服务的指标数据。它原生支持 300+ 输入/输出插件，可无缝对接 InfluxDB、Kafka、Prometheus 等后端，并内置内存/磁盘/网络等系统监控能力。其核心价值在于零外部依赖、轻量级部署，以及通过统一管道实现从边缘到云端的指标流式处理。"
+      },
+      {
+        "date": "2026-05-14 0000",
+        "summary": "Telegraf 是一个基于插件架构的指标采集代理，支持从系统、数据库、云服务等数百种数据源拉取或接收数据。它通过声明式配置实现零依赖部署，并原生集成 InfluxDB、Prometheus 等时序数据库。核心价值在于其轻量级、高扩展性，能作为统一采集层，解决异构环境下的指标标准化与传输问题。",
+        "reason": "CSV解析器新增时间函数插件接口支持，同时修复NetFlow计数器记录解析、空内容密钥管理panic及TLS默认最低版本未显式设置的问题。",
+        "commits": [
+          {
+            "message": "fix(inputs.netflow): Parse all counter records (#18902)",
+            "date": "2026-05-13T19:19:13Z",
+            "author": "Sven Rebhan"
+          },
+          {
+            "message": "fix(secrets): Avoid panic with empty content (#18908)",
+            "date": "2026-05-13T19:16:25Z",
+            "author": "Rin"
+          },
+          {
+            "message": "fix(common.tls): Explicitly set default minimum TLS version (#18910)",
+            "date": "2026-05-13T19:13:43Z",
+            "author": "Rin"
+          },
+          {
+            "message": "feat(parsers.csv): Implement ParserTimeFuncPlugin interface (#18903)",
+            "date": "2026-05-13T19:11:01Z",
+            "author": "Sven Rebhan"
+          }
+        ]
       }
     ]
   },
