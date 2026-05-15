@@ -7464,6 +7464,28 @@
             "author": "Sven Rebhan"
           }
         ]
+      },
+      {
+        "date": "2026-05-15 1800",
+        "summary": "Telegraf 是一个基于插件的开源指标采集代理，支持从系统、数据库、云服务等数百种来源拉取数据。它通过统一的输入/输出/处理器插件架构，实现低开销、高吞吐的指标收集与转发，是 InfluxDB 生态的核心数据管道组件。",
+        "reason": "为 inputs.system 插件新增硬件信息采集功能，重构 cisco_telemetry_mdt 测试为基于用例的测试，并为 modbus 插件添加对小批量设备的兼容性处理。",
+        "commits": [
+          {
+            "message": "feat(inputs.system): Add hardware information (#18868)",
+            "date": "2026-05-15T17:12:15Z",
+            "author": "Oleksandr Bilko"
+          },
+          {
+            "message": "test(inputs.cisco_telemetry_mdt): Rework tests to case-based tests (#18864)",
+            "date": "2026-05-15T14:23:39Z",
+            "author": "Sven Rebhan"
+          },
+          {
+            "message": "feat(inputs.modbus): Add workaround for devices with smaller batch size (#18871)",
+            "date": "2026-05-15T12:22:26Z",
+            "author": "Sven Rebhan"
+          }
+        ]
       }
     ]
   },
@@ -7563,6 +7585,38 @@
       {
         "date": "2026-05-15 1200",
         "summary": "Bun 是一个极速的 JavaScript 运行时、打包器、转译器和包管理器，旨在替代 Node.js。它基于 WebKit 的 JavaScriptCore 引擎，启动和运行速度远超 Node.js，并原生支持 TypeScript、JSX 及 npm 兼容性。核心价值在于将开发工具链整合为单一二进制文件，显著提升开发效率和运行时性能。"
+      },
+      {
+        "date": "2026-05-15 1800",
+        "summary": "Bun 是一个极速的 JavaScript/TypeScript 运行时、打包器、转译器和包管理器，基于 WebKit 的 JavaScriptCore 引擎构建，原生支持 Node.js API 兼容性。其核心价值在于将开发工具链整合为单一二进制文件，启动速度比 Node.js 快 4 倍，且内置了 TypeScript 和 JSX 转译、HTTP 服务器及 SQLite 绑定，显著降低项目配置复杂度。",
+        "reason": "Bun 运行时重大更新：通过 Col/ColMut 原语优化 multi_array_list SoA 操作、从 Config 生成 bun_core::build_options、JSON 词法分析器新增 `?`/`*`/`(`/`)` 标记以支持 `define` 自动引号恢复、CI 格式检查改用 cargo fmt --all、FFI 层在 `dlopen()` 中从 bunfs 提取嵌入式共享库。",
+        "commits": [
+          {
+            "message": "collections: funnel multi_array_list SoA ops through Col/ColMut primitives (#30726)",
+            "date": "2026-05-15T17:46:46Z",
+            "author": "Dylan Conway"
+          },
+          {
+            "message": "build: generate bun_core::build_options from Config (#30749)",
+            "date": "2026-05-15T17:10:04Z",
+            "author": "Dylan Conway"
+          },
+          {
+            "message": "JSON lexer: tokenize `?`/`*`/`(`/`)` so `define` auto-quote can recover (#30679)",
+            "date": "2026-05-15T05:28:59Z",
+            "author": "Jarred Sumner"
+          },
+          {
+            "message": "ci: replace zig fmt with cargo fmt --all in the format workflow (#30682)",
+            "date": "2026-05-15T05:28:22Z",
+            "author": "Jarred Sumner"
+          },
+          {
+            "message": "bun:ffi: extract embedded shared libraries from bunfs in `dlopen()` (#30720)",
+            "date": "2026-05-15T02:25:02Z",
+            "author": "robobun"
+          }
+        ]
       }
     ]
   }

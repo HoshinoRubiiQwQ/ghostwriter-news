@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-13 1200</span>
-      <span>🕐 最近提及: 2026-05-15 0600</span>
-      <span>📊 被提及 4 次</span>
+      <span>🕐 最近提及: 2026-05-15 1800</span>
+      <span>📊 被提及 5 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Telegraf 是 InfluxData 生态的插件驱动型指标采集代理，支持 300+ 输入/输出插件，覆盖系统、容器、中间件及自定义数据源。其核心价值在于零依赖部署、低资源占用，并通过统一管道将指标直接推送到 InfluxDB、Prometheus 等后端，是时序监控管线的标准数据采集层。</div>
+  <div class="latest-summary">Telegraf 是一个基于插件的开源指标采集代理，支持从系统、数据库、云服务等数百种来源拉取数据。它通过统一的输入/输出/处理器插件架构，实现低开销、高吞吐的指标收集与转发，是 InfluxDB 生态的核心数据管道组件。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-15 1800</div>
+      <div class="mention-summary">为 inputs.system 插件新增硬件信息采集功能，重构 cisco_telemetry_mdt 测试为基于用例的测试，并为 modbus 插件添加对小批量设备的兼容性处理。</div>
+      <div class="mention-commits"><div class="commit-item">• feat(inputs.system): Add hardware information (#18868)</div><div class="commit-item">• test(inputs.cisco_telemetry_mdt): Rework tests to case-based tests (#18864)</div><div class="commit-item">• feat(inputs.modbus): Add workaround for devices with smaller batch size (#18871)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-15 0600</div>
       <div class="mention-summary">OpenSearch输出插件新增启动错误行为配置，Azure Monitor输入插件支持客户端密钥加密，Agent新增控制器令牌环境变量支持。</div>
