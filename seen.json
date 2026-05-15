@@ -7397,7 +7397,7 @@
   },
   "influxdata/telegraf": {
     "firstMention": "2026-05-13",
-    "lastMention": "2026-05-14",
+    "lastMention": "2026-05-15",
     "link": "https://github.com/influxdata/telegraf",
     "mentions": [
       {
@@ -7436,6 +7436,28 @@
         "summary": "Telegraf 是一个插件驱动的开源服务器代理，用于从多种系统、服务和第三方 API 收集、处理并聚合指标数据。其核心价值在于提供统一的数据采集层，支持超过 300 种输入/输出插件，并原生集成 InfluxDB 等时序数据库，实现低开销、高可扩展的监控数据管道。",
         "reason": "Agent新增支持通过TELEGRAF_CONTROLLER_TOKEN环境变量进行身份验证，提升配置灵活性与安全性。",
         "commits": [
+          {
+            "message": "feat(agent): Accept TELEGRAF_CONTROLLER_TOKEN environment variable (#18909)",
+            "date": "2026-05-14T13:30:12Z",
+            "author": "Sven Rebhan"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-15 0600",
+        "summary": "Telegraf 是 InfluxData 生态的插件驱动型指标采集代理，支持 300+ 输入/输出插件，覆盖系统、容器、中间件及自定义数据源。其核心价值在于零依赖部署、低资源占用，并通过统一管道将指标直接推送到 InfluxDB、Prometheus 等后端，是时序监控管线的标准数据采集层。",
+        "reason": "OpenSearch输出插件新增启动错误行为配置，Azure Monitor输入插件支持客户端密钥加密，Agent新增控制器令牌环境变量支持。",
+        "commits": [
+          {
+            "message": "feat(outputs.opensearch): Implement startup-error-behavior options (#18784)",
+            "date": "2026-05-14T19:05:04Z",
+            "author": "Elias Obeid"
+          },
+          {
+            "message": "feat(inputs.azure_monitor): Support secrets for client_secret (#18744)",
+            "date": "2026-05-14T18:59:20Z",
+            "author": "superguillen"
+          },
           {
             "message": "feat(agent): Accept TELEGRAF_CONTROLLER_TOKEN environment variable (#18909)",
             "date": "2026-05-14T13:30:12Z",
