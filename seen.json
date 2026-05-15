@@ -7521,5 +7521,49 @@
         "summary": "**核心价值摘要**：  \nscrcpy 通过 USB/WiFi 实现 Android 设备实时投屏与低延迟控制，无需 root 权限，支持 30-120fps 帧率及音频转发。其基于 ADB 与 MediaCodec 的轻量架构，在 2-8ms 延迟下实现 1920x1080 分辨率传输，是移动端调试、演示及自动化测试的硬核工具。"
       }
     ]
+  },
+  "anthropics/skills": {
+    "firstMention": "2026-05-15",
+    "lastMention": "2026-05-15",
+    "link": "https://github.com/anthropics/skills",
+    "mentions": [
+      {
+        "date": "2026-05-15 1200",
+        "summary": "Anthropics 的 \"skills\" 项目聚焦于通过提示工程和微调技术，提升大语言模型在特定任务上的可编程能力。核心价值在于提供一套模块化、可复用的技能库，使开发者能高效定制模型行为，无需从零训练。该项目直接服务于企业级 AI 应用的精准控制与部署优化。"
+      }
+    ]
+  },
+  "czlonkowski/n8n-mcp": {
+    "firstMention": "2026-05-15",
+    "lastMention": "2026-05-15",
+    "link": "https://github.com/czlonkowski/n8n-mcp",
+    "mentions": [
+      {
+        "date": "2026-05-15 1200",
+        "summary": "n8n-mcp 是一个将 n8n 工作流引擎与 MCP（Model Context Protocol）集成的开源工具，允许 AI 代理通过标准化协议直接调用 n8n 自动化流程。它消除了中间件开销，使大模型能动态触发复杂业务逻辑，适用于需要实时数据管道与决策自动化的场景。"
+      }
+    ]
+  },
+  "NVIDIA-AI-Blueprints/video-search-and-summarization": {
+    "firstMention": "2026-05-15",
+    "lastMention": "2026-05-15",
+    "link": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+    "mentions": [
+      {
+        "date": "2026-05-15 1200",
+        "summary": "NVIDIA 官方推出的视频搜索与摘要 AI 蓝图，基于 RAG 架构实现视频内容的语义检索与自动摘要生成。核心价值在于：支持对长视频进行实时索引与自然语言查询，无需人工标注；集成多模态嵌入与 LLM 推理，可输出结构化摘要与时间戳定位。适用于视频库管理、内容审核、教育回放等场景。"
+      }
+    ]
+  },
+  "oven-sh/bun": {
+    "firstMention": "2026-05-15",
+    "lastMention": "2026-05-15",
+    "link": "https://github.com/oven-sh/bun",
+    "mentions": [
+      {
+        "date": "2026-05-15 1200",
+        "summary": "Bun 是一个极速的 JavaScript 运行时、打包器、转译器和包管理器，旨在替代 Node.js。它基于 WebKit 的 JavaScriptCore 引擎，启动和运行速度远超 Node.js，并原生支持 TypeScript、JSX 及 npm 兼容性。核心价值在于将开发工具链整合为单一二进制文件，显著提升开发效率和运行时性能。"
+      }
+    ]
   }
 }
