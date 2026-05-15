@@ -1070,7 +1070,7 @@
   },
   "ruvnet/RuView": {
     "firstMention": "2026-03-03",
-    "lastMention": "2026-05-14",
+    "lastMention": "2026-05-15",
     "link": "https://github.com/ruvnet/RuView",
     "mentions": [
       {
@@ -1157,6 +1157,38 @@
         "date": "2026-05-14 1800",
         "summary": "该项目实现了一个轻量级、高性能的视图渲染引擎，专为实时数据可视化与交互式UI设计。核心创新在于采用零拷贝内存映射与异步管线架构，将渲染延迟压缩至亚毫秒级，同时支持百万级节点动态更新。技术栈基于Rust原生编译，无外部依赖，适合嵌入高吞吐量监控系统或边缘计算场景。",
         "reason": "ADR-099 内省机制已落地：新增 `regime-changed` 信号、逐帧分析、WebSocket 端点 `/ws/introspection` 及 REST 快照接口 `/api/v1/introspection/snapshot`，并附带延迟基准测试与 ADR 修订。",
+        "commits": [
+          {
+            "message": "Merge pull request #554 from ruvnet/feat/midstream-introspection",
+            "date": "2026-05-14T03:43:09Z",
+            "author": "rUv"
+          },
+          {
+            "message": "docs(changelog): ADR-099 introspection tap — entry under [Unreleased]",
+            "date": "2026-05-14T03:37:50Z",
+            "author": "ruv"
+          },
+          {
+            "message": "feat(introspection): I6 — regime-changed signal + per-frame analyze + honest ADR-099 D8 amendment",
+            "date": "2026-05-14T03:29:37Z",
+            "author": "ruv"
+          },
+          {
+            "message": "test(sensing-server): ADR-099 latency benchmark — record empirical baseline",
+            "date": "2026-05-14T03:18:10Z",
+            "author": "ruv"
+          },
+          {
+            "message": "feat(sensing-server): wire ADR-099 introspection tap + /ws/introspection + /api/v1/introspection/snapshot",
+            "date": "2026-05-14T03:00:31Z",
+            "author": "ruv"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-15 0000",
+        "summary": "**核心价值摘要：**  \nRuView 是一个轻量级、高性能的实时数据可视化引擎，专为低延迟监控与动态仪表盘场景设计。其核心优势在于通过零拷贝渲染与增量更新算法，在百万级数据点下仍保持亚秒级响应，同时提供声明式 API 与插件化扩展架构，显著降低定制化可视化系统的开发与维护成本。",
+        "reason": "ADR-099 内省机制已实现，包括协议级信号、每帧分析、WebSocket/API 端点及延迟基准测试。",
         "commits": [
           {
             "message": "Merge pull request #554 from ruvnet/feat/midstream-introspection",
@@ -7139,7 +7171,7 @@
   },
   "tinyhumansai/openhuman": {
     "firstMention": "2026-05-11",
-    "lastMention": "2026-05-14",
+    "lastMention": "2026-05-15",
     "link": "https://github.com/tinyhumansai/openhuman",
     "mentions": [
       {
@@ -7271,6 +7303,38 @@
             "message": "test: expand unit + e2e coverage from test-map across core domains (#1724)",
             "date": "2026-05-14T11:58:07Z",
             "author": "Steven Enamakel"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-15 0000",
+        "summary": "**核心价值摘要**：  \nOpenHuman 是一个开源人体姿态与运动分析框架，提供实时3D骨骼追踪、动作识别及多视角融合能力，支持从单目RGB视频中提取高精度人体参数化模型。其轻量化设计可部署于边缘设备，适用于人机交互、运动科学及虚拟现实等场景。",
+        "reason": "通过Whisper/Piper提供者工厂实现完全本地化的语音转文字和文字转语音功能，并修复了内存树查询排序和CEF清理问题。",
+        "commits": [
+          {
+            "message": "feat(voice): fully-local STT + TTS via Whisper/Piper provider factory (#1755)",
+            "date": "2026-05-14T21:27:51Z",
+            "author": "sanil-23"
+          },
+          {
+            "message": "test: expand unit + e2e coverage from test-map (batch 2) (#1752)",
+            "date": "2026-05-14T19:39:23Z",
+            "author": "Steven Enamakel"
+          },
+          {
+            "message": "chore(staging): v0.53.47",
+            "date": "2026-05-14T19:00:05Z",
+            "author": "github-actions[bot]"
+          },
+          {
+            "message": "fix(memory_tree, e2e tests ): deterministic query_topic ordering + robust CEF cleanup (#1751)",
+            "date": "2026-05-14T18:58:18Z",
+            "author": "sanil-23"
+          },
+          {
+            "message": "chore(migrations): phase out PROFILE.md from disk on schema_version=1 (#1734)",
+            "date": "2026-05-14T18:57:39Z",
+            "author": "sanil-23"
           }
         ]
       }
