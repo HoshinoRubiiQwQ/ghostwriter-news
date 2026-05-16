@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-13 1200</span>
-      <span>🕐 最近提及: 2026-05-15 1800</span>
-      <span>📊 被提及 5 次</span>
+      <span>🕐 最近提及: 2026-05-16 0000</span>
+      <span>📊 被提及 6 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Telegraf 是一个基于插件的开源指标采集代理，支持从系统、数据库、云服务等数百种来源拉取数据。它通过统一的输入/输出/处理器插件架构，实现低开销、高吞吐的指标收集与转发，是 InfluxDB 生态的核心数据管道组件。</div>
+  <div class="latest-summary">Telegraf 是 InfluxData 生态下的开源指标采集代理，支持 300+ 插件（输入/输出/处理器），实现从系统、服务、数据库、IoT 设备等来源拉取或推送数据。其核心价值在于零依赖、插件化架构与极低资源开销，可无缝对接 InfluxDB、Prometheus、Kafka 等后端，是时序数据管道的标准入口组件。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-16 0000</div>
+      <div class="mention-summary">为inputs.system新增硬件信息采集功能，为inputs.modbus增加小批量设备兼容性修复。</div>
+      <div class="mention-commits"><div class="commit-item">• feat(inputs.system): Add hardware information (#18868)</div><div class="commit-item">• test(inputs.cisco_telemetry_mdt): Rework tests to case-based tests (#18864)</div><div class="commit-item">• feat(inputs.modbus): Add workaround for devices with smaller batch size (#18871)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-15 1800</div>
       <div class="mention-summary">为 inputs.system 插件新增硬件信息采集功能，重构 cisco_telemetry_mdt 测试为基于用例的测试，并为 modbus 插件添加对小批量设备的兼容性处理。</div>

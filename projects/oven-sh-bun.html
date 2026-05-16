@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-15 1200</span>
-      <span>🕐 最近提及: 2026-05-15 1800</span>
-      <span>📊 被提及 2 次</span>
+      <span>🕐 最近提及: 2026-05-16 0000</span>
+      <span>📊 被提及 3 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Bun 是一个极速的 JavaScript/TypeScript 运行时、打包器、转译器和包管理器，基于 WebKit 的 JavaScriptCore 引擎构建，原生支持 Node.js API 兼容性。其核心价值在于将开发工具链整合为单一二进制文件，启动速度比 Node.js 快 4 倍，且内置了 TypeScript 和 JSX 转译、HTTP 服务器及 SQLite 绑定，显著降低项目配置复杂度。</div>
+  <div class="latest-summary">Bun 是一个基于 JavaScriptCore 引擎、用 Zig 语言编写的全栈 JavaScript/TypeScript 运行时，集成了包管理器、转译器和原生测试框架。其核心优势在于启动速度比 Node.js 快 4 倍，并原生支持 CommonJS 与 ES Module 互操作，显著降低现代 JS 开发中的工具链复杂度。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-16 0000</div>
+      <div class="mention-summary">本次更新涵盖多项关键改进：将多数组列表的SoA操作统一通过Col/ColMut原语实现，从Config生成bun_core::build_options，JSON词法分析器新增对`?`/`*`/`(`/`)`的标记以支持define自动引号恢复，CI中将zig fmt替换为cargo fmt --all，以及FFI模块在dlopen()中从bunfs提取嵌入式共享库。</div>
+      <div class="mention-commits"><div class="commit-item">• collections: funnel multi_array_list SoA ops through Col/ColMut primitives (#30726)</div><div class="commit-item">• build: generate bun_core::build_options from Config (#30749)</div><div class="commit-item">• JSON lexer: tokenize `?`/`*`/`(`/`)` so `define` auto-quote can recover (#30679)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-15 1800</div>
       <div class="mention-summary">Bun 运行时重大更新：通过 Col/ColMut 原语优化 multi_array_list SoA 操作、从 Config 生成 bun_core::build_options、JSON 词法分析器新增 `?`/`*`/`(`/`)` 标记以支持 `define` 自动引号恢复、CI 格式检查改用 cargo fmt --all、FFI 层在 `dlopen()` 中从 bunfs 提取嵌入式共享库。</div>
