@@ -7735,6 +7735,38 @@
             "author": "Jarred Sumner"
           }
         ]
+      },
+      {
+        "date": "2026-05-16 1800",
+        "summary": "Bun 是一个极速的全栈 JavaScript/TypeScript 运行时，集成了包管理器、转译器和原生打包工具，旨在替代 Node.js 和 Deno。其核心优势在于基于 WebKit 引擎的闪电启动速度（比 Node 快 4 倍）和内置的 Zig 编写的高性能 API，显著减少开发工具链的碎片化。适合追求低延迟、高吞吐的现代 Web 应用和微服务场景。",
+        "reason": "该项目通过安全加固、运行时稳定性修复和模块解析器重构，显著提升了代码质量与安全性。",
+        "commits": [
+          {
+            "message": "cargo fmt",
+            "date": "2026-05-16T10:31:32Z",
+            "author": "Jarred Sumner"
+          },
+          {
+            "message": "Clean up Zig-port phase comments and trivial lint warnings (#30877)",
+            "date": "2026-05-16T10:27:22Z",
+            "author": "Jarred Sumner"
+          },
+          {
+            "message": "Harden 36 reachable security findings across runtime, install, parsers, http (#30722)",
+            "date": "2026-05-16T10:22:21Z",
+            "author": "Jarred Sumner"
+          },
+          {
+            "message": "Fix worker teardown crash from missing dupeRef on synthetic-module specifiers (#30882)",
+            "date": "2026-05-16T09:43:02Z",
+            "author": "Jarred Sumner"
+          },
+          {
+            "message": "resolver: split the port's module wrapper into files; type the extern-Rust pointers (#30880)",
+            "date": "2026-05-16T08:42:01Z",
+            "author": "Jarred Sumner"
+          }
+        ]
       }
     ]
   },
