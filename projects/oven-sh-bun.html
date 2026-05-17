@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-15 1200</span>
-      <span>🕐 最近提及: 2026-05-17 0000</span>
-      <span>📊 被提及 6 次</span>
+      <span>🕐 最近提及: 2026-05-17 1200</span>
+      <span>📊 被提及 7 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Bun 是一个极速 JavaScript/TypeScript 运行时与工具链，内置打包器、转译器、包管理器，性能远超 Node.js 和 Deno。核心卖点：启动速度比 Node.js 快 4 倍，原生支持 TypeScript 和 JSX，无需额外配置。适合追求低延迟、高吞吐的现代 Web 开发与微服务场景。</div>
+  <div class="latest-summary">Bun 是一个极速的 JavaScript 运行时、打包器、转译器和包管理器，完全替代 Node.js 生态。核心卖点：基于 WebKit 的 JavaScriptCore 引擎，启动速度比 Node 快 4 倍，原生支持 TypeScript 和 JSX，内置 HTTP 服务器和 SQLite 驱动，无需额外依赖。目标：通过单一二进制文件消除工具链碎片化，将开发、构建、部署流程压缩到极致。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-17 1200</div>
+      <div class="mention-summary">该项目通过移除第三方断言库、优化打包与转译热路径、以及消除不安全静态字符串操作，显著提升了运行时性能与代码安全性。</div>
+      <div class="mention-commits"><div class="commit-item">• Replace bun assert helpers with Rust builtin assert macros (#30918)</div><div class="commit-item">• perf: bundler & transpiler hot-path optimizations (#30901)</div><div class="commit-item">• refactor: remove unsafe for static strings (#30867)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-17 0000</div>
       <div class="mention-summary">该项目通过安全加固、运行时崩溃修复、模块解析重构及代码清理，显著提升了稳定性和安全性。</div>
