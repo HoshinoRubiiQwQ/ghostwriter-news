@@ -7433,6 +7433,38 @@
             "author": "Jason"
           }
         ]
+      },
+      {
+        "date": "2026-05-17 1800",
+        "summary": "**核心价值摘要**：  \nOpenHuman 是一个开源人体姿态与运动分析框架，提供高精度 2D/3D 关键点检测、动作识别及实时推理管线，支持多平台部署。其核心优势在于模块化设计，允许开发者灵活组合模型（如 HRNet、VIBE）并直接用于运动捕捉、健身分析等场景，无需从头训练。项目代码精简，依赖轻量，适合快速集成到工业级应用。",
+        "reason": "新增微信内嵌网页视图支持，重构外部Ollama路由推理逻辑，修复API中Bearer令牌日志泄露及内存分块器单行超限问题。",
+        "commits": [
+          {
+            "message": "Add WeChat embedded webview support (#1991)",
+            "date": "2026-05-17T09:38:10Z",
+            "author": "Steven Enamakel"
+          },
+          {
+            "message": "Refactor inference around external Ollama routing (#1975)",
+            "date": "2026-05-17T09:37:42Z",
+            "author": "Steven Enamakel"
+          },
+          {
+            "message": "test(e2e): onboarding simple vs advanced mode spec (#1989)",
+            "date": "2026-05-17T09:02:25Z",
+            "author": "Steven Enamakel"
+          },
+          {
+            "message": "fix(api): avoid logging bearer tokens in request diagnostics (#1987)",
+            "date": "2026-05-17T08:38:46Z",
+            "author": "Ruifeng Xue"
+          },
+          {
+            "message": "fix(memory/chunker): split oversized single lines at word boundaries (#1891)",
+            "date": "2026-05-17T08:38:14Z",
+            "author": "T T"
+          }
+        ]
       }
     ]
   },
@@ -7868,6 +7900,28 @@
         "date": "2026-05-17 1200",
         "summary": "Bun 是一个极速的 JavaScript 运行时、打包器、转译器和包管理器，完全替代 Node.js 生态。核心卖点：基于 WebKit 的 JavaScriptCore 引擎，启动速度比 Node 快 4 倍，原生支持 TypeScript 和 JSX，内置 HTTP 服务器和 SQLite 驱动，无需额外依赖。目标：通过单一二进制文件消除工具链碎片化，将开发、构建、部署流程压缩到极致。",
         "reason": "该项目通过移除第三方断言库、优化打包与转译热路径、以及消除不安全静态字符串操作，显著提升了运行时性能与代码安全性。",
+        "commits": [
+          {
+            "message": "Replace bun assert helpers with Rust builtin assert macros (#30918)",
+            "date": "2026-05-17T11:48:11Z",
+            "author": "Jarred Sumner"
+          },
+          {
+            "message": "perf: bundler & transpiler hot-path optimizations (#30901)",
+            "date": "2026-05-17T11:04:01Z",
+            "author": "Jarred Sumner"
+          },
+          {
+            "message": "refactor: remove unsafe for static strings (#30867)",
+            "date": "2026-05-17T06:35:13Z",
+            "author": "Rob Ede"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-17 1800",
+        "summary": "Bun 是一个从零开始构建的极速 JavaScript/TypeScript 运行时与工具链，集成了包管理器、转译器和原生打包器。其核心优势在于基于 WebKit 的 JavaScriptCore 引擎和 Zig 编写，启动与执行性能远超 Node.js 和 Deno。目标是在单一二进制文件中替代 Node.js、npm、tsc 及 Webpack 等工具链。",
+        "reason": "该版本通过移除Bun断言辅助工具、优化打包与转译热路径、消除静态字符串的不安全代码，显著提升了性能与安全性。",
         "commits": [
           {
             "message": "Replace bun assert helpers with Rust builtin assert macros (#30918)",
