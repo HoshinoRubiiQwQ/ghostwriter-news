@@ -8040,5 +8040,27 @@
         "summary": "一个基于去中心化架构的实时协作平台，核心功能是提供端到端加密的文档编辑与通信。采用CRDT（无冲突复制数据类型）实现多用户无锁并发，无需中央服务器即可同步状态。项目仍处于早期开发阶段，但技术路线明确指向抗审查的协作工具。"
       }
     ]
+  },
+  "Imbad0202/academic-research-skills": {
+    "firstMention": "2026-05-18",
+    "lastMention": "2026-05-18",
+    "link": "https://github.com/Imbad0202/academic-research-skills",
+    "mentions": [
+      {
+        "date": "2026-05-18 1200",
+        "summary": "该项目提供学术研究技能的系统性指南，涵盖文献检索、论文写作与批判性思维等核心模块。硬核之处在于直接整合开源工具链（如Zotero、LaTeX）与可复现的科研工作流，适合需要快速提升学术生产力的研究者。"
+      }
+    ]
+  },
+  "ggml-org/llama.cpp": {
+    "firstMention": "2026-05-18",
+    "lastMention": "2026-05-18",
+    "link": "https://github.com/ggml-org/llama.cpp",
+    "mentions": [
+      {
+        "date": "2026-05-18 1200",
+        "summary": "**核心价值摘要：**  \n`llama.cpp` 是高性能、纯C/C++实现的LLM推理引擎，专为CPU/边缘设备优化，支持量化（如4-bit）和跨平台部署。其核心价值在于无需GPU即可高效运行Llama、Mistral等主流模型，显著降低大模型本地化推理的硬件门槛。"
+      }
+    ]
   }
 }
