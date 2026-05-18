@@ -1070,7 +1070,7 @@
   },
   "ruvnet/RuView": {
     "firstMention": "2026-03-03",
-    "lastMention": "2026-05-15",
+    "lastMention": "2026-05-18",
     "link": "https://github.com/ruvnet/RuView",
     "mentions": [
       {
@@ -1214,6 +1214,38 @@
             "message": "feat(sensing-server): wire ADR-099 introspection tap + /ws/introspection + /api/v1/introspection/snapshot",
             "date": "2026-05-14T03:00:31Z",
             "author": "ruv"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-18 1800",
+        "summary": "RuView 是一个轻量级、高性能的实时数据可视化引擎，专为低延迟监控与动态仪表盘场景设计。其核心优势在于基于 Rust 构建的零拷贝渲染管线与 WebAssembly 前端集成，能在浏览器中实现毫秒级帧刷新。该项目适合需要极致响应速度的金融、物联网或 DevOps 数据流可视化。",
+        "reason": "修复了OTA固件升级在无PSK时失败、传感服务器广播错误硬编码设备源、5个端点路径遍历漏洞、跨平台证明确定性计算以及v1姿态服务调用错误函数的安全与功能缺陷。",
+        "commits": [
+          {
+            "message": "fix(firmware): OTA upload fails closed when no PSK in NVS (RuView#596 audit) (#623)",
+            "date": "2026-05-18T12:56:07Z",
+            "author": "rUv"
+          },
+          {
+            "message": "fix(sensing-server): WS broadcast emits effective_source() not hardcoded \"esp32\" (closes #618) (#621)",
+            "date": "2026-05-18T12:18:18Z",
+            "author": "rUv"
+          },
+          {
+            "message": "fix(security): path-traversal guard on 5 sensing-server endpoints (closes #615) (#616)",
+            "date": "2026-05-17T23:59:20Z",
+            "author": "rUv"
+          },
+          {
+            "message": "fix(verify): cross-platform deterministic proof — 6-decimal quantize + thread-pinning (closes #560) (#609)",
+            "date": "2026-05-17T23:50:55Z",
+            "author": "rUv"
+          },
+          {
+            "message": "fix(archive/v1/pose-service): call sanitize_phase, not sanitize (closes #612) (#614)",
+            "date": "2026-05-17T23:34:08Z",
+            "author": "rUv"
           }
         ]
       }
