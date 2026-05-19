@@ -2541,7 +2541,7 @@
   },
   "anthropics/claude-plugins-official": {
     "firstMention": "2026-03-14",
-    "lastMention": "2026-03-14",
+    "lastMention": "2026-05-19",
     "link": "https://github.com/anthropics/claude-plugins-official",
     "mentions": [
       {
@@ -2567,6 +2567,38 @@
       {
         "date": "2026-03-14 2200",
         "summary": "1. 该项目为Anthropic官方Claude插件仓库，展示了社区对Claude生态开发工具的关注度。"
+      },
+      {
+        "date": "2026-05-19 1800",
+        "summary": "该仓库提供Claude官方插件开发框架，支持工具调用、知识库检索等扩展能力。核心价值在于通过标准化接口实现模型与外部系统交互，降低AI应用开发门槛。适合需要快速集成Claude到现有工作流的开发者。",
+        "reason": "该项目通过集成24个来自主流组织的官方插件、更新25个上游插件至最新版本、新增carta-crm、carta-investors及convex-backend插件，并升级snowflake-cortex-code至v3.1.0，显著扩展了第三方生态兼容性与核心功能。",
+        "commits": [
+          {
+            "message": "Bump snowflake-cortex-code to v3.1.0 (#1932)",
+            "date": "2026-05-19T17:55:48Z",
+            "author": "Bryan Thompson"
+          },
+          {
+            "message": "Add 24 first-party plugins from major-brand orgs (#1919)",
+            "date": "2026-05-19T13:20:20Z",
+            "author": "Tobin South"
+          },
+          {
+            "message": "Bump 25 plugin SHA pins to upstream HEAD (huggingface–railway) (#1914)",
+            "date": "2026-05-19T13:19:35Z",
+            "author": "Tobin South"
+          },
+          {
+            "message": "Add carta-crm and carta-investors plugins (#1877)",
+            "date": "2026-05-19T04:04:40Z",
+            "author": "Bryan Thompson"
+          },
+          {
+            "message": "Add convex-backend plugin (#1918)",
+            "date": "2026-05-18T23:56:50Z",
+            "author": "Tobin South"
+          }
+        ]
       }
     ]
   },
@@ -7583,6 +7615,38 @@
             "author": "Steven Enamakel"
           }
         ]
+      },
+      {
+        "date": "2026-05-19 1800",
+        "summary": "**核心价值摘要**：  \nOpenHuman 是一个开源框架，旨在通过多模态数据（视频、音频、文本）构建高保真数字人，实现实时交互与情感表达。其核心突破在于将神经辐射场（NeRF）与扩散模型结合，显著降低数字人制作成本与算力门槛，同时支持跨平台部署（移动端/Web）。项目提供端到端管线，覆盖从数据采集到渲染的全流程，适合虚拟偶像、远程会议等低延迟场景。",
+        "reason": "本次更新增强了安全性（验证WebView事件载荷）、修复了推理参数传播与本地路由兼容性、优化了可观测性日志降噪，并新增基于内存上下文窗口阈值的本地Ollama模型准入控制。",
+        "commits": [
+          {
+            "message": "harden: validate webview event payloads (#2036)",
+            "date": "2026-05-19T15:56:01Z",
+            "author": "吕盈辉律师"
+          },
+          {
+            "message": "fix(inference): propagate temperature_unsupported_models to local routing providers (#2221)",
+            "date": "2026-05-19T15:52:33Z",
+            "author": "YellowSnnowmann"
+          },
+          {
+            "message": "fix(onboarding): clarify continue to chat fallback (#2173)",
+            "date": "2026-05-19T15:42:00Z",
+            "author": "Ajay Kumar Reddy"
+          },
+          {
+            "message": "fix(observability): demote loopback sidecar-down noise to expected (#R5 #R6) (#2063)",
+            "date": "2026-05-19T15:22:05Z",
+            "author": "oxoxDev"
+          },
+          {
+            "message": "feat(inference): gate local Ollama models by memory-layer context-window minimum (#2122)",
+            "date": "2026-05-19T14:10:06Z",
+            "author": "sanil-23"
+          }
+        ]
       }
     ]
   },
@@ -8221,6 +8285,38 @@
       {
         "date": "2026-05-19 1200",
         "summary": "RTK 是一个基于 Rust 的高性能实时内核追踪框架，专为 AI 推理和边缘计算场景设计。它通过零开销抽象和异步调度机制，在嵌入式设备上实现微秒级延迟的实时任务管理。核心价值在于将传统 RTOS 的确定性调度与 AI 工作负载的弹性需求结合，显著提升资源受限系统的推理吞吐量。"
+      },
+      {
+        "date": "2026-05-19 1800",
+        "summary": "RTK是一个基于实时内核的AI推理框架，专为边缘设备优化，支持多平台部署与低延迟推理。其核心价值在于通过硬件抽象层实现跨架构兼容性，并利用动态图调度提升模型执行效率。适用于资源受限场景下的高性能AI应用开发。",
+        "reason": "修复了TEE截断提示、多行块尾提示及激进过滤批处理问题，并补充了截断恢复指南。",
+        "commits": [
+          {
+            "message": "Merge pull request #1928 from rtk-ai/fix/tee-hint-trunc-quality",
+            "date": "2026-05-19T09:37:48Z",
+            "author": "aesoft"
+          },
+          {
+            "message": "docs(cmds): truncations hints and recovery guidelines",
+            "date": "2026-05-17T12:18:06Z",
+            "author": "aesoft"
+          },
+          {
+            "message": "fix(rust): multi-line blocks used with tail hint",
+            "date": "2026-05-17T10:48:17Z",
+            "author": "aesoft"
+          },
+          {
+            "message": "fix(tee): safe truncation caps and compose-ps tee content fix",
+            "date": "2026-05-16T16:18:14Z",
+            "author": "Adrien Eppling"
+          },
+          {
+            "message": "Merge pull request #1895 from rtk-ai/fix/aggressive-filters-batch",
+            "date": "2026-05-19T07:15:39Z",
+            "author": "aesoft"
+          }
+        ]
       }
     ]
   }
