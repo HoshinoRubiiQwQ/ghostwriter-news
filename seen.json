@@ -1070,7 +1070,7 @@
   },
   "ruvnet/RuView": {
     "firstMention": "2026-03-03",
-    "lastMention": "2026-05-18",
+    "lastMention": "2026-05-19",
     "link": "https://github.com/ruvnet/RuView",
     "mentions": [
       {
@@ -1245,6 +1245,28 @@
           {
             "message": "fix(archive/v1/pose-service): call sanitize_phase, not sanitize (closes #612) (#614)",
             "date": "2026-05-17T23:34:08Z",
+            "author": "rUv"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-19 0000",
+        "summary": "**RuView** 是一个轻量级、高性能的实时视图同步框架，专为分布式系统设计。它通过去中心化的状态传播机制，实现毫秒级跨节点数据一致性，并支持动态拓扑扩展。核心价值在于以极低资源开销替代传统共识协议，适用于边缘计算与IoT场景下的实时协作。",
+        "reason": "ESP32-S3固件v0.6.5重构了Tmr服务栈与OTA初始化流程，修复了NVS无PSK时OTA上传失败及传感服务器WebSocket广播源硬编码问题。",
+        "commits": [
+          {
+            "message": "release: ESP32-S3 firmware v0.6.5 — Tmr Svc stack + OTA init refactor (#628)",
+            "date": "2026-05-18T21:05:35Z",
+            "author": "rUv"
+          },
+          {
+            "message": "fix(firmware): OTA upload fails closed when no PSK in NVS (RuView#596 audit) (#623)",
+            "date": "2026-05-18T12:56:07Z",
+            "author": "rUv"
+          },
+          {
+            "message": "fix(sensing-server): WS broadcast emits effective_source() not hardcoded \"esp32\" (closes #618) (#621)",
+            "date": "2026-05-18T12:18:18Z",
             "author": "rUv"
           }
         ]
@@ -6963,7 +6985,7 @@
   },
   "CloakHQ/CloakBrowser": {
     "firstMention": "2026-05-10",
-    "lastMention": "2026-05-12",
+    "lastMention": "2026-05-19",
     "link": "https://github.com/CloakHQ/CloakBrowser",
     "mentions": [
       {
@@ -7022,6 +7044,38 @@
             "message": "chore(deps): bump sigstore/cosign-installer in the actions group (#214)",
             "date": "2026-05-11T18:55:41Z",
             "author": "dependabot[bot]"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-19 0000",
+        "summary": "CloakBrowser 是一个基于 Chromium 的隐私增强浏览器，核心功能是通过动态指纹混淆和网络流量伪装，规避浏览器指纹追踪与深度包检测。它利用 WebRTC 泄漏防护、Canvas 指纹随机化及 TLS 握手定制，实现高匿名性，适合对抗高级在线监控。项目开源，但需注意其依赖第三方代理链，实际隐私强度取决于用户配置。",
+        "reason": "Puppeteer包装器新增持久化上下文启动功能，修复WebSocket源防护，并支持通过extension_paths参数加载Chrome扩展。",
+        "commits": [
+          {
+            "message": "feat(js): add launchPersistentContext to Puppeteer wrapper (#261)",
+            "date": "2026-05-18T16:05:58Z",
+            "author": "CloakHQ"
+          },
+          {
+            "message": "fix: guard cloakserve websocket origins (#240)",
+            "date": "2026-05-17T17:40:44Z",
+            "author": "이민재"
+          },
+          {
+            "message": "feat(js): export composable launch helpers (#244)",
+            "date": "2026-05-17T17:15:39Z",
+            "author": "이민재"
+          },
+          {
+            "message": "docs: update contributors and add extension_paths examples",
+            "date": "2026-05-15T19:14:26Z",
+            "author": "CloakHQ"
+          },
+          {
+            "message": "feat: add extension_paths parameter for loading Chrome extensions (#210)",
+            "date": "2026-05-15T19:08:42Z",
+            "author": "zack"
           }
         ]
       }
@@ -8031,12 +8085,44 @@
   },
   "BigBodyCobain/Shadowbroker": {
     "firstMention": "2026-05-17",
-    "lastMention": "2026-05-17",
+    "lastMention": "2026-05-19",
     "link": "https://github.com/BigBodyCobain/Shadowbroker",
     "mentions": [
       {
         "date": "2026-05-17 1200",
         "summary": "该仓库复现了Shadow Brokers泄露的NSA Equation Group攻击工具集，核心价值在于提供针对Windows系统的远程漏洞利用框架（如EternalBlue）及后门植入模块。项目整合了FuzzBunch交互式攻击平台与DoublePulsar后门，可直接用于内网横向渗透测试。对理解国家级APT武器化开发与防御策略具有实战参考意义。"
+      },
+      {
+        "date": "2026-05-19 0000",
+        "summary": "该仓库是ShadowBroker泄露的NSA黑客工具集（如EternalBlue、DoublePulsar）的复现与整合项目，提供自动化利用脚本和Payload生成器。核心价值在于降低国家级漏洞利用工具的使用门槛，便于红队测试与漏洞验证。需注意其法律风险，仅限授权环境使用。",
+        "reason": "合并PR #227和#232，修复了infonet控制面与fetcher的安全漏洞，并解决了安全邮件联系人水合竞态问题。",
+        "commits": [
+          {
+            "message": "Merge pull request #232 from BigBodyCobain/security/post-pr227-gap-fixes-v2",
+            "date": "2026-05-18T20:03:47Z",
+            "author": "Shadowbroker"
+          },
+          {
+            "message": "[security] Close post-#227 control-surface and fetcher gaps",
+            "date": "2026-05-18T19:53:33Z",
+            "author": "BigBodyCobain"
+          },
+          {
+            "message": "Merge pull request #227 from BigBodyCobain/codex/infonet-control-surface-hardening",
+            "date": "2026-05-18T18:56:51Z",
+            "author": "Shadowbroker"
+          },
+          {
+            "message": "Fix secure mail contact hydration race",
+            "date": "2026-05-18T18:38:20Z",
+            "author": "BigBodyCobain"
+          },
+          {
+            "message": "Harden infonet control surfaces",
+            "date": "2026-05-18T17:22:38Z",
+            "author": "BigBodyCobain"
+          }
+        ]
       }
     ]
   },

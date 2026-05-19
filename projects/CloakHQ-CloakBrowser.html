@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-10 1200</span>
-      <span>🕐 最近提及: 2026-05-12 0000</span>
-      <span>📊 被提及 7 次</span>
+      <span>🕐 最近提及: 2026-05-19 0000</span>
+      <span>📊 被提及 8 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">CloakBrowser 是一个基于 Chromium 的开源浏览器，核心功能是集成多代理与指纹混淆技术，实现用户身份与网络行为的深度匿名化。它通过动态切换浏览器指纹（如 Canvas、WebGL）和路由流量，对抗网站追踪与审查。适合高安全需求场景，如渗透测试、隐私研究或规避地理封锁。</div>
+  <div class="latest-summary">CloakBrowser 是一个基于 Chromium 的隐私增强浏览器，核心功能是通过动态指纹混淆和网络流量伪装，规避浏览器指纹追踪与深度包检测。它利用 WebRTC 泄漏防护、Canvas 指纹随机化及 TLS 握手定制，实现高匿名性，适合对抗高级在线监控。项目开源，但需注意其依赖第三方代理链，实际隐私强度取决于用户配置。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-19 0000</div>
+      <div class="mention-summary">Puppeteer包装器新增持久化上下文启动功能，修复WebSocket源防护，并支持通过extension_paths参数加载Chrome扩展。</div>
+      <div class="mention-commits"><div class="commit-item">• feat(js): add launchPersistentContext to Puppeteer wrapper (#261)</div><div class="commit-item">• fix: guard cloakserve websocket origins (#240)</div><div class="commit-item">• feat(js): export composable launch helpers (#244)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-12 0000</div>
       <div class="mention-summary">v0.3.28 修复了 cloakserve 路径遍历漏洞、添加 GeoIP 超时保护以防止启动挂起，并优化了 iframe 作用域显示。</div>

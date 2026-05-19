@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-03-03 0600</span>
-      <span>🕐 最近提及: 2026-05-18 1800</span>
-      <span>📊 被提及 16 次</span>
+      <span>🕐 最近提及: 2026-05-19 0000</span>
+      <span>📊 被提及 17 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">RuView 是一个轻量级、高性能的实时数据可视化引擎，专为低延迟监控与动态仪表盘场景设计。其核心优势在于基于 Rust 构建的零拷贝渲染管线与 WebAssembly 前端集成，能在浏览器中实现毫秒级帧刷新。该项目适合需要极致响应速度的金融、物联网或 DevOps 数据流可视化。</div>
+  <div class="latest-summary">**RuView** 是一个轻量级、高性能的实时视图同步框架，专为分布式系统设计。它通过去中心化的状态传播机制，实现毫秒级跨节点数据一致性，并支持动态拓扑扩展。核心价值在于以极低资源开销替代传统共识协议，适用于边缘计算与IoT场景下的实时协作。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-19 0000</div>
+      <div class="mention-summary">ESP32-S3固件v0.6.5重构了Tmr服务栈与OTA初始化流程，修复了NVS无PSK时OTA上传失败及传感服务器WebSocket广播源硬编码问题。</div>
+      <div class="mention-commits"><div class="commit-item">• release: ESP32-S3 firmware v0.6.5 — Tmr Svc stack + OTA init refactor (#628)</div><div class="commit-item">• fix(firmware): OTA upload fails closed when no PSK in NVS (RuView#596 audit) (#623)</div><div class="commit-item">• fix(sensing-server): WS broadcast emits effective_source() not hardcoded "esp32" (closes #618) (#621)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-18 1800</div>
       <div class="mention-summary">修复了OTA固件升级在无PSK时失败、传感服务器广播错误硬编码设备源、5个端点路径遍历漏洞、跨平台证明确定性计算以及v1姿态服务调用错误函数的安全与功能缺陷。</div>
