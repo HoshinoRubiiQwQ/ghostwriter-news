@@ -7257,7 +7257,7 @@
   },
   "tinyhumansai/openhuman": {
     "firstMention": "2026-05-11",
-    "lastMention": "2026-05-17",
+    "lastMention": "2026-05-19",
     "link": "https://github.com/tinyhumansai/openhuman",
     "mentions": [
       {
@@ -7549,6 +7549,38 @@
             "message": "fix(memory/chunker): split oversized single lines at word boundaries (#1891)",
             "date": "2026-05-17T08:38:14Z",
             "author": "T T"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-19 0600",
+        "summary": "**核心价值摘要**：  \nOpenHuman 是一个开源框架，旨在通过多模态数据（视频、传感器、3D扫描）生成高保真数字人模型，支持实时驱动与交互。其技术亮点在于端到端的神经渲染管线与轻量化部署能力，适用于虚拟现实、远程呈现及人机交互场景。",
+        "reason": "AI面板新增按工作负载配置温度与本地运行时端点URL功能，集成聊天工作负载与云端模型选择器，修复80余处国际化字符串，并实现吉祥物多语言语音回复。",
+        "commits": [
+          {
+            "message": "chore(staging): v0.53.51",
+            "date": "2026-05-19T05:05:38Z",
+            "author": "github-actions[bot]"
+          },
+          {
+            "message": "feat(ai-panel): per-workload temperature + endpoint URL UX for local runtimes (#2165)",
+            "date": "2026-05-19T05:04:54Z",
+            "author": "Steven Enamakel"
+          },
+          {
+            "message": "feat(ai-panel): add chat workload and cloud model picker with slug-based lookup fix (#2152)",
+            "date": "2026-05-18T22:04:57Z",
+            "author": "Mega Mind"
+          },
+          {
+            "message": "fix(i18n): fix ~80 broken/placeholder strings in en.ts (#2144)",
+            "date": "2026-05-18T21:52:46Z",
+            "author": "Mega Mind"
+          },
+          {
+            "message": "feat(mascot): locale-aware voice + multilingual LLM replies (#2115)",
+            "date": "2026-05-18T14:28:14Z",
+            "author": "Steven Enamakel"
           }
         ]
       }
