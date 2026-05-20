@@ -6714,7 +6714,7 @@
   },
   "rohitg00/agentmemory": {
     "firstMention": "2026-05-09",
-    "lastMention": "2026-05-14",
+    "lastMention": "2026-05-20",
     "link": "https://github.com/rohitg00/agentmemory",
     "mentions": [
       {
@@ -6806,6 +6806,38 @@
             "message": "chore(release): v0.9.12 — BM25 unicode + vector live-write + viewer hardening (#337)",
             "date": "2026-05-13T15:17:01Z",
             "author": "Rohit Ghumare"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-20 0000",
+        "summary": "**核心价值摘要**：  \n`agentmemory` 是一个轻量级、可嵌入的向量记忆库，专为 AI Agent 设计，支持持久化存储与语义检索。它通过封装 FAISS 和 SQLite，提供零配置的长期记忆管理，使 Agent 能高效存取历史交互与知识，无需依赖外部数据库。",
+        "reason": "v0.9.21 发布：修复智能搜索中课程可见性、大会话分块适配LLM上下文窗口、重建索引批量嵌入（大型语料库从25小时降至3小时）及非阻塞启动流程。",
+        "commits": [
+          {
+            "message": "chore(release): v0.9.21 (#551)",
+            "date": "2026-05-19T18:37:19Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "fix(visibility): surface lessons in smart-search + tally per-store in diagnose (#473)",
+            "date": "2026-05-19T18:29:46Z",
+            "author": "efenex"
+          },
+          {
+            "message": "fix(summarize): chunk large sessions to fit LLM context window (#472)",
+            "date": "2026-05-19T18:29:06Z",
+            "author": "efenex"
+          },
+          {
+            "message": "fix(rebuild): batch embed calls in rebuildIndex (25h → 3h on large corpora) (#504)",
+            "date": "2026-05-19T18:27:33Z",
+            "author": "efenex"
+          },
+          {
+            "message": "fix(boot): make rebuildIndex non-blocking so viewer + later boot steps run (#500)",
+            "date": "2026-05-19T18:20:18Z",
+            "author": "efenex"
           }
         ]
       }

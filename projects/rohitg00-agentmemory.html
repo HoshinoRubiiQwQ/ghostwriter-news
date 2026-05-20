@@ -76,17 +76,22 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-09 1200</span>
-      <span>🕐 最近提及: 2026-05-14 0000</span>
-      <span>📊 被提及 9 次</span>
+      <span>🕐 最近提及: 2026-05-20 0000</span>
+      <span>📊 被提及 10 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">**核心价值摘要：**  
-`agentmemory` 是一个为AI代理设计的轻量级、持久化记忆库，支持向量搜索与结构化元数据过滤。它通过本地嵌入与分层存储（短期/长期记忆），使代理能高效检索历史交互，解决上下文窗口限制与知识遗忘问题。</div>
+  <div class="latest-summary">**核心价值摘要**：  
+`agentmemory` 是一个轻量级、可嵌入的向量记忆库，专为 AI Agent 设计，支持持久化存储与语义检索。它通过封装 FAISS 和 SQLite，提供零配置的长期记忆管理，使 Agent 能高效存取历史交互与知识，无需依赖外部数据库。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-20 0000</div>
+      <div class="mention-summary">v0.9.21 发布：修复智能搜索中课程可见性、大会话分块适配LLM上下文窗口、重建索引批量嵌入（大型语料库从25小时降至3小时）及非阻塞启动流程。</div>
+      <div class="mention-commits"><div class="commit-item">• chore(release): v0.9.21 (#551)</div><div class="commit-item">• fix(visibility): surface lessons in smart-search + tally per-store in diagnose (#473)</div><div class="commit-item">• fix(summarize): chunk large sessions to fit LLM context window (#472)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-14 0000</div>
       <div class="mention-summary">BM25 搜索新增 CJK 分词器，向量支持实时写入，基准测试框架增加 p50/p90/p99 延迟指标，并修复 14 个安全漏洞。</div>
