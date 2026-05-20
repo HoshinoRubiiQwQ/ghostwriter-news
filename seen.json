@@ -2541,7 +2541,7 @@
   },
   "anthropics/claude-plugins-official": {
     "firstMention": "2026-03-14",
-    "lastMention": "2026-05-19",
+    "lastMention": "2026-05-20",
     "link": "https://github.com/anthropics/claude-plugins-official",
     "mentions": [
       {
@@ -2596,6 +2596,38 @@
           {
             "message": "Add convex-backend plugin (#1918)",
             "date": "2026-05-18T23:56:50Z",
+            "author": "Tobin South"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-20 1200",
+        "summary": "Anthropic官方发布的Claude插件仓库，提供与Claude模型交互的标准化工具接口。核心价值在于通过插件系统扩展Claude的实时数据获取、代码执行和外部API调用能力，实现从纯文本对话到可操作智能体的功能跃迁。该仓库包含官方维护的插件模板和最佳实践，是构建Claude生态系统的关键基础设施。",
+        "reason": "合并拉取请求修复了Claude插件根路径引用问题，升级snowflake-cortex-code至v3.1.0，新增24个来自主要品牌组织的一方插件，并将25个插件SHA锁定至上游HEAD。",
+        "commits": [
+          {
+            "message": "Merge pull request #1935 from anthropics/fix/quote-claude-plugin-root-paths",
+            "date": "2026-05-20T00:54:18Z",
+            "author": "Mohamed Hegazy"
+          },
+          {
+            "message": "fix: quote \\${CLAUDE_PLUGIN_ROOT} in hookify and security-guidance hook commands",
+            "date": "2026-05-19T22:37:56Z",
+            "author": "Mohamed Hegazy"
+          },
+          {
+            "message": "Bump snowflake-cortex-code to v3.1.0 (#1932)",
+            "date": "2026-05-19T17:55:48Z",
+            "author": "Bryan Thompson"
+          },
+          {
+            "message": "Add 24 first-party plugins from major-brand orgs (#1919)",
+            "date": "2026-05-19T13:20:20Z",
+            "author": "Tobin South"
+          },
+          {
+            "message": "Bump 25 plugin SHA pins to upstream HEAD (huggingface–railway) (#1914)",
+            "date": "2026-05-19T13:19:35Z",
             "author": "Tobin South"
           }
         ]
@@ -7321,7 +7353,7 @@
   },
   "tinyhumansai/openhuman": {
     "firstMention": "2026-05-11",
-    "lastMention": "2026-05-19",
+    "lastMention": "2026-05-20",
     "link": "https://github.com/tinyhumansai/openhuman",
     "mentions": [
       {
@@ -7677,6 +7709,38 @@
             "message": "feat(inference): gate local Ollama models by memory-layer context-window minimum (#2122)",
             "date": "2026-05-19T14:10:06Z",
             "author": "sanil-23"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-20 1200",
+        "summary": "**核心价值摘要：**  \nOpenHuman 提供一套模块化、可复现的3D人体感知与重建框架，覆盖姿态估计、形状重建、纹理生成等全流程。其核心优势在于统一多任务接口与预训练模型，降低学术与工业场景中人体数字化技术的部署门槛。",
+        "reason": "架构升级至v3版本，新增文档摄取工具及L0时间门控密封与周期性刷新机制，同步端到端测试规范。",
+        "commits": [
+          {
+            "message": "feat(migrations): update schema version to 3 and retire chat-v1 model (#2337)",
+            "date": "2026-05-20T11:08:37Z",
+            "author": "Mega Mind"
+          },
+          {
+            "message": "chore(staging): v0.54.3",
+            "date": "2026-05-20T09:49:36Z",
+            "author": "github-actions[bot]"
+          },
+          {
+            "message": "feat(memory-tree): add ingest_document tool for tree write path (#2217)",
+            "date": "2026-05-20T06:18:56Z",
+            "author": "Maxen Wong"
+          },
+          {
+            "message": "feat(memory-tree): L0 time-gated seal and periodic flush for low-volu… (#2218)",
+            "date": "2026-05-20T06:18:40Z",
+            "author": "Maxen Wong"
+          },
+          {
+            "message": "fix(e2e): sync E2E specs with current codebase (#2220)",
+            "date": "2026-05-20T05:46:56Z",
+            "author": "YellowSnnowmann"
           }
         ]
       }
@@ -8381,6 +8445,39 @@
             "author": "aesoft"
           }
         ]
+      }
+    ]
+  },
+  "multica-ai/andrej-karpathy-skills": {
+    "firstMention": "2026-05-20",
+    "lastMention": "2026-05-20",
+    "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "mentions": [
+      {
+        "date": "2026-05-20 1200",
+        "summary": "该项目复现了Andrej Karpathy的AI技能栈，核心是构建轻量级、可复用的深度学习训练框架。通过模块化设计，它简化了从数据加载到模型部署的流程，特别适合快速原型验证和教学场景。技术亮点在于对PyTorch底层API的深度封装，兼顾性能与可读性。"
+      }
+    ]
+  },
+  "rohitg00/ai-engineering-from-scratch": {
+    "firstMention": "2026-05-20",
+    "lastMention": "2026-05-20",
+    "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "mentions": [
+      {
+        "date": "2026-05-20 1200",
+        "summary": "该项目提供从零构建AI工程核心组件的实战教程，涵盖神经网络、优化器、Transformer等底层实现。通过纯Python代码复现主流框架（如PyTorch）的关键模块，适合深入理解AI系统原理而非仅调包。硬核之处在于剥离抽象层，直面梯度计算、反向传播等底层细节。"
+      }
+    ]
+  },
+  "can1357/oh-my-pi": {
+    "firstMention": "2026-05-20",
+    "lastMention": "2026-05-20",
+    "link": "https://github.com/can1357/oh-my-pi",
+    "mentions": [
+      {
+        "date": "2026-05-20 1200",
+        "summary": "该项目提供了一套针对树莓派（Raspberry Pi）的底层硬件调试与安全研究工具链，核心功能包括直接访问GPIO、内存映射、外设寄存器读写以及JTAG/SWD调试接口。它通过绕过操作系统抽象层，实现裸机级别的硬件控制，适用于固件逆向、漏洞挖掘及嵌入式系统开发。工具集成了Python绑定和命令行接口，显著降低了树莓派硬件安全分析的入门门槛。"
       }
     ]
   }
