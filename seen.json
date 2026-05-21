@@ -7353,7 +7353,7 @@
   },
   "tinyhumansai/openhuman": {
     "firstMention": "2026-05-11",
-    "lastMention": "2026-05-20",
+    "lastMention": "2026-05-21",
     "link": "https://github.com/tinyhumansai/openhuman",
     "mentions": [
       {
@@ -7741,6 +7741,38 @@
             "message": "fix(e2e): sync E2E specs with current codebase (#2220)",
             "date": "2026-05-20T05:46:56Z",
             "author": "YellowSnnowmann"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-21 0000",
+        "summary": "**核心价值摘要**：  \nOpenHuman 是一个开源人体建模与合成框架，专为高保真数字人生成设计。它整合了神经渲染、3D 重建与动作驱动技术，支持从单目视频到可控虚拟角色的端到端流水线。项目旨在降低数字人制作门槛，为影视、游戏及虚拟现实提供可复现的工业级解决方案。",
+        "reason": "新增设备端多语言PII脱敏功能，修复认证锁过期回收、子进程暂停、浏览器运行时配置保护及可观测性分类器传输与配置拒绝问题。",
+        "commits": [
+          {
+            "message": "Let auth profile locks reach stale reclaim",
+            "date": "2026-05-20T23:59:23Z",
+            "author": "Aqil Aziz"
+          },
+          {
+            "message": "fix(subconscious): pause when provider unavailable",
+            "date": "2026-05-20T23:57:21Z",
+            "author": "Aqil Aziz"
+          },
+          {
+            "message": "fix(config): guard browser allow-all runtime toggle",
+            "date": "2026-05-20T23:56:00Z",
+            "author": "Aqil Aziz"
+          },
+          {
+            "message": "feat(memory): on-device multilingual PII redaction",
+            "date": "2026-05-20T23:54:38Z",
+            "author": "YellowSnnowmann"
+          },
+          {
+            "message": "fix(observability): Wave 4 classifier — socket transport + custom-provider config-rejection (~366 events, 13 IDs)",
+            "date": "2026-05-20T23:54:07Z",
+            "author": "oxoxDev"
           }
         ]
       }
@@ -8244,7 +8276,7 @@
   },
   "colbymchenry/codegraph": {
     "firstMention": "2026-05-16",
-    "lastMention": "2026-05-20",
+    "lastMention": "2026-05-21",
     "link": "https://github.com/colbymchenry/codegraph",
     "mentions": [
       {
@@ -8280,6 +8312,38 @@
             "message": "release: 0.7.10 (Windows mojibake fix, module-qualified symbol lookups, MCP handshake)",
             "date": "2026-05-19T16:32:47Z",
             "author": "Colby McHenry"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-21 0000",
+        "summary": "**核心价值摘要**：  \n`codegraph` 是一个基于静态分析的代码依赖关系可视化工具，通过解析AST生成函数/模块级调用图，支持交互式探索与导出。其核心价值在于零运行时依赖、快速解析大型代码库，并自动识别循环依赖与死代码，适合重构审计与架构逆向工程。",
+        "reason": "项目发布v0.8.0，新增NestJS框架支持，优化MCP模块实现约35%成本降低和70%工具调用减少，并扩展Kotlin/Swift测试文件检测能力。",
+        "commits": [
+          {
+            "message": "release: 0.8.0",
+            "date": "2026-05-20T23:41:42Z",
+            "author": "Colby McHenry"
+          },
+          {
+            "message": "Readme updated and detect test files in kotlin and swift",
+            "date": "2026-05-20T23:36:18Z",
+            "author": "Colby McHenry"
+          },
+          {
+            "message": "feat(frameworks): add NestJS support (#220) (#225)",
+            "date": "2026-05-20T22:09:54Z",
+            "author": "Colby Mchenry"
+          },
+          {
+            "message": "Update README",
+            "date": "2026-05-20T21:37:34Z",
+            "author": "Colby McHenry"
+          },
+          {
+            "message": "perf(mcp): answer-directly steering — ~35% cheaper, ~70% fewer tool calls (#224)",
+            "date": "2026-05-20T21:33:50Z",
+            "author": "Colby Mchenry"
           }
         ]
       }
