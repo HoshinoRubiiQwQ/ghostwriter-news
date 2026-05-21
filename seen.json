@@ -8544,5 +8544,38 @@
         "summary": "该项目提供了一套针对树莓派（Raspberry Pi）的底层硬件调试与安全研究工具链，核心功能包括直接访问GPIO、内存映射、外设寄存器读写以及JTAG/SWD调试接口。它通过绕过操作系统抽象层，实现裸机级别的硬件控制，适用于固件逆向、漏洞挖掘及嵌入式系统开发。工具集成了Python绑定和命令行接口，显著降低了树莓派硬件安全分析的入门门槛。"
       }
     ]
+  },
+  "dotnet/skills": {
+    "firstMention": "2026-05-21",
+    "lastMention": "2026-05-21",
+    "link": "https://github.com/dotnet/skills",
+    "mentions": [
+      {
+        "date": "2026-05-21 1200",
+        "summary": "dotnet/skills 是微软官方推出的 .NET 智能体技能框架，用于将 AI 能力（如 LLM 调用、语义记忆、工具编排）无缝集成到 .NET 应用中。它提供声明式技能定义、可组合管道与内置对话管理，显著降低构建智能代理的工程复杂度。核心价值在于让 .NET 开发者无需深究 AI 基础设施，即可快速实现自然语言驱动的自动化工作流。"
+      }
+    ]
+  },
+  "rmyndharis/OpenWA": {
+    "firstMention": "2026-05-21",
+    "lastMention": "2026-05-21",
+    "link": "https://github.com/rmyndharis/OpenWA",
+    "mentions": [
+      {
+        "date": "2026-05-21 1200",
+        "summary": "OpenWA 是一个开源 WhatsApp API 替代方案，旨在绕过官方限制，提供消息收发、媒体处理与群组管理功能。其核心价值在于以轻量级 Docker 部署实现高并发通信，适合需要低成本、自托管 WhatsApp 集成的小型团队或开发者。技术栈基于 Node.js，支持 Webhook 与 RESTful 接口，便于二次开发。"
+      }
+    ]
+  },
+  "teng-lin/notebooklm-py": {
+    "firstMention": "2026-05-21",
+    "lastMention": "2026-05-21",
+    "link": "https://github.com/teng-lin/notebooklm-py",
+    "mentions": [
+      {
+        "date": "2026-05-21 1200",
+        "summary": "**核心价值摘要**：  \n`notebooklm-py` 是一个轻量级 Python 库，封装了 Google NotebookLM 的底层 API，实现文档自动摘要、问答与知识图谱生成。它通过异步请求与流式处理，支持批量文档的高效解析，适合快速搭建个人知识库或研究辅助工具。"
+      }
+    ]
   }
 }
