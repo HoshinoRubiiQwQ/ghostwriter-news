@@ -2541,7 +2541,7 @@
   },
   "anthropics/claude-plugins-official": {
     "firstMention": "2026-03-14",
-    "lastMention": "2026-05-20",
+    "lastMention": "2026-05-21",
     "link": "https://github.com/anthropics/claude-plugins-official",
     "mentions": [
       {
@@ -2629,6 +2629,38 @@
             "message": "Bump 25 plugin SHA pins to upstream HEAD (huggingface–railway) (#1914)",
             "date": "2026-05-19T13:19:35Z",
             "author": "Tobin South"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-21 1800",
+        "summary": "Anthropic官方发布的Claude插件仓库，提供与Claude API集成的标准化工具接口，支持搜索、代码执行等扩展功能。核心价值在于降低开发者构建Claude应用的门槛，通过预构建插件实现快速功能集成。该仓库是Claude生态系统的关键基础设施，推动大模型从对话向工具化应用演进。",
+        "reason": "MCP 隧道插件正式发布，并将 mcp-gateway 全面重命名为 mcp-proxy，同时集成 MercadoPago v2 支付网关与 PreToolUse 钩子控制。",
+        "commits": [
+          {
+            "message": "Merge pull request #1953 from anthropics/add-plugin/mcp-tunnels",
+            "date": "2026-05-21T06:16:43Z",
+            "author": "Den Delimarsky"
+          },
+          {
+            "message": "Rename mcp-gateway -> mcp-proxy throughout",
+            "date": "2026-05-21T06:06:15Z",
+            "author": "Den Delimarsky"
+          },
+          {
+            "message": "Link to public MCP tunnels docs and use public mcp-proxy image",
+            "date": "2026-05-21T05:39:34Z",
+            "author": "Den Delimarsky"
+          },
+          {
+            "message": "Add mcp-tunnels plugin",
+            "date": "2026-05-21T05:24:44Z",
+            "author": "Den Delimarsky"
+          },
+          {
+            "message": "Bump mercadopago to 63ff263c (v2 + PreToolUse hook gating) (#1949)",
+            "date": "2026-05-20T21:47:38Z",
+            "author": "claude[bot]"
           }
         ]
       }
