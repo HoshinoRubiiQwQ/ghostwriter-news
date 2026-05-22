@@ -1070,7 +1070,7 @@
   },
   "ruvnet/RuView": {
     "firstMention": "2026-03-03",
-    "lastMention": "2026-05-19",
+    "lastMention": "2026-05-22",
     "link": "https://github.com/ruvnet/RuView",
     "mentions": [
       {
@@ -1267,6 +1267,38 @@
           {
             "message": "fix(sensing-server): WS broadcast emits effective_source() not hardcoded \"esp32\" (closes #618) (#621)",
             "date": "2026-05-18T12:18:18Z",
+            "author": "rUv"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-22 1200",
+        "summary": "RuView 是一个轻量级、高性能的实时视图更新框架，专为低延迟数据可视化场景设计。它通过事件驱动架构和增量渲染算法，在浏览器端实现毫秒级响应，显著减少 DOM 操作开销。核心价值在于为动态数据仪表盘和实时监控系统提供极简且高效的渲染方案。",
+        "reason": "基于R20.1/20.2版本，项目实现了基于阈值的无缝切换（0.5米工作、1米谐波间隙触发Pan-Tompkins需求）和贝叶斯融合演示（验证R13 NEG与16立方律），并首次引入量子增强认知规范（ADR-114），同时将研究SOTA示例重组为9个主题文件夹并补充完整文档。",
+        "commits": [
+          {
+            "message": "research(R20.2): threshold-based hand-off — works at 0.5 m, harmonic gap at 1 m surfaces Pan-Tompkins requirement (#746)",
+            "date": "2026-05-22T11:57:48Z",
+            "author": "rUv"
+          },
+          {
+            "message": "docs(examples/research-sota): add main + 9 sub-folder READMEs (follow-up to #744) (#745)",
+            "date": "2026-05-22T11:54:19Z",
+            "author": "rUv"
+          },
+          {
+            "message": "chore: organise examples/research-sota/ into 9 thematic folders with READMEs (#744)",
+            "date": "2026-05-22T11:52:57Z",
+            "author": "rUv"
+          },
+          {
+            "message": "research(R20.1): working Bayesian fusion demo for ADR-114 — empirically validates R13 NEG + doc 16 cube-law (#743)",
+            "date": "2026-05-22T11:48:08Z",
+            "author": "rUv"
+          },
+          {
+            "message": "adr-114: cog-quantum-vitals — first quantum-augmented cog spec, recovers R13 NEGATIVE (#742)",
+            "date": "2026-05-22T11:37:44Z",
             "author": "rUv"
           }
         ]
@@ -8611,12 +8643,34 @@
   },
   "dotnet/skills": {
     "firstMention": "2026-05-21",
-    "lastMention": "2026-05-21",
+    "lastMention": "2026-05-22",
     "link": "https://github.com/dotnet/skills",
     "mentions": [
       {
         "date": "2026-05-21 1200",
         "summary": "dotnet/skills 是微软官方推出的 .NET 智能体技能框架，用于将 AI 能力（如 LLM 调用、语义记忆、工具编排）无缝集成到 .NET 应用中。它提供声明式技能定义、可组合管道与内置对话管理，显著降低构建智能代理的工程复杂度。核心价值在于让 .NET 开发者无需深究 AI 基础设施，即可快速实现自然语言驱动的自动化工作流。"
+      },
+      {
+        "date": "2026-05-22 1200",
+        "summary": "dotnet/skills 是微软 .NET 团队推出的 AI 技能框架，用于将 LLM 能力（如 OpenAI）无缝集成到 .NET 应用中。它提供声明式技能定义、语义内核（Semantic Kernel）集成及插件化扩展，显著降低 AI 功能开发门槛。核心价值在于让 .NET 开发者以原生方式调用 AI 模型，无需深究底层推理细节。",
+        "reason": "MSBuild 目标编写技能与 Web API 技能新增，并将 AITools.BinlogMcp 源迁移至 dotnet-tools 源。",
+        "commits": [
+          {
+            "message": "Add MSBuild target authoring skills (target-authoring, property-patterns, item-management, extension-points) (#669)",
+            "date": "2026-05-22T09:39:23Z",
+            "author": "YuliiaKovalova"
+          },
+          {
+            "message": "Add web api skill and tests (#613)",
+            "date": "2026-05-21T16:51:05Z",
+            "author": "Sayed Ibrahim Hashimi"
+          },
+          {
+            "message": "dotnet-msbuild: move AITools.BinlogMcp source to dotnet-tools feed (#680)",
+            "date": "2026-05-21T11:14:51Z",
+            "author": "Jan Krivanek"
+          }
+        ]
       }
     ]
   },
@@ -8671,6 +8725,50 @@
             "author": "Teng Lin"
           }
         ]
+      }
+    ]
+  },
+  "Lum1104/Understand-Anything": {
+    "firstMention": "2026-05-22",
+    "lastMention": "2026-05-22",
+    "link": "https://github.com/Lum1104/Understand-Anything",
+    "mentions": [
+      {
+        "date": "2026-05-22 1200",
+        "summary": "该项目提供一套模块化工具链，用于自动化解析和结构化处理任意格式的输入数据（文本、代码、日志等）。核心价值在于通过可插拔的解析器与语义映射引擎，将非结构化信息转化为机器可读的知识图谱，显著降低数据清洗与特征工程的人力成本。适用于需要快速构建领域知识库或进行大规模异构数据融合的技术场景。"
+      }
+    ]
+  },
+  "odoo/odoo": {
+    "firstMention": "2026-05-22",
+    "lastMention": "2026-05-22",
+    "link": "https://github.com/odoo/odoo",
+    "mentions": [
+      {
+        "date": "2026-05-22 1200",
+        "summary": "Odoo 是一套开源企业资源规划（ERP）及全栈业务应用套件，覆盖 CRM、电商、会计、库存等模块。其核心价值在于模块化架构与低代码扩展能力，支持企业按需集成并快速定制业务流程。作为社区驱动的项目，它提供了高性价比的替代方案，尤其适合中小型企业数字化转型。"
+      }
+    ]
+  },
+  "byJoey/cfnew": {
+    "firstMention": "2026-05-22",
+    "lastMention": "2026-05-22",
+    "link": "https://github.com/byJoey/cfnew",
+    "mentions": [
+      {
+        "date": "2026-05-22 1200",
+        "summary": "byJoey/cfnew 是一个基于Cloudflare Workers的轻量级反向代理工具，专注于绕过网络限制访问被屏蔽的网站。它利用Cloudflare的全球边缘网络实现低延迟转发，支持自定义路由规则和HTTPS加密，部署简单且无需维护服务器。核心价值在于提供高效、零成本的网络访问解决方案，适合开发者快速搭建个人代理服务。"
+      }
+    ]
+  },
+  "trimstray/the-book-of-secret-knowledge": {
+    "firstMention": "2026-05-22",
+    "lastMention": "2026-05-22",
+    "link": "https://github.com/trimstray/the-book-of-secret-knowledge",
+    "mentions": [
+      {
+        "date": "2026-05-22 1200",
+        "summary": "该仓库是面向系统管理员、安全工程师和DevOps的硬核技术手册，汇集了CLI工具、网络分析、漏洞利用、性能调优等领域的精选资源与实战命令。核心价值在于提供可直接复用的攻击面检测、日志审计、内核参数调优等操作指南，并附有大量开源工具链的配置示例与最佳实践。"
       }
     ]
   }
