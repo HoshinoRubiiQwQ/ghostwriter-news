@@ -1302,6 +1302,38 @@
             "author": "rUv"
           }
         ]
+      },
+      {
+        "date": "2026-05-22 1800",
+        "summary": "**RuView** 是一个轻量级、高性能的实时数据可视化引擎，专为低延迟监控与动态仪表盘场景设计。其核心优势在于通过零拷贝渲染管线与增量更新算法，在百万级数据点下仍保持亚毫秒级帧响应。项目采用模块化架构，支持自定义数据源适配与GPU加速，适用于高频交易、物联网实时流等硬实时可视化需求。",
+        "reason": "项目完成SOTA研究循环闭环，实现基于阈值的0.5米交接与1米谐波间隙，并重构文档结构为9个主题文件夹。",
+        "commits": [
+          {
+            "message": "docs(readme): swap hero image to ruview-seed.png (#753)",
+            "date": "2026-05-22T15:07:43Z",
+            "author": "rUv"
+          },
+          {
+            "message": "research(sota-loop): final 00-summary.md — loop closes at 12:00 UTC stop (#747)",
+            "date": "2026-05-22T12:07:08Z",
+            "author": "rUv"
+          },
+          {
+            "message": "research(R20.2): threshold-based hand-off — works at 0.5 m, harmonic gap at 1 m surfaces Pan-Tompkins requirement (#746)",
+            "date": "2026-05-22T11:57:48Z",
+            "author": "rUv"
+          },
+          {
+            "message": "docs(examples/research-sota): add main + 9 sub-folder READMEs (follow-up to #744) (#745)",
+            "date": "2026-05-22T11:54:19Z",
+            "author": "rUv"
+          },
+          {
+            "message": "chore: organise examples/research-sota/ into 9 thematic folders with READMEs (#744)",
+            "date": "2026-05-22T11:52:57Z",
+            "author": "rUv"
+          }
+        ]
       }
     ]
   },
