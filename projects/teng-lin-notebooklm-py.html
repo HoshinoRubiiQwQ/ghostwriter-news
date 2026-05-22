@@ -76,17 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-21 1200</span>
-      <span>🕐 最近提及: 2026-05-21 1200</span>
-      <span>📊 被提及 1 次</span>
+      <span>🕐 最近提及: 2026-05-22 0600</span>
+      <span>📊 被提及 2 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">**核心价值摘要**：  
-`notebooklm-py` 是一个轻量级 Python 库，封装了 Google NotebookLM 的底层 API，实现文档自动摘要、问答与知识图谱生成。它通过异步请求与流式处理，支持批量文档的高效解析，适合快速搭建个人知识库或研究辅助工具。</div>
+  <div class="latest-summary">一个轻量级Python库，封装了Google NotebookLM的API接口，支持文档解析、音频生成与多模态交互。核心价值在于将NotebookLM的AI笔记能力程序化，便于开发者批量处理知识库、自动化生成播客式摘要。适合需要将LLM笔记功能集成到工作流的场景。</div>
 
   <div class="section-title">更新记录</div>
-  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-05-22 0600</div>
+      <div class="mention-summary">重构CLI会话模块为四个独立组件，并依据ADR-008将Click与渲染逻辑从服务层剥离，同时修复文档漂移并新增阶段三服务合规性测试。</div>
+      <div class="mention-commits"><div class="commit-item">• test(cli): cover phase 3 service compliance (#968)</div><div class="commit-item">• refactor(cli/session): split into playwright_login + session_context + auth_diagnostics + AuthSource (#962)</div><div class="commit-item">• docs: fix 4 doc-drift findings from #945 retroactive review (#966)</div></div>
+    </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
 </div>

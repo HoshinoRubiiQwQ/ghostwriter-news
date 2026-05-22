@@ -8633,12 +8633,44 @@
   },
   "teng-lin/notebooklm-py": {
     "firstMention": "2026-05-21",
-    "lastMention": "2026-05-21",
+    "lastMention": "2026-05-22",
     "link": "https://github.com/teng-lin/notebooklm-py",
     "mentions": [
       {
         "date": "2026-05-21 1200",
         "summary": "**核心价值摘要**：  \n`notebooklm-py` 是一个轻量级 Python 库，封装了 Google NotebookLM 的底层 API，实现文档自动摘要、问答与知识图谱生成。它通过异步请求与流式处理，支持批量文档的高效解析，适合快速搭建个人知识库或研究辅助工具。"
+      },
+      {
+        "date": "2026-05-22 0600",
+        "summary": "一个轻量级Python库，封装了Google NotebookLM的API接口，支持文档解析、音频生成与多模态交互。核心价值在于将NotebookLM的AI笔记能力程序化，便于开发者批量处理知识库、自动化生成播客式摘要。适合需要将LLM笔记功能集成到工作流的场景。",
+        "reason": "重构CLI会话模块为四个独立组件，并依据ADR-008将Click与渲染逻辑从服务层剥离，同时修复文档漂移并新增阶段三服务合规性测试。",
+        "commits": [
+          {
+            "message": "test(cli): cover phase 3 service compliance (#968)",
+            "date": "2026-05-22T05:12:45Z",
+            "author": "Teng Lin"
+          },
+          {
+            "message": "refactor(cli/session): split into playwright_login + session_context + auth_diagnostics + AuthSource (#962)",
+            "date": "2026-05-22T04:18:04Z",
+            "author": "Teng Lin"
+          },
+          {
+            "message": "docs: fix 4 doc-drift findings from #945 retroactive review (#966)",
+            "date": "2026-05-22T04:08:54Z",
+            "author": "Teng Lin"
+          },
+          {
+            "message": "test(cli/generate): assert stderr-emitted messages via result.stderr (#965)",
+            "date": "2026-05-22T04:08:45Z",
+            "author": "Teng Lin"
+          },
+          {
+            "message": "refactor(cli/services): lift Click + rendering out per ADR-008 (closes I0, I10) (#961)",
+            "date": "2026-05-22T03:33:40Z",
+            "author": "Teng Lin"
+          }
+        ]
       }
     ]
   }
