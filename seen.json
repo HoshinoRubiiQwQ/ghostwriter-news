@@ -8308,7 +8308,7 @@
   },
   "colbymchenry/codegraph": {
     "firstMention": "2026-05-16",
-    "lastMention": "2026-05-21",
+    "lastMention": "2026-05-22",
     "link": "https://github.com/colbymchenry/codegraph",
     "mentions": [
       {
@@ -8376,6 +8376,38 @@
             "message": "perf(mcp): answer-directly steering — ~35% cheaper, ~70% fewer tool calls (#224)",
             "date": "2026-05-20T21:33:50Z",
             "author": "Colby Mchenry"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-22 0000",
+        "summary": "**核心价值摘要**：  \nCodegraph 是一个基于图数据库的代码分析工具，通过构建代码的依赖与调用关系图，实现跨文件、跨语言的静态分析。它支持快速检索函数调用链、模块依赖及数据流，适用于大型代码库的逆向工程与安全审计。",
+        "reason": "零配置索引支持.gitignore驱动，新增Drupal 8-11框架支持，Hermes Agent安装目标，并修复了/tmp会话标记写入时拒绝跟随符号链接的安全漏洞。",
+        "commits": [
+          {
+            "message": "feat: zero-config indexing driven by .gitignore (#283) (#285)",
+            "date": "2026-05-21T23:06:02Z",
+            "author": "Colby Mchenry"
+          },
+          {
+            "message": "feat(frameworks): add Drupal 8/9/10/11 support (#271)",
+            "date": "2026-05-21T22:11:19Z",
+            "author": "Marcelo Vani"
+          },
+          {
+            "message": "feat(installer): add Hermes Agent target (#274)",
+            "date": "2026-05-21T22:03:18Z",
+            "author": "roach"
+          },
+          {
+            "message": "fix(security): refuse to follow symlinks when writing /tmp session marker (#280)",
+            "date": "2026-05-21T21:58:41Z",
+            "author": "@aaronjmars"
+          },
+          {
+            "message": "docs(readme): rewrite database-is-locked troubleshooting for the bundled backend",
+            "date": "2026-05-21T21:21:06Z",
+            "author": "Colby McHenry"
           }
         ]
       }
