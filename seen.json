@@ -8372,7 +8372,7 @@
   },
   "colbymchenry/codegraph": {
     "firstMention": "2026-05-16",
-    "lastMention": "2026-05-22",
+    "lastMention": "2026-05-23",
     "link": "https://github.com/colbymchenry/codegraph",
     "mentions": [
       {
@@ -8472,6 +8472,38 @@
             "message": "docs(readme): rewrite database-is-locked troubleshooting for the bundled backend",
             "date": "2026-05-21T21:21:06Z",
             "author": "Colby McHenry"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-23 1200",
+        "summary": "**核心价值摘要**：  \n`codegraph` 是一个静态代码分析工具，通过构建函数级调用图与数据流依赖关系，实现跨语言（如Python、Rust）的代码结构可视化与复杂度量化。其核心价值在于自动化生成可交互的依赖图谱，辅助开发者快速定位模块耦合、死代码及架构腐化点，尤其适合大型代码库的逆向工程与重构规划。",
+        "reason": "新增CLI调用者/被调用者/影响分析命令实现与MCP功能对等，修复MCP子进程清理和Windows兼容性问题。",
+        "commits": [
+          {
+            "message": "docs(readme): add codegraph_explore to the MCP Tools table (#226)",
+            "date": "2026-05-22T20:23:24Z",
+            "author": "Aimore"
+          },
+          {
+            "message": "feat(cli): add callers, callees, impact commands for CLI/MCP parity (#204)",
+            "date": "2026-05-22T20:18:23Z",
+            "author": "zhuchaokn"
+          },
+          {
+            "message": "fix(mcp): reap serve --mcp child when parent is SIGKILL'd (#286)",
+            "date": "2026-05-22T20:02:29Z",
+            "author": "Infinity_Block"
+          },
+          {
+            "message": "docs(readme): link support badges to sections (#326)",
+            "date": "2026-05-22T19:49:49Z",
+            "author": "Andrew Barnes"
+          },
+          {
+            "message": "fix(mcp): make session-marker symlink resistance work on Windows (#337)",
+            "date": "2026-05-22T19:23:10Z",
+            "author": "Colby Mchenry"
           }
         ]
       }
@@ -8801,6 +8833,28 @@
       {
         "date": "2026-05-22 1200",
         "summary": "该仓库是面向系统管理员、安全工程师和DevOps的硬核技术手册，汇集了CLI工具、网络分析、漏洞利用、性能调优等领域的精选资源与实战命令。核心价值在于提供可直接复用的攻击面检测、日志审计、内核参数调优等操作指南，并附有大量开源工具链的配置示例与最佳实践。"
+      }
+    ]
+  },
+  "mukul975/Anthropic-Cybersecurity-Skills": {
+    "firstMention": "2026-05-23",
+    "lastMention": "2026-05-23",
+    "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "mentions": [
+      {
+        "date": "2026-05-23 1200",
+        "summary": "该仓库提供了一套基于Anthropic Claude模型的网络安全技能评估与训练框架，通过结构化提示词和场景化任务，量化AI在渗透测试、威胁分析等领域的表现。核心价值在于为红队自动化、安全培训提供可复用的基准测试集，并暴露当前LLM在复杂攻击链推理中的能力边界。"
+      }
+    ]
+  },
+  "presenton/presenton": {
+    "firstMention": "2026-05-23",
+    "lastMention": "2026-05-23",
+    "link": "https://github.com/presenton/presenton",
+    "mentions": [
+      {
+        "date": "2026-05-23 1200",
+        "summary": "Presenton 是一个轻量级、基于 Web 的演示文稿工具，支持 Markdown 语法实时渲染为幻灯片。它无需安装，通过浏览器即可快速创建、编辑和分享技术演讲或报告。核心优势在于零配置、纯前端运行，适合开发者快速制作简洁专业的演示内容。"
       }
     ]
   }

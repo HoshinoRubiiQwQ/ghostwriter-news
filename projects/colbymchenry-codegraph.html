@@ -76,17 +76,22 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-16 1200</span>
-      <span>🕐 最近提及: 2026-05-22 0000</span>
-      <span>📊 被提及 4 次</span>
+      <span>🕐 最近提及: 2026-05-23 1200</span>
+      <span>📊 被提及 5 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
   <div class="latest-summary">**核心价值摘要**：  
-Codegraph 是一个基于图数据库的代码分析工具，通过构建代码的依赖与调用关系图，实现跨文件、跨语言的静态分析。它支持快速检索函数调用链、模块依赖及数据流，适用于大型代码库的逆向工程与安全审计。</div>
+`codegraph` 是一个静态代码分析工具，通过构建函数级调用图与数据流依赖关系，实现跨语言（如Python、Rust）的代码结构可视化与复杂度量化。其核心价值在于自动化生成可交互的依赖图谱，辅助开发者快速定位模块耦合、死代码及架构腐化点，尤其适合大型代码库的逆向工程与重构规划。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-05-23 1200</div>
+      <div class="mention-summary">新增CLI调用者/被调用者/影响分析命令实现与MCP功能对等，修复MCP子进程清理和Windows兼容性问题。</div>
+      <div class="mention-commits"><div class="commit-item">• docs(readme): add codegraph_explore to the MCP Tools table (#226)</div><div class="commit-item">• feat(cli): add callers, callees, impact commands for CLI/MCP parity (#204)</div><div class="commit-item">• fix(mcp): reap serve --mcp child when parent is SIGKILL'd (#286)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-22 0000</div>
       <div class="mention-summary">零配置索引支持.gitignore驱动，新增Drupal 8-11框架支持，Hermes Agent安装目标，并修复了/tmp会话标记写入时拒绝跟随符号链接的安全漏洞。</div>
