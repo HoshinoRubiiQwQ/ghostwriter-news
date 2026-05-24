@@ -8857,5 +8857,38 @@
         "summary": "Presenton 是一个轻量级、基于 Web 的演示文稿工具，支持 Markdown 语法实时渲染为幻灯片。它无需安装，通过浏览器即可快速创建、编辑和分享技术演讲或报告。核心优势在于零配置、纯前端运行，适合开发者快速制作简洁专业的演示内容。"
       }
     ]
+  },
+  "anthropics/knowledge-work-plugins": {
+    "firstMention": "2026-05-24",
+    "lastMention": "2026-05-24",
+    "link": "https://github.com/anthropics/knowledge-work-plugins",
+    "mentions": [
+      {
+        "date": "2026-05-24 1200",
+        "summary": "Anthropic 开源的知识工作插件集合，旨在通过 Claude API 增强知识密集型工作流。核心价值包括：提供可复用的工具链模板，用于自动化文献综述、数据分析和报告生成；强调安全可控的 AI 集成，支持本地化部署与自定义知识库。适合需要将大语言模型嵌入专业研究或商业分析场景的团队。"
+      }
+    ]
+  },
+  "earendil-works/pi": {
+    "firstMention": "2026-05-24",
+    "lastMention": "2026-05-24",
+    "link": "https://github.com/earendil-works/pi",
+    "mentions": [
+      {
+        "date": "2026-05-24 1200",
+        "summary": "该项目实现了一个去中心化、隐私优先的通信协议栈，核心是构建基于洋葱路由的匿名中继网络。它通过分布式节点转发加密数据包，无需中心服务器即可实现抗审查通信，同时利用路径混淆和端到端加密保护元数据。适用于需要强匿名性的场景，如敏感信息传递或绕过网络封锁。"
+      }
+    ]
+  },
+  "multica-ai/multica": {
+    "firstMention": "2026-05-24",
+    "lastMention": "2026-05-24",
+    "link": "https://github.com/multica-ai/multica",
+    "mentions": [
+      {
+        "date": "2026-05-24 1200",
+        "summary": "Multica是一个面向多智能体协作的AI框架，核心解决异构AI代理间的动态任务编排与通信问题。它通过模块化协议栈实现代理间低延迟协调，支持实时任务拆分与结果聚合，适用于复杂分布式决策场景。项目强调生产级部署，内置容错与可观测性机制。"
+      }
+    ]
   }
 }
