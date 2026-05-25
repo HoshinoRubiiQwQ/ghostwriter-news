@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-24 1200</span>
-      <span>🕐 最近提及: 2026-05-24 1200</span>
-      <span>📊 被提及 1 次</span>
+      <span>🕐 最近提及: 2026-05-25 0000</span>
+      <span>📊 被提及 2 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">该项目实现了一个去中心化、隐私优先的通信协议栈，核心是构建基于洋葱路由的匿名中继网络。它通过分布式节点转发加密数据包，无需中心服务器即可实现抗审查通信，同时利用路径混淆和端到端加密保护元数据。适用于需要强匿名性的场景，如敏感信息传递或绕过网络封锁。</div>
+  <div class="latest-summary">该项目实现了一个基于Rust的轻量级、去中心化匿名通信协议，核心价值在于通过混合网络（Mixnet）和洋葱路由技术，提供低延迟、强抗审查的通信能力。其设计聚焦于隐私保护，无需中心化服务器即可实现节点间安全路由，适用于对匿名性要求严苛的场景（如敏感信息传输）。相较于Tor，Pi在协议层面优化了延迟与带宽效率，同时保持去中心化特性。</div>
 
   <div class="section-title">更新记录</div>
-  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-05-25 0000</div>
+      <div class="mention-summary">修复了Windows Terminal的OSC 8支持、子进程退出时拒绝待处理RPC请求、以及RPC标准输出背压处理。</div>
+      <div class="mention-commits"><div class="commit-item">• fix(tui): enable OSC 8 for Windows Terminal (closes #4923)</div><div class="commit-item">• fix(rpc): reject pending requests on child process exit</div><div class="commit-item">• fix(coding-agent): retry RPC stdout backpressure</div></div>
+    </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
 </div>
