@@ -8922,5 +8922,38 @@
         "summary": "Multica是一个面向多智能体协作的AI框架，核心解决异构AI代理间的动态任务编排与通信问题。它通过模块化协议栈实现代理间低延迟协调，支持实时任务拆分与结果聚合，适用于复杂分布式决策场景。项目强调生产级部署，内置容错与可观测性机制。"
       }
     ]
+  },
+  "affaan-m/ECC": {
+    "firstMention": "2026-05-25",
+    "lastMention": "2026-05-25",
+    "link": "https://github.com/affaan-m/ECC",
+    "mentions": [
+      {
+        "date": "2026-05-25 1200",
+        "summary": "该项目实现椭圆曲线密码学（ECC）核心算法，支持密钥生成、加密解密及数字签名。代码轻量且无外部依赖，适合嵌入式或资源受限环境。提供Python和C++双语言实现，便于跨平台集成与教学验证。"
+      }
+    ]
+  },
+  "manaflow-ai/cmux": {
+    "firstMention": "2026-05-25",
+    "lastMention": "2026-05-25",
+    "link": "https://github.com/manaflow-ai/cmux",
+    "mentions": [
+      {
+        "date": "2026-05-25 1200",
+        "summary": "cmux 是一个高性能 Go 语言连接多路复用库，支持基于字节模式匹配的协议嗅探与自动分发。它能在单个 TCP 连接上同时处理 HTTP、gRPC、Redis 等不同协议流量，显著降低连接开销，适用于微服务网关与边缘代理场景。"
+      }
+    ]
+  },
+  "paperless-ngx/paperless-ngx": {
+    "firstMention": "2026-05-25",
+    "lastMention": "2026-05-25",
+    "link": "https://github.com/paperless-ngx/paperless-ngx",
+    "mentions": [
+      {
+        "date": "2026-05-25 1200",
+        "summary": "一个社区驱动的文档管理系统，支持OCR、自动分类和标签。核心价值在于将纸质文件数字化并建立可搜索索引，支持多用户协作与REST API集成。部署轻量，适合个人或中小团队替代商业文档管理方案。"
+      }
+    ]
   }
 }
