@@ -9042,5 +9042,71 @@
         "summary": "该仓库收录了数百款高质量免费应用，覆盖Windows、macOS、Linux及移动端，涵盖开发工具、媒体处理、安全隐私等核心领域。所有条目均经过筛选，剔除付费或功能受限的“伪免费”软件，提供可直接替代商业软件的实用方案。适合追求零成本工具链的技术用户。"
       }
     ]
+  },
+  "harry0703/MoneyPrinterTurbo": {
+    "firstMention": "2026-05-30",
+    "lastMention": "2026-05-30",
+    "link": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "mentions": [
+      {
+        "date": "2026-05-30 1800",
+        "summary": "该项目是一个基于大语言模型（LLM）的自动化金融交易策略生成与回测工具。它利用AI分析市场数据并输出可执行代码，实现从策略构思到回测验证的端到端自动化。核心价值在于降低量化交易门槛，让非程序员也能快速生成并测试交易逻辑。"
+      }
+    ]
+  },
+  "cursor/plugins": {
+    "firstMention": "2026-05-30",
+    "lastMention": "2026-05-30",
+    "link": "https://github.com/cursor/plugins",
+    "mentions": [
+      {
+        "date": "2026-05-30 1800",
+        "summary": "Cursor/plugins 是Cursor编辑器官方插件仓库，提供与VS Code生态兼容的扩展能力。核心价值在于：1）支持直接复用VS Code现有插件，降低迁移成本；2）通过插件机制增强AI代码补全、对话等核心功能；3）开源架构便于开发者自定义工作流。"
+      }
+    ]
+  },
+  "revfactory/harness": {
+    "firstMention": "2026-05-30",
+    "lastMention": "2026-05-30",
+    "link": "https://github.com/revfactory/harness",
+    "mentions": [
+      {
+        "date": "2026-05-30 1800",
+        "summary": "**核心价值**：Harness 是一个轻量级、模块化的逆向工程框架，专注于自动化二进制分析、动态插桩与调试流程。它通过插件化架构简化了复杂逆向任务（如脱壳、协议逆向）的重复性操作，显著提升分析效率。"
+      }
+    ]
+  },
+  "EveryInc/compound-engineering-plugin": {
+    "firstMention": "2026-05-30",
+    "lastMention": "2026-05-30",
+    "link": "https://github.com/EveryInc/compound-engineering-plugin",
+    "mentions": [
+      {
+        "date": "2026-05-30 1800",
+        "summary": "该插件为Compound协议提供工程级调试与测试工具，支持智能合约的本地模拟、状态快照及Gas优化分析。核心价值在于将复杂DeFi协议的开发调试效率提升一个数量级，尤其适合需要频繁迭代合约逻辑的团队。"
+      }
+    ]
+  },
+  "OpenBMB/VoxCPM": {
+    "firstMention": "2026-05-30",
+    "lastMention": "2026-05-30",
+    "link": "https://github.com/OpenBMB/VoxCPM",
+    "mentions": [
+      {
+        "date": "2026-05-30 1800",
+        "summary": "OpenBMB/VoxCPM 是一个面向中文语音交互的开源大模型项目，专注于实现高效的语音理解与生成。它基于CPM架构，支持端到端的语音-文本联合建模，显著降低延迟并提升多轮对话的流畅度。该工具为开发者提供了轻量级部署方案，适用于智能助手、语音客服等场景。"
+      }
+    ]
+  },
+  "galilai-group/stable-worldmodel": {
+    "firstMention": "2026-05-30",
+    "lastMention": "2026-05-30",
+    "link": "https://github.com/galilai-group/stable-worldmodel",
+    "mentions": [
+      {
+        "date": "2026-05-30 1800",
+        "summary": "该项目提出一种稳定世界模型，通过对抗训练与正则化技术解决传统世界模型在长时域预测中的误差累积问题。核心创新在于引入隐空间稳定性约束，使模型在复杂动态环境中保持预测一致性。实验表明，该方法在Atari等基准任务上显著提升模型鲁棒性与规划性能。"
+      }
+    ]
   }
 }
