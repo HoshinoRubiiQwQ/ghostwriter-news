@@ -9167,5 +9167,38 @@
         "summary": "该项目提出一种稳定世界模型，通过对抗训练与正则化技术解决传统世界模型在长时域预测中的误差累积问题。核心创新在于引入隐空间稳定性约束，使模型在复杂动态环境中保持预测一致性。实验表明，该方法在Atari等基准任务上显著提升模型鲁棒性与规划性能。"
       }
     ]
+  },
+  "nesquena/hermes-webui": {
+    "firstMention": "2026-05-31",
+    "lastMention": "2026-05-31",
+    "link": "https://github.com/nesquena/hermes-webui",
+    "mentions": [
+      {
+        "date": "2026-05-31 1200",
+        "summary": "Hermes-webui 是一个轻量级 Web 界面，用于与 Hermes 协议（一种基于消息队列的分布式通信框架）交互。它提供实时消息监控、队列管理及节点状态可视化，无需额外依赖即可快速部署。核心价值在于简化分布式系统的运维调试，尤其适合微服务架构下的消息流追踪。"
+      }
+    ]
+  },
+  "github/docs": {
+    "firstMention": "2026-05-31",
+    "lastMention": "2026-05-31",
+    "link": "https://github.com/github/docs",
+    "mentions": [
+      {
+        "date": "2026-05-31 1200",
+        "summary": "该仓库是GitHub官方文档的完整开源版本，包含平台所有功能的英文原文及社区翻译。它采用Markdown编写并托管于GitHub Pages，支持通过PR直接贡献文档改进。核心价值在于为开发者提供一手API参考、CLI指南及最佳实践，同时降低文档维护门槛。"
+      }
+    ]
+  },
+  "FareedKhan-dev/train-llm-from-scratch": {
+    "firstMention": "2026-05-31",
+    "lastMention": "2026-05-31",
+    "link": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+    "mentions": [
+      {
+        "date": "2026-05-31 1200",
+        "summary": "该项目提供从零开始训练大语言模型（LLM）的完整代码与教程，涵盖数据预处理、模型架构（如Transformer）及分布式训练。核心价值在于开源了可复现的端到端流程，适合开发者快速掌握LLM训练底层原理并直接上手实践。"
+      }
+    ]
   }
 }
