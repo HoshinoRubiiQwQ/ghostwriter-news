@@ -4767,7 +4767,7 @@
   },
   "microsoft/markitdown": {
     "firstMention": "2026-04-10",
-    "lastMention": "2026-04-12",
+    "lastMention": "2026-05-31",
     "link": "https://github.com/microsoft/markitdown",
     "mentions": [
       {
@@ -4817,6 +4817,33 @@
       {
         "date": "2026-04-12 0800",
         "summary": "1. 微软开源项目 MarkItDown 的 GitHub Stargazers 页面，直观反映了该项目在开发者社区中的受欢迎程度与关注度。"
+      },
+      {
+        "date": "2026-05-31 0000",
+        "summary": "微软开源MarkItDown：一个Python工具，将PDF、Office文档、图片等格式转换为Markdown，核心价值在于为LLM预处理非结构化数据。它通过OCR和布局分析保留文档结构，显著提升RAG系统对复杂文档的解析效率。",
+        "reason": "版本升级至0.1.6，新增Azure内容理解转换器，修复深层嵌套HTML导致的递归错误。",
+        "commits": [
+          {
+            "message": "Bump version to 0.1.6 (#1914)",
+            "date": "2026-05-26T22:40:20Z",
+            "author": "afourney"
+          },
+          {
+            "message": "feat: Add Azure Content Understanding converter (#1865)",
+            "date": "2026-05-22T04:59:41Z",
+            "author": "Chien Yuan Chang"
+          },
+          {
+            "message": "Clarify security posture in READMEs (#1807)",
+            "date": "2026-04-20T17:52:17Z",
+            "author": "afourney"
+          },
+          {
+            "message": "fix: handle deeply nested HTML that triggers RecursionError (#1644)",
+            "date": "2026-04-15T22:26:44Z",
+            "author": "jigangz"
+          }
+        ]
       }
     ]
   },
@@ -9045,12 +9072,44 @@
   },
   "harry0703/MoneyPrinterTurbo": {
     "firstMention": "2026-05-30",
-    "lastMention": "2026-05-30",
+    "lastMention": "2026-05-31",
     "link": "https://github.com/harry0703/MoneyPrinterTurbo",
     "mentions": [
       {
         "date": "2026-05-30 1800",
         "summary": "该项目是一个基于大语言模型（LLM）的自动化金融交易策略生成与回测工具。它利用AI分析市场数据并输出可执行代码，实现从策略构思到回测验证的端到端自动化。核心价值在于降低量化交易门槛，让非程序员也能快速生成并测试交易逻辑。"
+      },
+      {
+        "date": "2026-05-31 0000",
+        "summary": "该项目利用大语言模型（LLM）自动生成短视频脚本与配音，并集成AI绘画与视频合成管线，实现从文本到成品视频的全自动化。核心价值在于将内容创作流程压缩至分钟级，显著降低短视频制作的人力与时间成本。适合批量生成营销、教育等场景的标准化视频内容。",
+        "reason": "版本升级至1.2.9，新增高级脚本提示设置，修复字符串视频拼接模式下载问题，并优化Ollama在Docker中的默认配置。",
+        "commits": [
+          {
+            "message": "Bump version to 1.2.9",
+            "date": "2026-05-30T09:38:05Z",
+            "author": "harry0703"
+          },
+          {
+            "message": "Add advanced script prompt settings",
+            "date": "2026-05-30T09:21:19Z",
+            "author": "harry0703"
+          },
+          {
+            "message": "test: cover string video concat mode downloads",
+            "date": "2026-05-30T03:05:58Z",
+            "author": "harry0703"
+          },
+          {
+            "message": "fix: handle string video concat mode in downloads",
+            "date": "2026-05-30T03:05:14Z",
+            "author": "Alejandro Martinez"
+          },
+          {
+            "message": "Improve Ollama defaults for Docker",
+            "date": "2026-05-30T03:00:06Z",
+            "author": "harry0703"
+          }
+        ]
       }
     ]
   },
