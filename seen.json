@@ -9200,5 +9200,27 @@
         "summary": "该项目提供从零开始训练大语言模型（LLM）的完整代码与教程，涵盖数据预处理、模型架构（如Transformer）及分布式训练。核心价值在于开源了可复现的端到端流程，适合开发者快速掌握LLM训练底层原理并直接上手实践。"
       }
     ]
+  },
+  "pbakaus/impeccable": {
+    "firstMention": "2026-06-01",
+    "lastMention": "2026-06-01",
+    "link": "https://github.com/pbakaus/impeccable",
+    "mentions": [
+      {
+        "date": "2026-06-01 1200",
+        "summary": "一个零依赖、轻量级的JavaScript验证库，通过声明式规则和链式API实现高效数据校验。核心优势在于极简的API设计（<2KB）与可扩展的验证器组合机制，适合对包体积和性能敏感的Node/浏览器环境。"
+      }
+    ]
+  },
+  "p-e-w/heretic": {
+    "firstMention": "2026-06-01",
+    "lastMention": "2026-06-01",
+    "link": "https://github.com/p-e-w/heretic",
+    "mentions": [
+      {
+        "date": "2026-06-01 1200",
+        "summary": "**核心价值摘要**：  \n`heretic` 是一个通过劫持系统调用实现任意进程环境变量注入的轻量级工具，无需修改目标二进制文件或依赖 `LD_PRELOAD`。其核心价值在于绕过传统安全限制（如 `AT_SECURE` 标记），为逆向工程、动态调试及渗透测试提供隐蔽的运行时控制能力。技术实现基于 `ptrace` 与 `execve` 拦截，兼容 Linux 内核级执行流劫持。"
+      }
+    ]
   }
 }
