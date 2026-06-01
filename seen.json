@@ -3206,7 +3206,7 @@
   },
   "TauricResearch/TradingAgents": {
     "firstMention": "2026-03-22",
-    "lastMention": "2026-05-05",
+    "lastMention": "2026-06-01",
     "link": "https://github.com/TauricResearch/TradingAgents",
     "mentions": [
       {
@@ -3356,6 +3356,38 @@
       {
         "date": "2026-05-05 1000",
         "summary": "TauricResearch/TradingAgents 是一个基于多智能体架构的量化交易框架，利用LLM驱动的Agent协同完成市场分析、策略生成与执行。其核心价值在于将大语言模型与金融交易逻辑深度结合，实现自动化决策与回测。适合需要快速原型化AI交易策略的研究者。"
+      },
+      {
+        "date": "2026-06-01 1800",
+        "summary": "TauricResearch/TradingAgents 是一个基于多智能体协作的量化交易框架，利用大语言模型驱动多个专业Agent（如分析师、风控员）模拟人类交易团队决策。核心价值在于通过结构化对话与动态角色分配，实现市场数据解读、策略生成与风险控制的自动化闭环，显著降低传统量化系统的规则硬编码依赖。",
+        "reason": "CLI 跳过交互式 LLM 选择，支持商品/外汇/加密货币代码并修复价格虚构，新增中国 A 股基准及非美国代码文档，默认模型升级至 GPT-5.5。",
+        "commits": [
+          {
+            "message": "chore: README housekeeping and remove stale TODO",
+            "date": "2026-06-01T02:02:47Z",
+            "author": "Yijia-Xiao"
+          },
+          {
+            "message": "feat(cli): skip interactive LLM selection when configured via environment (#873)",
+            "date": "2026-05-31T22:38:48Z",
+            "author": "Yijia-Xiao"
+          },
+          {
+            "message": "fix: support commodity/forex/crypto tickers and never invent prices (#781)",
+            "date": "2026-05-31T22:38:47Z",
+            "author": "Yijia-Xiao"
+          },
+          {
+            "message": "chore(llm): add latest models and default to GPT-5.5",
+            "date": "2026-05-31T08:01:03Z",
+            "author": "Yijia-Xiao"
+          },
+          {
+            "message": "feat(markets): add China A-share benchmarks and document non-US tickers",
+            "date": "2026-05-31T07:29:19Z",
+            "author": "Yijia-Xiao"
+          }
+        ]
       }
     ]
   },
