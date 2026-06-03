@@ -9202,12 +9202,44 @@
   },
   "nesquena/hermes-webui": {
     "firstMention": "2026-05-31",
-    "lastMention": "2026-05-31",
+    "lastMention": "2026-06-03",
     "link": "https://github.com/nesquena/hermes-webui",
     "mentions": [
       {
         "date": "2026-05-31 1200",
         "summary": "Hermes-webui 是一个轻量级 Web 界面，用于与 Hermes 协议（一种基于消息队列的分布式通信框架）交互。它提供实时消息监控、队列管理及节点状态可视化，无需额外依赖即可快速部署。核心价值在于简化分布式系统的运维调试，尤其适合微服务架构下的消息流追踪。"
+      },
+      {
+        "date": "2026-06-03 0000",
+        "summary": "该项目为Hermes协议提供Web UI，实现去中心化消息系统的可视化操作。核心价值在于降低用户与Hermes网络交互的门槛，支持消息发送、节点管理及加密通信。技术栈基于轻量级前端框架，适合快速部署与二次开发。",
+        "reason": "该版本重点修复了工作区符号链接逃逸漏洞，并增强了便携式TOCTOU安全防护。",
+        "commits": [
+          {
+            "message": "Release v0.51.221 — Release GO (stage-p3e — block all workspace symlink escapes + portable TOCTOU hardening [security]) (#3398) (#3451)",
+            "date": "2026-06-02T23:56:30Z",
+            "author": "nesquena-hermes"
+          },
+          {
+            "message": "Merge pull request #3442 from nesquena/docs/contributor-attribution-backfill",
+            "date": "2026-06-02T21:46:38Z",
+            "author": "nesquena-hermes"
+          },
+          {
+            "message": "docs: backfill contributor attribution for absorbed PRs (#2622, #2931, #3104, #3220, #3223, #3337)",
+            "date": "2026-06-02T21:39:59Z",
+            "author": "nesquena-hermes"
+          },
+          {
+            "message": "Merge pull request #3441 from nesquena/release/stage-p3c",
+            "date": "2026-06-02T21:25:07Z",
+            "author": "nesquena-hermes"
+          },
+          {
+            "message": "docs(changelog): v0.51.220 release header for #3430 aux-title @provider fix",
+            "date": "2026-06-02T21:16:20Z",
+            "author": "nesquena-hermes"
+          }
+        ]
       }
     ]
   },
