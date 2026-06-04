@@ -9048,12 +9048,44 @@
   },
   "affaan-m/ECC": {
     "firstMention": "2026-05-25",
-    "lastMention": "2026-05-25",
+    "lastMention": "2026-06-04",
     "link": "https://github.com/affaan-m/ECC",
     "mentions": [
       {
         "date": "2026-05-25 1200",
         "summary": "该项目实现椭圆曲线密码学（ECC）核心算法，支持密钥生成、加密解密及数字签名。代码轻量且无外部依赖，适合嵌入式或资源受限环境。提供Python和C++双语言实现，便于跨平台集成与教学验证。"
+      },
+      {
+        "date": "2026-06-04 1200",
+        "summary": "该仓库实现了一个基于椭圆曲线密码学（ECC）的加密工具，支持密钥生成、签名与验证。代码轻量且无外部依赖，适合嵌入式或教学场景。核心价值在于提供纯Python实现的ECC功能，便于快速集成与安全实验。",
+        "reason": "项目新增ECC2本地控制面板，并引入基于React的智能体语言追踪功能，同时修复了PreToolUse钩子的警告显示问题。",
+        "commits": [
+          {
+            "message": "feat: add ECC2 local control pane (#2131)",
+            "date": "2026-06-03T13:54:30Z",
+            "author": "Affaan Mustafa"
+          },
+          {
+            "message": "docs: define ECC platform value loop (#2119)",
+            "date": "2026-06-02T11:51:02Z",
+            "author": "Affaan Mustafa"
+          },
+          {
+            "message": "docs: record rc1 live package readbacks (#2117)",
+            "date": "2026-06-02T11:32:59Z",
+            "author": "Affaan Mustafa"
+          },
+          {
+            "message": "fix: surface warn-only PreToolUse hooks (#2084)",
+            "date": "2026-05-28T11:45:46Z",
+            "author": "Affaan Mustafa"
+          },
+          {
+            "message": "Add React language track with agents, skills, rules, and commands (#2024)",
+            "date": "2026-05-28T11:32:52Z",
+            "author": "Alexis Le Dain"
+          }
+        ]
       }
     ]
   },
@@ -9371,6 +9403,72 @@
       {
         "date": "2026-06-03 1800",
         "summary": "Open-LLM-VTuber 是一个开源项目，旨在通过大语言模型（LLM）驱动虚拟主播（VTuber）的实时交互。它整合了语音识别、文本生成与语音合成技术，实现低延迟、高自定义的虚拟角色对话系统。核心价值在于为开发者提供可复用的全栈框架，降低AI虚拟主播的构建门槛。"
+      }
+    ]
+  },
+  "PaddlePaddle/PaddleOCR": {
+    "firstMention": "2026-06-04",
+    "lastMention": "2026-06-04",
+    "link": "https://github.com/PaddlePaddle/PaddleOCR",
+    "mentions": [
+      {
+        "date": "2026-06-04 1200",
+        "summary": "PaddleOCR是百度开源的OCR工具库，支持80+语言文本识别，提供超轻量级模型（仅3.5M）与高精度模型（PP-OCRv4）的灵活部署。核心优势在于端到端训练流水线、多场景适配（文档/自然场景/表格识别）及工业级推理优化（CPU/GPU/移动端）。适合快速集成到生产环境，尤其对中文识别场景有显著性能优势。"
+      }
+    ]
+  },
+  "github/spec-kit": {
+    "firstMention": "2026-06-04",
+    "lastMention": "2026-06-04",
+    "link": "https://github.com/github/spec-kit",
+    "mentions": [
+      {
+        "date": "2026-06-04 1200",
+        "summary": "GitHub 官方推出的 **spec-kit** 是一个用于快速生成和验证 OpenAPI 规范的工具链，核心价值在于将 API 规范编写从手动 YAML 编辑升级为基于 TypeScript 的声明式构建。它提供类型安全、可组合的规范生成能力，并内置校验与 lint 功能，显著降低大规模 API 文档的维护成本与错误率。适合需要严格规范治理的微服务或平台型项目。"
+      }
+    ]
+  },
+  "NVIDIA/cosmos": {
+    "firstMention": "2026-06-04",
+    "lastMention": "2026-06-04",
+    "link": "https://github.com/NVIDIA/cosmos",
+    "mentions": [
+      {
+        "date": "2026-06-04 1200",
+        "summary": "NVIDIA Cosmos 是一个面向物理世界AI仿真的开源平台，提供高保真、可扩展的合成数据生成与训练环境。其核心价值在于加速机器人、自动驾驶等领域的感知与决策模型开发，通过逼真物理模拟降低对真实数据采集的依赖。平台支持大规模并行训练与多传感器仿真，显著提升研发效率与模型泛化能力。"
+      }
+    ]
+  },
+  "lfnovo/open-notebook": {
+    "firstMention": "2026-06-04",
+    "lastMention": "2026-06-04",
+    "link": "https://github.com/lfnovo/open-notebook",
+    "mentions": [
+      {
+        "date": "2026-06-04 1200",
+        "summary": "一个基于AI的交互式笔记工具，支持自然语言查询与自动内容关联，核心价值在于将笔记转化为可对话的知识库。通过本地优先架构保障数据隐私，并集成多模态数据处理能力，适合技术研究者快速检索与整合信息。"
+      }
+    ]
+  },
+  "jwasham/coding-interview-university": {
+    "firstMention": "2026-06-04",
+    "lastMention": "2026-06-04",
+    "link": "https://github.com/jwasham/coding-interview-university",
+    "mentions": [
+      {
+        "date": "2026-06-04 1200",
+        "summary": "一个从零开始的系统性技术面试准备路线图，覆盖算法、数据结构、系统设计等核心领域，附带每日学习计划和资源清单。该项目由自学转行工程师维护，强调通过大量练习和理论结合来攻克大厂面试。适合目标明确、愿意投入数月高强度学习的求职者。"
+      }
+    ]
+  },
+  "github/copilot-sdk": {
+    "firstMention": "2026-06-04",
+    "lastMention": "2026-06-04",
+    "link": "https://github.com/github/copilot-sdk",
+    "mentions": [
+      {
+        "date": "2026-06-04 1200",
+        "summary": "GitHub Copilot SDK 提供一套API，允许开发者将Copilot的代码补全与对话能力集成到自定义工具或IDE中。核心价值在于通过标准化接口实现AI辅助编程的深度定制，支持私有模型接入与工作流编排。该SDK降低了企业级Copilot功能二次开发的门槛，但需注意其仍处于早期阶段，文档与生态尚不完善。"
       }
     ]
   }
