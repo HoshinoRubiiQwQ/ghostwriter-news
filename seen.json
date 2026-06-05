@@ -9471,5 +9471,27 @@
         "summary": "GitHub Copilot SDK 提供一套API，允许开发者将Copilot的代码补全与对话能力集成到自定义工具或IDE中。核心价值在于通过标准化接口实现AI辅助编程的深度定制，支持私有模型接入与工作流编排。该SDK降低了企业级Copilot功能二次开发的门槛，但需注意其仍处于早期阶段，文档与生态尚不完善。"
       }
     ]
+  },
+  "CopilotKit/CopilotKit": {
+    "firstMention": "2026-06-05",
+    "lastMention": "2026-06-05",
+    "link": "https://github.com/CopilotKit/CopilotKit",
+    "mentions": [
+      {
+        "date": "2026-06-05 1200",
+        "summary": "CopilotKit 是一个开源框架，用于在 React 应用中快速集成深度定制的 AI 聊天界面和副驾驶功能。它提供现成的 UI 组件、上下文感知的 AI 交互能力，并支持与 LangChain 等后端无缝对接，显著降低构建生产级 AI 助手的技术门槛。核心价值在于将复杂的 AI 编排与前端渲染解耦，实现“即插即用”的智能交互层。"
+      }
+    ]
+  },
+  "Panniantong/Agent-Reach": {
+    "firstMention": "2026-06-05",
+    "lastMention": "2026-06-05",
+    "link": "https://github.com/Panniantong/Agent-Reach",
+    "mentions": [
+      {
+        "date": "2026-06-05 1200",
+        "summary": "Agent-Reach 是一个面向多智能体系统的分布式通信与协调框架，核心在于通过轻量级协议实现智能体间的高效消息传递与任务协同。它支持动态拓扑下的容错路由，并内置了基于强化学习的自适应调度策略，显著降低大规模部署中的通信延迟与资源冲突。该项目为复杂自动化场景（如机器人集群、边缘计算）提供了可扩展的底层基础设施。"
+      }
+    ]
   }
 }
