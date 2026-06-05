@@ -9480,6 +9480,38 @@
       {
         "date": "2026-06-05 1200",
         "summary": "CopilotKit 是一个开源框架，用于在 React 应用中快速集成深度定制的 AI 聊天界面和副驾驶功能。它提供现成的 UI 组件、上下文感知的 AI 交互能力，并支持与 LangChain 等后端无缝对接，显著降低构建生产级 AI 助手的技术门槛。核心价值在于将复杂的 AI 编排与前端渲染解耦，实现“即插即用”的智能交互层。"
+      },
+      {
+        "date": "2026-06-05 1800",
+        "summary": "CopilotKit 是一个开源框架，用于在 React 应用中快速集成可定制的 AI 聊天界面和上下文感知的 Copilot 功能。它提供现成的 UI 组件、后端集成层和工具链，支持将 LLM 直接嵌入应用工作流，实现实时协作与自动化任务执行。核心价值在于降低 AI 交互功能的开发门槛，让开发者无需从零构建即可拥有生产级 Copilot 体验。",
+        "reason": "展示层新增集群管理功能：实现控制平面与工作节点池的完整生命周期管理，包括角色分发、注册健康检查、通信错误监控及本地编排支持。",
+        "commits": [
+          {
+            "message": "feat(showcase): harness pool-fleet (control-plane + N workers) (#5261)",
+            "date": "2026-06-05T17:56:17Z",
+            "author": "Jordan Ritter"
+          },
+          {
+            "message": "feat(showcase): wire fleet roles into the showcase CLI and local compose",
+            "date": "2026-06-05T06:25:48Z",
+            "author": "Jordan Ritter"
+          },
+          {
+            "message": "feat(showcase): surface fleet pool comm-errors (unreachable overlay) on the dashboard",
+            "date": "2026-06-05T06:25:44Z",
+            "author": "Jordan Ritter"
+          },
+          {
+            "message": "feat(showcase): add fleet worker loop, registration, and health",
+            "date": "2026-06-05T06:25:37Z",
+            "author": "Jordan Ritter"
+          },
+          {
+            "message": "feat(showcase): add fleet control-plane (producer/consumer/aggregator/fleet-health) + role dispatch",
+            "date": "2026-06-05T06:25:32Z",
+            "author": "Jordan Ritter"
+          }
+        ]
       }
     ]
   },
