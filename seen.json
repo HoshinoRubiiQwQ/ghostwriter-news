@@ -9634,5 +9634,27 @@
         "summary": "Go语言（Golang）是Google开发的开源编译型静态语言，以极简语法、原生并发（goroutine + channel）和高效编译著称。其核心价值在于：为系统编程提供接近C的性能，同时通过垃圾回收和强类型系统大幅降低内存安全风险。Go在云原生、微服务和CLI工具领域已成为事实标准，如Docker、Kubernetes均基于此构建。"
       }
     ]
+  },
+  "opencv/opencv": {
+    "firstMention": "2026-06-07",
+    "lastMention": "2026-06-07",
+    "link": "https://github.com/opencv/opencv",
+    "mentions": [
+      {
+        "date": "2026-06-07 1200",
+        "summary": "OpenCV 是业界标准的跨平台计算机视觉库，提供超过2500种优化算法，覆盖图像处理、目标检测与机器学习。其C++核心实现保证高性能，同时支持Python/Java等接口，广泛用于工业质检、自动驾驶和AR领域。"
+      }
+    ]
+  },
+  "RyanCodrai/turbovec": {
+    "firstMention": "2026-06-07",
+    "lastMention": "2026-06-07",
+    "link": "https://github.com/RyanCodrai/turbovec",
+    "mentions": [
+      {
+        "date": "2026-06-07 1200",
+        "summary": "Turbovec 是一个高性能、内存高效的向量数据库引擎，专为大规模嵌入向量检索设计。它通过优化索引结构和内存管理，在保持高召回率的同时显著降低延迟和资源占用。核心价值在于为AI应用提供轻量级、可嵌入的向量搜索能力，尤其适合边缘设备和资源受限场景。"
+      }
+    ]
   }
 }
