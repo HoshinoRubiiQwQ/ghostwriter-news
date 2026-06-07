@@ -3574,7 +3574,7 @@
   },
   "mvanhorn/last30days-skill": {
     "firstMention": "2026-03-25",
-    "lastMention": "2026-03-28",
+    "lastMention": "2026-06-07",
     "link": "https://github.com/mvanhorn/last30days-skill",
     "mentions": [
       {
@@ -3644,6 +3644,38 @@
       {
         "date": "2026-03-28 0000",
         "summary": "该项目为GitHub仓库“last30days-skill”的星标用户列表。核心价值在于通过观察近期（30天内）获得星标的开发者技能项目，快速识别当前社区关注的技术趋势与热门工具。这为技术选型与学习方向提供了实时、社区驱动的数据参考。"
+      },
+      {
+        "date": "2026-06-07 0600",
+        "summary": "该技能模块通过Alexa API抓取用户最近30天的语音交互记录，实现本地化数据聚合与可视化。核心价值在于绕过官方数据访问限制，为开发者提供用户行为分析的轻量级工具。技术实现依赖OAuth2.0认证与JSON解析，适合智能家居场景下的隐私合规性审计。",
+        "reason": "修复Reddit无密钥路径中相关性感知评论富集槽位选择，移除重复命令包装器，并清理安装程序扫描表面的开发工件。",
+        "commits": [
+          {
+            "message": "chore(release): v3.3.2 (#485)",
+            "date": "2026-06-06T16:58:05Z",
+            "author": "Matt Van Horn"
+          },
+          {
+            "message": "fix(reddit): relevance-aware comment-enrichment slot selection in keyless path (#484)",
+            "date": "2026-06-06T16:44:07Z",
+            "author": "Matt Van Horn"
+          },
+          {
+            "message": "chore: remove dev artifacts from installer scan surface (#465)",
+            "date": "2026-06-01T14:41:30Z",
+            "author": "Matt Van Horn"
+          },
+          {
+            "message": "fix: remove duplicate /last30days command wrapper (#461) (#462)",
+            "date": "2026-05-30T05:33:16Z",
+            "author": "Matt Van Horn"
+          },
+          {
+            "message": "fix(reddit): restore free path via keyless RSS + shreddit scrape (.json is dead) (#457)",
+            "date": "2026-05-29T19:43:56Z",
+            "author": "Matt Van Horn"
+          }
+        ]
       }
     ]
   },
