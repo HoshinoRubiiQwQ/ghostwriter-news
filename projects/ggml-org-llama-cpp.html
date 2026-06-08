@@ -76,19 +76,22 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-18 1200</span>
-      <span>🕐 最近提及: 2026-06-07 1800</span>
-      <span>📊 被提及 2 次</span>
+      <span>🕐 最近提及: 2026-06-08 0000</span>
+      <span>📊 被提及 3 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">**核心价值摘要**  
-1. **纯CPU推理优化**：基于ggml张量库，无需GPU即可在消费级硬件（如MacBook、树莓派）高效运行LLaMA等大模型，支持4-bit量化，内存占用降低至GB级。  
-2. **跨平台轻量化**：C/C++实现，无Python依赖，支持x86/ARM、CUDA/Metal后端，单文件可执行，适合边缘设备部署。  
-3. **生态兼容性**：原生支持GGUF模型格式，兼容HuggingFace模型转换，社区贡献超300种模型适配（如Mistral、Falcon），推理速度达CPU端SOTA。</div>
+  <div class="latest-summary">**核心价值摘要**：  
+`llama.cpp` 是一个纯 C/C++ 实现的 LLM 推理引擎，基于 ggml 张量库，支持 CPU 和 GPU 混合推理，无需 Python 或 CUDA 依赖。其核心优势在于极低的内存占用（量化至 4-bit 甚至 2-bit）和跨平台兼容性（x86/ARM/Apple Silicon），使 Llama、Mistral 等大模型能在消费级硬件上高效运行。项目通过持续优化内核（如 AVX2、NEON、Metal 后端）和量化策略，实现了接近 GPU 的推理速度，成为边缘部署和隐私敏感场景的首选方案。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-06-08 0000</div>
+      <div class="mention-summary">llama.cpp 重大更新：新增 Gemma4 MTP 支持，优化 KV 缓存避免单元拷贝并遵循源缓存大小，修复 Mistral-Medium-3.5-128B 转换问题，并放宽采样器名称匹配限制。</div>
+      <div class="mention-commits"><div class="commit-item">• common : relax sampler name matching (#23744)</div><div class="commit-item">• convert : fix conversion for Mistral-Medium-3.5-128B (#24268)</div><div class="commit-item">• kv-cache : avoid kv cells copies (#24277)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-06-07 1800</div>
       <div class="mention-summary">llama.cpp 新增 Gemma4 MTP 支持，修复 KV 缓存共享、词汇表兼容性及音频编码器缺失问题，并优化 mmproj 下载逻辑。</div>

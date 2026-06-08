@@ -8807,7 +8807,7 @@
   },
   "ggml-org/llama.cpp": {
     "firstMention": "2026-05-18",
-    "lastMention": "2026-06-07",
+    "lastMention": "2026-06-08",
     "link": "https://github.com/ggml-org/llama.cpp",
     "mentions": [
       {
@@ -8843,6 +8843,38 @@
             "message": "convert : fix Gemma4 with no audio encoder (#24242)",
             "date": "2026-06-07T06:43:05Z",
             "author": "Sigbjørn Skjæret"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-08 0000",
+        "summary": "**核心价值摘要**：  \n`llama.cpp` 是一个纯 C/C++ 实现的 LLM 推理引擎，基于 ggml 张量库，支持 CPU 和 GPU 混合推理，无需 Python 或 CUDA 依赖。其核心优势在于极低的内存占用（量化至 4-bit 甚至 2-bit）和跨平台兼容性（x86/ARM/Apple Silicon），使 Llama、Mistral 等大模型能在消费级硬件上高效运行。项目通过持续优化内核（如 AVX2、NEON、Metal 后端）和量化策略，实现了接近 GPU 的推理速度，成为边缘部署和隐私敏感场景的首选方案。",
+        "reason": "llama.cpp 重大更新：新增 Gemma4 MTP 支持，优化 KV 缓存避免单元拷贝并遵循源缓存大小，修复 Mistral-Medium-3.5-128B 转换问题，并放宽采样器名称匹配限制。",
+        "commits": [
+          {
+            "message": "common : relax sampler name matching (#23744)",
+            "date": "2026-06-07T20:48:11Z",
+            "author": "ddh0"
+          },
+          {
+            "message": "convert : fix conversion for Mistral-Medium-3.5-128B (#24268)",
+            "date": "2026-06-07T19:41:39Z",
+            "author": "David Friehs"
+          },
+          {
+            "message": "kv-cache : avoid kv cells copies (#24277)",
+            "date": "2026-06-07T18:42:54Z",
+            "author": "Georgi Gerganov"
+          },
+          {
+            "message": "kv-cache: follow the source cache size when sharing cells (#24267)",
+            "date": "2026-06-07T15:33:00Z",
+            "author": "Pascal"
+          },
+          {
+            "message": "llama : add Gemma4 MTP (#23398)",
+            "date": "2026-06-07T12:50:54Z",
+            "author": "Aman Gupta"
           }
         ]
       }
