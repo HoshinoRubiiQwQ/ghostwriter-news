@@ -9752,5 +9752,60 @@
         "summary": "Turbovec 是一个高性能、内存高效的向量数据库引擎，专为大规模嵌入向量检索设计。它通过优化索引结构和内存管理，在保持高召回率的同时显著降低延迟和资源占用。核心价值在于为AI应用提供轻量级、可嵌入的向量搜索能力，尤其适合边缘设备和资源受限场景。"
       }
     ]
+  },
+  "google/skills": {
+    "firstMention": "2026-06-08",
+    "lastMention": "2026-06-08",
+    "link": "https://github.com/google/skills",
+    "mentions": [
+      {
+        "date": "2026-06-08 1200",
+        "summary": "Google Skills 是一个开源框架，用于定义、组合和部署基于大语言模型的“技能”（Skills），即模块化的AI任务单元。它通过标准化接口和可复用组件，降低构建复杂AI工作流的门槛，并支持与LangChain等生态集成。核心价值在于将LLM能力拆解为可编排的原子操作，提升开发效率与系统可维护性。"
+      }
+    ]
+  },
+  "refactoringhq/tolaria": {
+    "firstMention": "2026-06-08",
+    "lastMention": "2026-06-08",
+    "link": "https://github.com/refactoringhq/tolaria",
+    "mentions": [
+      {
+        "date": "2026-06-08 1200",
+        "summary": "Tolaria 是一个基于 Rust 的高性能区块链节点实现，专注于优化交易处理与共识效率。其核心价值在于通过模块化架构降低节点部署复杂度，并利用异步运行时提升吞吐量。该项目为开发者提供了轻量级、可定制的链基础设施，适合需要低延迟、高并发的去中心化应用场景。"
+      }
+    ]
+  },
+  "santifer/career-ops": {
+    "firstMention": "2026-06-08",
+    "lastMention": "2026-06-08",
+    "link": "https://github.com/santifer/career-ops",
+    "mentions": [
+      {
+        "date": "2026-06-08 1200",
+        "summary": "一个自动化求职管理的开源工具集，通过脚本和API集成实现职位搜索、申请跟踪与面试排程的流水线操作。核心价值在于将零散的求职流程转化为可复用的代码化工作流，减少手动重复操作。适合技术背景求职者用于批量投递与数据驱动的求职策略优化。"
+      }
+    ]
+  },
+  "phuryn/pm-skills": {
+    "firstMention": "2026-06-08",
+    "lastMention": "2026-06-08",
+    "link": "https://github.com/phuryn/pm-skills",
+    "mentions": [
+      {
+        "date": "2026-06-08 1200",
+        "summary": "一个面向产品经理的硬核技能图谱，系统梳理了从需求分析、A/B测试到战略规划的全栈能力框架。项目以可量化的技能树和实战案例驱动，直接对标硅谷PM面试与日常决策场景。适合追求技术深度与数据驱动思维的PM快速查漏补缺。"
+      }
+    ]
+  },
+  "Andyyyy64/whichllm": {
+    "firstMention": "2026-06-08",
+    "lastMention": "2026-06-08",
+    "link": "https://github.com/Andyyyy64/whichllm",
+    "mentions": [
+      {
+        "date": "2026-06-08 1200",
+        "summary": "该工具通过命令行快速识别文本由哪款大语言模型生成，支持主流模型如GPT-4、Claude、Llama等。基于统计特征与模式匹配，无需联网即可本地运行，适合模型溯源与内容审计场景。"
+      }
+    ]
   }
 }
