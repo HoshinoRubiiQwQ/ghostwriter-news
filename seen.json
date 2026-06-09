@@ -8267,12 +8267,44 @@
   },
   "roboflow/supervision": {
     "firstMention": "2026-05-14",
-    "lastMention": "2026-05-14",
+    "lastMention": "2026-06-09",
     "link": "https://github.com/roboflow/supervision",
     "mentions": [
       {
         "date": "2026-05-14 1200",
         "summary": "一个为计算机视觉模型提供可复用工具的开源库，专注于简化检测、分割和跟踪任务的开发流程。它封装了数据标注、模型评估和结果可视化等高频操作，支持与YOLO、SAM等主流框架无缝集成。核心价值在于将零散的后处理逻辑标准化，显著降低视觉AI应用从实验到部署的工程成本。"
+      },
+      {
+        "date": "2026-06-09 1200",
+        "summary": "该库提供了一套可复用的计算机视觉工具，用于模型推理、目标检测、跟踪与标注的流水线构建。它抽象了与底层视觉框架（如YOLO、SAM）的交互，显著降低了开发与部署视觉应用的门槛。核心价值在于将零散的视觉处理逻辑封装为模块化API，提升工程效率。",
+        "reason": "修复OBB旋转保持、NMS/NMM感知及灰度图像填充等检测与数据集处理缺陷。",
+        "commits": [
+          {
+            "message": "refine(detection): make `with_nms` and `with_nmm` OBB-aware (#2303)",
+            "date": "2026-06-09T11:11:09Z",
+            "author": "Agis Kounelis"
+          },
+          {
+            "message": "fix(dataset): preserve OBB rotation in `DetectionDataset.as_yolo` (#2289)",
+            "date": "2026-06-08T13:31:04Z",
+            "author": "Agis Kounelis"
+          },
+          {
+            "message": "⬆️ Bump the github-actions group with 2 updates (#2300)",
+            "date": "2026-06-08T11:45:31Z",
+            "author": "dependabot[bot]"
+          },
+          {
+            "message": "fix: normalize file extension filters (#2298)",
+            "date": "2026-06-08T11:41:25Z",
+            "author": "Andrew Barnes"
+          },
+          {
+            "message": "fix: support grayscale letterbox images (#2297)",
+            "date": "2026-06-07T17:06:21Z",
+            "author": "Andrew Barnes"
+          }
+        ]
       }
     ]
   },
@@ -9805,6 +9837,17 @@
       {
         "date": "2026-06-08 1200",
         "summary": "该工具通过命令行快速识别文本由哪款大语言模型生成，支持主流模型如GPT-4、Claude、Llama等。基于统计特征与模式匹配，无需联网即可本地运行，适合模型溯源与内容审计场景。"
+      }
+    ]
+  },
+  "TapXWorld/ChinaTextbook": {
+    "firstMention": "2026-06-09",
+    "lastMention": "2026-06-09",
+    "link": "https://github.com/TapXWorld/ChinaTextbook",
+    "mentions": [
+      {
+        "date": "2026-06-09 1200",
+        "summary": "该项目提供中国大陆中小学及大学教材的数字化版本，涵盖语文、数学等核心科目。通过开源方式降低获取门槛，支持离线阅读与多格式导出。对教育公平、学术研究及文化保存具有实用价值。"
       }
     ]
   }
