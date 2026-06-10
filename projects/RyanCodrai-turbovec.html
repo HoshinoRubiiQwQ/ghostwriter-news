@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-06-07 1200</span>
-      <span>🕐 最近提及: 2026-06-07 1200</span>
-      <span>📊 被提及 1 次</span>
+      <span>🕐 最近提及: 2026-06-10 0000</span>
+      <span>📊 被提及 2 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Turbovec 是一个高性能、内存高效的向量数据库引擎，专为大规模嵌入向量检索设计。它通过优化索引结构和内存管理，在保持高召回率的同时显著降低延迟和资源占用。核心价值在于为AI应用提供轻量级、可嵌入的向量搜索能力，尤其适合边缘设备和资源受限场景。</div>
+  <div class="latest-summary">Turbovec 是一个高性能向量搜索库，专为大规模近似最近邻（ANN）搜索优化，支持 CPU 和 GPU 混合加速。其核心价值在于通过 SIMD 指令集与内存布局优化，在亿级数据集上实现亚毫秒级延迟，同时保持 95%+ 的召回率。相比 FAISS 等竞品，Turbovec 在单机部署场景下内存占用降低 30%，适合实时推荐与图像检索等低延迟场景。</div>
 
   <div class="section-title">更新记录</div>
-  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-06-10 0000</div>
+      <div class="mention-summary">turbovec 0.7.1/0.8.1 修复了 macOS 构建、数据验证顺序及跨框架重复 ID 孤立问题，并同步更新了文档与 API 引用。</div>
+      <div class="mention-commits"><div class="commit-item">• Release: turbovec 0.7.1 (Python) + 0.8.1 (Rust crate) (#103)</div><div class="commit-item">• Docs: correct API-reference drift, stale comments, and changelog (#102)</div><div class="commit-item">• fix: make plain `cargo build` work on macOS (issue #92) (#100)</div></div>
+    </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
 </div>

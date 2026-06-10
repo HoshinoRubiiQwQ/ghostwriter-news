@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-14 1200</span>
-      <span>🕐 最近提及: 2026-06-09 1200</span>
-      <span>📊 被提及 2 次</span>
+      <span>🕐 最近提及: 2026-06-10 0000</span>
+      <span>📊 被提及 3 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">该库提供了一套可复用的计算机视觉工具，用于模型推理、目标检测、跟踪与标注的流水线构建。它抽象了与底层视觉框架（如YOLO、SAM）的交互，显著降低了开发与部署视觉应用的门槛。核心价值在于将零散的视觉处理逻辑封装为模块化API，提升工程效率。</div>
+  <div class="latest-summary">一个为计算机视觉模型提供可复用工具的开源库，专注于检测、分割与跟踪任务的零代码集成。核心价值在于将模型输出快速转化为可操作的逻辑（如计数、区域过滤），并内置对YOLOv5/v8、SAM等主流框架的即插即用支持。显著降低从模型推理到应用部署的工程化门槛。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-06-10 0000</div>
+      <div class="mention-summary">该版本主要围绕定向边界框（OBB）支持进行修复与优化，同时清理弃用警告、更新文档与测试规范。</div>
+      <div class="mention-commits"><div class="commit-item">• chore(deprecation): use `TargetMode` enum to silence deprecate `FutureWarnings` on import (#2304)</div><div class="commit-item">• fix(detection): make `Detections.area` OBB-aware (#2306)</div><div class="commit-item">• chore: update `mdformat` hook arguments to disable wrapping (#2307)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-06-09 1200</div>
       <div class="mention-summary">修复OBB旋转保持、NMS/NMM感知及灰度图像填充等检测与数据集处理缺陷。</div>

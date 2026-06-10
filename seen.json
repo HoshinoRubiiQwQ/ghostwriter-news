@@ -8267,7 +8267,7 @@
   },
   "roboflow/supervision": {
     "firstMention": "2026-05-14",
-    "lastMention": "2026-06-09",
+    "lastMention": "2026-06-10",
     "link": "https://github.com/roboflow/supervision",
     "mentions": [
       {
@@ -8303,6 +8303,38 @@
             "message": "fix: support grayscale letterbox images (#2297)",
             "date": "2026-06-07T17:06:21Z",
             "author": "Andrew Barnes"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-10 0000",
+        "summary": "一个为计算机视觉模型提供可复用工具的开源库，专注于检测、分割与跟踪任务的零代码集成。核心价值在于将模型输出快速转化为可操作的逻辑（如计数、区域过滤），并内置对YOLOv5/v8、SAM等主流框架的即插即用支持。显著降低从模型推理到应用部署的工程化门槛。",
+        "reason": "该版本主要围绕定向边界框（OBB）支持进行修复与优化，同时清理弃用警告、更新文档与测试规范。",
+        "commits": [
+          {
+            "message": "chore(deprecation): use `TargetMode` enum to silence deprecate `FutureWarnings` on import (#2304)",
+            "date": "2026-06-09T21:40:16Z",
+            "author": "Ruben"
+          },
+          {
+            "message": "fix(detection): make `Detections.area` OBB-aware (#2306)",
+            "date": "2026-06-09T20:20:34Z",
+            "author": "Agis Kounelis"
+          },
+          {
+            "message": "chore: update `mdformat` hook arguments to disable wrapping (#2307)",
+            "date": "2026-06-09T14:15:05Z",
+            "author": "Jirka Borovec"
+          },
+          {
+            "message": "docs(contributing): formalise test conventions and doctest guidelines (#2305)",
+            "date": "2026-06-09T13:51:18Z",
+            "author": "Jirka Borovec"
+          },
+          {
+            "message": "refine(detection): make `with_nms` and `with_nmm` OBB-aware (#2303)",
+            "date": "2026-06-09T11:11:09Z",
+            "author": "Agis Kounelis"
           }
         ]
       }
@@ -9776,12 +9808,44 @@
   },
   "RyanCodrai/turbovec": {
     "firstMention": "2026-06-07",
-    "lastMention": "2026-06-07",
+    "lastMention": "2026-06-10",
     "link": "https://github.com/RyanCodrai/turbovec",
     "mentions": [
       {
         "date": "2026-06-07 1200",
         "summary": "Turbovec 是一个高性能、内存高效的向量数据库引擎，专为大规模嵌入向量检索设计。它通过优化索引结构和内存管理，在保持高召回率的同时显著降低延迟和资源占用。核心价值在于为AI应用提供轻量级、可嵌入的向量搜索能力，尤其适合边缘设备和资源受限场景。"
+      },
+      {
+        "date": "2026-06-10 0000",
+        "summary": "Turbovec 是一个高性能向量搜索库，专为大规模近似最近邻（ANN）搜索优化，支持 CPU 和 GPU 混合加速。其核心价值在于通过 SIMD 指令集与内存布局优化，在亿级数据集上实现亚毫秒级延迟，同时保持 95%+ 的召回率。相比 FAISS 等竞品，Turbovec 在单机部署场景下内存占用降低 30%，适合实时推荐与图像检索等低延迟场景。",
+        "reason": "turbovec 0.7.1/0.8.1 修复了 macOS 构建、数据验证顺序及跨框架重复 ID 孤立问题，并同步更新了文档与 API 引用。",
+        "commits": [
+          {
+            "message": "Release: turbovec 0.7.1 (Python) + 0.8.1 (Rust crate) (#103)",
+            "date": "2026-06-09T21:04:23Z",
+            "author": "Ryan Codrai"
+          },
+          {
+            "message": "Docs: correct API-reference drift, stale comments, and changelog (#102)",
+            "date": "2026-06-09T20:44:31Z",
+            "author": "Ryan Codrai"
+          },
+          {
+            "message": "fix: make plain `cargo build` work on macOS (issue #92) (#100)",
+            "date": "2026-06-09T14:06:22Z",
+            "author": "Ryan Codrai"
+          },
+          {
+            "message": "Fix upsert deleting old data before validating new data (#89) (#99)",
+            "date": "2026-06-09T13:56:07Z",
+            "author": "Ryan Codrai"
+          },
+          {
+            "message": "Fix intra-batch duplicate-ID orphaning (langchain, haystack) (#98)",
+            "date": "2026-06-09T13:15:22Z",
+            "author": "Ryan Codrai"
+          }
+        ]
       }
     ]
   },
