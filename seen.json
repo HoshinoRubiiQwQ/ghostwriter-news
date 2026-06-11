@@ -9957,5 +9957,38 @@
         "summary": "**核心价值摘要**：  \nOpenMed 是一个面向医疗领域的大规模开源数据集与模型集合，整合了 PubMed、临床笔记等多源医学文本，支持预训练与微调。其核心价值在于提供可复现的医学 NLP 基准，降低领域模型开发门槛，尤其适用于临床信息提取与医学问答任务。"
       }
     ]
+  },
+  "apple/container": {
+    "firstMention": "2026-06-11",
+    "lastMention": "2026-06-11",
+    "link": "https://github.com/apple/container",
+    "mentions": [
+      {
+        "date": "2026-06-11 1200",
+        "summary": "Apple开源的容器运行时工具集，提供轻量级、高性能的容器管理能力，支持macOS和Linux环境。核心聚焦于安全隔离与资源管控，基于沙箱机制实现进程级隔离，适用于边缘计算与IoT场景。其设计强调低开销与原生系统集成，为Apple生态内的容器化部署提供底层技术支撑。"
+      }
+    ]
+  },
+  "NVIDIA/SkillSpector": {
+    "firstMention": "2026-06-11",
+    "lastMention": "2026-06-11",
+    "link": "https://github.com/NVIDIA/SkillSpector",
+    "mentions": [
+      {
+        "date": "2026-06-11 1200",
+        "summary": "NVIDIA SkillSpector 是一个用于实时分析技能执行过程的工具，通过计算机视觉和深度学习技术，精准追踪人体动作并评估技能熟练度。它支持自定义技能模型，适用于工业培训、体育训练等场景，提供可量化的反馈以优化表现。核心价值在于将主观技能评估转化为客观数据驱动。"
+      }
+    ]
+  },
+  "restic/restic": {
+    "firstMention": "2026-06-11",
+    "lastMention": "2026-06-11",
+    "link": "https://github.com/restic/restic",
+    "mentions": [
+      {
+        "date": "2026-06-11 1200",
+        "summary": "Restic 是一个快速、安全且跨平台的开源备份工具，采用加密快照和去重技术，支持本地及多种远程存储（如 S3、SFTP）。其核心优势在于端到端加密、增量备份与高效恢复，适合对数据安全性和存储成本敏感的场景。"
+      }
+    ]
   }
 }
