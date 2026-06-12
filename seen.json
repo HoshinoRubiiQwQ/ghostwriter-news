@@ -9990,5 +9990,49 @@
         "summary": "Restic 是一个快速、安全且跨平台的开源备份工具，采用加密快照和去重技术，支持本地及多种远程存储（如 S3、SFTP）。其核心优势在于端到端加密、增量备份与高效恢复，适合对数据安全性和存储成本敏感的场景。"
       }
     ]
+  },
+  "music-assistant/server": {
+    "firstMention": "2026-06-12",
+    "lastMention": "2026-06-12",
+    "link": "https://github.com/music-assistant/server",
+    "mentions": [
+      {
+        "date": "2026-06-12 1800",
+        "summary": "Music Assistant 是一个开源的家庭音乐流媒体服务器，支持多平台（如本地文件、Spotify、Tidal）的统一管理与播放。它通过插件化架构集成各种音源和硬件（如Sonos、Chromecast），并提供低延迟同步、高音质转码等核心功能。项目强调隐私与自托管，适合追求跨平台无缝音乐体验的技术用户。"
+      }
+    ]
+  },
+  "mattermost/mattermost": {
+    "firstMention": "2026-06-12",
+    "lastMention": "2026-06-12",
+    "link": "https://github.com/mattermost/mattermost",
+    "mentions": [
+      {
+        "date": "2026-06-12 1800",
+        "summary": "Mattermost 是一个开源、自托管的团队协作平台，对标 Slack，强调数据主权与安全合规。核心价值在于提供可私有化部署的即时通讯与工作流集成能力，适用于对数据隐私有严格要求的组织。技术栈基于 Go 与 React，支持高度定制化与插件扩展。"
+      }
+    ]
+  },
+  "iptv-org/iptv": {
+    "firstMention": "2026-06-12",
+    "lastMention": "2026-06-12",
+    "link": "https://github.com/iptv-org/iptv",
+    "mentions": [
+      {
+        "date": "2026-06-12 1800",
+        "summary": "一个聚合全球7000+公开IPTV频道的开源资源库，覆盖200+国家/地区的直播电视源。支持按语言、国家、类别筛选，提供M3U格式直接播放，适合开发者集成或用户自行搭建流媒体服务。注意：源稳定性依赖第三方维护，需定期更新。"
+      }
+    ]
+  },
+  "LMCache/LMCache": {
+    "firstMention": "2026-06-12",
+    "lastMention": "2026-06-12",
+    "link": "https://github.com/LMCache/LMCache",
+    "mentions": [
+      {
+        "date": "2026-06-12 1800",
+        "summary": "LMCache 是一个专为大语言模型推理设计的缓存系统，通过高效管理 KV 缓存（键值缓存）来减少重复计算，显著降低长序列生成时的延迟和显存占用。其核心创新在于支持动态缓存策略和跨请求复用，适用于多轮对话、文档分析等场景。该项目为 LLM 部署提供了即插即用的性能优化方案，尤其适合高吞吐、低延迟的推理需求。"
+      }
+    ]
   }
 }
