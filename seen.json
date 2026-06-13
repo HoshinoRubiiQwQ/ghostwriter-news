@@ -9993,12 +9993,44 @@
   },
   "music-assistant/server": {
     "firstMention": "2026-06-12",
-    "lastMention": "2026-06-12",
+    "lastMention": "2026-06-13",
     "link": "https://github.com/music-assistant/server",
     "mentions": [
       {
         "date": "2026-06-12 1800",
         "summary": "Music Assistant 是一个开源的家庭音乐流媒体服务器，支持多平台（如本地文件、Spotify、Tidal）的统一管理与播放。它通过插件化架构集成各种音源和硬件（如Sonos、Chromecast），并提供低延迟同步、高音质转码等核心功能。项目强调隐私与自托管，适合追求跨平台无缝音乐体验的技术用户。"
+      },
+      {
+        "date": "2026-06-13 0000",
+        "summary": "Music Assistant 是一个开源的家庭音乐自动化服务器，核心价值在于统一管理多品牌流媒体服务（如 Spotify、Tidal）与本地音频库，提供跨平台无缝播放。它通过插件架构实现设备无关性，支持同步多房间音频，并具备智能家居集成能力（如 Home Assistant）。项目强调本地优先与隐私保护，无需云依赖即可完成全屋音频控制。",
+        "reason": "新增图像调色板API、自动检测CPU音频分析兼容性、优化文件解析与同步逻辑，并支持局部移除本地提供者。",
+        "commits": [
+          {
+            "message": "Add API command to get the color palette for any image (#4193)",
+            "date": "2026-06-12T18:15:41Z",
+            "author": "Marcel van der Veldt"
+          },
+          {
+            "message": "Automatically check if CPU is supported for Audio Analysis (#4166)",
+            "date": "2026-06-12T16:20:08Z",
+            "author": "Chris"
+          },
+          {
+            "message": "Skip stale artist paths during filesystem track parsing (#4191)",
+            "date": "2026-06-12T14:52:38Z",
+            "author": "Chris"
+          },
+          {
+            "message": "Fix sync group member playing out of sync after concurrent group changes (#4189)",
+            "date": "2026-06-12T14:28:53Z",
+            "author": "Marcel van der Veldt"
+          },
+          {
+            "message": "Remove local providers without wiping the entire library (#4183)",
+            "date": "2026-06-12T12:58:33Z",
+            "author": "Marcel van der Veldt"
+          }
+        ]
       }
     ]
   },
