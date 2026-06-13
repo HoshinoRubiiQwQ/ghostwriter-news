@@ -10066,5 +10066,49 @@
         "summary": "LMCache 是一个专为大语言模型推理设计的缓存系统，通过高效管理 KV 缓存（键值缓存）来减少重复计算，显著降低长序列生成时的延迟和显存占用。其核心创新在于支持动态缓存策略和跨请求复用，适用于多轮对话、文档分析等场景。该项目为 LLM 部署提供了即插即用的性能优化方案，尤其适合高吞吐、低延迟的推理需求。"
       }
     ]
+  },
+  "chatwoot/chatwoot": {
+    "firstMention": "2026-06-13",
+    "lastMention": "2026-06-13",
+    "link": "https://github.com/chatwoot/chatwoot",
+    "mentions": [
+      {
+        "date": "2026-06-13 1800",
+        "summary": "Chatwoot 是一个开源的全渠道客户沟通平台，支持实时聊天、邮件、社交媒体消息等统一管理。其核心价值在于提供类似 Intercom 或 Zendesk 的替代方案，具备高度可定制性和自托管能力，适合注重数据隐私与成本控制的企业。技术栈基于 Ruby on Rails 和 Vue.js，部署灵活，社区活跃。"
+      }
+    ]
+  },
+  "kenn-io/agentsview": {
+    "firstMention": "2026-06-13",
+    "lastMention": "2026-06-13",
+    "link": "https://github.com/kenn-io/agentsview",
+    "mentions": [
+      {
+        "date": "2026-06-13 1800",
+        "summary": "**核心价值摘要**：  \n`agentsview` 是一个轻量级、可嵌入的AI代理监控与调试工具，提供实时追踪代理决策链、工具调用及状态变化的可视化面板。它通过标准化接口与主流代理框架（如LangChain、AutoGPT）集成，帮助开发者快速定位逻辑错误与性能瓶颈，无需侵入式修改代码即可实现全链路可观测性。"
+      }
+    ]
+  },
+  "microsoft/PowerToys": {
+    "firstMention": "2026-06-13",
+    "lastMention": "2026-06-13",
+    "link": "https://github.com/microsoft/PowerToys",
+    "mentions": [
+      {
+        "date": "2026-06-13 1800",
+        "summary": "微软开源系统工具集，提供窗口管理（FancyZones）、批量重命名、颜色取色等实用功能，直接增强Windows生产力。基于C#/.NET开发，模块化架构支持按需安装，社区活跃持续迭代。适合追求高效操作的高级用户和开发者。"
+      }
+    ]
+  },
+  "andrewyng/aisuite": {
+    "firstMention": "2026-06-13",
+    "lastMention": "2026-06-13",
+    "link": "https://github.com/andrewyng/aisuite",
+    "mentions": [
+      {
+        "date": "2026-06-13 1800",
+        "summary": "Andrew Ng 推出的轻量级 AI 工具库，统一封装了 OpenAI、Anthropic、Google 等主流 LLM 的 API 接口，实现一行代码切换模型提供商。核心价值在于消除厂商锁定，降低多模型集成与迁移的工程成本，适合快速原型开发与多模型对比测试。"
+      }
+    ]
   }
 }
