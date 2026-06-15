@@ -9032,12 +9032,44 @@
   },
   "rohitg00/ai-engineering-from-scratch": {
     "firstMention": "2026-05-20",
-    "lastMention": "2026-05-20",
+    "lastMention": "2026-06-15",
     "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
     "mentions": [
       {
         "date": "2026-05-20 1200",
         "summary": "该项目提供从零构建AI工程核心组件的实战教程，涵盖神经网络、优化器、Transformer等底层实现。通过纯Python代码复现主流框架（如PyTorch）的关键模块，适合深入理解AI系统原理而非仅调包。硬核之处在于剥离抽象层，直面梯度计算、反向传播等底层细节。"
+      },
+      {
+        "date": "2026-06-15 1200",
+        "summary": "该项目从零实现AI工程核心组件，涵盖线性回归、神经网络、Transformer等算法的手写代码，不依赖高级框架。适合深入理解底层数学与工程原理，而非快速应用。硬核实操导向，适合技术研究者与算法工程师。",
+        "reason": "项目引入全站交互式图形系统（134个组件，13个模块），并修复文档预览分支逻辑、暗色模式及头部重叠问题。",
+        "commits": [
+          {
+            "message": "chore(site): rebuild data.js",
+            "date": "2026-06-14T16:42:35Z",
+            "author": "github-actions[bot]"
+          },
+          {
+            "message": "fix(site): preview lesson docs from the deploy's branch, not always main (#289)",
+            "date": "2026-06-14T16:42:11Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "chore(site): rebuild data.js",
+            "date": "2026-06-10T18:36:17Z",
+            "author": "github-actions[bot]"
+          },
+          {
+            "message": "feat(site): curriculum-wide interactive figure system (134 widgets, 13 modules) (#279)",
+            "date": "2026-06-10T18:35:56Z",
+            "author": "Rohit Ghumare"
+          },
+          {
+            "message": "fix(site): About page dark mode + header overlap (#275)",
+            "date": "2026-06-08T10:09:10Z",
+            "author": "Rohit Ghumare"
+          }
+        ]
       }
     ]
   },
@@ -10069,12 +10101,44 @@
   },
   "chatwoot/chatwoot": {
     "firstMention": "2026-06-13",
-    "lastMention": "2026-06-13",
+    "lastMention": "2026-06-15",
     "link": "https://github.com/chatwoot/chatwoot",
     "mentions": [
       {
         "date": "2026-06-13 1800",
         "summary": "Chatwoot 是一个开源的全渠道客户沟通平台，支持实时聊天、邮件、社交媒体消息等统一管理。其核心价值在于提供类似 Intercom 或 Zendesk 的替代方案，具备高度可定制性和自托管能力，适合注重数据隐私与成本控制的企业。技术栈基于 Ruby on Rails 和 Vue.js，部署灵活，社区活跃。"
+      },
+      {
+        "date": "2026-06-15 1200",
+        "summary": "Chatwoot 是一个开源的全渠道客户沟通平台，支持实时聊天、邮件、社交媒体消息等统一收件箱管理。其核心价值在于提供类似 Intercom 或 Zendesk 的 SaaS 级功能，但完全自托管且免费，适合注重数据隐私和定制化的企业。技术栈基于 Ruby on Rails 和 Vue.js，部署灵活，社区活跃。",
+        "reason": "引入并发会话限制与登录选择器，修复会话跟踪与令牌问题，阻止已删除邮件同步，新增联系人媒体视图，并修复新对话中邮件主题显示为\"undefined\"的缺陷。",
+        "commits": [
+          {
+            "message": "feat: enforce concurrent session limit with login picker (CW-7169) (#14621)",
+            "date": "2026-06-15T11:58:13Z",
+            "author": "Vishnu Narayanan"
+          },
+          {
+            "message": "fix: skip session tracking and use short-lived token for impersonation (CW-7169) (#14622)",
+            "date": "2026-06-15T11:44:34Z",
+            "author": "Vishnu Narayanan"
+          },
+          {
+            "message": "feat: prevent deleted email conversations from syncing again (#14612)",
+            "date": "2026-06-15T11:36:40Z",
+            "author": "Vishnu Narayanan"
+          },
+          {
+            "message": "feat: add media view for contacts (#14393)",
+            "date": "2026-06-15T10:12:11Z",
+            "author": "Sivin Varghese"
+          },
+          {
+            "message": "fix(new-conversation): stop writing literal \"undefined\" as mail_subject (#14383)",
+            "date": "2026-06-14T03:27:38Z",
+            "author": "Gabriel Jablonski"
+          }
+        ]
       }
     ]
   },
@@ -10185,6 +10249,39 @@
       {
         "date": "2026-06-14 1200",
         "summary": "该仓库提供了一本系统性的自主机器人教科书，涵盖运动学、感知、定位与规划等核心模块。代码与理论紧密结合，支持ROS实践，适合作为研究生或高级本科生的入门教材。项目开源且持续维护，是机器人领域技术积累的优质资源。"
+      }
+    ]
+  },
+  "teslamate-org/teslamate": {
+    "firstMention": "2026-06-15",
+    "lastMention": "2026-06-15",
+    "link": "https://github.com/teslamate-org/teslamate",
+    "mentions": [
+      {
+        "date": "2026-06-15 1200",
+        "summary": "Teslamate 是一个开源、自托管的特斯拉车辆数据记录与分析平台，通过 Tesla API 实时抓取充电、驾驶、能耗等全量数据。它提供 Grafana 可视化仪表盘，支持地理围栏、充电统计和电池健康追踪，无需依赖第三方云服务。核心价值在于将车辆数据主权交还用户，实现深度、私密的性能监控。"
+      }
+    ]
+  },
+  "krahets/hello-algo": {
+    "firstMention": "2026-06-15",
+    "lastMention": "2026-06-15",
+    "link": "https://github.com/krahets/hello-algo",
+    "mentions": [
+      {
+        "date": "2026-06-15 1200",
+        "summary": "《Hello 算法》是一套开源、交互式的数据结构与算法教程，覆盖数组、链表、树、图等核心内容，并配有可运行的代码示例与动画演示。项目采用多语言实现（Python、Java、C++等），强调“图解+代码”的直观学习路径，适合开发者快速掌握算法原理与工程实践。其核心价值在于降低算法学习门槛，提供从理论到代码的无缝衔接。"
+      }
+    ]
+  },
+  "trycua/cua": {
+    "firstMention": "2026-06-15",
+    "lastMention": "2026-06-15",
+    "link": "https://github.com/trycua/cua",
+    "mentions": [
+      {
+        "date": "2026-06-15 1200",
+        "summary": "CUA 是一个轻量级、跨平台的 C 语言单元测试框架，专注于零依赖和极简 API。它通过宏定义实现测试用例的自动注册与执行，支持断言、测试套件和结果统计，适合嵌入式或资源受限环境下的快速测试集成。核心价值在于以最小代码开销提供可移植的测试能力。"
       }
     ]
   }
