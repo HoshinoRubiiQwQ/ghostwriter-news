@@ -10139,6 +10139,38 @@
             "author": "Gabriel Jablonski"
           }
         ]
+      },
+      {
+        "date": "2026-06-15 1800",
+        "summary": "Chatwoot 是一个开源的全渠道客户沟通平台，支持实时聊天、邮件、社交媒体消息聚合。它提供轻量级替代 Zendesk/Intercom 的方案，核心优势在于自托管、数据隐私可控，以及灵活的 API 与 Webhook 集成能力。",
+        "reason": "本次更新新增了会话并发限制、侧边栏排序、未读排序功能，并修复了会话跟踪与已删除邮件同步问题。",
+        "commits": [
+          {
+            "message": "fix: added ordering capability for sidebar sections folders, teams, channels and labels (CW-7193) (#14609)",
+            "date": "2026-06-15T16:04:19Z",
+            "author": "Sony Mathew"
+          },
+          {
+            "message": "chore: added a new sort by unread option for conversations (CW-7152) (#14512)",
+            "date": "2026-06-15T12:28:04Z",
+            "author": "Sony Mathew"
+          },
+          {
+            "message": "feat: enforce concurrent session limit with login picker (CW-7169) (#14621)",
+            "date": "2026-06-15T11:58:13Z",
+            "author": "Vishnu Narayanan"
+          },
+          {
+            "message": "fix: skip session tracking and use short-lived token for impersonation (CW-7169) (#14622)",
+            "date": "2026-06-15T11:44:34Z",
+            "author": "Vishnu Narayanan"
+          },
+          {
+            "message": "feat: prevent deleted email conversations from syncing again (#14612)",
+            "date": "2026-06-15T11:36:40Z",
+            "author": "Vishnu Narayanan"
+          }
+        ]
       }
     ]
   },
