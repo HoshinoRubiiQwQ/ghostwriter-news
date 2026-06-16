@@ -10253,12 +10253,44 @@
   },
   "cypress-io/cypress": {
     "firstMention": "2026-06-14",
-    "lastMention": "2026-06-14",
+    "lastMention": "2026-06-16",
     "link": "https://github.com/cypress-io/cypress",
     "mentions": [
       {
         "date": "2026-06-14 1200",
         "summary": "Cypress 是一个面向现代 Web 应用的前端测试框架，提供端到端、组件和 API 测试能力。其核心优势在于实时重载、自动等待和调试工具，显著提升测试编写与执行效率。相比 Selenium，它采用更快的浏览器内运行架构，直接控制 DOM 和网络请求，减少测试不稳定性和复杂度。"
+      },
+      {
+        "date": "2026-06-16 1200",
+        "summary": "Cypress 是一个面向开发者的下一代前端端到端测试框架，基于 Node.js 架构，直接运行在浏览器中，无需 Selenium/WebDriver。它提供实时重载、时间旅行调试、自动等待和网络流量控制等硬核特性，显著提升测试编写与调试效率。核心价值在于：将测试工具链从“事后验证”升级为“开发流程内嵌”，尤其适合现代单页应用（SPA）的持续集成与交付。",
+        "reason": "该版本修复了Firefox中cy.request对回环主机发送安全Cookie的问题，将部分URL解析从Node.js旧API迁移至WHATWG标准，并修复了tsx加载器通过execArgv泄露到用户工作线程的缺陷。",
+        "commits": [
+          {
+            "message": "fix(server): send secure cookies over http to loopback hosts in Firefox (cy.request) (#34095)",
+            "date": "2026-06-15T21:55:05Z",
+            "author": "Jennifer Shehane"
+          },
+          {
+            "message": "fix: migrate some URL parsing from Node.js legacy API to WHATWG URL (network-tools package) (#34050)",
+            "date": "2026-06-15T19:36:54Z",
+            "author": "Jennifer Shehane"
+          },
+          {
+            "message": "chore: Update v8 snapshot cache (#34085)",
+            "date": "2026-06-15T18:44:32Z",
+            "author": "cypress-bot[bot]"
+          },
+          {
+            "message": "test: assert secure-cookie behavior for cy.request on loopback hosts (#34058)",
+            "date": "2026-06-15T18:43:12Z",
+            "author": "Jennifer Shehane"
+          },
+          {
+            "message": "fix: pass tsx loader via execArgv so it does not leak into user worker threads (#34079)",
+            "date": "2026-06-15T17:02:55Z",
+            "author": "Henri Cook"
+          }
+        ]
       }
     ]
   },
@@ -10314,6 +10346,28 @@
       {
         "date": "2026-06-15 1200",
         "summary": "CUA 是一个轻量级、跨平台的 C 语言单元测试框架，专注于零依赖和极简 API。它通过宏定义实现测试用例的自动注册与执行，支持断言、测试套件和结果统计，适合嵌入式或资源受限环境下的快速测试集成。核心价值在于以最小代码开销提供可移植的测试能力。"
+      }
+    ]
+  },
+  "puppeteer/puppeteer": {
+    "firstMention": "2026-06-16",
+    "lastMention": "2026-06-16",
+    "link": "https://github.com/puppeteer/puppeteer",
+    "mentions": [
+      {
+        "date": "2026-06-16 1200",
+        "summary": "Puppeteer 是一个 Node.js 库，提供高级 API 控制 Chrome/Chromium 浏览器，支持无头模式与全浏览器模式。核心价值在于自动化网页操作（截图、PDF生成、表单提交）及端到端测试，通过 DevTools 协议实现精准控制。适用于爬虫、UI 测试和性能监控场景。"
+      }
+    ]
+  },
+  "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
+    "firstMention": "2026-06-16",
+    "lastMention": "2026-06-16",
+    "link": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+    "mentions": [
+      {
+        "date": "2026-06-16 1200",
+        "summary": "跨平台Android系统精简工具，支持ADB免root卸载预装应用。通过社区维护的数据库精准识别并移除厂商预装、运营商捆绑及系统冗余组件，显著提升设备性能与存储空间。核心优势在于开源透明、多品牌兼容（三星/小米/华为等），且具备恢复出厂级安全回滚机制。"
       }
     ]
   }
