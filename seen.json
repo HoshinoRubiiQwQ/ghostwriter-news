@@ -10402,5 +10402,60 @@
         "summary": "跨平台Android系统精简工具，支持ADB免root卸载预装应用。通过社区维护的数据库精准识别并移除厂商预装、运营商捆绑及系统冗余组件，显著提升设备性能与存储空间。核心优势在于开源透明、多品牌兼容（三星/小米/华为等），且具备恢复出厂级安全回滚机制。"
       }
     ]
+  },
+  "DeusData/codebase-memory-mcp": {
+    "firstMention": "2026-06-17",
+    "lastMention": "2026-06-17",
+    "link": "https://github.com/DeusData/codebase-memory-mcp",
+    "mentions": [
+      {
+        "date": "2026-06-17 1200",
+        "summary": "该项目实现了一个MCP（Model Context Protocol）服务器，用于持久化存储和检索代码库的语义记忆。核心价值在于：通过向量化嵌入与结构化存储，使LLM能跨会话维护对代码库的长期上下文理解，显著减少重复分析。适用于需要深度代码库导航与历史推理的AI辅助开发场景。"
+      }
+    ]
+  },
+  "n0-computer/iroh": {
+    "firstMention": "2026-06-17",
+    "lastMention": "2026-06-17",
+    "link": "https://github.com/n0-computer/iroh",
+    "mentions": [
+      {
+        "date": "2026-06-17 1200",
+        "summary": "Iroh 是一个基于 IPFS 协议的去中心化点对点网络库，专为 Rust 生态设计，提供高效的内容寻址与同步能力。其核心价值在于通过 libp2p 实现低延迟、高可用的分布式存储与通信，并内置加密认证机制，适用于构建隐私优先的 P2P 应用。项目强调模块化与异步性能，可替代传统中心化服务，在文件共享、实时协作等场景中实现无服务器架构。"
+      }
+    ]
+  },
+  "RocketChat/Rocket.Chat": {
+    "firstMention": "2026-06-17",
+    "lastMention": "2026-06-17",
+    "link": "https://github.com/RocketChat/Rocket.Chat",
+    "mentions": [
+      {
+        "date": "2026-06-17 1200",
+        "summary": "Rocket.Chat 是一个开源、自托管的即时通讯平台，支持端到端加密、联邦协议与高度可定制化。其核心价值在于为企业提供完全掌控数据安全的私有部署方案，同时兼容 Slack/Teams 的协作功能与 API 集成。"
+      }
+    ]
+  },
+  "continuedev/continue": {
+    "firstMention": "2026-06-17",
+    "lastMention": "2026-06-17",
+    "link": "https://github.com/continuedev/continue",
+    "mentions": [
+      {
+        "date": "2026-06-17 1200",
+        "summary": "开源AI编程助手，支持VS Code和JetBrains IDE，通过集成LLM实现代码补全、自然语言交互及上下文感知的代码生成。核心价值在于提供本地化、可定制的AI辅助开发环境，支持多模型切换（如GPT-4、Claude、本地模型），并允许用户通过自定义规则和文档索引增强代码理解能力。"
+      }
+    ]
+  },
+  "penpot/penpot": {
+    "firstMention": "2026-06-17",
+    "lastMention": "2026-06-17",
+    "link": "https://github.com/penpot/penpot",
+    "mentions": [
+      {
+        "date": "2026-06-17 1200",
+        "summary": "Penpot 是一个开源的设计与原型制作平台，对标 Figma/Sketch，基于 Web 标准（SVG、CSS）构建，支持实时协作与自托管。其核心价值在于提供完全免费、无供应商锁定的矢量设计工具，并允许团队通过 Docker 一键部署私有实例，掌控数据主权。"
+      }
+    ]
   }
 }
