@@ -10253,7 +10253,7 @@
   },
   "cypress-io/cypress": {
     "firstMention": "2026-06-14",
-    "lastMention": "2026-06-16",
+    "lastMention": "2026-06-17",
     "link": "https://github.com/cypress-io/cypress",
     "mentions": [
       {
@@ -10289,6 +10289,38 @@
             "message": "fix: pass tsx loader via execArgv so it does not leak into user worker threads (#34079)",
             "date": "2026-06-15T17:02:55Z",
             "author": "Henri Cook"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-17 0000",
+        "summary": "AI 摘要生成失败",
+        "reason": "重构网络拦截层以强制执行配置器策略并整合组合逻辑，修复单标签运行模式下服务器网络状态重置、重复未捕获异常去重及缓存测试中fixture文件名保留问题，同时稳定了StaticResponse节流时序测试。",
+        "commits": [
+          {
+            "message": "refactor(network-interception): enforce configurator policies and consolidate composition (8/8) (#33918)",
+            "date": "2026-06-16T20:01:45Z",
+            "author": "Cacie Prins"
+          },
+          {
+            "message": "fix(server): reset server network state between specs in single-tab run mode (#34089)",
+            "date": "2026-06-16T19:28:21Z",
+            "author": "Jennifer Shehane"
+          },
+          {
+            "message": "perf: Deduplicate consecutive identical uncaught exceptions (#34080)",
+            "date": "2026-06-16T16:34:41Z",
+            "author": "Jennifer Shehane"
+          },
+          {
+            "message": "test: stabilize StaticResponse throttle timing test (#34067)",
+            "date": "2026-06-16T15:42:28Z",
+            "author": "cursor[bot]"
+          },
+          {
+            "message": "fix: preserve fixture file name for selectFile across cached tests (#34090)",
+            "date": "2026-06-16T14:53:34Z",
+            "author": "Jennifer Shehane"
           }
         ]
       }

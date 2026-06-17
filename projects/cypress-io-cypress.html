@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-06-14 1200</span>
-      <span>🕐 最近提及: 2026-06-16 1200</span>
-      <span>📊 被提及 2 次</span>
+      <span>🕐 最近提及: 2026-06-17 0000</span>
+      <span>📊 被提及 3 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Cypress 是一个面向开发者的下一代前端端到端测试框架，基于 Node.js 架构，直接运行在浏览器中，无需 Selenium/WebDriver。它提供实时重载、时间旅行调试、自动等待和网络流量控制等硬核特性，显著提升测试编写与调试效率。核心价值在于：将测试工具链从“事后验证”升级为“开发流程内嵌”，尤其适合现代单页应用（SPA）的持续集成与交付。</div>
+  <div class="latest-summary">AI 摘要生成失败</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-06-17 0000</div>
+      <div class="mention-summary">重构网络拦截层以强制执行配置器策略并整合组合逻辑，修复单标签运行模式下服务器网络状态重置、重复未捕获异常去重及缓存测试中fixture文件名保留问题，同时稳定了StaticResponse节流时序测试。</div>
+      <div class="mention-commits"><div class="commit-item">• refactor(network-interception): enforce configurator policies and consolidate composition (8/8) (#33918)</div><div class="commit-item">• fix(server): reset server network state between specs in single-tab run mode (#34089)</div><div class="commit-item">• perf: Deduplicate consecutive identical uncaught exceptions (#34080)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-06-16 1200</div>
       <div class="mention-summary">该版本修复了Firefox中cy.request对回环主机发送安全Cookie的问题，将部分URL解析从Node.js旧API迁移至WHATWG标准，并修复了tsx加载器通过execArgv泄露到用户工作线程的缺陷。</div>
