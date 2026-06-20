@@ -10599,5 +10599,49 @@
         "summary": "OpenMontage 是一个开源蒙太奇图像生成工具，通过深度学习模型实现多张图片的语义融合与无缝拼接。它支持用户自定义布局与风格迁移，无需专业图像处理技能即可生成高质量合成图。核心价值在于降低创意图像制作门槛，适用于快速原型设计与内容创作场景。"
       }
     ]
+  },
+  "tursodatabase/turso": {
+    "firstMention": "2026-06-20",
+    "lastMention": "2026-06-20",
+    "link": "https://github.com/tursodatabase/turso",
+    "mentions": [
+      {
+        "date": "2026-06-20 1200",
+        "summary": "Turso 是一个基于 libSQL 构建的分布式 SQLite 数据库，支持边缘部署和主从复制。它通过将 SQLite 扩展到多节点架构，实现低延迟读写与高可用性，特别适合无服务器和边缘计算场景。核心价值在于提供类 SQLite 的简洁开发体验，同时解决单点故障和地理分布问题。"
+      }
+    ]
+  },
+  "twentyhq/twenty": {
+    "firstMention": "2026-06-20",
+    "lastMention": "2026-06-20",
+    "link": "https://github.com/twentyhq/twenty",
+    "mentions": [
+      {
+        "date": "2026-06-20 1200",
+        "summary": "Twenty 是一个开源、高性能的客户关系管理（CRM）平台，采用现代技术栈（TypeScript、GraphQL、React）构建，旨在替代 Salesforce 等传统方案。其核心价值在于提供高度可定制的数据模型与实时协作能力，同时保持代码完全透明，适合企业级深度集成与二次开发。"
+      }
+    ]
+  },
+  "Kong/insomnia": {
+    "firstMention": "2026-06-20",
+    "lastMention": "2026-06-20",
+    "link": "https://github.com/Kong/insomnia",
+    "mentions": [
+      {
+        "date": "2026-06-20 1200",
+        "summary": "Kong/insomnia 是一款跨平台的开源 API 客户端，支持 REST、GraphQL、gRPC 及 WebSocket 协议，提供可视化请求构建与调试能力。其核心价值在于通过插件化架构与本地优先设计，实现低延迟的 API 开发与测试流程，并集成 Git 版本控制与团队协作功能。作为 Kong 生态的核心组件，它可无缝对接 API 网关与微服务治理工具链。"
+      }
+    ]
+  },
+  "tw93/Pake": {
+    "firstMention": "2026-06-20",
+    "lastMention": "2026-06-20",
+    "link": "https://github.com/tw93/Pake",
+    "mentions": [
+      {
+        "date": "2026-06-20 1200",
+        "summary": "Pake 将网页应用打包为轻量级桌面客户端，利用 Rust Tauri 替代 Electron，实现体积缩小 20 倍、内存占用降低 50%。支持一键生成 macOS/Windows/Linux 原生应用，提供自定义快捷键、沉浸式窗口等增强功能。适合需要快速将 Web 工具转化为高效桌面工具的技术用户。"
+      }
+    ]
   }
 }
