@@ -9631,12 +9631,44 @@
   },
   "chopratejas/headroom": {
     "firstMention": "2026-06-02",
-    "lastMention": "2026-06-02",
+    "lastMention": "2026-06-20",
     "link": "https://github.com/chopratejas/headroom",
     "mentions": [
       {
         "date": "2026-06-02 1800",
         "summary": "headroom 是一个轻量级、零依赖的 JavaScript 库，用于在页面滚动时自动隐藏/显示页面头部元素（如导航栏）。它通过监听滚动事件和阈值计算，实现类似“智能浮动条”的交互效果，提升移动端或长页面的浏览空间利用率。核心价值在于以极简 API 和低性能开销解决常见的 UI 空间优化需求。"
+      },
+      {
+        "date": "2026-06-20 0000",
+        "summary": "一个轻量级、零依赖的JavaScript库，用于在页面滚动时智能隐藏/显示页面头部元素。通过监听滚动方向和距离，自动触发CSS过渡动画，提升移动端阅读体验。核心价值在于以不足1KB的体积实现类似Medium、Google News的沉浸式导航栏效果。",
+        "reason": "修复冷缓存模型下载阻塞、表格/电子表格压缩、tiktoken词汇加载超时及工具搜索初始化问题。",
+        "commits": [
+          {
+            "message": "fix(kompress): never block the request path on the cold-cache model download (#1161)",
+            "date": "2026-06-19T16:33:05Z",
+            "author": "xspawnnn"
+          },
+          {
+            "message": "fix(unwrap): remove ANTHROPIC_BASE_URL + ENABLE_TOOL_SEARCH and init hooks on unwrap (#992)",
+            "date": "2026-06-19T16:30:59Z",
+            "author": "Eyal Mizrachi"
+          },
+          {
+            "message": "feat(transforms): tabular + spreadsheet (.xlsx/.xls) compression (#1128)",
+            "date": "2026-06-19T16:30:20Z",
+            "author": "Ashish"
+          },
+          {
+            "message": "fix(tokenizers): bound tiktoken vocab load so a stalled download cannot hang requests (#956) (#994)",
+            "date": "2026-06-19T16:27:09Z",
+            "author": "Eyal Mizrachi"
+          },
+          {
+            "message": "fix(init): set ENABLE_TOOL_SEARCH=true so Claude Code keeps deferring tools (#746) (#995)",
+            "date": "2026-06-19T16:26:26Z",
+            "author": "Eyal Mizrachi"
+          }
+        ]
       }
     ]
   },
