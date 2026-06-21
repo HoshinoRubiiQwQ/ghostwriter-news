@@ -10643,5 +10643,16 @@
         "summary": "Pake 将网页应用打包为轻量级桌面客户端，利用 Rust Tauri 替代 Electron，实现体积缩小 20 倍、内存占用降低 50%。支持一键生成 macOS/Windows/Linux 原生应用，提供自定义快捷键、沉浸式窗口等增强功能。适合需要快速将 Web 工具转化为高效桌面工具的技术用户。"
       }
     ]
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+    "firstMention": "2026-06-21",
+    "lastMention": "2026-06-21",
+    "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "mentions": [
+      {
+        "date": "2026-06-21 1200",
+        "summary": "该开源项目实现基于Python的A股每日技术面与基本面分析流水线，自动抓取行情数据并计算MACD、RSI等指标，生成可视化报告。核心价值在于提供轻量级、可复现的量化分析框架，适合个人投资者快速搭建自动化盯盘与决策辅助系统。"
+      }
+    ]
   }
 }
