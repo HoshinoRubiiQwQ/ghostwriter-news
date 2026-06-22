@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stirling-Tools/Stirling-PDF - GhostWriter</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  background: #0d1117; color: #c9d1d9; line-height: 1.6;
+}
+.container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+.back-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  color: #58a6ff; text-decoration: none; font-size: 0.9rem; margin-bottom: 2rem;
+}
+.back-link:hover { text-decoration: underline; }
+.project-header {
+  padding: 2rem 0; border-bottom: 1px solid #21262d; margin-bottom: 2rem;
+}
+.project-header h1 { font-size: 1.8rem; font-weight: 700; color: #f0f6fc; margin-bottom: 0.75rem; }
+.project-links { display: flex; gap: 1rem; flex-wrap: wrap; }
+.project-links a {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.8rem; background: #21262d; border: 1px solid #30363d;
+  border-radius: 6px; color: #58a6ff; text-decoration: none; font-size: 0.85rem;
+  transition: background 0.2s;
+}
+.project-links a:hover { background: #30363d; text-decoration: none; }
+.project-meta {
+  display: flex; gap: 1.5rem; margin-top: 1rem; font-size: 0.85rem; color: #8b949e;
+}
+.section-title {
+  font-size: 1.1rem; font-weight: 600; color: #f0f6fc;
+  margin: 2rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid #21262d;
+}
+.latest-summary {
+  background: #161b22; border: 1px solid #21262d; border-radius: 10px;
+  padding: 1.5rem; margin-bottom: 2rem; font-size: 1rem; line-height: 1.7;
+  border-left: 3px solid #58a6ff;
+}
+.mention {
+  background: #161b22; border: 1px solid #21262d; border-radius: 8px;
+  padding: 1rem 1.25rem; margin-bottom: 0.5rem;
+}
+.mention-date { font-size: 0.8rem; color: #8b949e; margin-bottom: 0.3rem; font-family: monospace; }
+.mention-summary { font-size: 0.9rem; color: #c9d1d9; }
+.mention-commits {
+  margin-top: 0.6rem; padding-top: 0.5rem; border-top: 1px solid #21262d;
+}
+.commit-item {
+  font-size: 0.82rem; color: #8b949e; padding: 0.15rem 0 0.15rem 0.8rem;
+  position: relative; line-height: 1.5;
+}
+.commit-item::before {
+  content: '';
+  position: absolute; left: 0; top: 0.55rem;
+  width: 5px; height: 5px; border-radius: 50%; background: #3fb950;
+}
+.footer {
+  text-align: center; padding: 2rem 0 1rem; border-top: 1px solid #21262d;
+  margin-top: 2rem; color: #484f58; font-size: 0.8rem;
+}
+@media (max-width: 640px) { .container { padding: 1rem; } .project-header h1 { font-size: 1.4rem; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="../index.html" class="back-link">← 返回首页</a>
+  <div class="project-header">
+    <h1>Stirling-Tools/Stirling-PDF</h1>
+    <div class="project-links">
+      <a href="https://github.com/Stirling-Tools/Stirling-PDF" target="_blank" rel="noopener">📦 GitHub</a>
+      <a href="https://github.com/Stirling-Tools/Stirling-PDF#readme" target="_blank" rel="noopener">📖 README</a>
+    </div>
+    <div class="project-meta">
+      <span>📅 首次提及: 2026-06-22 1200</span>
+      <span>🕐 最近提及: 2026-06-22 1200</span>
+      <span>📊 被提及 1 次</span>
+    </div>
+  </div>
+
+  <div class="section-title">最新摘要</div>
+  <div class="latest-summary">基于Docker部署的本地化PDF处理工具集，支持合并、拆分、压缩、OCR等30+种操作，无需联网即可在私有环境完成全流程文档处理。核心优势在于零数据外泄的隐私保护与轻量化部署（单容器运行），适合企业内网或敏感文档处理场景。</div>
+
+  <div class="section-title">更新记录</div>
+  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+
+  <div class="footer">GhostWriter · Powered by DeepSeek</div>
+</div>
+</body>
+</html>
