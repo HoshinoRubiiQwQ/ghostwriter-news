@@ -620,7 +620,7 @@
   },
   "bytedance/deer-flow": {
     "firstMention": "2026-02-27",
-    "lastMention": "2026-03-26",
+    "lastMention": "2026-06-23",
     "link": "https://github.com/bytedance/deer-flow",
     "mentions": [
       {
@@ -738,6 +738,38 @@
       {
         "date": "2026-03-26 1000",
         "summary": "Deer-Flow是字节跳动开源的分布式任务调度框架，核心价值在于其高可用与高性能设计。它采用去中心化架构，支持大规模任务调度，并提供可视化控制台，便于企业级运维管理。"
+      },
+      {
+        "date": "2026-06-23 0600",
+        "summary": "字节跳动开源的Deer Flow是一个基于Flink的实时数据集成框架，专为高吞吐、低延迟的CDC（变更数据捕获）场景设计。它通过自动化的Schema演进和分布式快照机制，实现MySQL、Kafka等异构数据源到目标系统的无缝同步，并支持断点续传与Exactly-Once语义。核心价值在于将传统ETL的复杂配置简化为声明式Pipeline，显著降低实时数仓的运维成本。",
+        "reason": "通过缓存和哈希索引将配置查找、SSE恢复偏移和沙箱路径匹配从线性复杂度优化为常数时间，并修复了内存构建器中隐藏消息和空白事实的过滤问题。",
+        "commits": [
+          {
+            "message": "perf(config): index AppConfig.get_*_config by name (O(n) -> O(1)) (#3688)",
+            "date": "2026-06-23T02:39:40Z",
+            "author": "ly-wang19"
+          },
+          {
+            "message": "perf(runtime): resolve SSE resume offset in O(1) via the event-id seq (#3700)",
+            "date": "2026-06-23T02:25:18Z",
+            "author": "ly-wang19"
+          },
+          {
+            "message": "fix(memory): filter hide_from_ui HumanMessages from memory builder (#3697)",
+            "date": "2026-06-23T02:02:38Z",
+            "author": "Zhipeng Zheng"
+          },
+          {
+            "message": "fix(memory): skip whitespace-only facts in _apply_updates (#3719)",
+            "date": "2026-06-23T00:34:41Z",
+            "author": "Yufeng He"
+          },
+          {
+            "message": "perf(sandbox): cache local-path masking patterns instead of recompiling per match (#3713)",
+            "date": "2026-06-23T00:32:51Z",
+            "author": "Eilen Shin"
+          }
+        ]
       }
     ]
   },
@@ -5234,7 +5266,7 @@
   },
   "jamiepine/voicebox": {
     "firstMention": "2026-04-14",
-    "lastMention": "2026-04-15",
+    "lastMention": "2026-06-23",
     "link": "https://github.com/jamiepine/voicebox",
     "mentions": [
       {
@@ -5268,6 +5300,38 @@
       {
         "date": "2026-04-15 0400",
         "summary": "1.  **项目热度指标**：该链接指向VoiceBox项目的GitHub星标页面，显示其获得社区关注与认可的程度，是衡量项目流行度与潜在影响力的直接指标。"
+      },
+      {
+        "date": "2026-06-23 0600",
+        "summary": "**核心价值摘要**：  \nVoicebox 是一个轻量级、本地优先的语音助手框架，基于 Python 实现，支持离线语音识别与合成。其核心价值在于无需云服务即可运行，通过模块化设计集成 Whisper、Coqui TTS 等开源模型，为隐私敏感场景提供低延迟、可定制的语音交互方案。",
+        "reason": "版本0.5.0发布，新增听写、MCP及个性化功能，并修复离线模式下的HuggingFace故障兼容性问题。",
+        "commits": [
+          {
+            "message": "Add Trendshift badge to README",
+            "date": "2026-04-26T20:29:17Z",
+            "author": "Jamie Pine"
+          },
+          {
+            "message": "feat: 0.5.0 Capture release — dictation, MCP, personalities (#544)",
+            "date": "2026-04-25T22:46:35Z",
+            "author": "Jamie Pine"
+          },
+          {
+            "message": "Fix web API URL for remote access (#550)",
+            "date": "2026-04-25T17:59:58Z",
+            "author": "Vincent Schäffer"
+          },
+          {
+            "message": "Bump version: 0.4.4 → 0.4.5",
+            "date": "2026-04-22T05:06:19Z",
+            "author": "Jamie Pine"
+          },
+          {
+            "message": "fix(offline): patch transformers mistral-regex check to survive HF failures (#530)",
+            "date": "2026-04-22T05:01:29Z",
+            "author": "Jamie Pine"
+          }
+        ]
       }
     ]
   },
@@ -10634,12 +10698,44 @@
   },
   "tursodatabase/turso": {
     "firstMention": "2026-06-20",
-    "lastMention": "2026-06-20",
+    "lastMention": "2026-06-23",
     "link": "https://github.com/tursodatabase/turso",
     "mentions": [
       {
         "date": "2026-06-20 1200",
         "summary": "Turso 是一个基于 libSQL 构建的分布式 SQLite 数据库，支持边缘部署和主从复制。它通过将 SQLite 扩展到多节点架构，实现低延迟读写与高可用性，特别适合无服务器和边缘计算场景。核心价值在于提供类 SQLite 的简洁开发体验，同时解决单点故障和地理分布问题。"
+      },
+      {
+        "date": "2026-06-23 0600",
+        "summary": "Turso 是一个基于 libSQL 的开源分布式 SQLite 数据库，专为边缘计算设计，支持主从架构与低延迟全球读取。它通过 HTTP 协议提供无状态连接，并集成嵌入式副本，实现接近零的查询延迟，适用于无服务器和边缘部署场景。核心价值在于将 SQLite 的轻量级优势扩展到分布式环境，同时保持强一致性。",
+        "reason": "核心更新：移除阻塞I/O，包括pager和btree中的页面释放与溢出清理，并采用非阻塞API优化WAL水印读取。",
+        "commits": [
+          {
+            "message": "Merge 'core: More blocking I/O removal' from Preston Thorpe",
+            "date": "2026-06-23T04:41:32Z",
+            "author": "Preston Thorpe"
+          },
+          {
+            "message": "Merge 'core/btree: prevent leaking pinned pages in page stack' from Preston Thorpe",
+            "date": "2026-06-23T03:55:43Z",
+            "author": "Preston Thorpe"
+          },
+          {
+            "message": "apply review suggestions",
+            "date": "2026-06-23T03:53:17Z",
+            "author": "PThorpe92"
+          },
+          {
+            "message": "move sync engine to try_wal_watermark_read_page nonblocking api",
+            "date": "2026-06-10T19:52:03Z",
+            "author": "PThorpe92"
+          },
+          {
+            "message": "remove blocking IO from pager::free_page and overflow cleanup in btree",
+            "date": "2026-06-10T01:55:13Z",
+            "author": "PThorpe92"
+          }
+        ]
       }
     ]
   },

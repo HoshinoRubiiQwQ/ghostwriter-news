@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-06-20 1200</span>
-      <span>🕐 最近提及: 2026-06-20 1200</span>
-      <span>📊 被提及 1 次</span>
+      <span>🕐 最近提及: 2026-06-23 0600</span>
+      <span>📊 被提及 2 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Turso 是一个基于 libSQL 构建的分布式 SQLite 数据库，支持边缘部署和主从复制。它通过将 SQLite 扩展到多节点架构，实现低延迟读写与高可用性，特别适合无服务器和边缘计算场景。核心价值在于提供类 SQLite 的简洁开发体验，同时解决单点故障和地理分布问题。</div>
+  <div class="latest-summary">Turso 是一个基于 libSQL 的开源分布式 SQLite 数据库，专为边缘计算设计，支持主从架构与低延迟全球读取。它通过 HTTP 协议提供无状态连接，并集成嵌入式副本，实现接近零的查询延迟，适用于无服务器和边缘部署场景。核心价值在于将 SQLite 的轻量级优势扩展到分布式环境，同时保持强一致性。</div>
 
   <div class="section-title">更新记录</div>
-  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-06-23 0600</div>
+      <div class="mention-summary">核心更新：移除阻塞I/O，包括pager和btree中的页面释放与溢出清理，并采用非阻塞API优化WAL水印读取。</div>
+      <div class="mention-commits"><div class="commit-item">• Merge 'core: More blocking I/O removal' from Preston Thorpe</div><div class="commit-item">• Merge 'core/btree: prevent leaking pinned pages in page stack' from Preston Thorpe</div><div class="commit-item">• apply review suggestions</div></div>
+    </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
 </div>
