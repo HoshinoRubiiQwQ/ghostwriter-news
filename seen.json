@@ -9217,12 +9217,44 @@
   },
   "mukul975/Anthropic-Cybersecurity-Skills": {
     "firstMention": "2026-05-23",
-    "lastMention": "2026-05-23",
+    "lastMention": "2026-06-23",
     "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
     "mentions": [
       {
         "date": "2026-05-23 1200",
         "summary": "该仓库提供了一套基于Anthropic Claude模型的网络安全技能评估与训练框架，通过结构化提示词和场景化任务，量化AI在渗透测试、威胁分析等领域的表现。核心价值在于为红队自动化、安全培训提供可复用的基准测试集，并暴露当前LLM在复杂攻击链推理中的能力边界。"
+      },
+      {
+        "date": "2026-06-23 0000",
+        "summary": "该仓库提供了一套基于Anthropic Claude模型的网络安全技能评估与训练框架，通过结构化提示和场景模拟测试AI在渗透测试、威胁分析等任务中的表现。核心价值在于量化LLM在安全领域的专业能力边界，为红队自动化与安全工具开发提供基准参考。",
+        "reason": "插件版本提升至v1.3.0，新增55项技能（总数从762增至817），覆盖3个新领域和6个未覆盖区域，并实现索引与技能计数的自动化同步。",
+        "commits": [
+          {
+            "message": "chore: bump plugin version to v1.3.0",
+            "date": "2026-06-22T17:11:46Z",
+            "author": "mukul975"
+          },
+          {
+            "message": "chore: auto-update index.json and skill count",
+            "date": "2026-06-22T17:08:43Z",
+            "author": "mukul975"
+          },
+          {
+            "message": "Add 55 new skills across 3 new domains + 6 undercovered areas (762 -> 817)",
+            "date": "2026-06-22T17:07:34Z",
+            "author": "mukul975"
+          },
+          {
+            "message": "chore: auto-update index.json and skill count",
+            "date": "2026-06-22T11:17:20Z",
+            "author": "mukul975"
+          },
+          {
+            "message": "Fix plugin version (1.0.0->1.2.0), sync skill count to 762, automate both",
+            "date": "2026-06-22T11:16:56Z",
+            "author": "mukul975"
+          }
+        ]
       }
     ]
   },
