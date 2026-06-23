@@ -770,6 +770,38 @@
             "author": "Eilen Shin"
           }
         ]
+      },
+      {
+        "date": "2026-06-23 1200",
+        "summary": "Deer Flow 是字节跳动开源的实时计算引擎，专为高吞吐、低延迟的流式数据处理设计。它基于 DAG 模型实现弹性调度，支持毫秒级延迟与百万级 QPS 吞吐，适用于广告、推荐等场景。相比 Flink，其资源占用降低 50%，且提供原生 SQL 接口降低开发门槛。",
+        "reason": "该版本通过索引优化将配置查找和SSE恢复偏移从O(n)降至O(1)，修复了LangGraph上下文API的thread_id传播、内存构建中隐藏消息过滤及空白事实跳过等关键问题。",
+        "commits": [
+          {
+            "message": "fix(gateway): propagate thread_id for LangGraph context API (#3735)",
+            "date": "2026-06-23T08:18:43Z",
+            "author": "Vibhu Dixit"
+          },
+          {
+            "message": "perf(config): index AppConfig.get_*_config by name (O(n) -> O(1)) (#3688)",
+            "date": "2026-06-23T02:39:40Z",
+            "author": "ly-wang19"
+          },
+          {
+            "message": "perf(runtime): resolve SSE resume offset in O(1) via the event-id seq (#3700)",
+            "date": "2026-06-23T02:25:18Z",
+            "author": "ly-wang19"
+          },
+          {
+            "message": "fix(memory): filter hide_from_ui HumanMessages from memory builder (#3697)",
+            "date": "2026-06-23T02:02:38Z",
+            "author": "Zhipeng Zheng"
+          },
+          {
+            "message": "fix(memory): skip whitespace-only facts in _apply_updates (#3719)",
+            "date": "2026-06-23T00:34:41Z",
+            "author": "Yufeng He"
+          }
+        ]
       }
     ]
   },
@@ -10654,12 +10686,44 @@
   },
   "palmier-io/palmier-pro": {
     "firstMention": "2026-06-19",
-    "lastMention": "2026-06-19",
+    "lastMention": "2026-06-23",
     "link": "https://github.com/palmier-io/palmier-pro",
     "mentions": [
       {
         "date": "2026-06-19 1200",
         "summary": "Palmier Pro 是一个面向高性能计算场景的 Rust 原生流式数据处理框架，核心特性包括零拷贝数据管道、无锁并发调度与可插拔的算子链。它通过编译期元编程消除运行时开销，在单节点上实现亚微秒级延迟与数十万 QPS 吞吐，适合实时特征工程与边缘推理场景。"
+      },
+      {
+        "date": "2026-06-23 1200",
+        "summary": "Palmier Pro 是一个高性能、低延迟的 Rust 原生代理框架，专为构建可扩展的中间件和网关而设计。它通过异步 I/O 和零拷贝处理，在流量代理场景中实现接近线速的吞吐量。核心价值在于提供模块化插件系统，允许开发者以最小开销定制协议解析与路由逻辑。",
+        "reason": "版本0.4.0引入Metal与自定义合成器实现的色彩与特效系统，并修复面板尺寸持久化问题。",
+        "commits": [
+          {
+            "message": "Add v0.4.0 to appcast",
+            "date": "2026-06-23T10:36:29Z",
+            "author": "Harrison Tin"
+          },
+          {
+            "message": "Bump to 0.4.0",
+            "date": "2026-06-23T10:36:04Z",
+            "author": "Harrison Tin"
+          },
+          {
+            "message": "fix",
+            "date": "2026-06-23T10:29:51Z",
+            "author": "Harrison Tin"
+          },
+          {
+            "message": "Colors + Effects via Metal + Custom Compositor (#8)",
+            "date": "2026-06-23T09:12:31Z",
+            "author": "Harrison Tin"
+          },
+          {
+            "message": "Merge pull request #102 from Ti-03/fix/persist-panel-sizes",
+            "date": "2026-06-23T08:47:45Z",
+            "author": "Harrison Tin"
+          }
+        ]
       }
     ]
   },

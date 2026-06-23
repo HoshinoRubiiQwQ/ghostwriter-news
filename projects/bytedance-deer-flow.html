@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-02-27 1800</span>
-      <span>🕐 最近提及: 2026-06-23 0600</span>
-      <span>📊 被提及 30 次</span>
+      <span>🕐 最近提及: 2026-06-23 1200</span>
+      <span>📊 被提及 31 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">字节跳动开源的Deer Flow是一个基于Flink的实时数据集成框架，专为高吞吐、低延迟的CDC（变更数据捕获）场景设计。它通过自动化的Schema演进和分布式快照机制，实现MySQL、Kafka等异构数据源到目标系统的无缝同步，并支持断点续传与Exactly-Once语义。核心价值在于将传统ETL的复杂配置简化为声明式Pipeline，显著降低实时数仓的运维成本。</div>
+  <div class="latest-summary">Deer Flow 是字节跳动开源的实时计算引擎，专为高吞吐、低延迟的流式数据处理设计。它基于 DAG 模型实现弹性调度，支持毫秒级延迟与百万级 QPS 吞吐，适用于广告、推荐等场景。相比 Flink，其资源占用降低 50%，且提供原生 SQL 接口降低开发门槛。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-06-23 1200</div>
+      <div class="mention-summary">该版本通过索引优化将配置查找和SSE恢复偏移从O(n)降至O(1)，修复了LangGraph上下文API的thread_id传播、内存构建中隐藏消息过滤及空白事实跳过等关键问题。</div>
+      <div class="mention-commits"><div class="commit-item">• fix(gateway): propagate thread_id for LangGraph context API (#3735)</div><div class="commit-item">• perf(config): index AppConfig.get_*_config by name (O(n) -> O(1)) (#3688)</div><div class="commit-item">• perf(runtime): resolve SSE resume offset in O(1) via the event-id seq (#3700)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-06-23 0600</div>
       <div class="mention-summary">通过缓存和哈希索引将配置查找、SSE恢复偏移和沙箱路径匹配从线性复杂度优化为常数时间，并修复了内存构建器中隐藏消息和空白事实的过滤问题。</div>
