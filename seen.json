@@ -10152,12 +10152,44 @@
   },
   "apple/container": {
     "firstMention": "2026-06-11",
-    "lastMention": "2026-06-11",
+    "lastMention": "2026-06-24",
     "link": "https://github.com/apple/container",
     "mentions": [
       {
         "date": "2026-06-11 1200",
         "summary": "Apple开源的容器运行时工具集，提供轻量级、高性能的容器管理能力，支持macOS和Linux环境。核心聚焦于安全隔离与资源管控，基于沙箱机制实现进程级隔离，适用于边缘计算与IoT场景。其设计强调低开销与原生系统集成，为Apple生态内的容器化部署提供底层技术支撑。"
+      },
+      {
+        "date": "2026-06-24 1200",
+        "summary": "Apple开源的容器运行时工具集，提供轻量级、高性能的容器管理能力，支持macOS和Linux环境。核心组件包括`container-diff`（镜像差异分析）和`container-optimizer`（镜像层优化），专为苹果生态的容器化工作负载设计。项目强调与Darwin内核的深度集成，适合构建原生苹果硬件上的容器化基础设施。",
+        "reason": "该版本修复了多个潜在崩溃点（强制解包、try!调用）并优化了错误处理（日志记录、路径解析），同时升级了容器化依赖至0.34.0。",
+        "commits": [
+          {
+            "message": "Log the graceful-stop error instead of silently discarding it in gracefulStopContainer (#1782)",
+            "date": "2026-06-23T17:46:00Z",
+            "author": "Bhavesh Varma"
+          },
+          {
+            "message": "fix: remove force-unwrap on session dictionary in DefaultNetworkService (#1787)",
+            "date": "2026-06-23T16:52:05Z",
+            "author": "SEPURI-SAI-KRISHNA"
+          },
+          {
+            "message": "fix: replace try! with try? for stdout/stderr writes in ProcessIO (#1784)",
+            "date": "2026-06-23T16:38:43Z",
+            "author": "SEPURI-SAI-KRISHNA"
+          },
+          {
+            "message": "fix(cp): resolve relative host paths against current directory (#1741)",
+            "date": "2026-06-22T18:54:00Z",
+            "author": "adityabagchi24"
+          },
+          {
+            "message": "[package]: bump containerization to 0.34.0 (#1774)",
+            "date": "2026-06-21T01:24:30Z",
+            "author": "Saehej Kang"
+          }
+        ]
       }
     ]
   },
@@ -10877,6 +10909,72 @@
       {
         "date": "2026-06-22 1200",
         "summary": "HyperFrames 是一个轻量级、高性能的 Web 视频帧提取与处理库，专为浏览器端实时视频分析设计。它利用 WebCodecs API 实现零拷贝帧捕获，显著降低延迟与内存开销，适用于 AI 驱动的视频理解、实时滤镜及动态渲染场景。核心价值在于将视频帧处理从后端迁移至前端，实现毫秒级响应与隐私保护。"
+      }
+    ]
+  },
+  "interviewstreet/hiring-agent": {
+    "firstMention": "2026-06-24",
+    "lastMention": "2026-06-24",
+    "link": "https://github.com/interviewstreet/hiring-agent",
+    "mentions": [
+      {
+        "date": "2026-06-24 1200",
+        "summary": "InterviewStreet的Hiring Agent是一个自动化技术面试与代码评估平台，核心功能是实时分析候选人的编程行为与代码质量。它通过沙箱环境执行代码并生成量化评分，显著降低技术招聘中的人工筛选成本。该项目已开源，适合企业快速搭建定制化技术评估流水线。"
+      }
+    ]
+  },
+  "JCodesMore/ai-website-cloner-template": {
+    "firstMention": "2026-06-24",
+    "lastMention": "2026-06-24",
+    "link": "https://github.com/JCodesMore/ai-website-cloner-template",
+    "mentions": [
+      {
+        "date": "2026-06-24 1200",
+        "summary": "一个基于AI的网站克隆模板，利用大语言模型解析目标页面结构并自动生成静态副本。核心价值在于绕过手动抓取与重构流程，实现从URL到可部署HTML的端到端自动化克隆。适合快速备份、离线归档或竞品页面结构分析。"
+      }
+    ]
+  },
+  "flutter/flutter": {
+    "firstMention": "2026-06-24",
+    "lastMention": "2026-06-24",
+    "link": "https://github.com/flutter/flutter",
+    "mentions": [
+      {
+        "date": "2026-06-24 1200",
+        "summary": "Flutter 是 Google 开源的跨平台 UI 框架，通过 Dart 语言和自研渲染引擎实现一套代码编译到移动、桌面和 Web 端。其核心价值在于提供高性能的 120fps 流畅渲染、热重载开发体验以及丰富的 Material/Cupertino 组件库，显著降低多平台开发成本。当前已覆盖 6 大平台，生态成熟度在跨端框架中居领先地位。"
+      }
+    ]
+  },
+  "andreknieriem/headunit-revived": {
+    "firstMention": "2026-06-24",
+    "lastMention": "2026-06-24",
+    "link": "https://github.com/andreknieriem/headunit-revived",
+    "mentions": [
+      {
+        "date": "2026-06-24 1200",
+        "summary": "Android Auto 车载主机复活方案，通过逆向工程实现非官方主机对 Android Auto 的完整支持。核心价值在于绕过硬件认证限制，让老旧或第三方车机系统无缝运行 Android Auto 界面与应用。项目基于 OpenAuto 框架，提供低延迟触控与音频路由，适合 DIY 改装与嵌入式集成场景。"
+      }
+    ]
+  },
+  "stablyai/orca": {
+    "firstMention": "2026-06-24",
+    "lastMention": "2026-06-24",
+    "link": "https://github.com/stablyai/orca",
+    "mentions": [
+      {
+        "date": "2026-06-24 1200",
+        "summary": "Orca 是一个轻量级、高性能的分布式任务队列，基于 Redis 实现，专注于低延迟和高吞吐。它支持任务优先级、延迟执行、重试机制和实时监控，适合微服务架构中的异步任务调度。核心优势在于极简的 API 设计和零外部依赖，部署成本极低。"
+      }
+    ]
+  },
+  "google-labs-code/design.md": {
+    "firstMention": "2026-06-24",
+    "lastMention": "2026-06-24",
+    "link": "https://github.com/google-labs-code/design.md",
+    "mentions": [
+      {
+        "date": "2026-06-24 1200",
+        "summary": "该仓库是谷歌实验室的公开设计文档，核心价值在于提供系统化技术决策框架，涵盖架构权衡、API设计原则及代码规范。它直接服务于内部工程协作与外部开发者参考，强调可扩展性与可维护性，是理解谷歌工程文化的高密度技术资料。"
       }
     ]
   }
