@@ -11032,5 +11032,82 @@
         "summary": "开源SEO工具，提供结构化数据生成、元标签优化及站点地图自动化功能。核心价值在于通过API集成实现SEO策略的代码级控制，降低对第三方插件的依赖。适合需要定制化搜索引擎优化流程的技术团队。"
       }
     ]
+  },
+  "simplex-chat/simplex-chat": {
+    "firstMention": "2026-06-26",
+    "lastMention": "2026-06-26",
+    "link": "https://github.com/simplex-chat/simplex-chat",
+    "mentions": [
+      {
+        "date": "2026-06-26 1200",
+        "summary": "一个去中心化、无服务器的即时通讯协议与客户端，采用双棘轮加密和临时消息路由，实现无元数据泄露的点对点通信。核心创新在于通过简单队列协议绕过传统服务器依赖，用户仅需二维码即可建立端到端加密会话。适合对隐私有极端要求的场景，如记者、活动家或企业机密通信。"
+      }
+    ]
+  },
+  "commaai/openpilot": {
+    "firstMention": "2026-06-26",
+    "lastMention": "2026-06-26",
+    "link": "https://github.com/commaai/openpilot",
+    "mentions": [
+      {
+        "date": "2026-06-26 1200",
+        "summary": "openpilot 是 comma.ai 开源的自动驾驶辅助系统，基于端到端深度学习与视觉感知，支持多款车型的横向与纵向控制。其核心价值在于提供可替代 OEM 的 L2 级驾驶辅助方案，通过社区驱动持续优化驾驶策略与安全性。"
+      }
+    ]
+  },
+  "kunchenguid/no-mistakes": {
+    "firstMention": "2026-06-26",
+    "lastMention": "2026-06-26",
+    "link": "https://github.com/kunchenguid/no-mistakes",
+    "mentions": [
+      {
+        "date": "2026-06-26 1200",
+        "summary": "该项目提供一套基于规则与静态分析的代码质量保障工具链，核心在于通过预定义错误模式库与自动化检测脚本，在编译前拦截常见编程失误。其价值在于将人工代码审查中重复性、机械性的错误检查自动化，显著降低低级bug逃逸率，尤其适用于追求高代码健壮性的团队。"
+      }
+    ]
+  },
+  "grafana/grafana": {
+    "firstMention": "2026-06-26",
+    "lastMention": "2026-06-26",
+    "link": "https://github.com/grafana/grafana",
+    "mentions": [
+      {
+        "date": "2026-06-26 1200",
+        "summary": "Grafana 是一个开源的可观测性与数据可视化平台，支持从 Prometheus、InfluxDB、Elasticsearch 等数十种数据源实时聚合与查询。其核心价值在于提供高度可定制的仪表盘、告警规则和插件生态，用于监控基础设施、应用性能及业务指标。作为行业标准，它被广泛用于 DevOps 和 SRE 场景下的统一监控与故障排查。"
+      }
+    ]
+  },
+  "ripienaar/free-for-dev": {
+    "firstMention": "2026-06-26",
+    "lastMention": "2026-06-26",
+    "link": "https://github.com/ripienaar/free-for-dev",
+    "mentions": [
+      {
+        "date": "2026-06-26 1200",
+        "summary": "该仓库聚合了SaaS、PaaS、IaaS等领域的免费开发资源清单，覆盖CI/CD、监控、数据库、DNS等关键环节。核心价值在于为个人开发者与初创团队提供零成本技术栈选型参考，降低基础设施试错门槛。需注意各服务的免费层限制（如用量、功能、期限），避免生产环境踩坑。"
+      }
+    ]
+  },
+  "opendatalab/MinerU": {
+    "firstMention": "2026-06-26",
+    "lastMention": "2026-06-26",
+    "link": "https://github.com/opendatalab/MinerU",
+    "mentions": [
+      {
+        "date": "2026-06-26 1200",
+        "summary": "MinerU 是一款开源的高性能 PDF 文档解析工具，专为复杂版面（如多栏、表格、公式）的精准提取而设计。它基于深度学习模型实现版面分析与 OCR 识别，支持将 PDF 转换为 Markdown 或 JSON 等结构化格式，显著提升 RAG 系统与数据清洗流程的预处理效率。核心优势在于对中文文档、扫描件及学术论文的高鲁棒性解析能力。"
+      }
+    ]
+  },
+  "alchaincyf/zhangxuefeng-skill": {
+    "firstMention": "2026-06-26",
+    "lastMention": "2026-06-26",
+    "link": "https://github.com/alchaincyf/zhangxuefeng-skill",
+    "mentions": [
+      {
+        "date": "2026-06-26 1200",
+        "summary": "该项目实现了一个基于大语言模型的虚拟角色技能包，模拟知名人物张雪峰的问答风格与知识体系。核心价值在于：通过微调与提示工程，将特定人物的语言习惯、知识边界与互动逻辑封装为可复用的AI技能模块，为垂直领域个性化AI助手开发提供技术参考。"
+      }
+    ]
   }
 }
