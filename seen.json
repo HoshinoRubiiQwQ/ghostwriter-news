@@ -11074,6 +11074,38 @@
       {
         "date": "2026-06-26 1200",
         "summary": "Grafana 是一个开源的可观测性与数据可视化平台，支持从 Prometheus、InfluxDB、Elasticsearch 等数十种数据源实时聚合与查询。其核心价值在于提供高度可定制的仪表盘、告警规则和插件生态，用于监控基础设施、应用性能及业务指标。作为行业标准，它被广泛用于 DevOps 和 SRE 场景下的统一监控与故障排查。"
+      },
+      {
+        "date": "2026-06-26 1800",
+        "summary": "Grafana 是一个开源的可观测性与数据可视化平台，支持 Prometheus、InfluxDB、Elasticsearch 等数十种数据源，提供灵活的仪表盘和告警引擎。其核心价值在于通过统一面板整合多源时序数据，实现实时监控与根因分析，适用于基础设施、应用性能及业务指标的可视化。项目采用插件化架构，社区生态活跃，支持企业级高可用部署与细粒度权限控制。",
+        "reason": "BrowseDashboards新增星标文件夹刷新功能，修复HTTP/1.1连接限制，优化表格图片加载失败时的alt文本显示，重构QueryField使用标准Portal/floating-ui，并增加统一存储的SQL/后端方法日志记录。",
+        "commits": [
+          {
+            "message": "BrowseDashboards: Refresh Starred folders view when a folder is starred (#127295)",
+            "date": "2026-06-26T16:57:15Z",
+            "author": "Tom Ratcliffe"
+          },
+          {
+            "message": "fix(setting): force HTTP/1.1 and bound idle connections (#127352)",
+            "date": "2026-06-26T16:50:22Z",
+            "author": "Andres Torres"
+          },
+          {
+            "message": "Table: Display alt text in image cell when image fails to load (#126904)",
+            "date": "2026-06-26T16:34:33Z",
+            "author": "Jesse David Peterson"
+          },
+          {
+            "message": "QueryField: Refactor to use standard Portal/floating-ui (#127347)",
+            "date": "2026-06-26T16:31:47Z",
+            "author": "Josh Hunt"
+          },
+          {
+            "message": "unified-storage: log sql/backend methods usage (#127344)",
+            "date": "2026-06-26T16:18:41Z",
+            "author": "Will Assis"
+          }
+        ]
       }
     ]
   },
