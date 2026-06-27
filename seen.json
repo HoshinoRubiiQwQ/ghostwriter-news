@@ -11141,5 +11141,27 @@
         "summary": "该项目实现了一个基于大语言模型的虚拟角色技能包，模拟知名人物张雪峰的问答风格与知识体系。核心价值在于：通过微调与提示工程，将特定人物的语言习惯、知识边界与互动逻辑封装为可复用的AI技能模块，为垂直领域个性化AI助手开发提供技术参考。"
       }
     ]
+  },
+  "IceWhaleTech/CasaOS": {
+    "firstMention": "2026-06-27",
+    "lastMention": "2026-06-27",
+    "link": "https://github.com/IceWhaleTech/CasaOS",
+    "mentions": [
+      {
+        "date": "2026-06-27 1200",
+        "summary": "CasaOS 是一个轻量级、开源的家庭云操作系统，专为简化个人 NAS 和智能家居管理而设计。它基于 Docker 容器化架构，提供极简的 Web UI 和插件生态，支持一键部署应用、文件管理及远程访问。核心价值在于以极低硬件门槛（如树莓派）实现私有云功能，同时保持模块化扩展能力。"
+      }
+    ]
+  },
+  "hugohe3/ppt-master": {
+    "firstMention": "2026-06-27",
+    "lastMention": "2026-06-27",
+    "link": "https://github.com/hugohe3/ppt-master",
+    "mentions": [
+      {
+        "date": "2026-06-27 1200",
+        "summary": "一个基于Python的PPT自动化生成工具，通过模板和JSON数据驱动快速创建演示文稿。核心价值在于将重复性PPT制作流程代码化，支持批量生成与动态内容填充，显著提升办公效率。适合需要高频输出标准化汇报材料的场景。"
+      }
+    ]
   }
 }
