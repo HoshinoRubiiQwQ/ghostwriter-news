@@ -11155,12 +11155,44 @@
   },
   "hugohe3/ppt-master": {
     "firstMention": "2026-06-27",
-    "lastMention": "2026-06-27",
+    "lastMention": "2026-06-28",
     "link": "https://github.com/hugohe3/ppt-master",
     "mentions": [
       {
         "date": "2026-06-27 1200",
         "summary": "一个基于Python的PPT自动化生成工具，通过模板和JSON数据驱动快速创建演示文稿。核心价值在于将重复性PPT制作流程代码化，支持批量生成与动态内容填充，显著提升办公效率。适合需要高频输出标准化汇报材料的场景。"
+      },
+      {
+        "date": "2026-06-28 0600",
+        "summary": "一个基于Python的PPT模板自动化生成工具，通过解析JSON配置文件动态填充幻灯片内容，支持图表、表格和自定义样式。核心价值在于将重复性PPT制作流程代码化，适合需要批量生成标准化演示文档的团队。",
+        "reason": "该项目新增了AI插画切片与装饰性裁剪功能，整合了中国电建/中汽研品牌预设，并移除了现代/商务变体。",
+        "commits": [
+          {
+            "message": "feat(pptx): place sliced spot illustrations as decorative cutouts, not boxes",
+            "date": "2026-06-28T04:45:49Z",
+            "author": "hugohe3"
+          },
+          {
+            "message": "feat(confirm-ui): add illustration usage toggle to image confirmation",
+            "date": "2026-06-28T04:32:00Z",
+            "author": "hugohe3"
+          },
+          {
+            "message": "feat(pptx): add AI illustration sheet → slice spot-illustration pipeline",
+            "date": "2026-06-28T04:31:52Z",
+            "author": "hugohe3"
+          },
+          {
+            "message": "refactor(decks): consolidate 中国电建/中汽研 to single deck, drop 现代/商务 variants",
+            "date": "2026-06-27T11:48:06Z",
+            "author": "hugohe3"
+          },
+          {
+            "message": "feat(brands): add 中国电建 / 中汽研 brand presets",
+            "date": "2026-06-27T11:47:51Z",
+            "author": "hugohe3"
+          }
+        ]
       }
     ]
   }
