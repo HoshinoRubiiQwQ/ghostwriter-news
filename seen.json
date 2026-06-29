@@ -11239,5 +11239,27 @@
         "summary": "该项目提出一种基于多模态市场情绪与链上数据融合的量化交易框架，核心是利用大语言模型实时解析社交媒体、新闻及链上交易信号，生成动态交易策略。通过强化学习优化仓位管理，在回测中实现夏普比率提升40%以上，显著优于传统技术指标策略。"
       }
     ]
+  },
+  "logto-io/logto": {
+    "firstMention": "2026-06-29",
+    "lastMention": "2026-06-29",
+    "link": "https://github.com/logto-io/logto",
+    "mentions": [
+      {
+        "date": "2026-06-29 1200",
+        "summary": "Logto 是一个开源的身份认证和用户管理平台，提供 OIDC/OAuth 2.0 协议支持，并内置社交登录、多因素认证和 RBAC 权限控制。其核心价值在于以单体部署替代 Auth0/Firebase Auth 等 SaaS 方案，降低对第三方服务的依赖，同时保持企业级安全性和可扩展性。适用于需要自托管身份基础设施的 SaaS 应用或私有化部署场景。"
+      }
+    ]
+  },
+  "browser-use/video-use": {
+    "firstMention": "2026-06-29",
+    "lastMention": "2026-06-29",
+    "link": "https://github.com/browser-use/video-use",
+    "mentions": [
+      {
+        "date": "2026-06-29 1200",
+        "summary": "**核心价值摘要**：  \n`browser-use/video-use` 是一个基于浏览器自动化框架的轻量级视频处理工具，通过模拟用户交互实现视频下载、转码及元数据提取。其核心优势在于无需依赖第三方API，直接利用浏览器原生能力处理流媒体内容，适合需要绕过DRM限制或动态加载场景的自动化任务。"
+      }
+    ]
   }
 }
