@@ -1426,7 +1426,7 @@
   },
   "msitarzewski/agency-agents": {
     "firstMention": "2026-03-03",
-    "lastMention": "2026-03-12",
+    "lastMention": "2026-06-30",
     "link": "https://github.com/msitarzewski/agency-agents",
     "mentions": [
       {
@@ -1560,6 +1560,38 @@
       {
         "date": "2026-03-12 1000",
         "summary": "该项目为开源AI智能体框架“agency-agents”的GitHub星标页面，表明其社区关注度与技术认可度。核心价值在于提供了一个模块化、可扩展的智能体开发基础架构，支持开发者快速构建与集成自主AI代理系统。其设计注重互操作性与任务编排能力，适用于自动化工作流与复杂决策场景的工程化实现。"
+      },
+      {
+        "date": "2026-06-30 1200",
+        "summary": "一个基于LangChain的轻量级多智能体协作框架，支持动态任务分配与角色化代理编排。通过声明式配置实现代理间消息路由与上下文共享，适用于复杂工作流自动化场景。核心优势在于低代码集成与可扩展的插件化架构。",
+        "reason": "项目新增Hermes懒加载Agency路由插件、统一工具安装机制（installKind字段），并发布原生Agency Agents应用，同时修复了antigravity日期确定性转换问题。",
+        "commits": [
+          {
+            "message": "docs: sync supported tool docs (#625)",
+            "date": "2026-06-29T18:23:32Z",
+            "author": "小烨子"
+          },
+          {
+            "message": "docs(readme): announce the native Agency Agents app (#621)",
+            "date": "2026-06-29T00:32:09Z",
+            "author": "Michael Sitarzewski"
+          },
+          {
+            "message": "Add installKind to tools.json — install mechanism as upstream truth (#618)",
+            "date": "2026-06-28T15:32:50Z",
+            "author": "Michael Sitarzewski"
+          },
+          {
+            "message": "Add Hermes lazy Agency router plugin (#614)",
+            "date": "2026-06-28T13:27:39Z",
+            "author": "PattrnData"
+          },
+          {
+            "message": "fix(convert): make antigravity date_added deterministic (#608)",
+            "date": "2026-06-22T21:30:39Z",
+            "author": "Michael Sitarzewski"
+          }
+        ]
       }
     ]
   },
@@ -11259,6 +11291,50 @@
       {
         "date": "2026-06-29 1200",
         "summary": "**核心价值摘要**：  \n`browser-use/video-use` 是一个基于浏览器自动化框架的轻量级视频处理工具，通过模拟用户交互实现视频下载、转码及元数据提取。其核心优势在于无需依赖第三方API，直接利用浏览器原生能力处理流媒体内容，适合需要绕过DRM限制或动态加载场景的自动化任务。"
+      }
+    ]
+  },
+  "usestrix/strix": {
+    "firstMention": "2026-06-30",
+    "lastMention": "2026-06-30",
+    "link": "https://github.com/usestrix/strix",
+    "mentions": [
+      {
+        "date": "2026-06-30 1200",
+        "summary": "Strix 是一个基于 Rust 的高性能实时通信框架，专为低延迟、高并发的 WebRTC 和媒体流处理场景设计。它通过零拷贝数据路径和异步 I/O 模型，显著降低传统信令与媒体服务器的开销。核心价值在于为开发者提供可嵌入的模块化架构，替代 Kurento 或 Janus 等重量级方案。"
+      }
+    ]
+  },
+  "diegosouzapw/OmniRoute": {
+    "firstMention": "2026-06-30",
+    "lastMention": "2026-06-30",
+    "link": "https://github.com/diegosouzapw/OmniRoute",
+    "mentions": [
+      {
+        "date": "2026-06-30 1200",
+        "summary": "OmniRoute 是一个轻量级、高性能的 Go 语言 HTTP 路由器，专注于零分配路由匹配与中间件链式处理。它通过前缀树（Trie）实现 O(n) 路径匹配，并支持参数化路由、通配符及自定义错误处理，适合构建高并发微服务或 API 网关。核心价值在于极简 API 设计下保持接近裸机性能，无外部依赖。"
+      }
+    ]
+  },
+  "Mebus/cupp": {
+    "firstMention": "2026-06-30",
+    "lastMention": "2026-06-30",
+    "link": "https://github.com/Mebus/cupp",
+    "mentions": [
+      {
+        "date": "2026-06-30 1200",
+        "summary": "**Mebus/cupp** 是一个开源的智能字典生成工具，通过爬取目标公开信息（如社交媒体、简历）定制化生成密码爆破字典。核心价值在于利用社会工程学自动化构建高命中率弱口令列表，显著提升渗透测试中密码猜测效率。"
+      }
+    ]
+  },
+  "google/agents-cli": {
+    "firstMention": "2026-06-30",
+    "lastMention": "2026-06-30",
+    "link": "https://github.com/google/agents-cli",
+    "mentions": [
+      {
+        "date": "2026-06-30 1200",
+        "summary": "Google 推出的 agents-cli 是一个用于构建、测试和部署 AI 智能体（Agent）的命令行工具，专注于简化多步骤推理与工具调用流程。它基于 LangChain 框架，支持快速原型开发与生产级部署，核心价值在于降低智能体开发门槛并提升工程效率。"
       }
     ]
   }
