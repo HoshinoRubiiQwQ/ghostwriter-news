@@ -1592,6 +1592,23 @@
             "author": "Michael Sitarzewski"
           }
         ]
+      },
+      {
+        "date": "2026-06-30 1800",
+        "summary": "一个基于Python的轻量级多智能体协作框架，支持动态任务分配与角色化代理通信。核心设计强调模块化与低耦合，通过消息总线实现代理间异步交互，适用于自动化工作流编排与复杂任务分解场景。技术栈简洁，无外部依赖，适合快速集成到现有AI系统。",
+        "reason": "新增网络工程师智能体，支持Cisco、Juniper、Palo Alto设备，并更新了安装工具列表文档。",
+        "commits": [
+          {
+            "message": "docs: update installer tool list in README (#627)",
+            "date": "2026-06-30T16:24:18Z",
+            "author": "Sheroy Cooper"
+          },
+          {
+            "message": "feat: add Network Engineer agent (Cisco/Juniper/Palo Alto) (#623)",
+            "date": "2026-06-30T15:27:16Z",
+            "author": "Matt Van Horn"
+          }
+        ]
       }
     ]
   },
@@ -11335,6 +11352,17 @@
       {
         "date": "2026-06-30 1200",
         "summary": "Google 推出的 agents-cli 是一个用于构建、测试和部署 AI 智能体（Agent）的命令行工具，专注于简化多步骤推理与工具调用流程。它基于 LangChain 框架，支持快速原型开发与生产级部署，核心价值在于降低智能体开发门槛并提升工程效率。"
+      }
+    ]
+  },
+  "hasaneyldrm/exercises-dataset": {
+    "firstMention": "2026-06-30",
+    "lastMention": "2026-06-30",
+    "link": "https://github.com/hasaneyldrm/exercises-dataset",
+    "mentions": [
+      {
+        "date": "2026-06-30 1800",
+        "summary": "该仓库提供了一套结构化的编程练习题数据集，涵盖算法、数据结构与基础语法，适合用于自动化评估与练习生成。数据集以标准化格式组织，便于集成到教学平台或自测工具中。核心价值在于为技术面试准备与编程教学提供可复用的高质量题目资源。"
       }
     ]
   }
