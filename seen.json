@@ -11382,5 +11382,38 @@
         "summary": "该仓库提供了一套结构化的编程练习题数据集，涵盖算法、数据结构与基础语法，适合用于自动化评估与练习生成。数据集以标准化格式组织，便于集成到教学平台或自测工具中。核心价值在于为技术面试准备与编程教学提供可复用的高质量题目资源。"
       }
     ]
+  },
+  "facebook/astryx": {
+    "firstMention": "2026-07-01",
+    "lastMention": "2026-07-01",
+    "link": "https://github.com/facebook/astryx",
+    "mentions": [
+      {
+        "date": "2026-07-01 1200",
+        "summary": "Facebook Astryx 是一个用于大规模图分析的高性能框架，专为处理百亿级边和复杂图算法设计。它通过分布式内存计算和异步执行模型，显著提升PageRank、连通分量等经典图算法的吞吐量。核心价值在于将图处理延迟从小时级压缩至分钟级，同时保持线性可扩展性。"
+      }
+    ]
+  },
+  "allenai/olmocr": {
+    "firstMention": "2026-07-01",
+    "lastMention": "2026-07-01",
+    "link": "https://github.com/allenai/olmocr",
+    "mentions": [
+      {
+        "date": "2026-07-01 1200",
+        "summary": "allenai/olmocr 是一个用于将PDF文档高效转换为机器可读文本的OCR工具，专为大规模文档处理优化。它基于深度学习模型，在保持高精度的同时显著降低计算资源消耗。核心价值在于为学术文献、法律文件等复杂排版内容提供可扩展的文本提取方案。"
+      }
+    ]
+  },
+  "togatoga/karukan": {
+    "firstMention": "2026-07-01",
+    "lastMention": "2026-07-01",
+    "link": "https://github.com/togatoga/karukan",
+    "mentions": [
+      {
+        "date": "2026-07-01 1200",
+        "summary": "Karukan 是一个轻量级、高性能的 Rust 实现的 HTTP/2 服务器框架，专注于低延迟和资源效率。它利用异步 I/O 和零拷贝技术，适合构建高吞吐量的微服务或边缘节点。核心价值在于用 Rust 的安全性和并发模型，提供接近 C 级别的性能，同时简化 HTTP/2 协议的开发复杂度。"
+      }
+    ]
   }
 }
