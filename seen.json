@@ -1426,7 +1426,7 @@
   },
   "msitarzewski/agency-agents": {
     "firstMention": "2026-03-03",
-    "lastMention": "2026-06-30",
+    "lastMention": "2026-07-01",
     "link": "https://github.com/msitarzewski/agency-agents",
     "mentions": [
       {
@@ -1597,6 +1597,23 @@
         "date": "2026-06-30 1800",
         "summary": "一个基于Python的轻量级多智能体协作框架，支持动态任务分配与角色化代理通信。核心设计强调模块化与低耦合，通过消息总线实现代理间异步交互，适用于自动化工作流编排与复杂任务分解场景。技术栈简洁，无外部依赖，适合快速集成到现有AI系统。",
         "reason": "新增网络工程师智能体，支持Cisco、Juniper、Palo Alto设备，并更新了安装工具列表文档。",
+        "commits": [
+          {
+            "message": "docs: update installer tool list in README (#627)",
+            "date": "2026-06-30T16:24:18Z",
+            "author": "Sheroy Cooper"
+          },
+          {
+            "message": "feat: add Network Engineer agent (Cisco/Juniper/Palo Alto) (#623)",
+            "date": "2026-06-30T15:27:16Z",
+            "author": "Matt Van Horn"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-01 0000",
+        "summary": "一个轻量级Python框架，用于构建多智能体协作系统。核心设计围绕“代理-任务-工具”三层结构，支持动态任务分配与工具调用，适合快速原型开发。代码简洁，依赖少，但文档和社区支持有限。",
+        "reason": "新增网络工程师智能体，支持Cisco、Juniper、Palo Alto设备，并更新了README中的安装工具列表。",
         "commits": [
           {
             "message": "docs: update installer tool list in README (#627)",
