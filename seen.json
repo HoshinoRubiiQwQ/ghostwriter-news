@@ -10265,6 +10265,38 @@
             "author": "Santiago"
           }
         ]
+      },
+      {
+        "date": "2026-07-02 1800",
+        "summary": "该项目是一个开源职业管理工具，通过自动化工作申请追踪、面试调度与技能差距分析，提升求职效率。核心价值在于将零散的求职流程转化为可量化的数据驱动系统，支持与ATS（申请人跟踪系统）及LinkedIn的API集成。适合需要系统化追踪多线程求职进程的技术从业者。",
+        "reason": "该项目新增实验性Web UI、确立文件规范与扁平根目录两大架构原则、修复Notion插件斜杠格式问题、实现重复与孤立报告检测，并添加启动面板插件。",
+        "commits": [
+          {
+            "message": "feat: add the opt-in experimental web UI surface (web/) — isolated versioning, CI and packaging",
+            "date": "2026-07-02T17:38:59Z",
+            "author": "Santiago"
+          },
+          {
+            "message": "docs(architecture): record two settled doctrines — files-canonical (#918) and the deliberate flat root (#1386)",
+            "date": "2026-07-02T17:06:23Z",
+            "author": "Santiago"
+          },
+          {
+            "message": "Fix: prevent notion plugin from mangling slash-formatted scores (#1414) (#1417)",
+            "date": "2026-07-02T16:17:47Z",
+            "author": "Monu Meena"
+          },
+          {
+            "message": "feat(verify): detect duplicate and orphan reports (#1425) (#1441)",
+            "date": "2026-07-02T16:17:20Z",
+            "author": "Scott Emberson"
+          },
+          {
+            "message": "feat(registry): add startup boards plugin (#1413)",
+            "date": "2026-07-02T16:16:45Z",
+            "author": "Giacomo Guidotto"
+          }
+        ]
       }
     ]
   },
