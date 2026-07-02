@@ -2925,7 +2925,7 @@
   },
   "obra/superpowers": {
     "firstMention": "2026-03-17",
-    "lastMention": "2026-03-29",
+    "lastMention": "2026-07-02",
     "link": "https://github.com/obra/superpowers",
     "mentions": [
       {
@@ -3023,6 +3023,38 @@
       {
         "date": "2026-03-29 1000",
         "summary": "该项目为开源游戏开发工具Superpowers的GitHub星标用户列表。核心价值在于展示社区对该实时协作2D/3D游戏引擎的认可度，为开发者提供生态活跃度参考指标。数据可直接反映工具在独立游戏开发领域的实际影响力。"
+      },
+      {
+        "date": "2026-07-02 1200",
+        "summary": "该项目是一个轻量级、自托管的实时协作开发平台，核心功能包括共享编辑器、终端和文件系统，无需复杂配置即可实现多人协同编码。其设计强调零依赖和低延迟，适合团队快速搭建私有协作环境，避免第三方服务的数据安全风险。",
+        "reason": "v6.1.0 精简了会话引导流程、集成 Codex 市场安装、移除 Gemini CLI 支持，并压缩了超能力引导与工具映射样板代码。",
+        "commits": [
+          {
+            "message": "Release v6.1.0: leaner per-session bootstrap, Codex marketplace install, Gemini removed",
+            "date": "2026-06-30T17:29:02Z",
+            "author": "Jesse Vincent"
+          },
+          {
+            "message": "test(codex): assert Codex manifest ships no hooks",
+            "date": "2026-06-30T17:28:53Z",
+            "author": "Jesse Vincent"
+          },
+          {
+            "message": "Compress the using-superpowers bootstrap",
+            "date": "2026-06-25T02:23:47Z",
+            "author": "Jesse Vincent"
+          },
+          {
+            "message": "Prune per-harness tool-mapping boilerplate",
+            "date": "2026-06-25T02:23:35Z",
+            "author": "Jesse Vincent"
+          },
+          {
+            "message": "Remove Gemini CLI support",
+            "date": "2026-06-25T02:23:23Z",
+            "author": "Jesse Vincent"
+          }
+        ]
       }
     ]
   },
@@ -9498,7 +9530,7 @@
   },
   "affaan-m/ECC": {
     "firstMention": "2026-05-25",
-    "lastMention": "2026-06-06",
+    "lastMention": "2026-07-02",
     "link": "https://github.com/affaan-m/ECC",
     "mentions": [
       {
@@ -9556,6 +9588,38 @@
             "message": "feat: add dynamic workflow team orchestration surface",
             "date": "2026-06-04T13:45:13Z",
             "author": "Affaan Mustafa"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-02 1200",
+        "summary": "ECC项目实现椭圆曲线密码学（ECC）的轻量级纯软件实现，支持密钥生成、签名与验证。核心价值在于提供无外部依赖的加密原语，适用于资源受限环境或教育场景。代码结构紧凑，但需注意其未审计状态，生产环境需谨慎评估安全性。",
+        "reason": "新增循环设计检查技能、会话结束思考质量验证钩子、成长日志技能及React Native规则包，同步更新清单并修复表情符号。",
+        "commits": [
+          {
+            "message": "chore(catalog): sync manifests + fix skill emoji (wave 2) (#2395)",
+            "date": "2026-06-30T02:44:51Z",
+            "author": "Affaan Mustafa"
+          },
+          {
+            "message": "feat: add loop-design-check skill (design + review goal-oriented agent loops) (#2381)",
+            "date": "2026-06-30T02:22:58Z",
+            "author": "Seekers2001"
+          },
+          {
+            "message": "Stop hook: verify thinking quality at session end — task completeness, assumptions, stale logs, disk space (delivery-gate) (#2378)",
+            "date": "2026-06-30T02:22:55Z",
+            "author": "YuhaoLin2005"
+          },
+          {
+            "message": "Add growth-log skill: methodology for effective learning capture (#2377)",
+            "date": "2026-06-30T02:22:51Z",
+            "author": "YuhaoLin2005"
+          },
+          {
+            "message": "feat(rules,skills): add React Native / Expo rules pack and react-native-patterns skill (#2275)",
+            "date": "2026-06-30T02:22:48Z",
+            "author": "Yeris Rifan"
           }
         ]
       }
@@ -10163,12 +10227,44 @@
   },
   "santifer/career-ops": {
     "firstMention": "2026-06-08",
-    "lastMention": "2026-06-08",
+    "lastMention": "2026-07-02",
     "link": "https://github.com/santifer/career-ops",
     "mentions": [
       {
         "date": "2026-06-08 1200",
         "summary": "一个自动化求职管理的开源工具集，通过脚本和API集成实现职位搜索、申请跟踪与面试排程的流水线操作。核心价值在于将零散的求职流程转化为可复用的代码化工作流，减少手动重复操作。适合技术背景求职者用于批量投递与数据驱动的求职策略优化。"
+      },
+      {
+        "date": "2026-07-02 1200",
+        "summary": "该项目是一个开源职业发展自动化工具，通过集成API与数据管道，实现求职流程的批量管理、简历定制与岗位匹配分析。核心价值在于用工程化思维替代手动操作，提升求职效率与精准度，适合技术背景的求职者进行规模化投递与追踪。",
+        "reason": "修复PDF输出路径遍历防护锚定到仓库根目录，新增ATS自动填充（Greenhouse/Ashby/Lever）及面试技能模式（计划/练习/复盘），并扩展多语言README测试白名单。",
+        "commits": [
+          {
+            "message": "fix(pdf): anchor the output path-traversal guard to the repo root, not cwd",
+            "date": "2026-07-02T10:33:03Z",
+            "author": "Santiago"
+          },
+          {
+            "message": "feat(apply): ATS auto-fill for Greenhouse / Ashby / Lever — prepare, don't submit (#1248)",
+            "date": "2026-07-02T08:52:26Z",
+            "author": "Schlaflied"
+          },
+          {
+            "message": "test(match-star): fixture story-bank + keyword scorer assertions in test-all.mjs (#1259)",
+            "date": "2026-07-02T08:48:47Z",
+            "author": "Schlaflied"
+          },
+          {
+            "message": "feat: add interview skill modes — plan, practice, debrief (#956)",
+            "date": "2026-07-02T08:38:23Z",
+            "author": "skalrn"
+          },
+          {
+            "message": "chore(test): whitelist README.ar/pl/ua translations in the personal-data check",
+            "date": "2026-07-02T08:04:28Z",
+            "author": "Santiago"
+          }
+        ]
       }
     ]
   },
@@ -11413,6 +11509,28 @@
       {
         "date": "2026-07-01 1200",
         "summary": "Karukan 是一个轻量级、高性能的 Rust 实现的 HTTP/2 服务器框架，专注于低延迟和资源效率。它利用异步 I/O 和零拷贝技术，适合构建高吞吐量的微服务或边缘节点。核心价值在于用 Rust 的安全性和并发模型，提供接近 C 级别的性能，同时简化 HTTP/2 协议的开发复杂度。"
+      }
+    ]
+  },
+  "JuliusBrussee/caveman": {
+    "firstMention": "2026-07-02",
+    "lastMention": "2026-07-02",
+    "link": "https://github.com/JuliusBrussee/caveman",
+    "mentions": [
+      {
+        "date": "2026-07-02 1200",
+        "summary": "**核心价值摘要**：  \nCaveman 是一个轻量级、无依赖的 C++ 头文件库，提供高性能的**位图索引**与**位操作**工具，专为内存受限或需要极致查询速度的场景设计。其核心优势在于通过紧凑的位压缩与 SIMD 友好布局，实现比标准容器（如 `std::bitset`）更优的缓存局部性与批量运算效率，适用于实时系统、嵌入式数据库或游戏引擎中的快速交集/并集计算。"
+      }
+    ]
+  },
+  "actions/checkout": {
+    "firstMention": "2026-07-02",
+    "lastMention": "2026-07-02",
+    "link": "https://github.com/actions/checkout",
+    "mentions": [
+      {
+        "date": "2026-07-02 1200",
+        "summary": "**核心价值摘要**：  \n`actions/checkout` 是 GitHub Actions 生态中用于将仓库代码检出到运行器工作目录的标准动作，支持浅克隆、稀疏检出及自定义 Git 引用。它通过 `persist-credentials` 和 `token` 参数实现安全认证，是 CI/CD 流水线中代码获取的基石组件。"
       }
     ]
   }
