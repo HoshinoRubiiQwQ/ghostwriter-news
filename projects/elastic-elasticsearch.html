@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-07-03 1200</span>
-      <span>🕐 最近提及: 2026-07-03 1200</span>
-      <span>📊 被提及 1 次</span>
+      <span>🕐 最近提及: 2026-07-03 1800</span>
+      <span>📊 被提及 2 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">基于Lucene的分布式搜索与分析引擎，核心提供实时全文检索、结构化查询与聚合分析能力。支持水平扩展至PB级数据，通过RESTful API与JSON查询语法实现低延迟交互。广泛应用于日志分析、APM及安全事件监控场景，是ELK技术栈的基石。</div>
+  <div class="latest-summary">Elasticsearch 是一个基于 Lucene 的分布式搜索与分析引擎，核心价值在于提供近实时、高可用的全文检索与结构化数据分析能力。它通过 RESTful API 和水平扩展架构，支持 PB 级数据的快速索引与聚合查询，是日志分析、安全监控和商业智能等场景的标配基础设施。</div>
 
   <div class="section-title">更新记录</div>
-  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-07-03 1800</div>
+      <div class="mention-summary">ESQL 查询引擎修复了 Parquet 聚合统计中的符号扩展问题，迁移了外部数据源语法，并增强了 UTF-8 输入边界校验，同时优化了存储路径归一化和缓存强制驱逐逻辑。</div>
+      <div class="mention-commits"><div class="commit-item">• ESQL:DS: Fix uint32/unin64 Parquet aggregate-stats sign-extension (#152858)</div><div class="commit-item">• Further EXTERNAL to FROM migration (#152890)</div><div class="commit-item">• ESQL: sanitize external UTF-8 at source boundary (#152783)</div></div>
+    </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
 </div>

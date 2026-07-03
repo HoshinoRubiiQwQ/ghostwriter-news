@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-05-10 0809</span>
-      <span>🕐 最近提及: 2026-07-03 1200</span>
-      <span>📊 被提及 4 次</span>
+      <span>🕐 最近提及: 2026-07-03 1800</span>
+      <span>📊 被提及 5 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Chrome DevTools MCP 将 Chrome 开发者工具协议封装为标准化接口，允许外部工具直接操控浏览器调试能力。核心价值在于打破 DevTools 的 GUI 限制，为自动化测试、性能分析、DOM 监控等场景提供程序化控制通道。该方案显著降低浏览器底层调试门槛，尤其适合 CI/CD 流水线或自定义开发工具集成。</div>
+  <div class="latest-summary">Chrome DevTools MCP 是一个基于 Chrome DevTools Protocol 的模型上下文协议（MCP）服务器实现，允许 LLM 代理直接控制浏览器进行自动化调试与性能分析。核心价值在于将 DevTools 的底层能力封装为标准化的 MCP 工具接口，使 AI 能执行元素审查、网络拦截、性能剖析等操作。该项目为 AI 驱动的浏览器自动化提供了基础设施级支持，尤其适合需要深度调试能力的智能体场景。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-07-03 1800</div>
+      <div class="mention-summary">发布chrome-devtools-mcp 1.5.0，新增获取堆快照重复字符串的MCP工具，并修复扩展强制输出路径的验证问题。</div>
+      <div class="mention-commits"><div class="commit-item">• chore(main): release chrome-devtools-mcp 1.5.0 (#2252)</div><div class="commit-item">• feat: Add get_heapsnapshot_duplicate_strings MCP tool (#2280)</div><div class="commit-item">• fix: validate extension-enforced output paths (#2269)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-07-03 1200</div>
       <div class="mention-summary">发布 chrome-devtools-mcp 1.5.0，新增堆快照重复字符串检测工具，修复扩展强制输出路径验证、CLI 错误提示优化及测试稳定性问题。</div>

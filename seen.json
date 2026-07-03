@@ -7512,6 +7512,28 @@
             "author": "Piotr Paulski"
           }
         ]
+      },
+      {
+        "date": "2026-07-03 1800",
+        "summary": "Chrome DevTools MCP 是一个基于 Chrome DevTools Protocol 的模型上下文协议（MCP）服务器实现，允许 LLM 代理直接控制浏览器进行自动化调试与性能分析。核心价值在于将 DevTools 的底层能力封装为标准化的 MCP 工具接口，使 AI 能执行元素审查、网络拦截、性能剖析等操作。该项目为 AI 驱动的浏览器自动化提供了基础设施级支持，尤其适合需要深度调试能力的智能体场景。",
+        "reason": "发布chrome-devtools-mcp 1.5.0，新增获取堆快照重复字符串的MCP工具，并修复扩展强制输出路径的验证问题。",
+        "commits": [
+          {
+            "message": "chore(main): release chrome-devtools-mcp 1.5.0 (#2252)",
+            "date": "2026-07-03T11:09:50Z",
+            "author": "browser-automation-bot"
+          },
+          {
+            "message": "feat: Add get_heapsnapshot_duplicate_strings MCP tool (#2280)",
+            "date": "2026-07-03T10:01:26Z",
+            "author": "Dominik Inführ"
+          },
+          {
+            "message": "fix: validate extension-enforced output paths (#2269)",
+            "date": "2026-07-03T09:18:59Z",
+            "author": "Trung Huynh Chi"
+          }
+        ]
       }
     ]
   },
@@ -11609,12 +11631,44 @@
   },
   "facebook/astryx": {
     "firstMention": "2026-07-01",
-    "lastMention": "2026-07-01",
+    "lastMention": "2026-07-03",
     "link": "https://github.com/facebook/astryx",
     "mentions": [
       {
         "date": "2026-07-01 1200",
         "summary": "Facebook Astryx 是一个用于大规模图分析的高性能框架，专为处理百亿级边和复杂图算法设计。它通过分布式内存计算和异步执行模型，显著提升PageRank、连通分量等经典图算法的吞吐量。核心价值在于将图处理延迟从小时级压缩至分钟级，同时保持线性可扩展性。"
+      },
+      {
+        "date": "2026-07-03 1800",
+        "summary": "Facebook Astryx 是一个高性能、可扩展的静态分析引擎，专为大规模代码库设计，支持跨语言分析。它通过并行化分析流水线和增量计算，显著提升分析速度，适用于安全审计和代码质量检查。核心价值在于将复杂静态分析任务从小时级压缩至分钟级，同时保持高精度。",
+        "reason": "该版本核心更新为引入`useKeyboardHint`，为工具栏、标签列表和分段控件提供临时箭头键导航提示，同时重构了树形列表和标签列表的焦点管理逻辑，统一使用`useTreeFocus`和`useListFocus`接管循环Tab索引。",
+        "commits": [
+          {
+            "message": "feat(core): wire useKeyboardHint into Toolbar/TabList/SegmentedControl + showcase (#3501)",
+            "date": "2026-07-03T14:46:12Z",
+            "author": "Cindy Zhang"
+          },
+          {
+            "message": "refactor(TreeList): let useTreeFocus own roving tabindex (#3488)",
+            "date": "2026-07-03T14:20:33Z",
+            "author": "Cindy Zhang"
+          },
+          {
+            "message": "feat(core): useKeyboardHint — ephemeral arrow-key navigation hint for roving widgets (#3498)",
+            "date": "2026-07-03T14:19:46Z",
+            "author": "Cindy Zhang"
+          },
+          {
+            "message": "refactor(tablist): use useListFocus hasRovingTabIndex instead of inline repair (#3484)",
+            "date": "2026-07-03T14:09:26Z",
+            "author": "Cindy Zhang"
+          },
+          {
+            "message": "ci: re-request review after PR updates (#3500)",
+            "date": "2026-07-03T13:47:09Z",
+            "author": "Cindy Zhang"
+          }
+        ]
       }
     ]
   },
@@ -11681,6 +11735,38 @@
       {
         "date": "2026-07-03 1200",
         "summary": "基于Lucene的分布式搜索与分析引擎，核心提供实时全文检索、结构化查询与聚合分析能力。支持水平扩展至PB级数据，通过RESTful API与JSON查询语法实现低延迟交互。广泛应用于日志分析、APM及安全事件监控场景，是ELK技术栈的基石。"
+      },
+      {
+        "date": "2026-07-03 1800",
+        "summary": "Elasticsearch 是一个基于 Lucene 的分布式搜索与分析引擎，核心价值在于提供近实时、高可用的全文检索与结构化数据分析能力。它通过 RESTful API 和水平扩展架构，支持 PB 级数据的快速索引与聚合查询，是日志分析、安全监控和商业智能等场景的标配基础设施。",
+        "reason": "ESQL 查询引擎修复了 Parquet 聚合统计中的符号扩展问题，迁移了外部数据源语法，并增强了 UTF-8 输入边界校验，同时优化了存储路径归一化和缓存强制驱逐逻辑。",
+        "commits": [
+          {
+            "message": "ESQL:DS: Fix uint32/unin64 Parquet aggregate-stats sign-extension (#152858)",
+            "date": "2026-07-03T17:44:52Z",
+            "author": "Bogdan Pintea"
+          },
+          {
+            "message": "Further EXTERNAL to FROM migration (#152890)",
+            "date": "2026-07-03T17:41:15Z",
+            "author": "Bogdan Pintea"
+          },
+          {
+            "message": "ESQL: sanitize external UTF-8 at source boundary (#152783)",
+            "date": "2026-07-03T17:34:43Z",
+            "author": "Costin Leau"
+          },
+          {
+            "message": "Use forceEvictEntries for all forceEvict methods (#152846)",
+            "date": "2026-07-03T17:28:37Z",
+            "author": "Tanguy Leroux"
+          },
+          {
+            "message": "[ESQL] Normalize local StorageObject path for stats reconcile (#152837)",
+            "date": "2026-07-03T17:23:52Z",
+            "author": "Costin Leau"
+          }
+        ]
       }
     ]
   },
