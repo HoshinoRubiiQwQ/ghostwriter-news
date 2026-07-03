@@ -10227,7 +10227,7 @@
   },
   "santifer/career-ops": {
     "firstMention": "2026-06-08",
-    "lastMention": "2026-07-02",
+    "lastMention": "2026-07-03",
     "link": "https://github.com/santifer/career-ops",
     "mentions": [
       {
@@ -10295,6 +10295,38 @@
             "message": "feat(registry): add startup boards plugin (#1413)",
             "date": "2026-07-02T16:16:45Z",
             "author": "Giacomo Guidotto"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-03 0000",
+        "summary": "一个基于GitHub的自动化求职工具，通过脚本批量投递简历、追踪申请状态并管理面试日程。核心价值在于用代码替代重复性手动操作，提升求职效率，但需注意平台反爬机制与合规风险。",
+        "reason": "Web alpha 阶段上线：新增本地优先的 Web UI（实验性 opt-in alpha），修复 RC 分支与主分支间丢失的 bug 报告模板，补充 Web 目录 README（含 alpha 状态、快速入门、安全与反馈说明），并调整基础设施隔离规则以豁免 Web 目录。",
+        "commits": [
+          {
+            "message": "chore: root surfaces for the web alpha — README pointer + bug-report issue template",
+            "date": "2026-07-02T18:43:14Z",
+            "author": "Santiago"
+          },
+          {
+            "message": "fix(web): restore the report-a-bug kit lost between the RC branch and main (#1456)",
+            "date": "2026-07-02T18:38:07Z",
+            "author": "Santiago Fernández de Valderrama"
+          },
+          {
+            "message": "docs(web): add the web/ README — alpha status, quick start, safety, feedback (#1452)",
+            "date": "2026-07-02T18:37:34Z",
+            "author": "Santiago Fernández de Valderrama"
+          },
+          {
+            "message": "feat: experimental local-first web UI (opt-in alpha) (#1451)",
+            "date": "2026-07-02T18:07:36Z",
+            "author": "Santiago Fernández de Valderrama"
+          },
+          {
+            "message": "fix(infra): exempt web/ from the SYSTEM_PATHS coverage guard (isolation contract)",
+            "date": "2026-07-02T18:00:40Z",
+            "author": "Santiago"
           }
         ]
       }
