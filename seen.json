@@ -4480,7 +4480,7 @@
   },
   "asgeirtj/system_prompts_leaks": {
     "firstMention": "2026-04-02",
-    "lastMention": "2026-04-03",
+    "lastMention": "2026-07-04",
     "link": "https://github.com/asgeirtj/system_prompts_leaks",
     "mentions": [
       {
@@ -4498,6 +4498,38 @@
       {
         "date": "2026-04-03 0800",
         "summary": "该项目是一个GitHub仓库，收集并公开了多个AI模型（如ChatGPT、Claude）的系统提示词。其核心价值在于通过逆向工程揭示通常被隐藏的底层指令，为研究AI行为透明性、提示工程及模型安全性提供了关键数据源。"
+      },
+      {
+        "date": "2026-07-04 1800",
+        "summary": "该项目收集并公开了多个AI系统的内部系统提示词（system prompts）泄露样本，涵盖ChatGPT、Claude等主流模型。核心价值在于：1）揭示厂商未公开的底层指令约束与安全过滤机制，为红队测试和对抗性攻击提供直接参考；2）暴露提示词注入、越狱攻击的潜在突破口，推动LLM安全加固与防御策略迭代。",
+        "reason": "该项目新增了Claude Sonnet 5提示词支持，并扩展了代码审查技能，加入工作量等级与数据可视化功能。",
+        "commits": [
+          {
+            "message": "Add artifact-design bundled skill",
+            "date": "2026-07-02T23:06:17Z",
+            "author": "Ásgeir Thor Johnson"
+          },
+          {
+            "message": "Update code-review skill and add code-review effort levels + dataviz skill",
+            "date": "2026-07-02T08:59:00Z",
+            "author": "Ásgeir Thor Johnson"
+          },
+          {
+            "message": "Update claude-sonnet-5.md",
+            "date": "2026-07-01T14:43:22Z",
+            "author": "Ásgeir Thor Johnson"
+          },
+          {
+            "message": "Update Claude Sonnet 5 prompt and list it in README",
+            "date": "2026-07-01T10:14:18Z",
+            "author": "Ásgeir Thor Johnson"
+          },
+          {
+            "message": "Create claude-sonnet-5.md",
+            "date": "2026-07-01T09:53:52Z",
+            "author": "Ásgeir Thor Johnson"
+          }
+        ]
       }
     ]
   },
@@ -11876,6 +11908,38 @@
       {
         "date": "2026-07-04 1200",
         "summary": "**核心价值摘要：**  \nHerdr 是一个轻量级、高性能的分布式任务调度与执行框架，基于 Go 语言实现，专注于低延迟和可扩展性。其核心创新在于通过去中心化架构和自适应负载均衡，显著降低传统调度系统的单点故障风险与资源开销。适用于微服务编排、实时数据处理等对调度效率要求严苛的场景。"
+      },
+      {
+        "date": "2026-07-04 1800",
+        "summary": "**核心价值摘要**：  \n`herdr` 是一个轻量级、基于 Rust 的 HTTP 请求分发与负载均衡工具，专注于低延迟和高并发场景下的请求路由。它通过自定义规则将流量动态分配到多个后端服务，支持健康检查与故障转移，适合微服务架构中的边缘代理或内部流量管理。项目代码精简，无外部依赖，强调性能与可配置性。",
+        "reason": "该项目通过重构路由层为运行时适配器模式，并新增CLI会话快照暴露功能，实现了核心架构向运行时抽象的解耦迁移。",
+        "commits": [
+          {
+            "message": "refactor: route headless deferred creates through runtime helpers",
+            "date": "2026-07-04T13:49:20Z",
+            "author": "Ogulcan Celik"
+          },
+          {
+            "message": "refactor: route cli pane placement through runtime adapters",
+            "date": "2026-07-04T13:30:09Z",
+            "author": "Ogulcan Celik"
+          },
+          {
+            "message": "refactor: route cli workspace tab worktree through runtime adapters",
+            "date": "2026-07-04T13:19:15Z",
+            "author": "Ogulcan Celik"
+          },
+          {
+            "message": "refactor: route tui runtime mutations through typed adapters",
+            "date": "2026-07-04T13:10:33Z",
+            "author": "Ogulcan Celik"
+          },
+          {
+            "message": "feat: expose session snapshot through cli",
+            "date": "2026-07-04T12:46:31Z",
+            "author": "Ogulcan Celik"
+          }
+        ]
       }
     ]
   }
