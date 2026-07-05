@@ -11942,5 +11942,16 @@
         ]
       }
     ]
+  },
+  "alirezarezvani/claude-skills": {
+    "firstMention": "2026-07-05",
+    "lastMention": "2026-07-05",
+    "link": "https://github.com/alirezarezvani/claude-skills",
+    "mentions": [
+      {
+        "date": "2026-07-05 1200",
+        "summary": "该仓库提供了一套可复用的Claude技能模块，用于增强AI代理的特定能力，如代码执行、文件操作或API调用。通过模块化设计，开发者能快速集成这些技能到Claude应用中，提升自动化与交互效率。核心价值在于降低定制化开发门槛，加速基于Claude的智能工作流构建。"
+      }
+    ]
   }
 }
