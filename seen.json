@@ -11953,5 +11953,16 @@
         "summary": "该仓库提供了一套可复用的Claude技能模块，用于增强AI代理的特定能力，如代码执行、文件操作或API调用。通过模块化设计，开发者能快速集成这些技能到Claude应用中，提升自动化与交互效率。核心价值在于降低定制化开发门槛，加速基于Claude的智能工作流构建。"
       }
     ]
+  },
+  "bradautomates/claude-video": {
+    "firstMention": "2026-07-06",
+    "lastMention": "2026-07-06",
+    "link": "https://github.com/bradautomates/claude-video",
+    "mentions": [
+      {
+        "date": "2026-07-06 1200",
+        "summary": "该项目通过Claude API实现视频内容的自动化分析与摘要生成，核心价值在于将非结构化视频数据转化为结构化文本。技术栈依赖Claude的多模态理解能力，支持实时视频流处理与关键帧提取。适用于监控视频分析、会议记录自动生成等场景，显著降低人工审查成本。"
+      }
+    ]
   }
 }
