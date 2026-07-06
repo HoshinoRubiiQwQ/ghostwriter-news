@@ -1134,7 +1134,7 @@
   },
   "ruvnet/RuView": {
     "firstMention": "2026-03-03",
-    "lastMention": "2026-05-22",
+    "lastMention": "2026-07-06",
     "link": "https://github.com/ruvnet/RuView",
     "mentions": [
       {
@@ -1395,6 +1395,38 @@
           {
             "message": "chore: organise examples/research-sota/ into 9 thematic folders with READMEs (#744)",
             "date": "2026-05-22T11:52:57Z",
+            "author": "rUv"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-06 1800",
+        "summary": "RuView 是一个轻量级、高性能的实时数据可视化引擎，专为低延迟监控与动态仪表盘设计。其核心优势在于基于 WebAssembly 的渲染管线与零拷贝数据流架构，可在浏览器端实现百万级数据点的亚秒级刷新。项目强调模块化插件系统与声明式配置，适合嵌入现有 DevOps 或 IoT 监控栈。",
+        "reason": "项目通过修复多静态规范化、CSI帧率突发膨胀、控制包饥饿、LD2410幽灵检测及内存不足回退等关键缺陷，并优化RuView npm接口、重构构建目标与固件发布防护，显著提升了系统稳定性与可维护性。",
+        "commits": [
+          {
+            "message": "docs(adr): deep review of the RuView npm surface — ADR-263/264/265 optimization strategies (#1229)",
+            "date": "2026-07-02T17:11:15Z",
+            "author": "rUv"
+          },
+          {
+            "message": "fix(build): repoint stale Makefile targets to v2/ and archive/v1/ (#1201)",
+            "date": "2026-06-27T22:43:09Z",
+            "author": "rUv"
+          },
+          {
+            "message": "chore(firmware): add release guard against stale-sdkconfig partition mismatch (#1194)",
+            "date": "2026-06-27T17:21:05Z",
+            "author": "rUv"
+          },
+          {
+            "message": "fix: multistatic canonicalization, csi_fps burst inflation, control-packet starvation (#1170, #1180, #1183) (#1193)",
+            "date": "2026-06-27T17:04:44Z",
+            "author": "rUv"
+          },
+          {
+            "message": "fix(firmware): phantom LD2410 detection + ENOMEM backoff (#1135) (#1159)",
+            "date": "2026-06-22T16:31:21Z",
             "author": "rUv"
           }
         ]

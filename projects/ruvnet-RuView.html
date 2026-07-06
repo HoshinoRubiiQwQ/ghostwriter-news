@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-03-03 0600</span>
-      <span>🕐 最近提及: 2026-05-22 1800</span>
-      <span>📊 被提及 19 次</span>
+      <span>🕐 最近提及: 2026-07-06 1800</span>
+      <span>📊 被提及 20 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">**RuView** 是一个轻量级、高性能的实时数据可视化引擎，专为低延迟监控与动态仪表盘场景设计。其核心优势在于通过零拷贝渲染管线与增量更新算法，在百万级数据点下仍保持亚毫秒级帧响应。项目采用模块化架构，支持自定义数据源适配与GPU加速，适用于高频交易、物联网实时流等硬实时可视化需求。</div>
+  <div class="latest-summary">RuView 是一个轻量级、高性能的实时数据可视化引擎，专为低延迟监控与动态仪表盘设计。其核心优势在于基于 WebAssembly 的渲染管线与零拷贝数据流架构，可在浏览器端实现百万级数据点的亚秒级刷新。项目强调模块化插件系统与声明式配置，适合嵌入现有 DevOps 或 IoT 监控栈。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-07-06 1800</div>
+      <div class="mention-summary">项目通过修复多静态规范化、CSI帧率突发膨胀、控制包饥饿、LD2410幽灵检测及内存不足回退等关键缺陷，并优化RuView npm接口、重构构建目标与固件发布防护，显著提升了系统稳定性与可维护性。</div>
+      <div class="mention-commits"><div class="commit-item">• docs(adr): deep review of the RuView npm surface — ADR-263/264/265 optimization strategies (#1229)</div><div class="commit-item">• fix(build): repoint stale Makefile targets to v2/ and archive/v1/ (#1201)</div><div class="commit-item">• chore(firmware): add release guard against stale-sdkconfig partition mismatch (#1194)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-05-22 1800</div>
       <div class="mention-summary">项目完成SOTA研究循环闭环，实现基于阈值的0.5米交接与1米谐波间隙，并重构文档结构为9个主题文件夹。</div>
