@@ -9420,7 +9420,7 @@
   },
   "dotnet/skills": {
     "firstMention": "2026-05-21",
-    "lastMention": "2026-05-22",
+    "lastMention": "2026-07-07",
     "link": "https://github.com/dotnet/skills",
     "mentions": [
       {
@@ -9446,6 +9446,38 @@
             "message": "dotnet-msbuild: move AITools.BinlogMcp source to dotnet-tools feed (#680)",
             "date": "2026-05-21T11:14:51Z",
             "author": "Jan Krivanek"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-07 1200",
+        "summary": "dotnet/skills 是微软 .NET 团队推出的 AI 技能编排框架，允许开发者将大语言模型（LLM）能力封装为可组合、可复用的“技能”单元。它提供声明式配置与 C# 原生集成，支持多模型后端（如 OpenAI、Azure OpenAI），旨在简化 .NET 生态中 AI 工作流的构建与部署。核心价值在于降低 .NET 开发者接入 AI 的门槛，实现从提示工程到复杂任务编排的平滑过渡。",
+        "reason": "该项目通过调整超时参数、修复SDK 9评估超时、优化小型测试套件的断言质量，并提升代码测试代理工具与Claude Code的兼容性及跨主机可移植性，显著增强了dotnet-test评估的稳定性和适应性。",
+        "commits": [
+          {
+            "message": "dotnet-test: raise timeout for assertion-quality decline-write-tests scenario 300->360 (#862)",
+            "date": "2026-07-07T11:54:41Z",
+            "author": "Amaury Levé"
+          },
+          {
+            "message": "dotnet-test: raise timeout for boundary comparison assertions eval scenario (#863)",
+            "date": "2026-07-07T11:54:26Z",
+            "author": "Amaury Levé"
+          },
+          {
+            "message": "dotnet-test: reduce assertion-quality over-structuring on small suites (#865)",
+            "date": "2026-07-07T11:54:19Z",
+            "author": "Amaury Levé"
+          },
+          {
+            "message": "Fix mtp-hot-reload SDK 9 eval timeout by removing expect_tools bash (#861)",
+            "date": "2026-07-07T11:54:01Z",
+            "author": "Amaury Levé"
+          },
+          {
+            "message": "dotnet-test: make code-testing agent tools Claude Code-compatible + add cross-host portability check (#856)",
+            "date": "2026-07-07T07:00:22Z",
+            "author": "Amaury Levé"
           }
         ]
       }
@@ -11994,6 +12026,61 @@
       {
         "date": "2026-07-06 1200",
         "summary": "该项目通过Claude API实现视频内容的自动化分析与摘要生成，核心价值在于将非结构化视频数据转化为结构化文本。技术栈依赖Claude的多模态理解能力，支持实时视频流处理与关键帧提取。适用于监控视频分析、会议记录自动生成等场景，显著降低人工审查成本。"
+      }
+    ]
+  },
+  "MadsLorentzen/ai-job-search": {
+    "firstMention": "2026-07-07",
+    "lastMention": "2026-07-07",
+    "link": "https://github.com/MadsLorentzen/ai-job-search",
+    "mentions": [
+      {
+        "date": "2026-07-07 1200",
+        "summary": "该项目利用AI自动化求职流程，核心功能包括简历匹配、职位推荐和申请信生成。通过自然语言处理技术解析职位描述与个人技能，实现精准投递。硬核之处在于完全开源，支持自定义模型与数据管道，适合技术型求职者深度定制。"
+      }
+    ]
+  },
+  "TencentCloud/CubeSandbox": {
+    "firstMention": "2026-07-07",
+    "lastMention": "2026-07-07",
+    "link": "https://github.com/TencentCloud/CubeSandbox",
+    "mentions": [
+      {
+        "date": "2026-07-07 1200",
+        "summary": "CubeSandbox 是腾讯云开源的轻量级容器沙箱运行时，基于 runC 和 gVisor 技术栈，提供安全隔离的容器执行环境。核心价值在于通过内核级隔离与最小化攻击面，实现低性能损耗下的强安全边界，适用于多租户场景或不可信工作负载的容器化部署。"
+      }
+    ]
+  },
+  "AhmadIbrahiim/Website-downloader": {
+    "firstMention": "2026-07-07",
+    "lastMention": "2026-07-07",
+    "link": "https://github.com/AhmadIbrahiim/Website-downloader",
+    "mentions": [
+      {
+        "date": "2026-07-07 1200",
+        "summary": "一个命令行工具，递归下载整个网站到本地，支持HTML、CSS、JS、图片等资源完整抓取。基于Node.js，通过解析页面链接和资源引用实现离线镜像，适合快速备份静态站点。"
+      }
+    ]
+  },
+  "steipete/CodexBar": {
+    "firstMention": "2026-07-07",
+    "lastMention": "2026-07-07",
+    "link": "https://github.com/steipete/CodexBar",
+    "mentions": [
+      {
+        "date": "2026-07-07 1200",
+        "summary": "CodexBar 是一个 macOS 菜单栏工具，通过 OpenAI Codex 模型实现自然语言到 shell 命令的即时转换。用户无需记忆复杂语法，直接输入描述即可执行系统操作或文件处理，显著提升终端工作流效率。其核心价值在于将 AI 代码生成能力嵌入系统级交互，降低命令行使用门槛。"
+      }
+    ]
+  },
+  "iOfficeAI/OfficeCLI": {
+    "firstMention": "2026-07-07",
+    "lastMention": "2026-07-07",
+    "link": "https://github.com/iOfficeAI/OfficeCLI",
+    "mentions": [
+      {
+        "date": "2026-07-07 1200",
+        "summary": "OfficeCLI 是一个基于命令行的 Office 自动化工具，支持通过 CLI 直接操作 Word、Excel、PowerPoint 等文档，无需 GUI 交互。它利用底层 COM 或 API 接口实现批量处理、格式转换与模板填充，适合 DevOps 流水线或脚本化办公场景。核心价值在于将 Office 操作从手动点击降维为可编程指令，显著提升文档处理效率与自动化水平。"
       }
     ]
   }
