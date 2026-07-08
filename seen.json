@@ -12031,12 +12031,44 @@
   },
   "MadsLorentzen/ai-job-search": {
     "firstMention": "2026-07-07",
-    "lastMention": "2026-07-07",
+    "lastMention": "2026-07-08",
     "link": "https://github.com/MadsLorentzen/ai-job-search",
     "mentions": [
       {
         "date": "2026-07-07 1200",
         "summary": "该项目利用AI自动化求职流程，核心功能包括简历匹配、职位推荐和申请信生成。通过自然语言处理技术解析职位描述与个人技能，实现精准投递。硬核之处在于完全开源，支持自定义模型与数据管道，适合技术型求职者深度定制。"
+      },
+      {
+        "date": "2026-07-08 1200",
+        "summary": "该项目利用AI自动化求职流程，核心功能包括简历解析、职位匹配及自动投递。通过NLP技术筛选招聘信息，结合用户技能库实现精准推荐。硬核点在于其模块化设计支持自定义求职策略，显著提升海投效率。",
+        "reason": "项目新增了结果记录（/outcome）与排名筛选（/rank）两大核心功能，并修复了CLI输出中的十六进制HTML实体解码问题，实现了从职位抓取到结果追踪的闭环。",
+        "commits": [
+          {
+            "message": "fix(jobindex-search): decode hex HTML entities in CLI output (#56)",
+            "date": "2026-07-07T17:41:23Z",
+            "author": "Yiğit ERDOĞAN"
+          },
+          {
+            "message": "fix(linkedin-search): decode hex HTML entities in CLI output (#55)",
+            "date": "2026-07-07T17:40:32Z",
+            "author": "Yiğit ERDOĞAN"
+          },
+          {
+            "message": "feat: add /outcome command to record application results and close the calibration loop (#54)",
+            "date": "2026-07-07T17:40:12Z",
+            "author": "Ayobami Adegoke"
+          },
+          {
+            "message": "fix: restore Danish CLI commands/ and tsconfig files dropped by old .gitignore (#53)",
+            "date": "2026-07-07T15:39:47Z",
+            "author": "Mads Lorentzen"
+          },
+          {
+            "message": "feat: add /rank command to triage scraped jobs into a ranked shortlist (#43)",
+            "date": "2026-07-07T15:31:31Z",
+            "author": "Ayobami Adegoke"
+          }
+        ]
       }
     ]
   },
@@ -12081,6 +12113,39 @@
       {
         "date": "2026-07-07 1200",
         "summary": "OfficeCLI 是一个基于命令行的 Office 自动化工具，支持通过 CLI 直接操作 Word、Excel、PowerPoint 等文档，无需 GUI 交互。它利用底层 COM 或 API 接口实现批量处理、格式转换与模板填充，适合 DevOps 流水线或脚本化办公场景。核心价值在于将 Office 操作从手动点击降维为可编程指令，显著提升文档处理效率与自动化水平。"
+      }
+    ]
+  },
+  "TencentCloud/TencentDB-Agent-Memory": {
+    "firstMention": "2026-07-08",
+    "lastMention": "2026-07-08",
+    "link": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "mentions": [
+      {
+        "date": "2026-07-08 1200",
+        "summary": "腾讯云开源项目，专注于数据库代理层的内存管理优化。核心价值在于通过精细化内存分配与回收策略，降低高并发场景下的内存抖动与OOM风险，提升数据库代理稳定性。适用于需要高吞吐、低延迟的云原生数据库中间件场景。"
+      }
+    ]
+  },
+  "prisma/prisma": {
+    "firstMention": "2026-07-08",
+    "lastMention": "2026-07-08",
+    "link": "https://github.com/prisma/prisma",
+    "mentions": [
+      {
+        "date": "2026-07-08 1200",
+        "summary": "Prisma 是面向 Node.js 和 TypeScript 的下一代 ORM，通过声明式 Prisma Schema 自动生成类型安全的数据访问层。核心价值在于：编译时类型推导消除运行时查询错误，内置迁移引擎与数据库可视化工具 Prisma Studio 提升开发效率，支持 PostgreSQL、MySQL、SQLite 等主流数据库的零配置切换。"
+      }
+    ]
+  },
+  "argoproj/argo-cd": {
+    "firstMention": "2026-07-08",
+    "lastMention": "2026-07-08",
+    "link": "https://github.com/argoproj/argo-cd",
+    "mentions": [
+      {
+        "date": "2026-07-08 1200",
+        "summary": "Argo CD 是一个基于 Kubernetes 的声明式 GitOps 持续交付工具，通过将应用配置与 Git 仓库同步实现自动化部署和回滚。其核心价值在于提供可审计、可复现的部署流程，并内置多集群管理、SSO 集成及健康状态监控能力。作为 CNCF 毕业项目，它已成为云原生环境下 GitOps 实践的事实标准。"
       }
     ]
   }
