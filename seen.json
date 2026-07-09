@@ -12107,12 +12107,44 @@
   },
   "iOfficeAI/OfficeCLI": {
     "firstMention": "2026-07-07",
-    "lastMention": "2026-07-07",
+    "lastMention": "2026-07-09",
     "link": "https://github.com/iOfficeAI/OfficeCLI",
     "mentions": [
       {
         "date": "2026-07-07 1200",
         "summary": "OfficeCLI 是一个基于命令行的 Office 自动化工具，支持通过 CLI 直接操作 Word、Excel、PowerPoint 等文档，无需 GUI 交互。它利用底层 COM 或 API 接口实现批量处理、格式转换与模板填充，适合 DevOps 流水线或脚本化办公场景。核心价值在于将 Office 操作从手动点击降维为可编程指令，显著提升文档处理效率与自动化水平。"
+      },
+      {
+        "date": "2026-07-09 1800",
+        "summary": "OfficeCLI 是一个基于命令行的 Microsoft Office 自动化工具，支持通过脚本批量处理 Word、Excel、PowerPoint 文件（如格式转换、数据提取、文档生成）。它无需 GUI 交互，适合 DevOps 流水线或服务器端文档处理，显著提升办公文档的批量操作效率。",
+        "reason": "修复xlsx列插入时表格跨度内列宽同步问题，并重构Set.cs按目标层级拆分以匹配Add侧布局。",
+        "commits": [
+          {
+            "message": "ci(npm): pin npm to 11.x — npm 12.0.0 provenance publish is broken (missing sigstore)",
+            "date": "2026-07-09T17:44:23Z",
+            "author": "goworm"
+          },
+          {
+            "message": "fix(xlsx): materialized <col> for an inserted column carries the sheet default width",
+            "date": "2026-07-09T17:15:07Z",
+            "author": "goworm"
+          },
+          {
+            "message": "fix(xlsx): column insert inside a table span keeps tableColumns and header cells in sync",
+            "date": "2026-07-09T17:14:42Z",
+            "author": "goworm"
+          },
+          {
+            "message": "docs(comments): reference project conventions generically, not a maintainer-local file",
+            "date": "2026-07-09T16:52:57Z",
+            "author": "goworm"
+          },
+          {
+            "message": "refactor(xlsx): split Set.cs by target level, matching the Add-side layout",
+            "date": "2026-07-09T16:47:34Z",
+            "author": "goworm"
+          }
+        ]
       }
     ]
   },

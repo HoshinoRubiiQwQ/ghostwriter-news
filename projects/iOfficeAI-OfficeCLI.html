@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-07-07 1200</span>
-      <span>🕐 最近提及: 2026-07-07 1200</span>
-      <span>📊 被提及 1 次</span>
+      <span>🕐 最近提及: 2026-07-09 1800</span>
+      <span>📊 被提及 2 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">OfficeCLI 是一个基于命令行的 Office 自动化工具，支持通过 CLI 直接操作 Word、Excel、PowerPoint 等文档，无需 GUI 交互。它利用底层 COM 或 API 接口实现批量处理、格式转换与模板填充，适合 DevOps 流水线或脚本化办公场景。核心价值在于将 Office 操作从手动点击降维为可编程指令，显著提升文档处理效率与自动化水平。</div>
+  <div class="latest-summary">OfficeCLI 是一个基于命令行的 Microsoft Office 自动化工具，支持通过脚本批量处理 Word、Excel、PowerPoint 文件（如格式转换、数据提取、文档生成）。它无需 GUI 交互，适合 DevOps 流水线或服务器端文档处理，显著提升办公文档的批量操作效率。</div>
 
   <div class="section-title">更新记录</div>
-  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-07-09 1800</div>
+      <div class="mention-summary">修复xlsx列插入时表格跨度内列宽同步问题，并重构Set.cs按目标层级拆分以匹配Add侧布局。</div>
+      <div class="mention-commits"><div class="commit-item">• ci(npm): pin npm to 11.x — npm 12.0.0 provenance publish is broken (missing sigstore)</div><div class="commit-item">• fix(xlsx): materialized <col> for an inserted column carries the sheet default width</div><div class="commit-item">• fix(xlsx): column insert inside a table span keeps tableColumns and header cells in sync</div></div>
+    </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
 </div>
