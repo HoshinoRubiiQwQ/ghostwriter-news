@@ -12246,5 +12246,60 @@
         "summary": "该指南提供了一套系统化的Linux服务器加固方案，涵盖SSH密钥认证、防火墙规则、Fail2ban入侵检测等核心防御措施。通过自动化脚本与分步配置，可有效降低暴力破解、权限提升等常见攻击面。适合需要快速部署生产级安全基线的中高级运维人员。"
       }
     ]
+  },
+  "abseil/abseil-cpp": {
+    "firstMention": "2026-07-10",
+    "lastMention": "2026-07-10",
+    "link": "https://github.com/abseil/abseil-cpp",
+    "mentions": [
+      {
+        "date": "2026-07-10 1800",
+        "summary": "Abseil 是 Google 内部 C++ 标准库的开源衍生版，旨在填补 C++ 标准库的空白并提供高性能、无侵入的基础组件。它提供容器、算法、同步、内存管理等模块，强调零成本抽象与生产级稳定性。项目核心价值在于为 C++ 开发者提供经过大规模实战验证的底层基础设施，减少重复造轮子。"
+      }
+    ]
+  },
+  "jbeder/yaml-cpp": {
+    "firstMention": "2026-07-10",
+    "lastMention": "2026-07-10",
+    "link": "https://github.com/jbeder/yaml-cpp",
+    "mentions": [
+      {
+        "date": "2026-07-10 1800",
+        "summary": "YAML-CPP 是一个轻量级、符合 YAML 1.2 规范的 C++ 解析与生成库，无需外部依赖，支持节点遍历、序列化及自定义类型转换。其核心价值在于为 C++ 项目提供零配置的 YAML 数据交换能力，尤其适合配置文件解析与跨语言数据序列化场景。"
+      }
+    ]
+  },
+  "microsoft/TypeScript": {
+    "firstMention": "2026-07-10",
+    "lastMention": "2026-07-10",
+    "link": "https://github.com/microsoft/TypeScript",
+    "mentions": [
+      {
+        "date": "2026-07-10 1800",
+        "summary": "TypeScript 是微软开发的开源编程语言，为JavaScript添加了静态类型系统，显著提升大型项目的可维护性与开发效率。其核心价值在于通过类型检查在编译阶段捕获错误，同时支持现代ECMAScript特性与渐进式采用。作为前端与Node.js生态的工业级标准，TypeScript已成为企业级应用的首选类型化超集。"
+      }
+    ]
+  },
+  "catchorg/Catch2": {
+    "firstMention": "2026-07-10",
+    "lastMention": "2026-07-10",
+    "link": "https://github.com/catchorg/Catch2",
+    "mentions": [
+      {
+        "date": "2026-07-10 1800",
+        "summary": "Catch2 是一个现代 C++ 测试框架，支持头文件单文件集成，无需额外依赖。核心优势在于其宏驱动的 BDD 风格测试、自动注册测试用例、以及强大的表达式分解匹配器。性能上支持动态测试用例过滤与多平台编译，适合嵌入式到大型项目的单元测试与集成测试。"
+      }
+    ]
+  },
+  "chriskohlhoff/asio": {
+    "firstMention": "2026-07-10",
+    "lastMention": "2026-07-10",
+    "link": "https://github.com/chriskohlhoff/asio",
+    "mentions": [
+      {
+        "date": "2026-07-10 1800",
+        "summary": "**核心价值摘要**：  \nAsio是跨平台C++异步I/O库，提供网络、定时器、串口等底层异步操作抽象，支持proactor与reactor双模式。其零拷贝、无锁队列设计及对C++20协程的原生集成，使其成为高性能网络服务（如HTTP/WebSocket服务器）的工业级基础设施。"
+      }
+    ]
   }
 }
