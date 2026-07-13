@@ -12359,7 +12359,7 @@
   },
   "PrefectHQ/prefect": {
     "firstMention": "2026-07-12",
-    "lastMention": "2026-07-12",
+    "lastMention": "2026-07-13",
     "link": "https://github.com/PrefectHQ/prefect",
     "mentions": [
       {
@@ -12370,6 +12370,18 @@
         "date": "2026-07-12 1800",
         "summary": "Prefect 是一个开源工作流编排引擎，用于构建、调度和监控复杂的数据管道。它通过 Python 原生 API 提供声明式任务依赖与自动重试机制，替代传统 Airflow 的 DAG 定义方式。核心优势在于降低运维复杂度，支持动态工作流与实时状态追踪。",
         "reason": "强化远程文件系统路径解析的容器化处理并重构绝对URL生成机制。",
+        "commits": [
+          {
+            "message": "Harden RemoteFileSystem path resolution containment and rebuild absolute URLs (#22476)",
+            "date": "2026-07-12T00:19:58Z",
+            "author": "devin-ai-integration[bot]"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-13 0000",
+        "summary": "Prefect 是一个开源工作流编排框架，专为现代数据管道设计，提供 Python 原生 API 和声明式 DAG 定义。其核心价值在于将复杂依赖管理、自动重试、调度与监控封装为轻量级库，支持本地与云原生环境无缝切换，显著降低数据工程运维成本。",
+        "reason": "强化远程文件系统路径解析的容器化与绝对URL重建，以提升安全性和健壮性。",
         "commits": [
           {
             "message": "Harden RemoteFileSystem path resolution containment and rebuild absolute URLs (#22476)",
