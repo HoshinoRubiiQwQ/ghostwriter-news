@@ -12499,5 +12499,49 @@
         "summary": "Wand-Enhancer 是一个轻量级 macOS 工具，用于增强 Magic Wand 等触控笔的交互精度与自定义功能。它通过系统级事件拦截与手势映射，支持压力曲线调节、快捷操作绑定及多设备配置。核心价值在于填补了 macOS 原生触控笔功能短板，为设计师与重度用户提供低延迟、高可控的输入优化方案。"
       }
     ]
+  },
+  "OpenCut-app/OpenCut": {
+    "firstMention": "2026-07-13",
+    "lastMention": "2026-07-13",
+    "link": "https://github.com/OpenCut-app/OpenCut",
+    "mentions": [
+      {
+        "date": "2026-07-13 1200",
+        "summary": "OpenCut 是一个基于 Web 的轻量级视频剪辑工具，完全在浏览器中运行，无需安装。它利用 FFmpeg.wasm 实现本地视频处理，支持裁剪、合并、转码等核心功能，强调隐私安全与零服务器依赖。适合快速、临时的视频编辑需求，但受限于浏览器性能，不适合高负载任务。"
+      }
+    ]
+  },
+  "Nutlope/hallmark": {
+    "firstMention": "2026-07-13",
+    "lastMention": "2026-07-13",
+    "link": "https://github.com/Nutlope/hallmark",
+    "mentions": [
+      {
+        "date": "2026-07-13 1200",
+        "summary": "一个基于AI的GitHub仓库，用于自动生成品牌标语和营销文案。它利用大语言模型快速产出高质量、有创意的文本，适合初创公司或产品快速迭代时的品牌定位需求。核心价值在于将文案创作从人工脑暴转向AI驱动，提升效率与多样性。"
+      }
+    ]
+  },
+  "Raphire/Win11Debloat": {
+    "firstMention": "2026-07-13",
+    "lastMention": "2026-07-13",
+    "link": "https://github.com/Raphire/Win11Debloat",
+    "mentions": [
+      {
+        "date": "2026-07-13 1200",
+        "summary": "Win11Debloat 是一个 PowerShell 脚本工具，用于自动化移除 Windows 11 预装的无用应用、禁用遥测与广告功能。它提供可定制的配置文件，支持一键清理并保留系统关键组件，适合追求精简与隐私的用户。"
+      }
+    ]
+  },
+  "Graphify-Labs/graphify": {
+    "firstMention": "2026-07-13",
+    "lastMention": "2026-07-13",
+    "link": "https://github.com/Graphify-Labs/graphify",
+    "mentions": [
+      {
+        "date": "2026-07-13 1200",
+        "summary": "Graphify 是一个高性能图数据库引擎，专为实时图分析与大规模关系遍历优化。它采用内存优先架构与零拷贝序列化，支持 Cypher 查询语言，在社交网络、推荐系统等场景中实现亚毫秒级响应。项目核心价值在于将图计算延迟压缩至传统数据库的1/10，同时保持 ACID 事务一致性。"
+      }
+    ]
   }
 }
