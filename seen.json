@@ -12541,6 +12541,39 @@
       {
         "date": "2026-07-13 1200",
         "summary": "Graphify 是一个高性能图数据库引擎，专为实时图分析与大规模关系遍历优化。它采用内存优先架构与零拷贝序列化，支持 Cypher 查询语言，在社交网络、推荐系统等场景中实现亚毫秒级响应。项目核心价值在于将图计算延迟压缩至传统数据库的1/10，同时保持 ACID 事务一致性。"
+      },
+      {
+        "date": "2026-07-13 1800",
+        "summary": "Graphify 是一个高性能图数据库可视化引擎，专注于实时渲染大规模图结构数据。它通过 WebGL 加速和增量布局算法，支持百万级节点/边的交互式探索。核心价值在于为图分析场景提供低延迟、高吞吐的视觉洞察工具。",
+        "reason": "修复了AST缓存位置与键锚点解耦、缓存索引与位置同步以及查询种子去重问题，提升了缓存一致性与查询准确性。",
+        "commits": [
+          {
+            "message": "fix(cache): stat-index must follow the cache location, not the key anchor",
+            "date": "2026-07-13T09:29:26Z",
+            "author": "safishamsi"
+          },
+          {
+            "message": "fix(extract): write AST cache to CWD, decoupled from the key anchor (#1774)",
+            "date": "2026-07-13T00:34:35Z",
+            "author": "safishamsi"
+          },
+          {
+            "message": "fix(query): dedup seeds by label to stop generic-symbol flooding (#1766)",
+            "date": "2026-07-13T00:03:02Z",
+            "author": "safishamsi"
+          }
+        ]
+      }
+    ]
+  },
+  "coreyhaines31/marketingskills": {
+    "firstMention": "2026-07-13",
+    "lastMention": "2026-07-13",
+    "link": "https://github.com/coreyhaines31/marketingskills",
+    "mentions": [
+      {
+        "date": "2026-07-13 1800",
+        "summary": "该项目提供了一套面向技术人员的营销技能实战指南，聚焦于如何通过内容创作、社区运营和用户洞察驱动产品增长。核心价值在于将抽象的市场策略转化为可执行的代码化工作流，例如自动化用户分群与A/B测试框架。适合独立开发者或小团队快速建立数据驱动的获客闭环。"
       }
     ]
   }
