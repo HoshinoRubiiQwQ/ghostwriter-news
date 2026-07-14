@@ -12348,12 +12348,44 @@
   },
   "Dicklesworthstone/destructive_command_guard": {
     "firstMention": "2026-07-12",
-    "lastMention": "2026-07-12",
+    "lastMention": "2026-07-14",
     "link": "https://github.com/Dicklesworthstone/destructive_command_guard",
     "mentions": [
       {
         "date": "2026-07-12 1200",
         "summary": "一个轻量级Python库，通过预定义危险命令模式（如`rm -rf`、`dd`、`mkfs`）和实时输入拦截，防止用户在终端误执行破坏性操作。核心机制是劫持`input()`和`subprocess`调用，在命令执行前进行模式匹配与确认提示，适合集成到自动化脚本或交互式工具中作为安全防护层。"
+      },
+      {
+        "date": "2026-07-14 1200",
+        "summary": "一个轻量级Python库，通过预定义危险命令黑名单和实时拦截机制，防止误执行`rm -rf`、`dd`等破坏性Shell命令。核心价值在于零配置集成，仅需导入即可自动包裹`os.system`、`subprocess`等调用，适合CI/CD流水线或生产环境的安全防护层。",
+        "reason": "该版本修复了多个安全漏洞（包括指数级挂起防护绕过、路径作用域白名单绕过），并记录了标准输入/管道/替换REPL绕过作为已知限制，同时修复了heredoc/pack误报并改进了pack显示。",
+        "commits": [
+          {
+            "message": "chore(beads): track #194/#195/#196 follow-up items",
+            "date": "2026-07-13T19:02:41Z",
+            "author": "Dicklesworthstone"
+          },
+          {
+            "message": "test(packs): use slice contains() in #189 regression asserts (clippy)",
+            "date": "2026-07-13T18:19:29Z",
+            "author": "Dicklesworthstone"
+          },
+          {
+            "message": "chore: release v0.6.6",
+            "date": "2026-07-13T16:19:41Z",
+            "author": "Dicklesworthstone"
+          },
+          {
+            "message": "docs(security): document stdin/pipe/subst REPL-bypass as a known limitation (#191)",
+            "date": "2026-07-13T16:15:33Z",
+            "author": "Dicklesworthstone"
+          },
+          {
+            "message": "fix: triage batch — exponential-hang guard bypass, path-scoped allowlists, heredoc/pack false positives, pack display",
+            "date": "2026-07-13T16:08:45Z",
+            "author": "Dicklesworthstone"
+          }
+        ]
       }
     ]
   },
@@ -12633,6 +12665,17 @@
             "author": "Corey Haines"
           }
         ]
+      }
+    ]
+  },
+  "virattt/ai-hedge-fund": {
+    "firstMention": "2026-07-14",
+    "lastMention": "2026-07-14",
+    "link": "https://github.com/virattt/ai-hedge-fund",
+    "mentions": [
+      {
+        "date": "2026-07-14 1200",
+        "summary": "AI对冲基金项目利用多智能体架构模拟量化交易决策，集成LLM分析市场情绪、技术指标与基本面数据。核心价值在于通过LangChain编排多个专业Agent（如风险、动量、价值分析），实现自动化投资策略生成与回测。适合快速原型验证AI驱动的交易系统，但需注意回测过拟合与实盘执行风险。"
       }
     ]
   }
