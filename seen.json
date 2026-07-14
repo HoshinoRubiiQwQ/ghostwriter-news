@@ -12600,12 +12600,39 @@
   },
   "coreyhaines31/marketingskills": {
     "firstMention": "2026-07-13",
-    "lastMention": "2026-07-13",
+    "lastMention": "2026-07-14",
     "link": "https://github.com/coreyhaines31/marketingskills",
     "mentions": [
       {
         "date": "2026-07-13 1800",
         "summary": "该项目提供了一套面向技术人员的营销技能实战指南，聚焦于如何通过内容创作、社区运营和用户洞察驱动产品增长。核心价值在于将抽象的市场策略转化为可执行的代码化工作流，例如自动化用户分群与A/B测试框架。适合独立开发者或小团队快速建立数据驱动的获客闭环。"
+      },
+      {
+        "date": "2026-07-14 0600",
+        "summary": "该项目提供了一套面向技术人员的市场营销技能框架，涵盖用户获取、转化率优化与增长实验方法论。核心价值在于将工程思维（如A/B测试、数据驱动决策）直接应用于营销场景，帮助开发者构建可复用的增长系统，而非依赖直觉或传统广告手段。",
+        "reason": "需求信号发现与广告创意审核功能上线，分别支持客户获取和审批流程。",
+        "commits": [
+          {
+            "message": "Merge pull request #449 from coreyhaines31/development",
+            "date": "2026-07-13T19:12:59Z",
+            "author": "Corey Haines"
+          },
+          {
+            "message": "feat(prospecting): demand-signal discovery branch — find your first customers (1.1.0) (#448)",
+            "date": "2026-07-13T19:12:49Z",
+            "author": "Corey Haines"
+          },
+          {
+            "message": "Merge pull request #442 from coreyhaines31/development",
+            "date": "2026-07-13T06:21:28Z",
+            "author": "Corey Haines"
+          },
+          {
+            "message": "feat(ad-creative): shareable creative review page — client approval artifact (2.7.0) (#441)",
+            "date": "2026-07-13T06:21:00Z",
+            "author": "Corey Haines"
+          }
+        ]
       }
     ]
   }
