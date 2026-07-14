@@ -12535,7 +12535,7 @@
   },
   "Graphify-Labs/graphify": {
     "firstMention": "2026-07-13",
-    "lastMention": "2026-07-13",
+    "lastMention": "2026-07-14",
     "link": "https://github.com/Graphify-Labs/graphify",
     "mentions": [
       {
@@ -12560,6 +12560,38 @@
           {
             "message": "fix(query): dedup seeds by label to stop generic-symbol flooding (#1766)",
             "date": "2026-07-13T00:03:02Z",
+            "author": "safishamsi"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-14 0000",
+        "summary": "Graphify 是一个高性能图数据库可视化引擎，专为处理大规模图数据（百万级节点/边）的实时渲染与交互分析而设计。它通过 WebGL 加速和增量更新算法，在浏览器端实现亚秒级布局与流畅缩放/筛选，显著降低后端负载。核心价值在于为图分析工具（如知识图谱、社交网络）提供即开即用的前端渲染层，无需依赖专业可视化库即可快速构建交互式图谱界面。",
+        "reason": "修复了嵌套忽略文件、社区标签转发、存储型XSS及邻居链接断裂问题，并强化了相关测试。",
+        "commits": [
+          {
+            "message": "test(watch): assert update writes community_name (#1855 followup); changelog",
+            "date": "2026-07-13T17:49:25Z",
+            "author": "safishamsi"
+          },
+          {
+            "message": "fix(watch): forward community_labels to to_json in _rebuild_code",
+            "date": "2026-07-13T14:52:45Z",
+            "author": "Farda Karimov"
+          },
+          {
+            "message": "test(detect): harden nested-ignore tests (#1847 followup)",
+            "date": "2026-07-13T17:35:09Z",
+            "author": "safishamsi"
+          },
+          {
+            "message": "fix(detect): honor nested .gitignore/.graphifyignore files below the scan root (#1206)",
+            "date": "2026-07-13T10:08:16Z",
+            "author": "Mohak Agrawal"
+          },
+          {
+            "message": "fix(export): close stored XSS + broken neighbor links in graph.html (#1838)",
+            "date": "2026-07-13T16:48:26Z",
             "author": "safishamsi"
           }
         ]

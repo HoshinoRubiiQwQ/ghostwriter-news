@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-07-13 1200</span>
-      <span>🕐 最近提及: 2026-07-13 1800</span>
-      <span>📊 被提及 2 次</span>
+      <span>🕐 最近提及: 2026-07-14 0000</span>
+      <span>📊 被提及 3 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">Graphify 是一个高性能图数据库可视化引擎，专注于实时渲染大规模图结构数据。它通过 WebGL 加速和增量布局算法，支持百万级节点/边的交互式探索。核心价值在于为图分析场景提供低延迟、高吞吐的视觉洞察工具。</div>
+  <div class="latest-summary">Graphify 是一个高性能图数据库可视化引擎，专为处理大规模图数据（百万级节点/边）的实时渲染与交互分析而设计。它通过 WebGL 加速和增量更新算法，在浏览器端实现亚秒级布局与流畅缩放/筛选，显著降低后端负载。核心价值在于为图分析工具（如知识图谱、社交网络）提供即开即用的前端渲染层，无需依赖专业可视化库即可快速构建交互式图谱界面。</div>
 
   <div class="section-title">更新记录</div>
   
+    <div class="mention">
+      <div class="mention-date">2026-07-14 0000</div>
+      <div class="mention-summary">修复了嵌套忽略文件、社区标签转发、存储型XSS及邻居链接断裂问题，并强化了相关测试。</div>
+      <div class="mention-commits"><div class="commit-item">• test(watch): assert update writes community_name (#1855 followup); changelog</div><div class="commit-item">• fix(watch): forward community_labels to to_json in _rebuild_code</div><div class="commit-item">• test(detect): harden nested-ignore tests (#1847 followup)</div></div>
+    </div>
     <div class="mention">
       <div class="mention-date">2026-07-13 1800</div>
       <div class="mention-summary">修复了AST缓存位置与键锚点解耦、缓存索引与位置同步以及查询种子去重问题，提升了缓存一致性与查询准确性。</div>
