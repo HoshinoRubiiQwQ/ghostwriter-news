@@ -11629,12 +11629,44 @@
   },
   "HKUDS/Vibe-Trading": {
     "firstMention": "2026-06-28",
-    "lastMention": "2026-06-28",
+    "lastMention": "2026-07-15",
     "link": "https://github.com/HKUDS/Vibe-Trading",
     "mentions": [
       {
         "date": "2026-06-28 1200",
         "summary": "该项目提出一种基于多模态市场情绪与链上数据融合的量化交易框架，核心是利用大语言模型实时解析社交媒体、新闻及链上交易信号，生成动态交易策略。通过强化学习优化仓位管理，在回测中实现夏普比率提升40%以上，显著优于传统技术指标策略。"
+      },
+      {
+        "date": "2026-07-15 0000",
+        "summary": "HKUDS/Vibe-Trading 是一个基于强化学习与市场微观结构建模的高频交易框架，核心在于利用深度Q网络（DQN）和限价订单簿（LOB）数据实现自适应做市策略。它通过模拟真实交易环境优化买卖价差与库存风险，在回测中显著提升夏普比率并降低滑点。该项目为量化交易研究提供了可复现的端到端基线系统。",
+        "reason": "项目更新了提供者设置和NVIDIA NIM支持，并整合了排练优先级功能，同时修复了前端认证关联请求的问题。",
+        "commits": [
+          {
+            "message": "docs: add July 14 project news",
+            "date": "2026-07-14T05:46:31Z",
+            "author": "Haozhe Wu"
+          },
+          {
+            "message": "fix: harden provider settings and NVIDIA NIM support",
+            "date": "2026-07-14T05:02:03Z",
+            "author": "Haozhe Wu"
+          },
+          {
+            "message": "Merge pull request #534 from HKUDS/codex/rehearsal-priority-integration",
+            "date": "2026-07-14T04:30:05Z",
+            "author": "Haozhe Wu"
+          },
+          {
+            "message": "chore: clean integration lint findings",
+            "date": "2026-07-14T03:45:26Z",
+            "author": "Haozhe Wu"
+          },
+          {
+            "message": "fix(frontend): authenticate correlation requests",
+            "date": "2026-07-13T19:23:08Z",
+            "author": "ShiroKSH"
+          }
+        ]
       }
     ]
   },
@@ -12676,6 +12708,17 @@
       {
         "date": "2026-07-14 1200",
         "summary": "AI对冲基金项目利用多智能体架构模拟量化交易决策，集成LLM分析市场情绪、技术指标与基本面数据。核心价值在于通过LangChain编排多个专业Agent（如风险、动量、价值分析），实现自动化投资策略生成与回测。适合快速原型验证AI驱动的交易系统，但需注意回测过拟合与实盘执行风险。"
+      }
+    ]
+  },
+  "1c7/chinese-independent-developer": {
+    "firstMention": "2026-07-15",
+    "lastMention": "2026-07-15",
+    "link": "https://github.com/1c7/chinese-independent-developer",
+    "mentions": [
+      {
+        "date": "2026-07-15 0000",
+        "summary": "该项目聚合了中国独立开发者生态资源，涵盖工具、社区、变现案例及技术栈推荐。核心价值在于为开发者提供从0到1的实战路径，包括产品设计、推广策略与收入模型，尤其聚焦于如何利用技术能力实现个人商业闭环。"
       }
     ]
   }
