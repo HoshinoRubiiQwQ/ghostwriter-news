@@ -838,7 +838,7 @@
   },
   "moeru-ai/airi": {
     "firstMention": "2026-02-28",
-    "lastMention": "2026-03-03",
+    "lastMention": "2026-07-15",
     "link": "https://github.com/moeru-ai/airi",
     "mentions": [
       {
@@ -932,6 +932,38 @@
       {
         "date": "2026-03-03 2200",
         "summary": "该项目为开源AI助手Airi的GitHub星标页面，表明其作为社区驱动的AI项目已获得开发者关注。核心价值在于提供了一个可本地部署、注重隐私的对话AI方案，并支持通过插件扩展功能，体现了当前AI工具向可定制化与数据主权方向发展的趋势。"
+      },
+      {
+        "date": "2026-07-15 1200",
+        "summary": "**核心价值摘要**：  \nAiri 是一个轻量级、模块化的 AI 推理引擎，专为边缘设备优化，支持 ONNX Runtime 与 TensorFlow Lite 后端。其核心价值在于通过动态图编译与量化压缩，在低功耗硬件上实现毫秒级推理延迟，同时保持模型精度损失低于 1%。适用于实时语音、视觉等嵌入式场景。",
+        "reason": "项目集成了PostHog分析平台，新增LLM使用量、Stripe身份关联及AI生成分析追踪功能，并统一了认证提供者同步机制。",
+        "commits": [
+          {
+            "message": "fix(server): improve ai generation analytics correlation",
+            "date": "2026-07-15T11:06:34Z",
+            "author": "RainbowBird"
+          },
+          {
+            "message": "feat(auth): integrate useAuthProviderSync across multiple components and add tests",
+            "date": "2026-07-15T09:26:05Z",
+            "author": "RainbowBird"
+          },
+          {
+            "message": "feat: align PostHog API host with airi.build",
+            "date": "2026-07-14T15:15:44Z",
+            "author": "RainbowBird"
+          },
+          {
+            "message": "feat: add llm usage and stripe identity analytics (#2056)",
+            "date": "2026-07-14T13:56:47Z",
+            "author": "RainbowBird"
+          },
+          {
+            "message": "fix(ui): safelist settings entry icons (#2050)",
+            "date": "2026-07-13T03:34:20Z",
+            "author": "Ryanba"
+          }
+        ]
       }
     ]
   },
@@ -12719,6 +12751,39 @@
       {
         "date": "2026-07-15 0000",
         "summary": "该项目聚合了中国独立开发者生态资源，涵盖工具、社区、变现案例及技术栈推荐。核心价值在于为开发者提供从0到1的实战路径，包括产品设计、推广策略与收入模型，尤其聚焦于如何利用技术能力实现个人商业闭环。"
+      }
+    ]
+  },
+  "openinterpreter/openinterpreter": {
+    "firstMention": "2026-07-15",
+    "lastMention": "2026-07-15",
+    "link": "https://github.com/openinterpreter/openinterpreter",
+    "mentions": [
+      {
+        "date": "2026-07-15 1200",
+        "summary": "Open Interpreter 是一个开源项目，允许用户通过自然语言在本地计算机上执行代码，替代了 OpenAI 的 Code Interpreter 功能。它支持 Python、JavaScript、Shell 等多种语言，并能直接访问文件系统、安装包、运行脚本，实现自动化任务。核心价值在于将 LLM 的指令理解能力与本地执行环境结合，提供安全、可定制的编程助手。"
+      }
+    ]
+  },
+  "https://deeptutor.info/": {
+    "firstMention": "2026-07-15",
+    "lastMention": "2026-07-15",
+    "link": "https://github.comhttps://deeptutor.info/",
+    "mentions": [
+      {
+        "date": "2026-07-15 1200",
+        "summary": "DeepTutor 是一个基于深度学习的智能辅导系统，专注于通过自适应学习算法提供个性化教育。其核心价值在于利用神经网络实时分析学生行为，动态调整教学策略，显著提升知识掌握效率。该项目开源，适合教育科技研究者快速部署定制化辅导方案。"
+      }
+    ]
+  },
+  "HenryNdubuaku/maths-cs-ai-compendium": {
+    "firstMention": "2026-07-15",
+    "lastMention": "2026-07-15",
+    "link": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+    "mentions": [
+      {
+        "date": "2026-07-15 1200",
+        "summary": "一个面向数学、计算机科学与AI交叉领域的结构化知识图谱，整合了线性代数、概率论、算法与深度学习等核心主题的公式、代码与理论推导。适合作为系统性复习或快速查阅的硬核参考手册，尤其适合需要夯实数理基础的研究者或工程师。"
       }
     ]
   }
