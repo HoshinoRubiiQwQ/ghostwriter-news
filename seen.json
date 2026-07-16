@@ -12786,5 +12786,60 @@
         "summary": "一个面向数学、计算机科学与AI交叉领域的结构化知识图谱，整合了线性代数、概率论、算法与深度学习等核心主题的公式、代码与理论推导。适合作为系统性复习或快速查阅的硬核参考手册，尤其适合需要夯实数理基础的研究者或工程师。"
       }
     ]
+  },
+  "apache/ossie": {
+    "firstMention": "2026-07-16",
+    "lastMention": "2026-07-16",
+    "link": "https://github.com/apache/ossie",
+    "mentions": [
+      {
+        "date": "2026-07-16 1200",
+        "summary": "Apache OSSIE（Open Source SCA Implementation - Embedded）是一个基于软件通信架构（SCA）规范的开源嵌入式框架，专为软件定义无线电（SDR）系统设计。它提供组件化波形开发与部署能力，支持跨平台硬件抽象，核心价值在于降低军事/民用SDR系统的开发复杂度与认证成本。该项目已进入Apache Attic（退役状态），但仍是研究SCA标准实现的重要参考。"
+      }
+    ]
+  },
+  "PostHog/posthog": {
+    "firstMention": "2026-07-16",
+    "lastMention": "2026-07-16",
+    "link": "https://github.com/PostHog/posthog",
+    "mentions": [
+      {
+        "date": "2026-07-16 1200",
+        "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话录制和特征标记等核心功能，替代闭源工具如 Amplitude 和 Mixpanel。它支持自托管，确保数据隐私，同时具备 A/B 测试和热力图等高级分析能力。核心价值在于将产品分析、实验和用户洞察整合为单一开源解决方案。"
+      }
+    ]
+  },
+  "PrismML-Eng/Bonsai-demo": {
+    "firstMention": "2026-07-16",
+    "lastMention": "2026-07-16",
+    "link": "https://github.com/PrismML-Eng/Bonsai-demo",
+    "mentions": [
+      {
+        "date": "2026-07-16 1200",
+        "summary": "该项目演示了Bonsai算法，一种用于大规模机器学习模型的高效压缩与加速方法。核心在于通过结构化剪枝与知识蒸馏，在保持模型精度的前提下显著降低参数量和计算开销。适用于资源受限的部署场景，如移动端或边缘设备。"
+      }
+    ]
+  },
+  "lobehub/lobehub": {
+    "firstMention": "2026-07-16",
+    "lastMention": "2026-07-16",
+    "link": "https://github.com/lobehub/lobehub",
+    "mentions": [
+      {
+        "date": "2026-07-16 1200",
+        "summary": "LobeHub 是一个开源、模块化的 AI 助手平台，支持多模型接入（如 GPT、Claude）与插件扩展，提供可自托管的 Web 界面。其核心价值在于通过统一接口降低多模型管理复杂度，并允许用户通过可视化工作流构建自定义 AI 应用。"
+      }
+    ]
+  },
+  "YimMenu/YimMenuV2": {
+    "firstMention": "2026-07-16",
+    "lastMention": "2026-07-16",
+    "link": "https://github.com/YimMenu/YimMenuV2",
+    "mentions": [
+      {
+        "date": "2026-07-16 1200",
+        "summary": "YimMenuV2 是面向《GTA V》的模块化注入式作弊框架，基于 C++ 和 ImGui 实现高效内存操作与 UI 交互。其核心价值在于提供稳定、可扩展的 Lua 脚本接口，支持实时车辆/武器生成、玩家操控及反检测绕过，适合逆向工程与游戏安全研究。项目开源且持续更新，是分析现代游戏外挂架构的典型样本。"
+      }
+    ]
   }
 }
