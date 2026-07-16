@@ -12828,6 +12828,38 @@
       {
         "date": "2026-07-16 1200",
         "summary": "LobeHub 是一个开源、模块化的 AI 助手平台，支持多模型接入（如 GPT、Claude）与插件扩展，提供可自托管的 Web 界面。其核心价值在于通过统一接口降低多模型管理复杂度，并允许用户通过可视化工作流构建自定义 AI 应用。"
+      },
+      {
+        "date": "2026-07-16 1800",
+        "summary": "LobeHub 是一个开源、模块化的 AI 助手框架，支持多模型接入（如 GPT、Claude）与插件扩展，核心价值在于提供可自托管的、隐私优先的对话界面。其技术亮点包括流式响应、知识库集成与高度可定制的 UI，适合企业或个人快速搭建私有化 AI 应用。",
+        "reason": "Moonshot 新增 Kimi K3 模型支持，包括官方 API 集成和模型卡片，并修复了不支持的 reasoning_effort 参数。",
+        "commits": [
+          {
+            "message": "🐛 fix(moonshot): drop unsupported reasoning_effort values for Kimi K3 (#17272)",
+            "date": "2026-07-16T16:38:39Z",
+            "author": "YuTengjing"
+          },
+          {
+            "message": "✨ feat(moonshot): support Kimi K3 (official API contract + model card) (#17267)",
+            "date": "2026-07-16T16:10:40Z",
+            "author": "YuTengjing"
+          },
+          {
+            "message": "👷 build: add work registry tables (#17193)",
+            "date": "2026-07-16T15:49:52Z",
+            "author": "YuTengjing"
+          },
+          {
+            "message": "✨ feat(home): mark-all-read for the daily brief section (#17264)",
+            "date": "2026-07-16T14:16:41Z",
+            "author": "Arvin Xu"
+          },
+          {
+            "message": "✨ feat(oidc): developer OAuth apps — device-flow public clients (#17087)",
+            "date": "2026-07-16T13:27:09Z",
+            "author": "Innei"
+          }
+        ]
       }
     ]
   },
