@@ -12870,6 +12870,38 @@
             "author": "Tom Owers"
           }
         ]
+      },
+      {
+        "date": "2026-07-17 1800",
+        "summary": "PostHog 是一款开源产品分析平台，集成了事件追踪、会话录制、特征开关和 A/B 测试等核心功能。它提供自托管选项，确保数据完全私有，同时支持与现有数据管道（如 ClickHouse）深度集成，适用于需要高控制力和低延迟的工程团队。",
+        "reason": "信号模块新增收件箱中丰富的扫描发现证据卡片，追踪模块修复属性夹具在TTL内保留问题，数据管理模块修复虚拟属性定义页面加载404错误，数据仓库模块实现Jenkins导入源，信号模块支持按复发规则生成新报告。",
+        "commits": [
+          {
+            "message": "feat(signals): rich scanner-finding evidence cards in inbox (#71925)",
+            "date": "2026-07-17T17:43:09Z",
+            "author": "Andrew Maguire"
+          },
+          {
+            "message": "fix(tracing): keep attribute fixtures inside TTL (#71966)",
+            "date": "2026-07-17T17:42:44Z",
+            "author": "Raúl Negrón-Otero"
+          },
+          {
+            "message": "fix(data-management): make virtual property definition pages load instead of 404 (#71804)",
+            "date": "2026-07-17T17:38:49Z",
+            "author": "Andy Zhao"
+          },
+          {
+            "message": "feat(data-warehouse): implement jenkins import source (#71184)",
+            "date": "2026-07-17T17:27:26Z",
+            "author": "Tom Owers"
+          },
+          {
+            "message": "feat(signals): Spawn fresh report on recurrence (#71981)",
+            "date": "2026-07-17T17:26:12Z",
+            "author": "Michael Matloka"
+          }
+        ]
       }
     ]
   },
@@ -13032,6 +13064,38 @@
       {
         "date": "2026-07-17 1200",
         "summary": "该项目构建代码审查的依赖关系图，通过分析PR中文件变更的关联性，自动识别跨模块的潜在影响。核心价值在于将人工审查的隐性知识显性化为可遍历的图结构，提升大型代码库审查的完整性与效率。"
+      },
+      {
+        "date": "2026-07-17 1800",
+        "summary": "该项目构建代码审查的依赖关系图，将PR中的文件变更与相关代码库模块、函数调用链进行可视化关联。核心价值在于通过图结构快速定位审查影响范围，识别跨模块耦合风险，提升大型代码库的审查效率与准确性。",
+        "reason": "新增安全本地JSON图导出、基于加权路径的影响半径排序、类型成员调用解析及路径保留修复，并合并Julia解析器移植。",
+        "commits": [
+          {
+            "message": "feat(cli): add safe local JSON graph export (#652)",
+            "date": "2026-07-17T17:31:47Z",
+            "author": "Tirth Kanani"
+          },
+          {
+            "message": "fix(git): preserve literal paths in change discovery (#650)",
+            "date": "2026-07-17T17:24:34Z",
+            "author": "Tirth Kanani"
+          },
+          {
+            "message": "feat(parser): resolve typed member calls with import evidence (#649)",
+            "date": "2026-07-17T17:13:02Z",
+            "author": "Tirth Kanani"
+          },
+          {
+            "message": "feat(graph): rank impact radius by weighted paths (#646)",
+            "date": "2026-07-17T17:03:30Z",
+            "author": "Tirth Kanani"
+          },
+          {
+            "message": "Merge pull request #647 from tirth8205/codex/port-julia-parser",
+            "date": "2026-07-17T16:57:18Z",
+            "author": "Tirth Kanani"
+          }
+        ]
       }
     ]
   },

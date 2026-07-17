@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-07-17 1200</span>
-      <span>🕐 最近提及: 2026-07-17 1200</span>
-      <span>📊 被提及 1 次</span>
+      <span>🕐 最近提及: 2026-07-17 1800</span>
+      <span>📊 被提及 2 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">该项目构建代码审查的依赖关系图，通过分析PR中文件变更的关联性，自动识别跨模块的潜在影响。核心价值在于将人工审查的隐性知识显性化为可遍历的图结构，提升大型代码库审查的完整性与效率。</div>
+  <div class="latest-summary">该项目构建代码审查的依赖关系图，将PR中的文件变更与相关代码库模块、函数调用链进行可视化关联。核心价值在于通过图结构快速定位审查影响范围，识别跨模块耦合风险，提升大型代码库的审查效率与准确性。</div>
 
   <div class="section-title">更新记录</div>
-  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-07-17 1800</div>
+      <div class="mention-summary">新增安全本地JSON图导出、基于加权路径的影响半径排序、类型成员调用解析及路径保留修复，并合并Julia解析器移植。</div>
+      <div class="mention-commits"><div class="commit-item">• feat(cli): add safe local JSON graph export (#652)</div><div class="commit-item">• fix(git): preserve literal paths in change discovery (#650)</div><div class="commit-item">• feat(parser): resolve typed member calls with import evidence (#649)</div></div>
+    </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
 </div>
