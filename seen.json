@@ -12800,12 +12800,44 @@
   },
   "PostHog/posthog": {
     "firstMention": "2026-07-16",
-    "lastMention": "2026-07-16",
+    "lastMention": "2026-07-17",
     "link": "https://github.com/PostHog/posthog",
     "mentions": [
       {
         "date": "2026-07-16 1200",
         "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话录制和特征标记等核心功能，替代闭源工具如 Amplitude 和 Mixpanel。它支持自托管，确保数据隐私，同时具备 A/B 测试和热力图等高级分析能力。核心价值在于将产品分析、实验和用户洞察整合为单一开源解决方案。"
+      },
+      {
+        "date": "2026-07-17 0000",
+        "summary": "PostHog 是一款开源产品分析平台，提供事件追踪、会话录制和功能开关等核心能力，替代 Mixpanel 和 Amplitude。它支持自托管，确保数据隐私，并集成 A/B 测试与热力图，适合需要深度用户行为洞察的工程团队。",
+        "reason": "实现数据仓库的Gerrit导入源、Agent平台MCP工具调用、修复AI订阅计划器无效HogQL输出、优化回放告警消息格式，并保留后端生产者结构化警告类型/来源。",
+        "commits": [
+          {
+            "message": "feat(data-warehouse): implement gerrit import source (#71177)",
+            "date": "2026-07-16T23:59:26Z",
+            "author": "Tom Owers"
+          },
+          {
+            "message": "feat(agent-platform): agent-applications invoke/send/listen MCP tools (#69846)",
+            "date": "2026-07-16T23:16:39Z",
+            "author": "Aidan Zarski"
+          },
+          {
+            "message": "fix(exports): stop ai subscription planner emitting invalid HogQL (#71697)",
+            "date": "2026-07-16T22:52:33Z",
+            "author": "Steven Shults"
+          },
+          {
+            "message": "feat(replay-vision): lead alert messages with the alert name (#71681)",
+            "date": "2026-07-16T22:39:02Z",
+            "author": "Kim Svatos Dugan"
+          },
+          {
+            "message": "feat(ingestion): preserve structured warning type/source from backend producers (#70557)",
+            "date": "2026-07-16T22:39:00Z",
+            "author": "Eli Reisman"
+          }
+        ]
       }
     ]
   },
@@ -12822,7 +12854,7 @@
   },
   "lobehub/lobehub": {
     "firstMention": "2026-07-16",
-    "lastMention": "2026-07-16",
+    "lastMention": "2026-07-17",
     "link": "https://github.com/lobehub/lobehub",
     "mentions": [
       {
@@ -12858,6 +12890,38 @@
             "message": "✨ feat(oidc): developer OAuth apps — device-flow public clients (#17087)",
             "date": "2026-07-16T13:27:09Z",
             "author": "Innei"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17 0000",
+        "summary": "LobeHub 是一个面向现代 AI 应用的开源组件库与工具链，提供高度可定制的 UI 组件和插件架构，支持快速集成大语言模型（LLM）与多模态能力。其核心价值在于降低 AI 交互界面的开发门槛，通过模块化设计实现灵活部署与扩展，适合构建聊天机器人、知识库等智能应用。",
+        "reason": "项目新增对Kimi K3模型的支持，并完成了工作注册表迁移的幂等性改造。",
+        "commits": [
+          {
+            "message": "💚 build: make work registry migration idempotent (#17279)",
+            "date": "2026-07-16T18:22:41Z",
+            "author": "YuTengjing"
+          },
+          {
+            "message": "💄 style: update i18n (#17277)",
+            "date": "2026-07-16T18:15:18Z",
+            "author": "YuTengjing"
+          },
+          {
+            "message": "🐛 fix(moonshot): drop unsupported reasoning_effort values for Kimi K3 (#17272)",
+            "date": "2026-07-16T16:38:39Z",
+            "author": "YuTengjing"
+          },
+          {
+            "message": "✨ feat(moonshot): support Kimi K3 (official API contract + model card) (#17267)",
+            "date": "2026-07-16T16:10:40Z",
+            "author": "YuTengjing"
+          },
+          {
+            "message": "👷 build: add work registry tables (#17193)",
+            "date": "2026-07-16T15:49:52Z",
+            "author": "YuTengjing"
           }
         ]
       }
