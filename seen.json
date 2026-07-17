@@ -13001,5 +13001,49 @@
         "summary": "YimMenuV2 是面向《GTA V》的模块化注入式作弊框架，基于 C++ 和 ImGui 实现高效内存操作与 UI 交互。其核心价值在于提供稳定、可扩展的 Lua 脚本接口，支持实时车辆/武器生成、玩家操控及反检测绕过，适合逆向工程与游戏安全研究。项目开源且持续更新，是分析现代游戏外挂架构的典型样本。"
       }
     ]
+  },
+  "anthropics/cwc-workshops": {
+    "firstMention": "2026-07-17",
+    "lastMention": "2026-07-17",
+    "link": "https://github.com/anthropics/cwc-workshops",
+    "mentions": [
+      {
+        "date": "2026-07-17 1200",
+        "summary": "Anthropic 官方发布的 CWC（Constitutional AI with Claude）工作坊代码库，提供基于宪法 AI 的 Claude 模型微调与对齐实践教程。核心价值在于通过可复现的 Jupyter Notebook 和数据集，演示如何用人类反馈与原则约束训练更安全、可控的 AI 助手，适合对齐研究者与开发者直接上手实验。"
+      }
+    ]
+  },
+  "protocolbuffers/protobuf": {
+    "firstMention": "2026-07-17",
+    "lastMention": "2026-07-17",
+    "link": "https://github.com/protocolbuffers/protobuf",
+    "mentions": [
+      {
+        "date": "2026-07-17 1200",
+        "summary": "Protocol Buffers（protobuf）是Google开发的高效、语言无关的序列化框架，用于结构化数据的编码与解码。核心优势在于比XML/JSON更紧凑、解析速度更快，支持跨语言（C++、Java、Python等）数据交换。广泛应用于RPC系统（如gRPC）和分布式存储场景，是微服务架构中数据契约的标准工具。"
+      }
+    ]
+  },
+  "tirth8205/code-review-graph": {
+    "firstMention": "2026-07-17",
+    "lastMention": "2026-07-17",
+    "link": "https://github.com/tirth8205/code-review-graph",
+    "mentions": [
+      {
+        "date": "2026-07-17 1200",
+        "summary": "该项目构建代码审查的依赖关系图，通过分析PR中文件变更的关联性，自动识别跨模块的潜在影响。核心价值在于将人工审查的隐性知识显性化为可遍历的图结构，提升大型代码库审查的完整性与效率。"
+      }
+    ]
+  },
+  "docusealco/docuseal": {
+    "firstMention": "2026-07-17",
+    "lastMention": "2026-07-17",
+    "link": "https://github.com/docusealco/docuseal",
+    "mentions": [
+      {
+        "date": "2026-07-17 1200",
+        "summary": "DocuSeal 是一个开源的文档签名与工作流自动化平台，支持自托管部署，提供电子签名、模板管理和多方签署功能。其核心价值在于替代 DocuSign 等商业服务，通过 API 和 Webhook 实现高度可定制化的签署流程，同时保障数据隐私与合规性。适合需要低成本、高可控性电子签名解决方案的企业或开发者。"
+      }
+    ]
   }
 }
