@@ -12838,6 +12838,38 @@
             "author": "Eli Reisman"
           }
         ]
+      },
+      {
+        "date": "2026-07-17 0600",
+        "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话录制和功能开关等核心能力，替代闭源工具如 Amplitude 和 Mixpanel。其自托管架构确保数据隐私，同时支持实时用户行为洞察与 A/B 测试。项目采用 Python/Django 后端与 React 前端，适合需要完全控制数据流的工程团队。",
+        "reason": "数据仓库模块新增五个外部数据源导入功能：Snowplow、Swarmia、AppDynamics、Drata和Weights & Biases。",
+        "commits": [
+          {
+            "message": "feat(data-warehouse): implement snowplow import source (#71211)",
+            "date": "2026-07-17T05:41:17Z",
+            "author": "Tom Owers"
+          },
+          {
+            "message": "feat(data-warehouse): implement swarmia import source (#71215)",
+            "date": "2026-07-17T05:41:13Z",
+            "author": "Tom Owers"
+          },
+          {
+            "message": "feat(data-warehouse): implement appdynamics import source (#71214)",
+            "date": "2026-07-17T05:41:10Z",
+            "author": "Tom Owers"
+          },
+          {
+            "message": "feat(data-warehouse): implement drata import source (#71213)",
+            "date": "2026-07-17T05:41:06Z",
+            "author": "Tom Owers"
+          },
+          {
+            "message": "feat(data-warehouse): implement weights_and_biases import source (#71217)",
+            "date": "2026-07-17T05:41:02Z",
+            "author": "Tom Owers"
+          }
+        ]
       }
     ]
   },
@@ -12922,6 +12954,38 @@
             "message": "👷 build: add work registry tables (#17193)",
             "date": "2026-07-16T15:49:52Z",
             "author": "YuTengjing"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17 0600",
+        "summary": "LobeHub 是一个开源、模块化的 AI 助手框架，支持多模型集成（如 GPT-4、Claude）与插件生态。其核心价值在于提供可自托管的、类 ChatGPT 的交互界面，同时允许用户通过插件系统灵活扩展功能。技术栈基于 Next.js 与 TypeScript，强调隐私控制与低部署门槛。",
+        "reason": "该版本引入了连接器来源追踪、基于RBAC的工作区API密钥及数据删除功能，并新增了用户审查反馈循环机制。",
+        "commits": [
+          {
+            "message": "🔖 chore(cli): bump @lobehub/cli to v0.0.44 (#17288)",
+            "date": "2026-07-17T05:59:16Z",
+            "author": "Arvin Xu"
+          },
+          {
+            "message": "🐛 fix: preserve boot reload attempts during async reporting (#17270)",
+            "date": "2026-07-17T05:55:25Z",
+            "author": "Tsuki"
+          },
+          {
+            "message": "✨ feat: connector provenance — show & signal who authorized each shared agent connector (#17286)",
+            "date": "2026-07-17T04:45:41Z",
+            "author": "LiJian"
+          },
+          {
+            "message": "✨ feat(acceptance): per-check user review with feedback loop (#17271)",
+            "date": "2026-07-17T04:02:56Z",
+            "author": "Arvin Xu"
+          },
+          {
+            "message": "✨ feat: workspace-scoped API keys with RBAC & workspace data deletion (#17263)",
+            "date": "2026-07-17T03:39:28Z",
+            "author": "Rdmclin2"
           }
         ]
       }
