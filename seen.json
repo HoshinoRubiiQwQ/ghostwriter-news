@@ -12800,7 +12800,7 @@
   },
   "PostHog/posthog": {
     "firstMention": "2026-07-16",
-    "lastMention": "2026-07-17",
+    "lastMention": "2026-07-18",
     "link": "https://github.com/PostHog/posthog",
     "mentions": [
       {
@@ -12902,17 +12902,81 @@
             "author": "Michael Matloka"
           }
         ]
+      },
+      {
+        "date": "2026-07-18 0600",
+        "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话录制和功能开关等核心能力，替代闭源工具如 Mixpanel 和 Amplitude。其核心价值在于自托管数据隐私控制与低成本扩展，同时支持通过插件系统实现高度定制化分析。",
+        "reason": "MCP侦察类别报告自动研究循环修复、日志摄入时生成指标、EU标志镜像缓存键修复、指标标志控制私有Alpha产品、以及数字标志依赖键容错处理。",
+        "commits": [
+          {
+            "message": "feat(signals): autoresearch fix loop for MCP scout category reports (#72110)",
+            "date": "2026-07-18T04:32:32Z",
+            "author": "Daniel Visca"
+          },
+          {
+            "message": "feat(logs): generate metrics from logs at ingestion (#72104)",
+            "date": "2026-07-18T03:15:24Z",
+            "author": "Daniel Visca"
+          },
+          {
+            "message": "fix(flags): key the EU flags mirror with a sentinel cache key (#72042)",
+            "date": "2026-07-18T00:59:34Z",
+            "author": "Phil Haack"
+          },
+          {
+            "message": "feat(metrics): gate private-alpha product behind the metrics flag (#72089)",
+            "date": "2026-07-18T00:56:58Z",
+            "author": "Daniel Visca"
+          },
+          {
+            "message": "fix(flags): tolerate numeric flag dependency keys (#71802)",
+            "date": "2026-07-18T00:48:10Z",
+            "author": "posthog[bot]"
+          }
+        ]
       }
     ]
   },
   "PrismML-Eng/Bonsai-demo": {
     "firstMention": "2026-07-16",
-    "lastMention": "2026-07-16",
+    "lastMention": "2026-07-18",
     "link": "https://github.com/PrismML-Eng/Bonsai-demo",
     "mentions": [
       {
         "date": "2026-07-16 1200",
         "summary": "该项目演示了Bonsai算法，一种用于大规模机器学习模型的高效压缩与加速方法。核心在于通过结构化剪枝与知识蒸馏，在保持模型精度的前提下显著降低参数量和计算开销。适用于资源受限的部署场景，如移动端或边缘设备。"
+      },
+      {
+        "date": "2026-07-18 0600",
+        "summary": "该项目演示了Bonsai算法，一种用于大规模机器学习的高效梯度下降变体，通过动态调整学习率实现快速收敛。核心创新在于利用树状结构对参数空间进行自适应分区，显著降低高维数据训练的计算开销。Demo代码验证了其在稀疏特征场景下相比Adam等优化器的性能优势。",
+        "reason": "社区基准测试新增L40S和RTX A5000上Ternary-Bonsai-27B模型的性能数据，并更新了MLX运行时版本文档。",
+        "commits": [
+          {
+            "message": "community-benchmarks: L40S Bonsai-27B (ternary + binary, with/without DSpark) (#107)",
+            "date": "2026-07-18T04:55:14Z",
+            "author": "Pasha Khosravi"
+          },
+          {
+            "message": "readme: document tested MLX runtime versions and how to pin them (#106)",
+            "date": "2026-07-17T20:50:44Z",
+            "author": "Pasha Khosravi"
+          },
+          {
+            "message": "community-benchmarks: add RTX A5000 27B rows to the tables (#104)",
+            "date": "2026-07-17T20:31:16Z",
+            "author": "Pasha Khosravi"
+          },
+          {
+            "message": "community-benchmarks: RTX A5000 (CUDA) entry for Ternary-Bonsai-27B (#97)",
+            "date": "2026-07-17T20:25:25Z",
+            "author": "Didier Lacroix"
+          },
+          {
+            "message": "community-benchmarks: 27B tables and templates (#103)",
+            "date": "2026-07-17T20:23:42Z",
+            "author": "Pasha Khosravi"
+          }
+        ]
       }
     ]
   },
