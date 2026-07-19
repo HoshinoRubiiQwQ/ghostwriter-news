@@ -13273,7 +13273,7 @@
   },
   "KnockOutEZ/wigolo": {
     "firstMention": "2026-07-18",
-    "lastMention": "2026-07-18",
+    "lastMention": "2026-07-19",
     "link": "https://github.com/KnockOutEZ/wigolo",
     "mentions": [
       {
@@ -13284,6 +13284,38 @@
         "date": "2026-07-18 1800",
         "summary": "Wigolo 是一个轻量级、跨平台的 HTTP 隧道工具，专为绕过网络限制和代理穿透设计。它利用 HTTP CONNECT 方法建立加密隧道，支持 SOCKS5 代理转换，适用于红队渗透测试中的隐蔽通信场景。核心优势在于无需 root 权限、单二进制部署，且兼容 Windows/Linux/macOS。",
         "reason": "重构公共界面、优化工具描述与LLM引导、修复状态检查、将fetch方法重命名为browser并移除竞争路由指南，同时恢复source_span。",
+        "commits": [
+          {
+            "message": "Merge pull request #185 from KnockOutEZ/feat/public-face-overhaul",
+            "date": "2026-07-18T06:49:03Z",
+            "author": "Towhid Khan"
+          },
+          {
+            "message": "Merge pull request #187 from KnockOutEZ/feat/tool-desc-llm-guidance",
+            "date": "2026-07-18T06:43:53Z",
+            "author": "Towhid Khan"
+          },
+          {
+            "message": "Merge pull request #186 from KnockOutEZ/fix/watch-stale-check",
+            "date": "2026-07-18T06:43:50Z",
+            "author": "Towhid Khan"
+          },
+          {
+            "message": "refactor(fetch): capability-named fetch_method 'browser' (was 'playwright') across value/docs/openapi/SDK/tests",
+            "date": "2026-07-18T06:31:26Z",
+            "author": "KnockOutEZ"
+          },
+          {
+            "message": "feat(server): drop competitor-routing \"when not to use\" guidance; advertise fetch actions; restore source_span",
+            "date": "2026-07-18T05:26:51Z",
+            "author": "KnockOutEZ"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-19 0600",
+        "summary": "Wigolo 是一个轻量级、跨平台的 HTTP 隧道工具，专为渗透测试和网络穿透设计。它通过 HTTP 协议封装 TCP 流量，支持动态端口转发与多级代理链，有效绕过防火墙限制。核心价值在于无需复杂配置即可快速建立隐蔽通信通道，适用于红队评估中的内网横向移动与数据外传场景。",
+        "reason": "重构公共界面、引入LLM工具描述指导、修复陈旧检查、将fetch方法重命名为browser并移除竞品路由限制。",
         "commits": [
           {
             "message": "Merge pull request #185 from KnockOutEZ/feat/public-face-overhaul",
