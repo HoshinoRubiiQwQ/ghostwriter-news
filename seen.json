@@ -12800,7 +12800,7 @@
   },
   "PostHog/posthog": {
     "firstMention": "2026-07-16",
-    "lastMention": "2026-07-18",
+    "lastMention": "2026-07-19",
     "link": "https://github.com/PostHog/posthog",
     "mentions": [
       {
@@ -12964,6 +12964,38 @@
             "message": "fix(flags): key the EU flags mirror with a sentinel cache key (#72042)",
             "date": "2026-07-18T00:59:34Z",
             "author": "Phil Haack"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-19 0000",
+        "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话录制和功能开关等核心能力，替代 Mixpanel 等商业工具。其自托管架构保障数据主权，并支持通过 SQL 和 API 进行深度定制分析。核心价值在于将产品分析、A/B 测试与用户行为洞察整合为单一开源解决方案。",
+        "reason": "该项目在指标追踪、日志处理和图表交互方面进行了多项功能增强与修复，包括在调查和查看器图表中展示追踪示例、在日志摄入时评估指标规则并生成OTLP指标，以及修复了图表中固定工具提示在文本选择时的保持行为。",
+        "commits": [
+          {
+            "message": "chore(deps): Update posthog-js to 1.404.1 (#72080)",
+            "date": "2026-07-18T20:38:52Z",
+            "author": "posthog-js-upgrader[bot]"
+          },
+          {
+            "message": "feat(metrics): surface trace exemplars in investigations and on the viewer chart (#72116)",
+            "date": "2026-07-18T19:40:28Z",
+            "author": "Daniel Visca"
+          },
+          {
+            "message": "feat(logs): evaluate metric rules at ingestion and emit OTLP metrics (#72108)",
+            "date": "2026-07-18T19:39:55Z",
+            "author": "Daniel Visca"
+          },
+          {
+            "message": "fix(llm-gateway): use global fable profile in eu (#72158)",
+            "date": "2026-07-18T17:21:48Z",
+            "author": "Richard Solomou"
+          },
+          {
+            "message": "fix(quill-charts): keep pinned tooltip open while selecting text to copy (#71814)",
+            "date": "2026-07-18T17:13:45Z",
+            "author": "Sam Pennington"
           }
         ]
       }
