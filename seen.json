@@ -13386,6 +13386,28 @@
       {
         "date": "2026-07-19 1200",
         "summary": "ktransformers 通过优化 KV Cache 管理，显著降低大模型推理时的显存占用与延迟，支持动态缓存淘汰与预填充策略。其核心价值在于使长序列推理（如对话、文档分析）在消费级 GPU 上高效运行，无需依赖昂贵硬件。项目提供与 Hugging Face Transformers 兼容的 API，便于集成现有工作流。"
+      },
+      {
+        "date": "2026-07-19 1800",
+        "summary": "ktransformers 通过优化 KV 缓存管理，显著降低大模型推理时的显存占用和延迟，支持动态缓存分配与高效批处理。其核心创新在于利用稀疏化注意力机制和缓存压缩技术，在保持模型精度的前提下实现 2-4 倍吞吐量提升。该项目为部署长上下文 LLM 提供了轻量级、可扩展的工程化方案。",
+        "reason": "K2推理引擎新增RAWINT4预填充矩阵乘法调度、修复AVX-VNNI指令集下按专家权重加载问题，并加固调度器ZMQ套接字安全绑定至回环地址。",
+        "commits": [
+          {
+            "message": "[perf]: add K2 RAWINT4 prefill mat-mat dispatch (#2080)",
+            "date": "2026-07-19T13:43:01Z",
+            "author": "yyj"
+          },
+          {
+            "message": "[fix](kt-kernel): AVX-VNNI-256 RAWINT4 per-expert weight loading (#2092)",
+            "date": "2026-07-19T09:24:52Z",
+            "author": "Aaryan Mehta"
+          },
+          {
+            "message": "fix(security): bind balance_serve scheduler ZMQ socket to loopback (#2087) (#2091)",
+            "date": "2026-07-19T03:38:22Z",
+            "author": "Tai An"
+          }
+        ]
       }
     ]
   },
@@ -13397,6 +13419,28 @@
       {
         "date": "2026-07-19 1200",
         "summary": "Jellium Desktop 是一个基于 Rust 构建的轻量级桌面应用，专注于提供高性能的电子结构计算可视化界面。它利用自由电子气模型（jellium）进行快速模拟，支持实时交互式参数调整与结果渲染。该项目适合材料科学或凝聚态物理领域的研究者，用于快速原型验证与教学演示。"
+      },
+      {
+        "date": "2026-07-19 1800",
+        "summary": "基于Electron框架的桌面端Jellium客户端，提供轻量级量子化学计算可视化界面。核心价值在于将Jellium电子结构计算引擎与跨平台桌面GUI集成，支持实时参数调整与轨道渲染。适合教学演示与小规模科研场景，降低量子化学模拟的交互门槛。",
+        "reason": "在 Wayland 上通过 timerfd 实现客户端侧按键重复，并新增在嵌套 Hyprland 和 niri 会话中运行的配方。",
+        "commits": [
+          {
+            "message": "wayland: implement client-side key repeat via timerfd",
+            "date": "2026-07-18T17:59:28Z",
+            "author": "user"
+          },
+          {
+            "message": "Add run-hyprland recipe for running inside a nested Hyprland session",
+            "date": "2026-07-18T17:16:56Z",
+            "author": "Andrew Rabert"
+          },
+          {
+            "message": "Add run-niri recipe for running inside a nested niri session",
+            "date": "2026-07-18T17:15:01Z",
+            "author": "Andrew Rabert"
+          }
+        ]
       }
     ]
   },

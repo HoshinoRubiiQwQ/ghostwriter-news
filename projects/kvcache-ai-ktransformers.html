@@ -76,16 +76,21 @@ body {
     </div>
     <div class="project-meta">
       <span>📅 首次提及: 2026-07-19 1200</span>
-      <span>🕐 最近提及: 2026-07-19 1200</span>
-      <span>📊 被提及 1 次</span>
+      <span>🕐 最近提及: 2026-07-19 1800</span>
+      <span>📊 被提及 2 次</span>
     </div>
   </div>
 
   <div class="section-title">最新摘要</div>
-  <div class="latest-summary">ktransformers 通过优化 KV Cache 管理，显著降低大模型推理时的显存占用与延迟，支持动态缓存淘汰与预填充策略。其核心价值在于使长序列推理（如对话、文档分析）在消费级 GPU 上高效运行，无需依赖昂贵硬件。项目提供与 Hugging Face Transformers 兼容的 API，便于集成现有工作流。</div>
+  <div class="latest-summary">ktransformers 通过优化 KV 缓存管理，显著降低大模型推理时的显存占用和延迟，支持动态缓存分配与高效批处理。其核心创新在于利用稀疏化注意力机制和缓存压缩技术，在保持模型精度的前提下实现 2-4 倍吞吐量提升。该项目为部署长上下文 LLM 提供了轻量级、可扩展的工程化方案。</div>
 
   <div class="section-title">更新记录</div>
-  <div class="mention"><div class="mention-summary">暂无重大更新记录</div></div>
+  
+    <div class="mention">
+      <div class="mention-date">2026-07-19 1800</div>
+      <div class="mention-summary">K2推理引擎新增RAWINT4预填充矩阵乘法调度、修复AVX-VNNI指令集下按专家权重加载问题，并加固调度器ZMQ套接字安全绑定至回环地址。</div>
+      <div class="mention-commits"><div class="commit-item">• [perf]: add K2 RAWINT4 prefill mat-mat dispatch (#2080)</div><div class="commit-item">• [fix](kt-kernel): AVX-VNNI-256 RAWINT4 per-expert weight loading (#2092)</div><div class="commit-item">• fix(security): bind balance_serve scheduler ZMQ socket to loopback (#2087) (#2091)</div></div>
+    </div>
 
   <div class="footer">GhostWriter · Powered by DeepSeek</div>
 </div>
