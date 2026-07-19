@@ -5492,7 +5492,7 @@
   },
   "jamiepine/voicebox": {
     "firstMention": "2026-04-14",
-    "lastMention": "2026-06-23",
+    "lastMention": "2026-07-19",
     "link": "https://github.com/jamiepine/voicebox",
     "mentions": [
       {
@@ -5556,6 +5556,38 @@
             "message": "fix(offline): patch transformers mistral-regex check to survive HF failures (#530)",
             "date": "2026-04-22T05:01:29Z",
             "author": "Jamie Pine"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-19 1200",
+        "summary": "VoiceBox 是一个基于 Web 的语音合成工具箱，利用浏览器端机器学习模型（如 TensorFlow.js）实现低延迟、离线可用的文本转语音功能。它无需服务器依赖，支持多种语音参数调节，为开发者提供轻量级、隐私友好的语音交互方案。",
+        "reason": "该项目重大更新：新增跨平台AMD ROCm GPU原生加速支持（Windows/Linux/Docker），并引入浏览器云端设备登录功能。",
+        "commits": [
+          {
+            "message": "Add \"Log in with browser\" cloud device login (#812)",
+            "date": "2026-07-05T10:18:30Z",
+            "author": "Jamie Pine"
+          },
+          {
+            "message": "Update PROJECT_STATUS.md",
+            "date": "2026-07-02T23:12:33Z",
+            "author": "James Pine"
+          },
+          {
+            "message": "feat(windows): Native AMD ROCm GPU Acceleration (Resolves #531) (#538)",
+            "date": "2026-06-30T22:43:18Z",
+            "author": "Juan C Muñoz P"
+          },
+          {
+            "message": "fix: ROCm setup for Linux AMD GPUs (#817)",
+            "date": "2026-06-30T22:43:15Z",
+            "author": "Mike Key"
+          },
+          {
+            "message": "fix(docker): add ROCm GPU support via compose overlay (#630)",
+            "date": "2026-06-30T01:09:55Z",
+            "author": "Ankush"
           }
         ]
       }
@@ -13343,6 +13375,50 @@
             "author": "KnockOutEZ"
           }
         ]
+      }
+    ]
+  },
+  "kvcache-ai/ktransformers": {
+    "firstMention": "2026-07-19",
+    "lastMention": "2026-07-19",
+    "link": "https://github.com/kvcache-ai/ktransformers",
+    "mentions": [
+      {
+        "date": "2026-07-19 1200",
+        "summary": "ktransformers 通过优化 KV Cache 管理，显著降低大模型推理时的显存占用与延迟，支持动态缓存淘汰与预填充策略。其核心价值在于使长序列推理（如对话、文档分析）在消费级 GPU 上高效运行，无需依赖昂贵硬件。项目提供与 Hugging Face Transformers 兼容的 API，便于集成现有工作流。"
+      }
+    ]
+  },
+  "andrewrabert/jellium-desktop": {
+    "firstMention": "2026-07-19",
+    "lastMention": "2026-07-19",
+    "link": "https://github.com/andrewrabert/jellium-desktop",
+    "mentions": [
+      {
+        "date": "2026-07-19 1200",
+        "summary": "Jellium Desktop 是一个基于 Rust 构建的轻量级桌面应用，专注于提供高性能的电子结构计算可视化界面。它利用自由电子气模型（jellium）进行快速模拟，支持实时交互式参数调整与结果渲染。该项目适合材料科学或凝聚态物理领域的研究者，用于快速原型验证与教学演示。"
+      }
+    ]
+  },
+  "microsoft/terminal": {
+    "firstMention": "2026-07-19",
+    "lastMention": "2026-07-19",
+    "link": "https://github.com/microsoft/terminal",
+    "mentions": [
+      {
+        "date": "2026-07-19 1200",
+        "summary": "微软开源终端项目，基于C++和DirectX实现GPU加速渲染，支持Unicode、GPU文本渲染与多标签页。核心创新在于Windows Terminal的现代化架构，替代传统cmd/PowerShell，提供可配置的JSON配置、亚克力模糊效果与GPU加速性能。该项目是Windows命令行生态的里程碑式重构，显著提升开发者在Windows上的终端体验。"
+      }
+    ]
+  },
+  "AstrBotDevs/AstrBot": {
+    "firstMention": "2026-07-19",
+    "lastMention": "2026-07-19",
+    "link": "https://github.com/AstrBotDevs/AstrBot",
+    "mentions": [
+      {
+        "date": "2026-07-19 1200",
+        "summary": "AstrBot 是一个面向开发者的轻量级、模块化聊天机器人框架，支持多平台（如QQ、Telegram）快速部署。其核心价值在于通过插件化架构和简洁API，让开发者能高效定制对话逻辑与功能扩展。项目强调低耦合、高可维护性，适合需要快速构建生产级聊天机器人的技术团队。"
       }
     ]
   }
