@@ -1490,7 +1490,7 @@
   },
   "msitarzewski/agency-agents": {
     "firstMention": "2026-03-03",
-    "lastMention": "2026-07-01",
+    "lastMention": "2026-07-20",
     "link": "https://github.com/msitarzewski/agency-agents",
     "mentions": [
       {
@@ -1688,6 +1688,38 @@
             "message": "feat: add Network Engineer agent (Cisco/Juniper/Palo Alto) (#623)",
             "date": "2026-06-30T15:27:16Z",
             "author": "Matt Van Horn"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20 1200",
+        "summary": "一个轻量级Python框架，用于构建基于大语言模型的多智能体协作系统。核心价值在于通过简洁的API实现智能体间的消息传递与任务编排，支持动态角色分配与上下文共享。适合快速原型开发，但缺乏生产级容错与监控机制。",
+        "reason": "项目新增了10个专业领域专家角色，涵盖GaussDB、RAG流水线、简历定制、安全及工程方向，并修复了Hermes代理工具参数暴露问题。",
+        "commits": [
+          {
+            "message": "Add GaussDB Expert Engineer specialist (#587) (#726)",
+            "date": "2026-07-17T15:25:46Z",
+            "author": "Michael Sitarzewski"
+          },
+          {
+            "message": "Add RAG Pipeline Engineer specialist (#601) (#725)",
+            "date": "2026-07-17T14:36:56Z",
+            "author": "Michael Sitarzewski"
+          },
+          {
+            "message": "Add Resume Tailor specialist (#586) (#724)",
+            "date": "2026-07-17T14:01:33Z",
+            "author": "Michael Sitarzewski"
+          },
+          {
+            "message": "Add 6 specialists: security ×2, engineering ×3, specialized ×1 (#720)",
+            "date": "2026-07-15T23:50:22Z",
+            "author": "Michael Sitarzewski"
+          },
+          {
+            "message": "fix(hermes): expose Agency tool parameters (#717)",
+            "date": "2026-07-15T14:55:50Z",
+            "author": "Pip, Agent Pip"
           }
         ]
       }
@@ -13550,6 +13582,28 @@
       {
         "date": "2026-07-20 0000",
         "summary": "《AI Agent Book》是一份面向开发者的AI智能体系统实战指南，涵盖从基础架构到多智能体协作的完整技术栈。项目聚焦LangChain、AutoGPT等主流框架的工程化实现，提供可复用的Agent设计模式与生产级代码示例。适合需要快速构建自主决策、工具调用及记忆管理系统的AI工程师。"
+      }
+    ]
+  },
+  "1jehuang/jcode": {
+    "firstMention": "2026-07-20",
+    "lastMention": "2026-07-20",
+    "link": "https://github.com/1jehuang/jcode",
+    "mentions": [
+      {
+        "date": "2026-07-20 1200",
+        "summary": "一个轻量级、高性能的Java代码生成框架，专注于通过模板引擎和元数据驱动快速生成CRUD代码。核心价值在于减少重复劳动，支持自定义模板与数据库逆向工程，适合快速搭建项目基础架构。"
+      }
+    ]
+  },
+  "topoteretes/cognee": {
+    "firstMention": "2026-07-20",
+    "lastMention": "2026-07-20",
+    "link": "https://github.com/topoteretes/cognee",
+    "mentions": [
+      {
+        "date": "2026-07-20 1200",
+        "summary": "Cognee 是一个开源框架，用于构建可扩展的、基于知识图谱的 AI 记忆系统。它通过将非结构化数据（如文本、图像）自动转换为结构化的实体-关系图，并支持增量更新与语义查询，从而为 LLM 应用提供持久化、可追溯的上下文记忆。核心价值在于解决大模型的“短期记忆”和“幻觉”问题，实现更可靠、可解释的长期知识推理。"
       }
     ]
   }
