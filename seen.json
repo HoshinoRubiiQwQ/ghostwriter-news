@@ -12832,7 +12832,7 @@
   },
   "PostHog/posthog": {
     "firstMention": "2026-07-16",
-    "lastMention": "2026-07-19",
+    "lastMention": "2026-07-20",
     "link": "https://github.com/PostHog/posthog",
     "mentions": [
       {
@@ -13028,6 +13028,38 @@
             "message": "fix(quill-charts): keep pinned tooltip open while selecting text to copy (#71814)",
             "date": "2026-07-18T17:13:45Z",
             "author": "Sam Pennington"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20 0000",
+        "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话录制和功能开关，替代 Mixpanel 等 SaaS 方案。核心优势在于自托管数据隐私、无限制事件量，以及面向工程师的 API 优先设计。适合需要细粒度用户行为分析且对数据主权有硬性要求的团队。",
+        "reason": "仪表盘缓存指标采集、纳秒级时长格式化、基于代理反馈的自我改进、GitGuardian数据源导入及视觉审查延迟反馈修复。",
+        "commits": [
+          {
+            "message": "feat(insights): collect dashboard cache metrics (#71628)",
+            "date": "2026-07-19T21:06:49Z",
+            "author": "Paul D'Ambra"
+          },
+          {
+            "message": "feat(insights): add nanosecond duration formatting (#72193)",
+            "date": "2026-07-19T20:32:10Z",
+            "author": "Paul D'Ambra"
+          },
+          {
+            "message": "feat(signals): canonical scout self-improvement via agent-feedback (#72189)",
+            "date": "2026-07-19T19:51:15Z",
+            "author": "Andrew Maguire"
+          },
+          {
+            "message": "feat(data-warehouse): implement gitguardian import source (#71193)",
+            "date": "2026-07-19T19:37:37Z",
+            "author": "Tom Owers"
+          },
+          {
+            "message": "fix(visual-review): address delayed review feedback (#72180)",
+            "date": "2026-07-19T17:51:58Z",
+            "author": "Paul D'Ambra"
           }
         ]
       }
@@ -13380,7 +13412,7 @@
   },
   "kvcache-ai/ktransformers": {
     "firstMention": "2026-07-19",
-    "lastMention": "2026-07-19",
+    "lastMention": "2026-07-20",
     "link": "https://github.com/kvcache-ai/ktransformers",
     "mentions": [
       {
@@ -13408,12 +13440,34 @@
             "author": "Tai An"
           }
         ]
+      },
+      {
+        "date": "2026-07-20 0000",
+        "summary": "**ktransformers** 是一个针对大语言模型推理优化的高性能框架，核心通过**动态KV缓存管理**与**算子融合**技术，显著降低显存占用并提升吞吐量。它支持**多级缓存分层**（如GPU/CPU/NVMe），在长序列场景下实现接近线性的加速比，尤其适合需要处理超长上下文的LLM部署。该库还提供与HuggingFace Transformers的兼容接口，便于现有模型无缝迁移。",
+        "reason": "项目新增K2 RAWINT4预填充矩阵-矩阵调度，修复AVX-VNNI-256指令集下逐专家权重加载问题，并将调度器ZMQ套接字绑定至回环地址以增强安全性。",
+        "commits": [
+          {
+            "message": "[perf]: add K2 RAWINT4 prefill mat-mat dispatch (#2080)",
+            "date": "2026-07-19T13:43:01Z",
+            "author": "yyj"
+          },
+          {
+            "message": "[fix](kt-kernel): AVX-VNNI-256 RAWINT4 per-expert weight loading (#2092)",
+            "date": "2026-07-19T09:24:52Z",
+            "author": "Aaryan Mehta"
+          },
+          {
+            "message": "fix(security): bind balance_serve scheduler ZMQ socket to loopback (#2087) (#2091)",
+            "date": "2026-07-19T03:38:22Z",
+            "author": "Tai An"
+          }
+        ]
       }
     ]
   },
   "andrewrabert/jellium-desktop": {
     "firstMention": "2026-07-19",
-    "lastMention": "2026-07-19",
+    "lastMention": "2026-07-20",
     "link": "https://github.com/andrewrabert/jellium-desktop",
     "mentions": [
       {
@@ -13423,6 +13477,28 @@
       {
         "date": "2026-07-19 1800",
         "summary": "基于Electron框架的桌面端Jellium客户端，提供轻量级量子化学计算可视化界面。核心价值在于将Jellium电子结构计算引擎与跨平台桌面GUI集成，支持实时参数调整与轨道渲染。适合教学演示与小规模科研场景，降低量子化学模拟的交互门槛。",
+        "reason": "在 Wayland 上通过 timerfd 实现客户端侧按键重复，并新增在嵌套 Hyprland 和 niri 会话中运行的配方。",
+        "commits": [
+          {
+            "message": "wayland: implement client-side key repeat via timerfd",
+            "date": "2026-07-18T17:59:28Z",
+            "author": "user"
+          },
+          {
+            "message": "Add run-hyprland recipe for running inside a nested Hyprland session",
+            "date": "2026-07-18T17:16:56Z",
+            "author": "Andrew Rabert"
+          },
+          {
+            "message": "Add run-niri recipe for running inside a nested niri session",
+            "date": "2026-07-18T17:15:01Z",
+            "author": "Andrew Rabert"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20 0000",
+        "summary": "Jellium-desktop 是一个基于电子自由电子气模型（jellium model）的桌面端量子化学模拟工具，专注于快速计算金属纳米团簇的电子结构和光学性质。它利用数值求解薛定谔方程，支持实时可视化电子密度和能级分布，适用于材料科学中金属纳米颗粒的快速原型设计。核心价值在于将复杂的量子力学计算封装为轻量级桌面应用，降低非专业用户的使用门槛。",
         "reason": "在 Wayland 上通过 timerfd 实现客户端侧按键重复，并新增在嵌套 Hyprland 和 niri 会话中运行的配方。",
         "commits": [
           {
@@ -13463,6 +13539,17 @@
       {
         "date": "2026-07-19 1200",
         "summary": "AstrBot 是一个面向开发者的轻量级、模块化聊天机器人框架，支持多平台（如QQ、Telegram）快速部署。其核心价值在于通过插件化架构和简洁API，让开发者能高效定制对话逻辑与功能扩展。项目强调低耦合、高可维护性，适合需要快速构建生产级聊天机器人的技术团队。"
+      }
+    ]
+  },
+  "bojieli/ai-agent-book": {
+    "firstMention": "2026-07-20",
+    "lastMention": "2026-07-20",
+    "link": "https://github.com/bojieli/ai-agent-book",
+    "mentions": [
+      {
+        "date": "2026-07-20 0000",
+        "summary": "《AI Agent Book》是一份面向开发者的AI智能体系统实战指南，涵盖从基础架构到多智能体协作的完整技术栈。项目聚焦LangChain、AutoGPT等主流框架的工程化实现，提供可复用的Agent设计模式与生产级代码示例。适合需要快速构建自主决策、工具调用及记忆管理系统的AI工程师。"
       }
     ]
   }
