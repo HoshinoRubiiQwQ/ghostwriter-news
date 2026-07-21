@@ -13587,12 +13587,44 @@
   },
   "1jehuang/jcode": {
     "firstMention": "2026-07-20",
-    "lastMention": "2026-07-20",
+    "lastMention": "2026-07-21",
     "link": "https://github.com/1jehuang/jcode",
     "mentions": [
       {
         "date": "2026-07-20 1200",
         "summary": "一个轻量级、高性能的Java代码生成框架，专注于通过模板引擎和元数据驱动快速生成CRUD代码。核心价值在于减少重复劳动，支持自定义模板与数据库逆向工程，适合快速搭建项目基础架构。"
+      },
+      {
+        "date": "2026-07-21 0000",
+        "summary": "一个轻量级、无依赖的JavaScript代码压缩与混淆工具，支持变量名替换、字符串加密及死代码消除。通过AST操作实现高效压缩，适用于前端资源优化与代码保护场景。",
+        "reason": "为Ultra用户开放Fable 5访问，修复并排除不稳定模型与路由，扩展Jcode Bedrock订阅目录，并在原生压缩后重置KV缓存基线。",
+        "commits": [
+          {
+            "message": "Give Ultra access to Fable 5",
+            "date": "2026-07-20T23:08:16Z",
+            "author": "jeremy"
+          },
+          {
+            "message": "fix(models): exclude unstable Nemotron Super route",
+            "date": "2026-07-20T19:50:41Z",
+            "author": "jeremy"
+          },
+          {
+            "message": "fix(models): exclude unreliable Llama tool loops",
+            "date": "2026-07-20T19:31:23Z",
+            "author": "jeremy"
+          },
+          {
+            "message": "feat(models): expand Jcode Bedrock subscription catalog",
+            "date": "2026-07-20T18:53:51Z",
+            "author": "jeremy"
+          },
+          {
+            "message": "fix(compaction): reset KV cache baseline after native compaction",
+            "date": "2026-07-20T18:55:19Z",
+            "author": "jeremy"
+          }
+        ]
       }
     ]
   },
